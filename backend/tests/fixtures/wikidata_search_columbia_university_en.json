@@ -1,0 +1,268 @@
+{
+  "searchinfo": {
+    "search": "Columbia university"
+  },
+  "search": [
+    {
+      "id": "Q49088",
+      "title": "Q49088",
+      "pageid": 51051,
+      "concepturi": "http://www.wikidata.org/entity/Q49088",
+      "repository": "wikidata",
+      "url": "//www.wikidata.org/wiki/Q49088",
+      "display": {
+        "label": {
+          "value": "Columbia University",
+          "language": "en"
+        },
+        "description": {
+          "value": "private university in New York City, New York, US",
+          "language": "en"
+        }
+      },
+      "label": "Columbia University",
+      "description": "private university in New York City, New York, US",
+      "match": {
+        "type": "label",
+        "language": "en",
+        "text": "Columbia University"
+      }
+    },
+    {
+      "id": "Q2080179",
+      "title": "Q2080179",
+      "pageid": 2007220,
+      "concepturi": "http://www.wikidata.org/entity/Q2080179",
+      "repository": "wikidata",
+      "url": "//www.wikidata.org/wiki/Q2080179",
+      "display": {
+        "label": {
+          "value": "Columbia University Press",
+          "language": "en"
+        },
+        "description": {
+          "value": "university press based in New York City, and affiliated with Columbia University",
+          "language": "en"
+        }
+      },
+      "label": "Columbia University Press",
+      "description": "university press based in New York City, and affiliated with Columbia University",
+      "match": {
+        "type": "label",
+        "language": "en",
+        "text": "Columbia University Press"
+      }
+    },
+    {
+      "id": "Q5149897",
+      "title": "Q5149897",
+      "pageid": 4922017,
+      "concepturi": "http://www.wikidata.org/entity/Q5149897",
+      "repository": "wikidata",
+      "url": "//www.wikidata.org/wiki/Q5149897",
+      "display": {
+        "label": {
+          "value": "Columbia University Libraries",
+          "language": "en"
+        },
+        "description": {
+          "value": "academic library at Columbia University",
+          "language": "en"
+        }
+      },
+      "label": "Columbia University Libraries",
+      "description": "academic library at Columbia University",
+      "match": {
+        "type": "label",
+        "language": "en",
+        "text": "Columbia University Libraries"
+      }
+    },
+    {
+      "id": "Q1149089",
+      "title": "Q1149089",
+      "pageid": 1095567,
+      "concepturi": "http://www.wikidata.org/entity/Q1149089",
+      "repository": "wikidata",
+      "url": "//www.wikidata.org/wiki/Q1149089",
+      "display": {
+        "label": {
+          "value": "Columbia Law School",
+          "language": "en"
+        },
+        "description": {
+          "value": "law school of Columbia University",
+          "language": "en"
+        }
+      },
+      "label": "Columbia Law School",
+      "description": "law school of Columbia University",
+      "match": {
+        "type": "alias",
+        "language": "en",
+        "text": "Columbia University School of Law"
+      },
+      "aliases": [
+        "Columbia University School of Law"
+      ]
+    },
+    {
+      "id": "Q2415975",
+      "title": "Q2415975",
+      "pageid": 2333797,
+      "concepturi": "http://www.wikidata.org/entity/Q2415975",
+      "repository": "wikidata",
+      "url": "//www.wikidata.org/wiki/Q2415975",
+      "display": {
+        "label": {
+          "value": "Columbia University Irving Medical Center",
+          "language": "en"
+        },
+        "description": {
+          "value": "hospital in New York, United States",
+          "language": "en"
+        }
+      },
+      "label": "Columbia University Irving Medical Center",
+      "description": "hospital in New York, United States",
+      "match": {
+        "type": "label",
+        "language": "en",
+        "text": "Columbia University Irving Medical Center"
+      }
+    },
+    {
+      "id": "Q7691246",
+      "title": "Q7691246",
+      "pageid": 7616892,
+      "concepturi": "http://www.wikidata.org/entity/Q7691246",
+      "repository": "wikidata",
+      "url": "//www.wikidata.org/wiki/Q7691246",
+      "display": {
+        "label": {
+          "value": "Teachers College",
+          "language": "en"
+        },
+        "description": {
+          "value": "graduate school of Columbia University",
+          "language": "en"
+        }
+      },
+      "label": "Teachers College",
+      "description": "graduate school of Columbia University",
+      "match": {
+        "type": "alias",
+        "language": "en",
+        "text": "Columbia University Graduate School of Education"
+      },
+      "aliases": [
+        "Columbia University Graduate School of Education"
+      ]
+    },
+    {
+      "id": "Q2154182",
+      "title": "Q2154182",
+      "pageid": 2079625,
+      "concepturi": "http://www.wikidata.org/entity/Q2154182",
+      "repository": "wikidata",
+      "url": "//www.wikidata.org/wiki/Q2154182",
+      "display": {
+        "label": {
+          "value": "Columbia University Vagelos College of Physicians and Surgeons",
+          "language": "en"
+        },
+        "description": {
+          "value": "medical school in New York",
+          "language": "en"
+        }
+      },
+      "label": "Columbia University Vagelos College of Physicians and Surgeons",
+      "description": "medical school in New York",
+      "match": {
+        "type": "label",
+        "language": "en",
+        "text": "Columbia University Vagelos College of Physicians and Surgeons"
+      }
+    },
+    {
+      "id": "Q844673",
+      "title": "Q844673",
+      "pageid": 796775,
+      "concepturi": "http://www.wikidata.org/entity/Q844673",
+      "repository": "wikidata",
+      "url": "//www.wikidata.org/wiki/Q844673",
+      "display": {
+        "label": {
+          "value": "Columbia University Graduate School of Journalism",
+          "language": "en"
+        },
+        "description": {
+          "value": "journalism school at Columbia University",
+          "language": "en"
+        }
+      },
+      "label": "Columbia University Graduate School of Journalism",
+      "description": "journalism school at Columbia University",
+      "match": {
+        "type": "label",
+        "language": "en",
+        "text": "Columbia University Graduate School of Journalism"
+      }
+    },
+    {
+      "id": "Q907481",
+      "title": "Q907481",
+      "pageid": 858180,
+      "concepturi": "http://www.wikidata.org/entity/Q907481",
+      "repository": "wikidata",
+      "url": "//www.wikidata.org/wiki/Q907481",
+      "display": {
+        "label": {
+          "value": "Columbia Business School",
+          "language": "en"
+        },
+        "description": {
+          "value": "business school",
+          "language": "en"
+        }
+      },
+      "label": "Columbia Business School",
+      "description": "business school",
+      "match": {
+        "type": "alias",
+        "language": "en",
+        "text": "Columbia University School of Business"
+      },
+      "aliases": [
+        "Columbia University School of Business"
+      ]
+    },
+    {
+      "id": "Q5149905",
+      "title": "Q5149905",
+      "pageid": 4922025,
+      "concepturi": "http://www.wikidata.org/entity/Q5149905",
+      "repository": "wikidata",
+      "url": "//www.wikidata.org/wiki/Q5149905",
+      "display": {
+        "label": {
+          "value": "Columbia University School of the Arts",
+          "language": "en"
+        },
+        "description": {
+          "value": "Fine arts graduate school of Columbia University",
+          "language": "en"
+        }
+      },
+      "label": "Columbia University School of the Arts",
+      "description": "Fine arts graduate school of Columbia University",
+      "match": {
+        "type": "label",
+        "language": "en",
+        "text": "Columbia University School of the Arts"
+      }
+    }
+  ],
+  "search-continue": 10,
+  "success": 1
+}

@@ -14,7 +14,9 @@ from fastapi.staticfiles import StaticFiles
 from starlette.exceptions import HTTPException as StarletteHTTPException
 from starlette.middleware.cors import CORSMiddleware
 
+from app.ai.client import AIClient
 from app.api.routes import router as api_router
+from app.cache import Cache
 from app.config import Settings, get_settings
 from app.http import create_client
 from app.logging_setup import setup_logging
@@ -39,15 +41,44 @@ def error_body(code: str, message: str) -> dict[str, dict[str, str]]:
     return {"error": {"code": code, "message": message}}
 
 
+def validation_message(exc: RequestValidationError) -> str:
+    """Human-readable text for the Section 12 error envelope, e.g. "q: string too short"."""
+    parts: list[str] = []
+    for err in exc.errors():
+        loc = ".".join(str(p) for p in err.get("loc", ()) if p not in ("query", "path", "body"))
+        msg = str(err.get("msg", "invalid value"))
+        parts.append(f"{loc}: {msg}" if loc else msg)
+    return "; ".join(parts) or "invalid request"
+
+
 @asynccontextmanager
 async def lifespan(app: FastAPI) -> AsyncIterator[None]:
     settings: Settings = app.state.settings
-    settings.thumbs_dir.mkdir(parents=True, exist_ok=True)
+    try:
+        settings.thumbs_dir.mkdir(parents=True, exist_ok=True)
+    except OSError as exc:
+        # the app still serves: the cache degrades to a no-op and thumbs become unavailable
+        log.warning(
+            "cannot create %s (%s); thumbnails will be unavailable", settings.thumbs_dir, exc
+        )
     app.state.http = create_client(settings)
-    log.info("visual-campus %s starting; cache_dir=%s", app_version(), settings.cache_dir)
+    app.state.ai = AIClient(settings)
+    app.state.cache = Cache(settings.cache_db_path)
+    await app.state.cache.init()
+    if settings.anthropic_api_key:
+        # never fails startup: on error the client marks itself unavailable and logs loudly
+        await app.state.ai.startup_check()
+    log.info(
+        "visual-campus %s starting; cache_dir=%s ai=%s",
+        app_version(),
+        settings.cache_dir,
+        "on" if app.state.ai.available else "off",
+    )
     try:
         yield
     finally:
+        await app.state.cache.close()
+        await app.state.ai.aclose()
         await app.state.http.aclose()
 
 
@@ -77,7 +108,7 @@ def create_app(settings: Settings | None = None, static_dir: Path | None = None)
     @app.exception_handler(RequestValidationError)
     async def _validation_error(request: Request, exc: RequestValidationError) -> JSONResponse:
         return JSONResponse(
-            status_code=422, content=error_body("validation_error", str(exc.errors()))
+            status_code=422, content=error_body("validation_error", validation_message(exc))
         )
 
     app.include_router(api_router, prefix="/api")

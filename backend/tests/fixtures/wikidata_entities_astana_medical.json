@@ -1,0 +1,651 @@
+{
+  "entities": {
+    "Q4287774": {
+      "type": "item",
+      "id": "Q4287774",
+      "labels": {
+        "kk": {
+          "language": "kk",
+          "value": "Астана мемлекеттік медицина академиясы"
+        },
+        "ru": {
+          "language": "ru",
+          "value": "Медицинский университет Астаны"
+        },
+        "en": {
+          "language": "en",
+          "value": "Astana Medical University"
+        }
+      },
+      "descriptions": {
+        "en": {
+          "language": "en",
+          "value": "medical school in Astana, Kazakhstan"
+        },
+        "ru": {
+          "language": "ru",
+          "value": "высшее учебное заведение в городе Астана, Казахстан"
+        }
+      },
+      "aliases": {
+        "kk": [
+          {
+            "language": "kk",
+            "value": "Ақмола Медицина Институты"
+          }
+        ],
+        "ru": [
+          {
+            "language": "ru",
+            "value": "целиноградский медицинский институт"
+          }
+        ],
+        "en": [
+          {
+            "language": "en",
+            "value": "Tselinograd State Medical Institute"
+          },
+          {
+            "language": "en",
+            "value": "TSMI"
+          },
+          {
+            "language": "en",
+            "value": "AMU"
+          }
+        ]
+      },
+      "claims": {
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "482db304b57e4b3a7a5b3a6e2256db7c639c49b0",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 3918,
+                  "id": "Q3918"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "q4287774$A31E1940-CED6-4995-A2F3-6F7ED95C52D2",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "288ab581e7d2d02995a26dfa8b091d96e78457fc",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "6a164248fc96bfa583bbb495cb63ae6401ec203c",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 206855,
+                          "id": "Q206855"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P131": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P131",
+              "hash": "8a0dc7a1e25fe550045b302299dc98149fda6ed0",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 1520,
+                  "id": "Q1520"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "q4287774$af85cf40-405b-d168-d168-5192f5a5b059",
+            "rank": "normal"
+          }
+        ],
+        "P571": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P571",
+              "hash": "acbfe32351a0f23a562c14ccf16761bf0eaa391d",
+              "datavalue": {
+                "value": {
+                  "time": "+1964-00-00T00:00:00Z",
+                  "timezone": 0,
+                  "before": 0,
+                  "after": 0,
+                  "precision": 9,
+                  "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                },
+                "type": "time"
+              },
+              "datatype": "time"
+            },
+            "type": "statement",
+            "id": "Q4287774$090106C8-67D8-4C40-8688-6CD49939ECD5",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "288ab581e7d2d02995a26dfa8b091d96e78457fc",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "6a164248fc96bfa583bbb495cb63ae6401ec203c",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 206855,
+                          "id": "Q206855"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P17": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P17",
+              "hash": "07fa6eb2d1e5f1c75fc204938373173411385a84",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 15180,
+                  "id": "Q15180"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q4287774$C46454E0-43CA-442C-A29C-287777BAC645",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P17",
+              "hash": "59bae97468490f29a9eb1f0b36f866e75c575243",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 232,
+                  "id": "Q232"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q4287774$3cc68ed4-4a5b-2cbd-a20f-4c7354155b73",
+            "rank": "normal"
+          }
+        ],
+        "P856": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P856",
+              "hash": "5b3ec23c38e81731130ad8919ee17ab8a7180d60",
+              "datavalue": {
+                "value": "http://www.amu.kz",
+                "type": "string"
+              },
+              "datatype": "url"
+            },
+            "type": "statement",
+            "id": "Q4287774$D6D366D6-BCD1-4AA2-AEA3-244E60D7425E",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "288ab581e7d2d02995a26dfa8b091d96e78457fc",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "6a164248fc96bfa583bbb495cb63ae6401ec203c",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 206855,
+                          "id": "Q206855"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P1448": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1448",
+              "hash": "2b4878b5504e7040b08ce96aa29becad5347c4f1",
+              "datavalue": {
+                "value": {
+                  "text": "Цалінаградскі дзяржаўны медыцынскі інстытут",
+                  "language": "be"
+                },
+                "type": "monolingualtext"
+              },
+              "datatype": "monolingualtext"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P582": [
+                {
+                  "snaktype": "value",
+                  "property": "P582",
+                  "hash": "f52cccf49da12dade7f191d0b8339eb57ccae88a",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2009-00-00T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 9,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P582"
+            ],
+            "id": "Q4287774$8648b9f5-4bdf-df7d-6413-8cded095a8ed",
+            "rank": "normal"
+          }
+        ],
+        "P2427": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2427",
+              "hash": "a1f72347d4a41f892b5c2940fcfbc186507d5d77",
+              "datavalue": {
+                "value": "grid.501850.9",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q4287774$537c16c8-eb87-4e18-aa1d-74a809c42670",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "acdd6eed19743ba740368e48d41131cd591e89d4",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "071b3dfb45b4d852db0e85f853c5c3c3de0f6194",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 61868141,
+                          "id": "Q61868141"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ]
+          }
+        ],
+        "P5586": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P5586",
+              "hash": "dfb2959de5600831c64bad7b870d72c097d6a685",
+              "datavalue": {
+                "value": "astana-medical-university",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q4287774$F9BD3A0D-41DA-40BF-86D6-D5CF4468852F",
+            "rank": "normal"
+          }
+        ],
+        "P2003": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2003",
+              "hash": "080fc0f769a4ce097008faa5f1d09d261ab39054",
+              "datavalue": {
+                "value": "mua_news",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q4287774$2444ADA4-AE79-4543-98FA-AA4CFD544FFA",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "5ea91ad2d37142954e380c453754686cc138b23c",
+                "snaks": {
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "1ed0642e8f04c52283d572bd2aded92a92348f13",
+                      "datavalue": {
+                        "value": "http://www.amu.kz",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "b878c506460bfde5171b53b8dabada6fbe4301af",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2019-05-22T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P854",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P6782": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P6782",
+              "hash": "8b30e39873240015b323974feda450ff6677e450",
+              "datavalue": {
+                "value": "038mavt60",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q4287774$61B0D932-236E-441C-B5D7-78271759B019",
+            "rank": "normal"
+          }
+        ],
+        "P625": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P625",
+              "hash": "5bf6e2ccdae1814458cd06697f7a996e993df844",
+              "datavalue": {
+                "value": {
+                  "latitude": 51.1814,
+                  "longitude": 71.4157,
+                  "altitude": null,
+                  "precision": 1e-06,
+                  "globe": "http://www.wikidata.org/entity/Q2"
+                },
+                "type": "globecoordinate"
+              },
+              "datatype": "globe-coordinate"
+            },
+            "type": "statement",
+            "id": "Q4287774$B0A017C9-BF0D-4F90-8CB9-CAB4E0FAD9FB",
+            "rank": "normal"
+          }
+        ],
+        "P2671": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2671",
+              "hash": "276ad73d0f14f9da7e87650aeeb44921485f065d",
+              "datavalue": {
+                "value": "/g/122l3jn2",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q4287774$CF85147C-43C4-4BBC-917B-EBEAEA066436",
+            "rank": "normal"
+          }
+        ],
+        "P213": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P213",
+              "hash": "ab1bd44f55cce0922fcecc3d3cc6cadfb40673cf",
+              "datavalue": {
+                "value": "000000040467386X",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q4287774$B7DB3A02-5F9D-4933-8FAA-377D5B4D5E05",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "4c2718fdbf746b1a98a666754ab9e1b073ad6090",
+                "snaks": {
+                  "P6782": [
+                    {
+                      "snaktype": "value",
+                      "property": "P6782",
+                      "hash": "8b30e39873240015b323974feda450ff6677e450",
+                      "datavalue": {
+                        "value": "038mavt60",
+                        "type": "string"
+                      },
+                      "datatype": "external-id"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P6782"
+                ]
+              }
+            ]
+          }
+        ],
+        "P3500": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P3500",
+              "hash": "e0425d573df1bb53405d10fbc7abf1fff82858df",
+              "datavalue": {
+                "value": "217968",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "2f54f6f78475f043e0492092a549a14f749bc655",
+                  "datavalue": {
+                    "value": "Meditsinskij universitet Astana",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810"
+            ],
+            "id": "Q4287774$4EDE9527-7D35-49B6-A4BF-7F65123AC5F6",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "2834ac5da275724a6354a73d2d2a89ae956042a9",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "654ac97d41e766b6860b1b7acd87f11a6b00c4f9",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 64159407,
+                          "id": "Q64159407"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ]
+          }
+        ],
+        "P12749": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P12749",
+              "hash": "78195a63fb5494ca1af916c0a62b459853526a55",
+              "datavalue": {
+                "value": "Q47344",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q4287774$F41B9550-65A8-4E04-B4BC-6AD5B9C0556C",
+            "rank": "normal"
+          }
+        ],
+        "P13092": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P13092",
+              "hash": "9333133ee21479bdb4a701b3e0a9310fa61e3bc2",
+              "datavalue": {
+                "value": "K000202115",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q4287774$63A25647-178C-4AF3-8BF6-3E0AE34ADED2",
+            "rank": "normal"
+          }
+        ],
+        "P14075": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P14075",
+              "hash": "4bb8b77a5f8c7ba78adee84f2d987ca99c95a69e",
+              "datavalue": {
+                "value": "91577",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q4287774$4D464A24-2080-490A-A1FB-9DD2DCB29D13",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {
+        "enwiki": {
+          "site": "enwiki",
+          "title": "Astana Medical University",
+          "badges": []
+        },
+        "kkwiki": {
+          "site": "kkwiki",
+          "title": "Астана медицина университеті",
+          "badges": []
+        },
+        "ruwiki": {
+          "site": "ruwiki",
+          "title": "Медицинский университет Астана",
+          "badges": []
+        }
+      }
+    }
+  },
+  "success": 1
+}

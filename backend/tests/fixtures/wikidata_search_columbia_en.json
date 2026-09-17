@@ -1,0 +1,262 @@
+{
+  "searchinfo": {
+    "search": "Columbia"
+  },
+  "search": [
+    {
+      "id": "Q49088",
+      "title": "Q49088",
+      "pageid": 51051,
+      "concepturi": "http://www.wikidata.org/entity/Q49088",
+      "repository": "wikidata",
+      "url": "//www.wikidata.org/wiki/Q49088",
+      "display": {
+        "label": {
+          "value": "Columbia University",
+          "language": "en"
+        },
+        "description": {
+          "value": "private university in New York City, New York, US",
+          "language": "en"
+        }
+      },
+      "label": "Columbia University",
+      "description": "private university in New York City, New York, US",
+      "match": {
+        "type": "label",
+        "language": "en",
+        "text": "Columbia University"
+      }
+    },
+    {
+      "id": "Q183387",
+      "title": "Q183387",
+      "pageid": 182427,
+      "concepturi": "http://www.wikidata.org/entity/Q183387",
+      "repository": "wikidata",
+      "url": "//www.wikidata.org/wiki/Q183387",
+      "display": {
+        "label": {
+          "value": "Columbia Records",
+          "language": "en"
+        },
+        "description": {
+          "value": "American record label owned by Sony",
+          "language": "en"
+        }
+      },
+      "label": "Columbia Records",
+      "description": "American record label owned by Sony",
+      "match": {
+        "type": "label",
+        "language": "en",
+        "text": "Columbia Records"
+      }
+    },
+    {
+      "id": "Q38453",
+      "title": "Q38453",
+      "pageid": 40945,
+      "concepturi": "http://www.wikidata.org/entity/Q38453",
+      "repository": "wikidata",
+      "url": "//www.wikidata.org/wiki/Q38453",
+      "display": {
+        "label": {
+          "value": "Columbia",
+          "language": "en"
+        },
+        "description": {
+          "value": "capital city of the U.S. state of South Carolina and seat of Richland County",
+          "language": "en"
+        }
+      },
+      "label": "Columbia",
+      "description": "capital city of the U.S. state of South Carolina and seat of Richland County",
+      "match": {
+        "type": "label",
+        "language": "en",
+        "text": "Columbia"
+      }
+    },
+    {
+      "id": "Q5675279",
+      "title": "Q5675279",
+      "pageid": 5437520,
+      "concepturi": "http://www.wikidata.org/entity/Q5675279",
+      "repository": "wikidata",
+      "url": "//www.wikidata.org/wiki/Q5675279",
+      "display": {
+        "label": {
+          "value": "Columbia",
+          "language": "en"
+        },
+        "description": {
+          "value": "city in and county seat of Maury County, Tennessee, United States",
+          "language": "en"
+        }
+      },
+      "label": "Columbia",
+      "description": "city in and county seat of Maury County, Tennessee, United States",
+      "match": {
+        "type": "label",
+        "language": "en",
+        "text": "Columbia"
+      }
+    },
+    {
+      "id": "Q43380",
+      "title": "Q43380",
+      "pageid": 45588,
+      "concepturi": "http://www.wikidata.org/entity/Q43380",
+      "repository": "wikidata",
+      "url": "//www.wikidata.org/wiki/Q43380",
+      "display": {
+        "label": {
+          "value": "CBS",
+          "language": "en"
+        },
+        "description": {
+          "value": "American broadcast television and radio network",
+          "language": "en"
+        }
+      },
+      "label": "CBS",
+      "description": "American broadcast television and radio network",
+      "match": {
+        "type": "alias",
+        "language": "en",
+        "text": "Columbia Broadcasting System"
+      },
+      "aliases": [
+        "Columbia Broadcasting System"
+      ]
+    },
+    {
+      "id": "Q2028731",
+      "title": "Q2028731",
+      "pageid": 1956637,
+      "concepturi": "http://www.wikidata.org/entity/Q2028731",
+      "repository": "wikidata",
+      "url": "//www.wikidata.org/wiki/Q2028731",
+      "display": {
+        "label": {
+          "value": "Columbia",
+          "language": "en"
+        },
+        "description": {
+          "value": "town in Tyrrell County, North Carolina, United States of America",
+          "language": "en"
+        }
+      },
+      "label": "Columbia",
+      "description": "town in Tyrrell County, North Carolina, United States of America",
+      "match": {
+        "type": "label",
+        "language": "en",
+        "text": "Columbia"
+      }
+    },
+    {
+      "id": "Q83634638",
+      "title": "Q83634638",
+      "pageid": 82946711,
+      "concepturi": "http://www.wikidata.org/entity/Q83634638",
+      "repository": "wikidata",
+      "url": "//www.wikidata.org/wiki/Q83634638",
+      "display": {
+        "label": {
+          "value": "Columbia",
+          "language": "en"
+        },
+        "description": {
+          "value": "genus of plants",
+          "language": "en"
+        }
+      },
+      "label": "Columbia",
+      "description": "genus of plants",
+      "match": {
+        "type": "label",
+        "language": "en",
+        "text": "Columbia"
+      }
+    },
+    {
+      "id": "Q186941",
+      "title": "Q186941",
+      "pageid": 185706,
+      "concepturi": "http://www.wikidata.org/entity/Q186941",
+      "repository": "wikidata",
+      "url": "//www.wikidata.org/wiki/Q186941",
+      "display": {
+        "label": {
+          "value": "Columbia Pictures",
+          "language": "en"
+        },
+        "description": {
+          "value": "American film production and distribution company",
+          "language": "en"
+        }
+      },
+      "label": "Columbia Pictures",
+      "description": "American film production and distribution company",
+      "match": {
+        "type": "label",
+        "language": "en",
+        "text": "Columbia Pictures"
+      }
+    },
+    {
+      "id": "Q1112414",
+      "title": "Q1112414",
+      "pageid": 1059653,
+      "concepturi": "http://www.wikidata.org/entity/Q1112414",
+      "repository": "wikidata",
+      "url": "//www.wikidata.org/wiki/Q1112414",
+      "display": {
+        "label": {
+          "value": "Columbia",
+          "language": "en"
+        },
+        "description": {
+          "value": "supercomputer",
+          "language": "en"
+        }
+      },
+      "label": "Columbia",
+      "description": "supercomputer",
+      "match": {
+        "type": "label",
+        "language": "en",
+        "text": "Columbia"
+      }
+    },
+    {
+      "id": "Q59670",
+      "title": "Q59670",
+      "pageid": 62486,
+      "concepturi": "http://www.wikidata.org/entity/Q59670",
+      "repository": "wikidata",
+      "url": "//www.wikidata.org/wiki/Q59670",
+      "display": {
+        "label": {
+          "value": "Columbia",
+          "language": "en"
+        },
+        "description": {
+          "value": "city in and county seat of Boone County, Missouri, United States",
+          "language": "en"
+        }
+      },
+      "label": "Columbia",
+      "description": "city in and county seat of Boone County, Missouri, United States",
+      "match": {
+        "type": "label",
+        "language": "en",
+        "text": "Columbia"
+      }
+    }
+  ],
+  "search-continue": 10,
+  "success": 1
+}

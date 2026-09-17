@@ -1,0 +1,21 @@
+{
+  "batchcomplete": "",
+  "query": {
+    "redirects": [
+      {
+        "from": "L.N. Gumilyov Eurasian National University",
+        "to": "L. N. Gumilev Eurasian National University"
+      }
+    ],
+    "pages": {
+      "34431106": {
+        "pageid": 34431106,
+        "ns": 0,
+        "title": "L. N. Gumilev Eurasian National University",
+        "pageprops": {
+          "wikibase_item": "Q127745"
+        }
+      }
+    }
+  }
+}

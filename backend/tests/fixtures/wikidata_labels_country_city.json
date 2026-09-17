@@ -1,0 +1,33 @@
+{
+  "entities": {
+    "Q30": {
+      "type": "item",
+      "id": "Q30",
+      "labels": {
+        "ru": {
+          "language": "ru",
+          "value": "США"
+        },
+        "en": {
+          "language": "en",
+          "value": "United States"
+        }
+      }
+    },
+    "Q11299": {
+      "type": "item",
+      "id": "Q11299",
+      "labels": {
+        "en": {
+          "language": "en",
+          "value": "Manhattan"
+        },
+        "ru": {
+          "language": "ru",
+          "value": "Манхэттен"
+        }
+      }
+    }
+  },
+  "success": 1
+}

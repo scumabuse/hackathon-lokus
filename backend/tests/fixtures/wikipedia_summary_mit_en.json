@@ -1,0 +1,53 @@
+{
+  "type": "standard",
+  "title": "Massachusetts Institute of Technology",
+  "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Massachusetts Institute of Technology</span></span>",
+  "namespace": {
+    "id": 0,
+    "text": ""
+  },
+  "wikibase_item": "Q49108",
+  "titles": {
+    "canonical": "Massachusetts_Institute_of_Technology",
+    "normalized": "Massachusetts Institute of Technology",
+    "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Massachusetts Institute of Technology</span></span>"
+  },
+  "pageid": 18879,
+  "thumbnail": {
+    "source": "https://thumb.wikimedia.org/wikipedia/en/thumb/4/44/MIT_Seal.svg/330px-MIT_Seal.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "width": 330,
+    "height": 329
+  },
+  "originalimage": {
+    "source": "https://thumb.wikimedia.org/wikipedia/en/thumb/4/44/MIT_Seal.svg/330px-MIT_Seal.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "width": 316,
+    "height": 315
+  },
+  "lang": "en",
+  "dir": "ltr",
+  "revision": "1374187060",
+  "tid": "e0041088-ad05-11f1-a835-a7ba56fb8631",
+  "timestamp": "2026-09-10T10:53:37Z",
+  "description": "Private research university in Cambridge, Massachusetts, United States",
+  "description_source": "local",
+  "coordinates": {
+    "lat": 42.3597,
+    "lon": -71.0919
+  },
+  "content_urls": {
+    "desktop": {
+      "page": "https://en.wikipedia.org/wiki/Massachusetts_Institute_of_Technology",
+      "revisions": "https://en.wikipedia.org/wiki/Massachusetts_Institute_of_Technology?action=history",
+      "edit": "https://en.wikipedia.org/wiki/Massachusetts_Institute_of_Technology?action=edit",
+      "talk": "https://en.wikipedia.org/wiki/Talk:Massachusetts_Institute_of_Technology"
+    },
+    "mobile": {
+      "page": "https://en.wikipedia.org/wiki/Massachusetts_Institute_of_Technology",
+      "revisions": "https://en.wikipedia.org/wiki/Special:History/Massachusetts_Institute_of_Technology",
+      "edit": "https://en.wikipedia.org/wiki/Massachusetts_Institute_of_Technology?action=edit",
+      "talk": "https://en.wikipedia.org/wiki/Talk:Massachusetts_Institute_of_Technology"
+    }
+  },
+  "extract": " \nThe Massachusetts Institute of Technology (MIT) is a private research university in Cambridge, Massachusetts, United States. Founded in 1861 to advance \"useful knowledge\", the university has played a significant role in the development of many areas of technology and science.",
+  "extract_html": "<p> \nThe <b>Massachusetts Institute of Technology</b> (<b>MIT</b>) is a private research university in Cambridge, Massachusetts, United States. Founded in 1861 to advance \"useful knowledge\", the university has played a significant role in the development of many areas of technology and science.</p>"
+}

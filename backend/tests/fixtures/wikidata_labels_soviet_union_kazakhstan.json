@@ -1,0 +1,33 @@
+{
+  "entities": {
+    "Q15180": {
+      "type": "item",
+      "id": "Q15180",
+      "labels": {
+        "ru": {
+          "language": "ru",
+          "value": "СССР"
+        },
+        "en": {
+          "language": "en",
+          "value": "Soviet Union"
+        }
+      }
+    },
+    "Q232": {
+      "type": "item",
+      "id": "Q232",
+      "labels": {
+        "en": {
+          "language": "en",
+          "value": "Kazakhstan"
+        },
+        "ru": {
+          "language": "ru",
+          "value": "Казахстан"
+        }
+      }
+    }
+  },
+  "success": 1
+}

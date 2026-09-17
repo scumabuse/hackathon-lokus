@@ -1,0 +1,44 @@
+{
+  "batchcomplete": "",
+  "query": {
+    "pages": {
+      "18879": {
+        "pageid": 18879,
+        "ns": 0,
+        "title": "Massachusetts Institute of Technology",
+        "pageprops": {
+          "wikibase_item": "Q49108"
+        }
+      },
+      "13555391": {
+        "pageid": 13555391,
+        "ns": 0,
+        "title": "Massachusetts Institute of Technology Libraries",
+        "pageprops": {
+          "wikibase_item": "Q6784299"
+        }
+      },
+      "39162319": {
+        "pageid": 39162319,
+        "ns": 0,
+        "title": "Massachusetts Institute of Technology Police Department",
+        "pageprops": {
+          "wikibase_item": "Q17020544"
+        }
+      },
+      "15630150": {
+        "pageid": 15630150,
+        "ns": 0,
+        "title": "Massachusetts Institute of Technology academics",
+        "pageprops": {
+          "wikibase_item": "Q6784303"
+        }
+      },
+      "39154926": {
+        "pageid": 39154926,
+        "ns": 0,
+        "title": "Massachusetts Institute of Technology shooting"
+      }
+    }
+  }
+}

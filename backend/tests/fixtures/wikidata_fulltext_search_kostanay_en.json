@@ -1,0 +1,46 @@
+{
+  "batchcomplete": "",
+  "query": {
+    "searchinfo": {
+      "totalhits": 4
+    },
+    "search": [
+      {
+        "ns": 0,
+        "title": "Q123694980",
+        "pageid": 117887407,
+        "size": null,
+        "wordcount": 0,
+        "snippet": "education organization in Kostanay, Kazakhstan",
+        "timestamp": "2026-03-22T07:57:07Z"
+      },
+      {
+        "ns": 0,
+        "title": "Q141373334",
+        "pageid": 134903819,
+        "size": null,
+        "wordcount": 0,
+        "snippet": "scholarly article published in Stratum Plus: Archaeology and Cultural Anthropology, no. 2 (2025) (DOI: 10.55086/SP252193212)",
+        "timestamp": "2026-09-08T19:28:37Z"
+      },
+      {
+        "ns": 0,
+        "title": "Q141373777",
+        "pageid": 134904243,
+        "size": null,
+        "wordcount": 0,
+        "snippet": "scholarly article published in Stratum Plus: Archaeology and Cultural Anthropology, no. 2 (2021) (DOI: 10.55086/SP2121529)",
+        "timestamp": "2026-09-08T19:44:30Z"
+      },
+      {
+        "ns": 0,
+        "title": "Q141401106",
+        "pageid": 134931663,
+        "size": null,
+        "wordcount": 0,
+        "snippet": "scholarly article published in Povolžskaâ Arheologiâ, vol. 3, no. 41 (2022) (DOI: 10.24852/PA2022.3.41.135.150)",
+        "timestamp": "2026-09-10T03:23:10Z"
+      }
+    ]
+  }
+}

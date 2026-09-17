@@ -1,0 +1,376 @@
+{
+  "entities": {
+    "Q123694980": {
+      "type": "item",
+      "id": "Q123694980",
+      "labels": {
+        "en": {
+          "language": "en",
+          "value": "Akhmet Baitursynuly Kostanay Regional University"
+        },
+        "kk": {
+          "language": "kk",
+          "value": "Ахмет Байтұрсынұлы атындағы Қостанай өңірлік университеті"
+        },
+        "ru": {
+          "language": "ru",
+          "value": "Костанайский региональный университет имени Ахмет Байтұрсынұлы"
+        }
+      },
+      "descriptions": {
+        "en": {
+          "language": "en",
+          "value": "education organization in Kostanay, Kazakhstan"
+        }
+      },
+      "aliases": {
+        "en": [
+          {
+            "language": "en",
+            "value": "Akhmet Baitursynov Kostanay Regional University"
+          },
+          {
+            "language": "en",
+            "value": "Akhmet Baitursynuly Kostanay University"
+          },
+          {
+            "language": "en",
+            "value": "Akhmet Baitursynov Kostanay University"
+          },
+          {
+            "language": "en",
+            "value": "A. Baitursynuly Kostanay Regional University"
+          },
+          {
+            "language": "en",
+            "value": "A. Baitursynuly Kostanay University"
+          },
+          {
+            "language": "en",
+            "value": "A. Baitursynov Kostanay Regional University"
+          },
+          {
+            "language": "en",
+            "value": "A. Baitursynov Kostanay University"
+          }
+        ]
+      },
+      "claims": {
+        "P17": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P17",
+              "hash": "59bae97468490f29a9eb1f0b36f866e75c575243",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 232,
+                  "id": "Q232"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q123694980$870D63C7-A7FB-43AE-8BC7-C6C8A9A85E97",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "057185e0e16ea9798d1b5bdc8e532419f8c4e28b",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "e36916530bc084b76189915e0a1794d75b9f139a",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 123694516,
+                          "id": "Q123694516"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P6782": [
+                    {
+                      "snaktype": "value",
+                      "property": "P6782",
+                      "hash": "e11fc3983659defe3487c6fa293b9e2f3875ead2",
+                      "datavalue": {
+                        "value": "02z81jf86",
+                        "type": "string"
+                      },
+                      "datatype": "external-id"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P6782"
+                ]
+              }
+            ]
+          }
+        ],
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "0344abdcdc8ee17ad668cc1b7f883083cadd117a",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 2385804,
+                  "id": "Q2385804"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q123694980$ED1B9F4E-4A29-49EC-8211-3078955382CB",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "057185e0e16ea9798d1b5bdc8e532419f8c4e28b",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "e36916530bc084b76189915e0a1794d75b9f139a",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 123694516,
+                          "id": "Q123694516"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P6782": [
+                    {
+                      "snaktype": "value",
+                      "property": "P6782",
+                      "hash": "e11fc3983659defe3487c6fa293b9e2f3875ead2",
+                      "datavalue": {
+                        "value": "02z81jf86",
+                        "type": "string"
+                      },
+                      "datatype": "external-id"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P6782"
+                ]
+              }
+            ]
+          }
+        ],
+        "P571": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P571",
+              "hash": "30cbd40062ddf8da3f9c0aa4486aa525bd284c2a",
+              "datavalue": {
+                "value": {
+                  "time": "+2020-01-01T00:00:00Z",
+                  "timezone": 0,
+                  "before": 0,
+                  "after": 0,
+                  "precision": 9,
+                  "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                },
+                "type": "time"
+              },
+              "datatype": "time"
+            },
+            "type": "statement",
+            "id": "Q123694980$81AFCBE7-C1EC-4B56-8C7A-99999D0D671C",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "057185e0e16ea9798d1b5bdc8e532419f8c4e28b",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "e36916530bc084b76189915e0a1794d75b9f139a",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 123694516,
+                          "id": "Q123694516"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P6782": [
+                    {
+                      "snaktype": "value",
+                      "property": "P6782",
+                      "hash": "e11fc3983659defe3487c6fa293b9e2f3875ead2",
+                      "datavalue": {
+                        "value": "02z81jf86",
+                        "type": "string"
+                      },
+                      "datatype": "external-id"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P6782"
+                ]
+              }
+            ]
+          }
+        ],
+        "P6782": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P6782",
+              "hash": "e11fc3983659defe3487c6fa293b9e2f3875ead2",
+              "datavalue": {
+                "value": "02z81jf86",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q123694980$D769A90D-520E-4134-A8E5-DC6052841DBB",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "057185e0e16ea9798d1b5bdc8e532419f8c4e28b",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "e36916530bc084b76189915e0a1794d75b9f139a",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 123694516,
+                          "id": "Q123694516"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P6782": [
+                    {
+                      "snaktype": "value",
+                      "property": "P6782",
+                      "hash": "e11fc3983659defe3487c6fa293b9e2f3875ead2",
+                      "datavalue": {
+                        "value": "02z81jf86",
+                        "type": "string"
+                      },
+                      "datatype": "external-id"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P6782"
+                ]
+              }
+            ]
+          }
+        ],
+        "P856": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P856",
+              "hash": "4805b5bec19f02b252baf51222b0a4574fc4e99b",
+              "datavalue": {
+                "value": "https://ksu.edu.kz",
+                "type": "string"
+              },
+              "datatype": "url"
+            },
+            "type": "statement",
+            "id": "Q123694980$B960F27E-8BF2-4F0F-B381-5DA58909C67A",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "057185e0e16ea9798d1b5bdc8e532419f8c4e28b",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "e36916530bc084b76189915e0a1794d75b9f139a",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 123694516,
+                          "id": "Q123694516"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P6782": [
+                    {
+                      "snaktype": "value",
+                      "property": "P6782",
+                      "hash": "e11fc3983659defe3487c6fa293b9e2f3875ead2",
+                      "datavalue": {
+                        "value": "02z81jf86",
+                        "type": "string"
+                      },
+                      "datatype": "external-id"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P6782"
+                ]
+              }
+            ]
+          }
+        ],
+        "P14075": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P14075",
+              "hash": "857e00d06c48a113a872898eed1eface744309fa",
+              "datavalue": {
+                "value": "106065",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q123694980$93F2784C-31CF-4F0A-97F0-EE708BF267E6",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {}
+    }
+  },
+  "success": 1
+}

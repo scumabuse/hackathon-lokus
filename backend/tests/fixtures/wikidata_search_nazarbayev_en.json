@@ -1,0 +1,103 @@
+{
+  "searchinfo": {
+    "search": "Nazarbayev University"
+  },
+  "search": [
+    {
+      "id": "Q2783344",
+      "title": "Q2783344",
+      "pageid": 2669923,
+      "concepturi": "http://www.wikidata.org/entity/Q2783344",
+      "repository": "wikidata",
+      "url": "//www.wikidata.org/wiki/Q2783344",
+      "display": {
+        "label": {
+          "value": "Nazarbayev University",
+          "language": "en"
+        },
+        "description": {
+          "value": "international research university based in Astana, Kazakhstan",
+          "language": "en"
+        }
+      },
+      "label": "Nazarbayev University",
+      "description": "international research university based in Astana, Kazakhstan",
+      "match": {
+        "type": "label",
+        "language": "en",
+        "text": "Nazarbayev University"
+      }
+    },
+    {
+      "id": "Q28223830",
+      "title": "Q28223830",
+      "pageid": 29921470,
+      "concepturi": "http://www.wikidata.org/entity/Q28223830",
+      "repository": "wikidata",
+      "url": "//www.wikidata.org/wiki/Q28223830",
+      "display": {
+        "label": {
+          "value": "Nazarbayev University Repository",
+          "language": "en"
+        },
+        "description": {
+          "value": "research archive for Nazarbayev University",
+          "language": "en"
+        }
+      },
+      "label": "Nazarbayev University Repository",
+      "description": "research archive for Nazarbayev University",
+      "match": {
+        "type": "label",
+        "language": "en",
+        "text": "Nazarbayev University Repository"
+      }
+    },
+    {
+      "id": "Q73784445",
+      "title": "Q73784445",
+      "pageid": 73418192,
+      "concepturi": "http://www.wikidata.org/entity/Q73784445",
+      "repository": "wikidata",
+      "url": "//www.wikidata.org/wiki/Q73784445",
+      "display": {
+        "label": {
+          "value": "Nazarbayev University Library",
+          "language": "en"
+        },
+        "description": {
+          "value": "academic library in Kazakhstan",
+          "language": "en"
+        }
+      },
+      "label": "Nazarbayev University Library",
+      "description": "academic library in Kazakhstan",
+      "match": {
+        "type": "label",
+        "language": "en",
+        "text": "Nazarbayev University Library"
+      }
+    },
+    {
+      "id": "Q42022804",
+      "title": "Q42022804",
+      "pageid": 43322850,
+      "concepturi": "http://www.wikidata.org/entity/Q42022804",
+      "repository": "wikidata",
+      "url": "//www.wikidata.org/wiki/Q42022804",
+      "display": {
+        "label": {
+          "value": "Nazarbayev University open access policy",
+          "language": "en"
+        }
+      },
+      "label": "Nazarbayev University open access policy",
+      "match": {
+        "type": "label",
+        "language": "en",
+        "text": "Nazarbayev University open access policy"
+      }
+    }
+  ],
+  "success": 1
+}
