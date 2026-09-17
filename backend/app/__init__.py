@@ -1,0 +1,1 @@
+"""Visual Campus backend package."""

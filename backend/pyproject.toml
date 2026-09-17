@@ -1,0 +1,16 @@
+[project]
+name = "visual-campus-backend"
+version = "0.1.0"
+description = "Visual Campus - verified visual profile of a university in <= 30 s"
+requires-python = ">=3.11"
+
+[tool.ruff]
+target-version = "py311"
+line-length = 100
+src = ["."]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+pythonpath = ["."]
+filterwarnings = ["ignore::DeprecationWarning"]
