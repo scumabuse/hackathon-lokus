@@ -1,154 +1,186 @@
-import { useState, useCallback } from 'react'
+import { useCallback, useMemo, useRef, useState } from 'react'
+import type { FormEvent, KeyboardEvent } from 'react'
 import { useNavigate } from 'react-router-dom'
+import { useReducedMotion } from 'motion/react'
 import { searchUniversities } from '../api'
 import type { Candidate, SearchResponse } from '../types'
-import { UI } from '../i18n'
-import type { Lang } from '../i18n'
+import { t, type Lang } from '../i18n'
+import { useTypingPlaceholder } from '../hooks/useTypingPlaceholder'
+import LangSwitch from '../components/LangSwitch'
 
-const EXAMPLE_CHIPS = [
+const EXAMPLES = [
   'Nazarbayev University',
-  'Al-Farabi Kazakh National University',
-  'Massachusetts Institute of Technology',
   'ETH Zurich',
   'University of Tokyo',
   'Kostanay Regional University',
 ]
 
-interface Props { lang: Lang }
+interface Props {
+  lang: Lang
+  onToggleLang: () => void
+}
 
-export default function SearchPage({ lang }: Props) {
+export default function SearchPage({ lang, onToggleLang }: Props) {
   const [q, setQ] = useState('')
+  const [focused, setFocused] = useState(false)
   const [loading, setLoading] = useState(false)
   const [result, setResult] = useState<SearchResponse | null>(null)
   const [error, setError] = useState<string | null>(null)
   const navigate = useNavigate()
+  const reducedMotion = useReducedMotion() ?? false
+  const listRef = useRef<HTMLUListElement>(null)
 
-  const t = (key: string) => UI[key]?.[lang] ?? key
+  const names = useMemo(() => EXAMPLES, [])
+  const placeholder = useTypingPlaceholder(names, !focused && q.length === 0, reducedMotion)
 
-  const doSearch = useCallback(async (query: string) => {
-    const trimmed = query.trim()
-    if (trimmed.length < 2) return
-    setLoading(true)
-    setError(null)
-    setResult(null)
-    try {
-      const res = await searchUniversities(trimmed)
-      if (res.candidates.length === 1) {
-        navigate(`/u/${res.candidates[0].qid}`)
-        return
+  const doSearch = useCallback(
+    async (query: string) => {
+      const trimmed = query.trim()
+      if (trimmed.length < 2) return
+      setLoading(true)
+      setError(null)
+      setResult(null)
+      try {
+        const res = await searchUniversities(trimmed)
+        if (res.candidates.length === 1) {
+          navigate(`/u/${res.candidates[0].qid}`)
+          return
+        }
+        setResult(res)
+      } catch (e: unknown) {
+        setError(e instanceof Error ? e.message : String(e))
+      } finally {
+        setLoading(false)
       }
-      setResult(res)
-    } catch (e: unknown) {
-      setError(e instanceof Error ? e.message : String(e))
-    } finally {
-      setLoading(false)
-    }
-  }, [navigate])
+    },
+    [navigate],
+  )
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = (e: FormEvent) => {
     e.preventDefault()
-    doSearch(q)
+    void doSearch(q)
+  }
+
+  // Arrow keys move through the candidate rows (B5).
+  const onListKey = (e: KeyboardEvent<HTMLUListElement>) => {
+    if (e.key !== 'ArrowDown' && e.key !== 'ArrowUp') return
+    const buttons = Array.from(listRef.current?.querySelectorAll('button') ?? [])
+    const index = buttons.indexOf(document.activeElement as HTMLButtonElement)
+    if (index === -1) return
+    e.preventDefault()
+    const next = e.key === 'ArrowDown' ? index + 1 : index - 1
+    buttons[(next + buttons.length) % buttons.length]?.focus()
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50 flex flex-col">
-      {/* Header */}
-      <header className="py-16 px-4 text-center">
-        <h1 className="text-5xl font-bold text-slate-900 tracking-tight mb-3">
-          Visual Campus
+    <div className="min-h-screen bg-paper text-ink px-gutter flex flex-col">
+      <main className="flex-1 max-w-[1100px] w-full">
+        <h1 className="font-serif text-[clamp(32px,5vw,64px)] leading-[1.05] max-w-[22ch] mt-[18vh]">
+          {t(lang, 'home_headline')}
         </h1>
-        <p className="text-xl text-slate-500 max-w-xl mx-auto">
-          {t('appTagline')}
-        </p>
-      </header>
 
-      {/* Search */}
-      <main className="flex-1 px-4 max-w-2xl mx-auto w-full">
-        <form onSubmit={handleSubmit} className="flex gap-3 mb-6">
-          <input
-            id="search-input"
-            type="text"
-            value={q}
-            onChange={e => setQ(e.target.value)}
-            placeholder={t('searchPlaceholder')}
-            className="flex-1 px-5 py-3 rounded-xl border border-slate-200 bg-white shadow-sm text-lg focus:outline-none focus:ring-2 focus:ring-blue-400 transition"
-            autoFocus
-          />
-          <button
-            id="search-button"
-            type="submit"
-            disabled={loading || q.trim().length < 2}
-            className="px-6 py-3 bg-blue-600 hover:bg-blue-700 disabled:opacity-50 text-white font-semibold rounded-xl shadow-sm transition"
-          >
-            {loading ? '…' : t('searchButton')}
-          </button>
+        <form onSubmit={handleSubmit} className="mt-10" role="search">
+          <label htmlFor="search-input" className="sr-only">
+            {t(lang, 'home_input_label')}
+          </label>
+          <div className="relative">
+            <input
+              id="search-input"
+              name="q"
+              type="text"
+              value={q}
+              onChange={(e) => setQ(e.target.value)}
+              onFocus={() => setFocused(true)}
+              onBlur={() => setFocused(false)}
+              className="field"
+              autoComplete="off"
+              spellCheck={false}
+              aria-describedby="search-hint"
+            />
+            {q.length === 0 && !focused && (
+              <span
+                aria-hidden="true"
+                className="pointer-events-none absolute left-0 top-0 h-full flex items-center font-serif text-ink-2 text-[clamp(36px,6vw,80px)] leading-[1.1]"
+              >
+                {placeholder}
+                <span className="caret" aria-hidden="true" />
+              </span>
+            )}
+          </div>
+          <div className="mt-6 flex flex-wrap items-center gap-x-8 gap-y-3">
+            <button id="search-button" type="submit" className="btn" aria-busy={loading}>
+              {loading ? t(lang, 'home_searching') : t(lang, 'home_button')}
+            </button>
+          </div>
         </form>
 
-        {/* Example chips */}
-        <div className="flex flex-wrap gap-2 mb-8">
-          <span className="text-sm text-slate-400 self-center">{t('exampleChips')}</span>
-          {EXAMPLE_CHIPS.map(chip => (
-            <button
-              key={chip}
-              onClick={() => { setQ(chip); doSearch(chip) }}
-              className="text-sm px-3 py-1.5 bg-white border border-slate-200 rounded-full text-slate-600 hover:bg-blue-50 hover:border-blue-300 transition"
-            >
-              {chip}
-            </button>
+        <p id="search-hint" className="mt-8 max-w-[60ch] text-[15px] leading-[1.5]">
+          {t(lang, 'home_promise')}
+        </p>
+
+        <p className="mt-6 text-[15px]">
+          <span className="text-ink-2">{t(lang, 'home_examples')} </span>
+          {EXAMPLES.map((name, i) => (
+            <span key={name}>
+              <button
+                type="button"
+                className="textlink"
+                onClick={() => {
+                  setQ(name)
+                  void doSearch(name)
+                }}
+              >
+                {name}
+              </button>
+              {i < EXAMPLES.length - 1 ? ', ' : '.'}
+            </span>
           ))}
+        </p>
+
+        <div aria-live="polite" className="mt-10">
+          {error && <p className="max-w-[60ch]">{t(lang, 'home_error', { message: error })}</p>}
+
+          {result?.corrected_query && (
+            <p className="max-w-[60ch] text-ink-2">
+              {t(lang, 'home_corrected', { name: result.corrected_query })}
+            </p>
+          )}
+
+          {result && result.candidates.length === 0 && (
+            <p className="max-w-[60ch]">{t(lang, 'home_not_found')}</p>
+          )}
+
+          {result && result.candidates.length > 1 && (
+            <>
+              <p className="text-ink-2 mb-2">{t(lang, 'home_several')}</p>
+              <ul ref={listRef} onKeyDown={onListKey} className="border-t border-line max-w-[60ch]">
+                {result.candidates.map((c: Candidate) => (
+                  <li key={c.qid} className="border-b border-line">
+                    <button
+                      type="button"
+                      onClick={() => navigate(`/u/${c.qid}`)}
+                      className="w-full text-left py-3 hover:bg-surface focus-visible:bg-surface"
+                    >
+                      <span className="block">{c.label}</span>
+                      {(c.description || c.city || c.country) && (
+                        <span className="block text-[13px] text-ink-2">
+                          {[c.description, [c.city, c.country].filter(Boolean).join(', ')]
+                            .filter(Boolean)
+                            .join('. ')}
+                        </span>
+                      )}
+                    </button>
+                  </li>
+                ))}
+              </ul>
+            </>
+          )}
         </div>
-
-        {/* Corrected query notice */}
-        {result?.corrected_query && (
-          <p className="text-sm text-amber-700 bg-amber-50 border border-amber-200 rounded-lg px-4 py-2 mb-4">
-            {t('correctedQuery')} <strong>{result.corrected_query}</strong>
-          </p>
-        )}
-
-        {/* Error */}
-        {error && (
-          <p className="text-red-600 bg-red-50 border border-red-200 rounded-lg px-4 py-3 mb-4">
-            {error}
-          </p>
-        )}
-
-        {/* Results */}
-        {result && result.candidates.length === 0 && (
-          <div className="text-center py-12 text-slate-500">
-            <div className="text-5xl mb-4">🔍</div>
-            <p>{t('notFound')}</p>
-          </div>
-        )}
-
-        {result && result.candidates.length > 1 && (
-          <ul className="space-y-3">
-            {result.candidates.map((c: Candidate) => (
-              <li key={c.qid}>
-                <button
-                  onClick={() => navigate(`/u/${c.qid}`)}
-                  className="w-full text-left px-5 py-4 bg-white border border-slate-200 rounded-xl shadow-sm hover:shadow-md hover:border-blue-300 transition group"
-                >
-                  <div className="font-semibold text-slate-900 group-hover:text-blue-700 transition">
-                    {c.label}
-                  </div>
-                  {c.description && (
-                    <div className="text-sm text-slate-500 mt-0.5">{c.description}</div>
-                  )}
-                  {(c.city || c.country) && (
-                    <div className="text-xs text-slate-400 mt-1">
-                      {[c.city, c.country].filter(Boolean).join(', ')}
-                    </div>
-                  )}
-                </button>
-              </li>
-            ))}
-          </ul>
-        )}
       </main>
 
-      {/* Footer */}
-      <footer className="py-8 px-4 text-center text-xs text-slate-400 max-w-2xl mx-auto">
-        {t('footer')}
+      <footer className="py-8 flex flex-wrap items-center gap-x-6 gap-y-2 text-[13px] text-ink-2 max-w-[1100px]">
+        <span className="max-w-[70ch]">{t(lang, 'home_footer')}</span>
+        <LangSwitch lang={lang} onToggle={onToggleLang} />
       </footer>
     </div>
   )

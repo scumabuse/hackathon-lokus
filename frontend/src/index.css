@@ -1,20 +1,237 @@
 @import "tailwindcss";
+@import "./tokens.css";
+@import "leaflet/dist/leaflet.css";
 
-:root {
-  color-scheme: light;
+/* Base (B3/B4): true black on white, sans 15/1.5, tabular numbers everywhere, radius 0. */
+html {
+  background: var(--paper);
 }
 
 body {
-  @apply bg-white text-slate-900 antialiased;
-  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  font-size: 15px;
+  line-height: 1.5;
+  font-feature-settings: "tnum";
+  font-variant-numeric: tabular-nums;
+  -webkit-font-smoothing: antialiased;
 }
 
-/* Hide scrollbar for Chrome, Safari and Opera */
-.hide-scrollbar::-webkit-scrollbar {
+* {
+  border-radius: 0;
+  box-shadow: none;
+}
+
+/* Links: 1px underline, 3px offset, 2px on hover; never a colour of their own. */
+a,
+.link {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+a:hover,
+.link:hover {
+  text-decoration-thickness: 2px;
+}
+
+/* Visible keyboard focus: 2px ink; the search field uses the mark colour (see .field). */
+:focus-visible {
+  outline: 2px solid var(--ink);
+  outline-offset: 2px;
+}
+
+/* The one button style: black rectangle, white text, 44px tall. */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 44px;
+  padding: 0 20px;
+  background: var(--ink);
+  color: var(--paper);
+  font: 500 15px/1 var(--font-sans);
+  text-decoration: none;
+  border: 0;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: var(--ink-2);
+  text-decoration: none;
+}
+
+.btn:disabled {
+  background: var(--ink-2);
+  cursor: default;
+}
+
+/* A text control that looks like a link (secondary actions). */
+.textlink {
+  background: none;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+.textlink:hover {
+  text-decoration-thickness: 2px;
+}
+
+/* Home search field: serif, only a 2px black bottom border; focus turns it red. */
+.field {
+  width: 100%;
+  background: transparent;
+  border: 0;
+  border-bottom: 2px solid var(--ink);
+  padding: 0.1em 0;
+  font-family: var(--font-serif);
+  font-size: clamp(36px, 6vw, 80px);
+  line-height: 1.1;
+  color: var(--ink);
+}
+
+.field:focus,
+.field:focus-visible {
+  outline: none;
+  border-bottom-color: var(--mark);
+}
+
+.field::placeholder {
+  color: var(--ink-2);
+  opacity: 1;
+}
+
+/* Photo frames: 4:3, below-fold frames are skipped by the renderer until scrolled to. */
+.frame {
+  content-visibility: auto;
+  contain-intrinsic-size: 320px 300px;
+}
+
+.frame-unverified {
+  outline: 1px dashed var(--ink-2);
+  outline-offset: -1px;
+}
+
+.skeleton {
+  position: relative;
+  overflow: hidden;
+  background: var(--surface);
+}
+
+.skeleton::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, transparent 0%, var(--line) 50%, transparent 100%);
+  transform: translateX(-100%);
+  animation: sheen 1.6s linear infinite;
+}
+
+@keyframes sheen {
+  to {
+    transform: translateX(100%);
+  }
+}
+
+/* Marks (B5.8): filled red = verified, black outline = likely, dashed grey = unverified. */
+.mark {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  flex: none;
+  border-radius: 50%;
+  box-sizing: border-box;
+}
+
+.mark-verified {
+  background: var(--mark);
+}
+
+.mark-likely {
+  border: 1.5px solid var(--ink);
+}
+
+.mark-unverified {
+  border: 1.5px dashed var(--ink-2);
+}
+
+/* Map (B5.11): desaturated tiles, explicit height. */
+.map {
+  height: 420px;
+  width: 100%;
+}
+
+.map .leaflet-tile {
+  filter: grayscale(1) contrast(1.05);
+}
+
+.map .leaflet-container {
+  font-family: var(--font-sans);
+  background: var(--surface);
+}
+
+.map .leaflet-control,
+.map .leaflet-bar,
+.map .leaflet-bar a,
+.map .leaflet-control-attribution {
+  border-radius: 0 !important;
+  box-shadow: none !important;
+}
+
+.map .leaflet-control-attribution {
+  font-size: 11px;
+  background: var(--paper);
+  color: var(--ink-2);
+}
+
+.map .leaflet-control-attribution a {
+  color: var(--ink-2);
+}
+
+/* Scrollable nav row without a visible scrollbar. */
+.no-scrollbar {
+  scrollbar-width: none;
+}
+
+.no-scrollbar::-webkit-scrollbar {
   display: none;
 }
-/* Hide scrollbar for IE, Edge and Firefox */
-.hide-scrollbar {
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
+
+@media (prefers-reduced-motion: reduce) {
+  .skeleton::after {
+    animation: none;
+  }
+}
+
+/* Typing placeholder caret (B5): a 1px bar blinking at 1 s. */
+.caret {
+  display: inline-block;
+  width: 1px;
+  height: 0.9em;
+  margin-left: 2px;
+  background: var(--ink-2);
+  animation: blink 1s steps(1, end) infinite;
+  vertical-align: -0.1em;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .caret {
+    animation: none;
+  }
 }

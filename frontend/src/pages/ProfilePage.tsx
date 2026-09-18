@@ -1,225 +1,303 @@
-import { useEffect, useState, useMemo } from 'react'
-import { useParams, useSearchParams } from 'react-router-dom'
-import { openStream, getProfile, SSECallbacks } from '../api'
-import type { Lang } from '../i18n'
-import type { 
-  UniversityHeader, 
-  Description, 
-  Photo, 
-  Stats, 
-  Warning, 
-  Category 
-} from '../types'
-
-import ProgressBar from '../components/ProgressBar'
-import ProfileHeader from '../components/ProfileHeader'
-import DescriptionCard from '../components/DescriptionCard'
-import WarningsBanner from '../components/WarningsBanner'
-import StatsBar from '../components/StatsBar'
-import CategoryTabs from '../components/CategoryTabs'
-import FilterChips from '../components/FilterChips'
-import PhotoGrid from '../components/PhotoGrid'
-import MapCard from '../components/MapCard'
-import EmptyState from '../components/EmptyState'
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
+import { useNavigate, useParams, useSearchParams } from 'react-router-dom'
+import { AnimatePresence, LayoutGroup } from 'motion/react'
+import { getProfile, openStream, type SSECallbacks } from '../api'
+import type { Description, Photo, Stats, UniversityHeader, Warning } from '../types'
+import { CATEGORY_LABELS, t, type Lang } from '../i18n'
+import ProgressLine, { type ProfilePhase } from '../components/ProgressLine'
+import Masthead from '../components/Masthead'
+import StatusLine from '../components/StatusLine'
+import Notices from '../components/Notices'
+import Lead from '../components/Lead'
+import StatsSentence from '../components/StatsSentence'
+import CategoryNav, { type NavKey } from '../components/CategoryNav'
+import PhotoGrid, { type Arrival } from '../components/PhotoGrid'
+import Lightbox from '../components/Lightbox'
+import MapSection from '../components/MapSection'
 import ErrorState from '../components/ErrorState'
-import { UI } from '../i18n'
 
-export default function ProfilePage({ lang }: { lang: Lang }) {
+declare global {
+  interface Window {
+    __vcTimings?: Record<string, number>
+  }
+}
+
+const VERIFICATION_ORDER: Record<string, number> = { verified: 0, likely: 1, unverified: 2 }
+
+interface Props {
+  lang: Lang
+  onToggleLang: () => void
+}
+
+export default function ProfilePage({ lang, onToggleLang }: Props) {
   const { qid } = useParams<{ qid: string }>()
   const [searchParams] = useSearchParams()
+  const navigate = useNavigate()
   const refresh = searchParams.get('refresh') === '1'
 
-  // State
+  // --- data (the EventSource/state logic below is kept from the previous version)
   const [header, setHeader] = useState<UniversityHeader | null>(null)
   const [description, setDescription] = useState<Description | null>(null)
   const [photos, setPhotos] = useState<Photo[]>([])
   const [warnings, setWarnings] = useState<Warning[]>([])
   const [stats, setStats] = useState<Stats | null>(null)
-  const [done, setDone] = useState(false)
+  const [phase, setPhase] = useState<ProfilePhase>('connecting')
   const [error, setError] = useState<string | null>(null)
-  const [step, setStep] = useState(0)
+  const [totalMs, setTotalMs] = useState<number | null>(null)
+  const [cachedAt, setCachedAt] = useState<string | null>(null)
+  const [elapsedMs, setElapsedMs] = useState(0)
+  const [run, setRun] = useState(0)
+  const arrivals = useRef<Map<string, Arrival>>(new Map())
+  const startedAt = useRef(0)
 
-  // Filters
-  const [activeCategory, setActiveCategory] = useState<Category | 'all'>('all')
+  // --- view state
+  const [active, setActive] = useState<NavKey>('all')
   const [showUnverified, setShowUnverified] = useState(false)
+  const [popoverId, setPopoverId] = useState<string | null>(null)
+  const [lightbox, setLightbox] = useState<number | null>(null)
+  const lightboxReturn = useRef<HTMLElement | null>(null)
 
   useEffect(() => {
     if (!qid) return
-    
-    // Reset state on new qid/refresh
     setHeader(null)
     setDescription(null)
     setPhotos([])
     setWarnings([])
     setStats(null)
-    setDone(false)
+    setPhase('connecting')
     setError(null)
-    setStep(0)
-    setActiveCategory('all')
+    setTotalMs(null)
+    setCachedAt(null)
+    setElapsedMs(0)
+    setActive('all')
     setShowUnverified(false)
+    setPopoverId(null)
+    setLightbox(null)
+    arrivals.current = new Map()
+    startedAt.current = performance.now()
+    window.__vcTimings = {}
+    const mark = (key: string) => {
+      if (window.__vcTimings && !(key in window.__vcTimings)) {
+        window.__vcTimings[key] = Math.round(performance.now() - startedAt.current)
+      }
+    }
 
     let es: EventSource | null = null
-    
+    let gotHeader = false
+
     const callbacks: SSECallbacks = {
-      onHeader: (h) => { setHeader(h); setStep(1) },
-      onDescription: (d) => { setDescription(d) },
-      onPhotos: (_, newPhotos) => {
-        setPhotos(prev => {
-          const map = new Map(prev.map(p => [p.id, p]))
-          newPhotos.forEach(p => map.set(p.id, p))
+      onHeader: (h) => {
+        gotHeader = true
+        mark('header')
+        setHeader(h)
+        setPhase((p) => (p === 'connecting' ? 'searching' : p))
+      },
+      onDescription: (d) => setDescription(d),
+      onPhotos: (batch, newPhotos) => {
+        mark('firstPhotos')
+        const at = Date.now()
+        newPhotos.forEach((p, index) => {
+          if (!arrivals.current.has(p.id)) arrivals.current.set(p.id, { batch, index, at })
+        })
+        setPhotos((prev) => {
+          const map = new Map(prev.map((p) => [p.id, p]))
+          newPhotos.forEach((p) => map.set(p.id, p))
           return Array.from(map.values())
         })
-        setStep(2)
+        setPhase((p) => (p === 'done' || p === 'error' ? p : 'verifying'))
       },
-      onWarning: (w) => { setWarnings(prev => [...prev, w]) },
-      onStats: (s) => { setStats(s); setStep(3) },
-      onDone: (_total_ms, _cached) => {
-        setDone(true)
-        setStep(3)
-        if (es) {
-          es.close()
-        }
+      onWarning: (w) => setWarnings((prev) => [...prev, w]),
+      onStats: (s) => {
+        setStats(s)
+        setPhase((p) => (p === 'done' || p === 'error' ? p : 'sorting'))
       },
-      onError: (_code, msg) => {
-        setError(msg)
-        setDone(true)
-        if (es) {
-          es.close()
-        }
-      }
+      onDone: (total, cached) => {
+        mark('done')
+        setTotalMs(total)
+        setPhase('done')
+        if (cached) setCachedAt((prev) => prev ?? new Date().toISOString())
+        es?.close()
+      },
+      onError: (_code, message) => {
+        setError(message)
+        setPhase('error')
+        es?.close()
+      },
     }
 
     try {
       es = openStream(qid, refresh, callbacks)
-      
       es.onerror = async () => {
-        // Only fallback if header hasn't arrived
-        if (!header && es) {
-          es.close()
-          es = null
-          try {
-            const profile = await getProfile(qid, refresh)
-            setHeader(profile.header)
-            if (profile.description) setDescription(profile.description)
-            setPhotos(profile.photos)
-            setStats(profile.stats)
-            setWarnings(profile.warnings)
-            setStep(3)
-            setDone(true)
-          } catch (e: any) {
-            setError(e.message || UI.networkError[lang])
-            setDone(true)
-          }
+        // Only fall back to the blocking endpoint if the header never arrived (Section 13).
+        if (gotHeader || !es) return
+        es.close()
+        es = null
+        try {
+          const profile = await getProfile(qid, refresh)
+          mark('header')
+          setHeader(profile.header)
+          if (profile.description) setDescription(profile.description)
+          const at = Date.now()
+          profile.photos.forEach((p, index) => arrivals.current.set(p.id, { batch: 0, index, at }))
+          setPhotos(profile.photos)
+          setStats(profile.stats)
+          setWarnings(profile.warnings)
+          setTotalMs(profile.stats.total_ms)
+          if (profile.header.cached && profile.header.cached_at) setCachedAt(profile.header.cached_at)
+          mark('firstPhotos')
+          mark('done')
+          setPhase('done')
+        } catch (e: unknown) {
+          setError(e instanceof Error ? e.message : t(lang, 'error_network'))
+          setPhase('error')
         }
       }
-    } catch (e: any) {
-      setError(e.message || String(e))
-      setDone(true)
+    } catch (e: unknown) {
+      setError(e instanceof Error ? e.message : String(e))
+      setPhase('error')
     }
 
     return () => {
-      if (es) es.close()
+      es?.close()
     }
-  }, [qid, refresh, lang])
+  }, [qid, refresh, run, lang])
 
-  const shownPhotos = useMemo(() => {
-    return photos.filter(p => {
-      if (p.verification === 'unverified' && !showUnverified) return false
-      if (activeCategory !== 'all' && p.category !== activeCategory) return false
-      return true
-    }).sort((a, b) => {
-      // verified first, then confidence desc
-      if (a.verification !== b.verification) {
-        if (a.verification === 'verified') return -1
-        if (b.verification === 'verified') return 1
-        if (a.verification === 'likely') return -1
-        if (b.verification === 'likely') return 1
-      }
-      return b.confidence - a.confidence
-    })
-  }, [photos, showUnverified, activeCategory])
+  // live elapsed seconds while the stream is open
+  useEffect(() => {
+    if (phase === 'done' || phase === 'error') return
+    const timer = setInterval(() => setElapsedMs(performance.now() - startedAt.current), 100)
+    return () => clearInterval(timer)
+  }, [phase])
+
+  useEffect(() => {
+    if (header?.cached && header.cached_at) setCachedAt(header.cached_at)
+  }, [header])
+
+  const hiddenCount = photos.filter((p) => p.verification === 'unverified').length
+
+  const visibleByToggle = useMemo(
+    () => photos.filter((p) => showUnverified || p.verification !== 'unverified'),
+    [photos, showUnverified],
+  )
 
   const counts = useMemo(() => {
-    const c: Record<string, number> = { all: 0 }
-    photos.forEach(p => {
-      if (p.verification === 'unverified' && !showUnverified) return
-      c[p.category] = (c[p.category] || 0) + 1
-      c.all++
-    })
+    const c: Record<string, number> = { all: visibleByToggle.length }
+    for (const p of visibleByToggle) c[p.category] = (c[p.category] ?? 0) + 1
     return c
-  }, [photos, showUnverified])
+  }, [visibleByToggle])
 
-  const hiddenCount = photos.filter(p => p.verification === 'unverified').length
+  const visible = useMemo(
+    () =>
+      visibleByToggle
+        .filter((p) => active === 'all' || p.category === active)
+        .sort((a, b) => {
+          const order = VERIFICATION_ORDER[a.verification] - VERIFICATION_ORDER[b.verification]
+          return order !== 0 ? order : b.confidence - a.confidence
+        }),
+    [visibleByToggle, active],
+  )
 
-  if (error) {
-    return <ErrorState error={error} lang={lang} onRetry={() => window.location.reload()} />
-  }
+  const openLightbox = useCallback((index: number) => {
+    lightboxReturn.current = document.activeElement as HTMLElement | null
+    setPopoverId(null)
+    setLightbox(index)
+  }, [])
+
+  const closeLightbox = useCallback(() => {
+    setLightbox(null)
+    lightboxReturn.current?.focus()
+  }, [])
+
+  const onRefresh = useCallback(() => {
+    if (refresh) setRun((r) => r + 1)
+    else navigate(`/u/${qid}?refresh=1`)
+  }, [navigate, qid, refresh])
+
+  const streaming = phase !== 'done' && phase !== 'error'
+  const emptyLabel = active === 'all' ? null : CATEGORY_LABELS[active][lang]
 
   return (
-    <div className="min-h-screen bg-slate-50">
-      {/* Top Nav (simple) */}
-      <nav className="bg-white border-b border-slate-200 px-4 py-3 sticky top-0 z-40 shadow-sm flex items-center justify-between">
-         <a href="/" className="text-xl font-bold text-slate-900 tracking-tight">Visual Campus</a>
-      </nav>
+    <LayoutGroup>
+      <div className="min-h-screen bg-paper text-ink px-gutter">
+        <ProgressLine phase={phase} lang={lang} />
+        <Masthead header={header} lang={lang} onToggleLang={onToggleLang} onRefresh={onRefresh} />
+        <hr className="border-0 border-t border-line" />
 
-      <main className="max-w-6xl mx-auto px-4 py-8">
-        <ProgressBar step={step} lang={lang} done={done} />
+        {phase === 'error' && error ? (
+          <ErrorState message={error} lang={lang} onRetry={() => setRun((r) => r + 1)} />
+        ) : (
+          <main>
+            <StatusLine
+              phase={phase}
+              elapsedMs={elapsedMs}
+              totalMs={totalMs}
+              cachedAt={cachedAt}
+              lang={lang}
+            />
+            <Notices warnings={warnings} lang={lang} />
+            {description && <Lead description={description} lang={lang} />}
+            {stats && <StatsSentence stats={stats} lang={lang} />}
 
-        {header && <ProfileHeader header={header} lang={lang} />}
-        
-        <div className="flex flex-col lg:flex-row gap-6 mt-6">
-          {/* Main content */}
-          <div className="flex-1 min-w-0">
-            <WarningsBanner warnings={warnings} lang={lang} />
-            {stats && done && <StatsBar stats={stats} lang={lang} />}
-
-            {(photos.length > 0 || done) && (
-              <>
-                <FilterChips 
-                  activeCategory={activeCategory} 
-                  onSelectCategory={setActiveCategory}
+            {(photos.length > 0 || streaming) && (
+              <section className="mt-8">
+                <CategoryNav
+                  active={active}
+                  counts={counts}
+                  onSelect={(key) => {
+                    setActive(key)
+                    setPopoverId(null)
+                  }}
                   showUnverified={showUnverified}
-                  onToggleUnverified={() => setShowUnverified(s => !s)}
                   hiddenCount={hiddenCount}
+                  onToggleUnverified={() => setShowUnverified((s) => !s)}
                   lang={lang}
                 />
-                
-                <CategoryTabs 
-                  activeCategory={activeCategory} 
-                  onSelect={setActiveCategory}
-                  counts={counts as Record<Category | 'all', number>}
-                  lang={lang}
-                />
-
-                {shownPhotos.length > 0 ? (
-                  <PhotoGrid photos={shownPhotos} lang={lang} />
-                ) : done ? (
-                  <EmptyState lang={lang} />
+                {visible.length === 0 && !streaming ? (
+                  <p className="mt-6 text-[15px] text-ink-2 max-w-[60ch]">
+                    {emptyLabel ? t(lang, 'empty_category', { label: emptyLabel }) : t(lang, 'empty_all')}
+                  </p>
                 ) : (
-                  <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-                    {[1,2,3,4].map(i => (
-                      <div key={i} className="aspect-video bg-slate-200 animate-pulse rounded-xl" />
-                    ))}
-                  </div>
+                  <PhotoGrid
+                    photos={visible}
+                    arrivals={arrivals.current}
+                    lang={lang}
+                    streaming={streaming}
+                    popoverId={popoverId}
+                    onTogglePopover={setPopoverId}
+                    onOpen={openLightbox}
+                  />
                 )}
+              </section>
+            )}
+
+            {header?.coords && (
+              <>
+                <hr className="border-0 border-t border-line mt-10" />
+                <MapSection
+                  campus={header.coords}
+                  city={header.city ?? null}
+                  distanceKm={header.distance_to_city_center_km ?? null}
+                  lang={lang}
+                />
               </>
             )}
-          </div>
-          
-          {/* Sidebar */}
-          <div className="w-full lg:w-80 shrink-0">
-             {description && <DescriptionCard description={description} lang={lang} />}
-             {header?.coords && (
-               <MapCard 
-                 uniCoords={header.coords} 
-                 city={header.city} 
-                 distanceKm={header.distance_to_city_center_km} 
-                 lang={lang} 
-               />
-             )}
-          </div>
-        </div>
-      </main>
-    </div>
+            <footer className="py-10" />
+          </main>
+        )}
+
+        <AnimatePresence>
+          {lightbox !== null && visible[lightbox] && (
+            <Lightbox
+              key="lightbox"
+              photos={visible}
+              index={lightbox}
+              lang={lang}
+              onClose={closeLightbox}
+              onNavigate={setLightbox}
+            />
+          )}
+        </AnimatePresence>
+      </div>
+    </LayoutGroup>
   )
 }

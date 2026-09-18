@@ -63,7 +63,8 @@ log = logging.getLogger("app.pipeline")
 STAGE_A_TIMEOUT_S = 5.0  # Section 6: resolve hard limit
 SOURCE_TIMEOUT_S = 8.0  # Section 6: per source
 DOWNLOAD_STAGE_TIMEOUT_S = 8.0  # Section 6: download stage (hard limit, wave 2)
-FIRST_WAVE_SIZE = 24  # best candidates downloaded first so classification can start early
+FIRST_WAVE_SIZE = 16  # best candidates downloaded first so classification can start early
+EARLY_WAVE_S = 2.0  # sources still running after this feed the second wave instead
 FIRST_WAVE_TIMEOUT_S = 4.0  # Section 6: download stage target, used for wave 1
 FIRST_BATCH_SIZE = 4  # a small first vision batch returns the first photos sooner
 VISION_BATCH_TIMEOUT_S = 20.0  # Section 6/9: per batch
@@ -358,6 +359,14 @@ async def _logo_hashes(
     return await fetch_logo_hashes(client, url)
 
 
+def _settle(task: asyncio.Task[SourceResult]) -> SourceResult | BaseException:
+    """A finished source task as its result or its exception (cancellation counts as failure)."""
+    if task.cancelled():
+        return asyncio.CancelledError()
+    error = task.exception()
+    return error if error is not None else task.result()
+
+
 async def _run_source(source: Any, ctx: SourceContext) -> SourceResult:
     return await asyncio.wait_for(source.fetch(ctx), SOURCE_TIMEOUT_S)
 
@@ -500,15 +509,56 @@ async def _run_pipeline_inner(
     if vision_off:
         yield run.warn(WarningCode.vision_unavailable, deps.ai.unavailable_reason)
 
-    # ---- B. collect
+    # ---- B. collect. Sources that have answered within EARLY_WAVE_S feed the first download
+    # wave immediately; the slower ones keep running and join the second wave, so the first
+    # photos never wait for the slowest source (nothing is skipped or cut).
     stage = time.monotonic()
     ctx = SourceContext(settings=settings, http=deps.http, resolved=resolved, deadline=run.deadline)
     sources = build_sources(settings)
-    outcomes = await asyncio.gather(
-        *(_run_source(source, ctx) for source in sources), return_exceptions=True
+    source_tasks = [asyncio.create_task(_run_source(source, ctx)) for source in sources]
+    done_tasks, pending_tasks = await asyncio.wait(source_tasks, timeout=EARLY_WAVE_S)
+
+    def early_candidates() -> list[RawCandidate]:
+        results = [r for r in (_settle(t) for t in done_tasks) if isinstance(r, SourceResult)]
+        return normalize_candidates(results, max_candidates=settings.max_candidates).candidates
+
+    candidates_so_far = early_candidates()
+    # a first wave needs at least one small batch; keep waiting source by source until it has one
+    while len(candidates_so_far) < FIRST_BATCH_SIZE and pending_tasks:
+        more_done, pending_tasks = await asyncio.wait(
+            pending_tasks, return_when=asyncio.FIRST_COMPLETED
+        )
+        done_tasks = done_tasks | more_done
+        candidates_so_far = early_candidates()
+    wave1 = candidates_so_far[:FIRST_WAVE_SIZE]
+    if pending_tasks:
+        log.info(
+            "B early start after %.1fs: %d of %d sources still running; first wave = %d candidates",
+            EARLY_WAVE_S,
+            len(pending_tasks),
+            len(sources),
+            len(wave1),
+        )
+
+    # ---- D (wave 1). The best candidates so far, within the 4 s target budget.
+    download_started = time.monotonic()
+    logo_task = asyncio.create_task(_logo_hashes(deps.http, resolved.logo_filename))
+    downloaded1 = await download_candidates(
+        deps.http,
+        wave1,
+        thumbs_dir=settings.thumbs_dir,
+        concurrency=settings.download_concurrency,
+        stage_timeout_s=FIRST_WAVE_TIMEOUT_S,
+        deadline=run.deadline,
     )
+    logo = await logo_task
+
+    # ---- B (finish). Every source has its own 8 s limit inside _run_source.
+    if pending_tasks:
+        await asyncio.wait(pending_tasks)
     results: list[SourceResult] = []
-    for source, outcome in zip(sources, outcomes, strict=True):
+    for source, task in zip(sources, source_tasks, strict=True):
+        outcome = _settle(task)
         if isinstance(outcome, BaseException):
             reason = "timeout" if isinstance(outcome, TimeoutError) else type(outcome).__name__
             log.warning("B source %s failed: %s", source.name, reason)
@@ -529,32 +579,21 @@ async def _run_pipeline_inner(
         )
     run.timings["collect"] = _ms(stage)
 
-    # ---- C. normalize
+    # ---- C. normalize (all sources) and split off wave 2
     normalized = normalize_candidates(results, max_candidates=settings.max_candidates)
+    wave1_ids = {candidate.photo_id for candidate in wave1}
+    wave2 = [c for c in normalized.candidates if c.photo_id not in wave1_ids]
+    found = len(wave1_ids | {c.photo_id for c in normalized.candidates})
     log.info(
-        "C normalize -> %d candidates (%d duplicate urls, %d cut by caps)",
-        normalized.found,
+        "C normalize -> %d candidates (%d duplicate urls, %d cut by caps); wave 1 = %d, wave 2 = %d",
+        found,
         normalized.dropped_duplicate_urls,
         normalized.dropped_by_caps,
+        len(wave1),
+        len(wave2),
     )
 
-    # ---- D. download in two waves so the first photos are not gated by the slowest image.
-    # Wave 1 = the best FIRST_WAVE_SIZE candidates (priority order) within the 4 s target;
-    # wave 2 = the rest, fetched while wave 1 is already being classified. Per image the
-    # Section 6 order still holds: download -> dedup -> vision -> score.
-    download_started = time.monotonic()
-    logo_task = asyncio.create_task(_logo_hashes(deps.http, resolved.logo_filename))
-    wave1 = normalized.candidates[:FIRST_WAVE_SIZE]
-    wave2 = normalized.candidates[FIRST_WAVE_SIZE:]
-    downloaded1 = await download_candidates(
-        deps.http,
-        wave1,
-        thumbs_dir=settings.thumbs_dir,
-        concurrency=settings.download_concurrency,
-        stage_timeout_s=FIRST_WAVE_TIMEOUT_S,
-        deadline=run.deadline,
-    )
-    logo = await logo_task
+    # ---- D (wave 2). The rest downloads while wave 1 is already being classified.
     wave2_task: asyncio.Task[DownloadResult] | None = None
     if wave2:
         wave2_task = asyncio.create_task(
@@ -673,7 +712,7 @@ async def _run_pipeline_inner(
                 chunk_index += 1
     run.timings["vision"] = _ms(stage)
 
-    total_candidates = len(normalized.candidates)
+    total_candidates = found
     total_downloaded = sum(len(d.images) for d in downloads)
     failed_downloads = sum(d.failed for d in downloads)
     timed_out_downloads = sum(d.timed_out for d in downloads)
@@ -733,7 +772,7 @@ async def _run_pipeline_inner(
     for key in TIMING_KEYS:
         run.timings.setdefault(key, 0)
     stats = Stats(
-        found=normalized.found,
+        found=found,
         duplicates_removed=duplicates_removed,
         irrelevant_removed=irrelevant_removed,
         shown=len(selection.shown),

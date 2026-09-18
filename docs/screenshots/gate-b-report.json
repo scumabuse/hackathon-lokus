@@ -1,0 +1,164 @@
+{
+  "checks": [
+    {
+      "name": "desktop: header <= 3000 ms",
+      "ok": true,
+      "detail": "1570 ms"
+    },
+    {
+      "name": "desktop: first photos <= 10000 ms",
+      "ok": true,
+      "detail": "8432 ms"
+    },
+    {
+      "name": "desktop: done <= 30000 ms",
+      "ok": true,
+      "detail": "20398 ms"
+    },
+    {
+      "name": "desktop: exactly one sticky nav row",
+      "ok": true,
+      "detail": "1 tablists"
+    },
+    {
+      "name": "desktop: the four required filters are nav items",
+      "ok": true,
+      "detail": "Все 38 | Кампус 12 | Общежития 1 | Аудитории 4 | Библиотеки 0 | Лаборатории 12 | Спорт 0 | Студенческая жизнь 3 | Город 6"
+    },
+    {
+      "name": "desktop: nav row is sticky",
+      "ok": true,
+      "detail": "sticky"
+    },
+    {
+      "name": "desktop: frames rendered",
+      "ok": true,
+      "detail": "38 frames"
+    },
+    {
+      "name": "desktop: every frame shows mark + underlined source + date sentence",
+      "ok": true,
+      "detail": "0 of 12 frames failing"
+    },
+    {
+      "name": "desktop: no internal enum names in the UI chrome",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "desktop: no rounded corners (except the 10px marks)",
+      "ok": true,
+      "detail": "max radius 0px"
+    },
+    {
+      "name": "desktop: no box shadows",
+      "ok": true,
+      "detail": "0 elements with shadows"
+    },
+    {
+      "name": "desktop: no blue accents outside the map",
+      "ok": true,
+      "detail": "0 blue-ish computed colours"
+    },
+    {
+      "name": "desktop: popover opens by keyboard, traps and restores focus",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "desktop: lightbox opens by keyboard, arrows navigate, Escape closes",
+      "ok": true,
+      "detail": "Снимок 1 из 38 -> Снимок 2 из 38; focus inside=true; closed=true"
+    },
+    {
+      "name": "reduced motion: frames are static (opacity 1, no filter)",
+      "ok": true,
+      "detail": "{\"opacity\":\"1\",\"filter\":\"grayscale(0) brightness(1)\"}"
+    },
+    {
+      "name": "mobile: header <= 3000 ms",
+      "ok": true,
+      "detail": "1115 ms"
+    },
+    {
+      "name": "mobile: first photos <= 10000 ms",
+      "ok": true,
+      "detail": "6777 ms"
+    },
+    {
+      "name": "mobile: done <= 30000 ms",
+      "ok": true,
+      "detail": "17584 ms"
+    },
+    {
+      "name": "mobile: exactly one sticky nav row",
+      "ok": true,
+      "detail": "1 tablists"
+    },
+    {
+      "name": "mobile: the four required filters are nav items",
+      "ok": true,
+      "detail": "Все 29 | Кампус 12 | Общежития 0 | Аудитории 0 | Библиотеки 0 | Лаборатории 12 | Спорт 1 | Студенческая жизнь 0 | Город 4"
+    },
+    {
+      "name": "mobile: nav row is sticky",
+      "ok": true,
+      "detail": "sticky"
+    },
+    {
+      "name": "mobile: frames rendered",
+      "ok": true,
+      "detail": "29 frames"
+    },
+    {
+      "name": "mobile: every frame shows mark + underlined source + date sentence",
+      "ok": true,
+      "detail": "0 of 12 frames failing"
+    },
+    {
+      "name": "mobile: no internal enum names in the UI chrome",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "mobile: no rounded corners (except the 10px marks)",
+      "ok": true,
+      "detail": "max radius 0px"
+    },
+    {
+      "name": "mobile: no box shadows",
+      "ok": true,
+      "detail": "0 elements with shadows"
+    },
+    {
+      "name": "mobile: no blue accents outside the map",
+      "ok": true,
+      "detail": "0 blue-ish computed colours"
+    }
+  ],
+  "timings": {
+    "desktop": {
+      "header": 1570,
+      "firstPhotos": 8432,
+      "done": 20398
+    },
+    "mobile": {
+      "header": 1115,
+      "firstPhotos": 6777,
+      "done": 17584
+    }
+  },
+  "screenshots": [
+    "C:\\Users\\arkhi\\Downloads\\hackathon l\\docs\\screenshots\\desktop-home.png",
+    "C:\\Users\\arkhi\\Downloads\\hackathon l\\docs\\screenshots\\desktop-streaming.png",
+    "C:\\Users\\arkhi\\Downloads\\hackathon l\\docs\\screenshots\\desktop-finished.png",
+    "C:\\Users\\arkhi\\Downloads\\hackathon l\\docs\\screenshots\\desktop-popover.png",
+    "C:\\Users\\arkhi\\Downloads\\hackathon l\\docs\\screenshots\\desktop-lightbox.png",
+    "C:\\Users\\arkhi\\Downloads\\hackathon l\\docs\\screenshots\\desktop-reduced-motion.png",
+    "C:\\Users\\arkhi\\Downloads\\hackathon l\\docs\\screenshots\\mobile-home.png",
+    "C:\\Users\\arkhi\\Downloads\\hackathon l\\docs\\screenshots\\mobile-streaming.png",
+    "C:\\Users\\arkhi\\Downloads\\hackathon l\\docs\\screenshots\\mobile-finished.png",
+    "C:\\Users\\arkhi\\Downloads\\hackathon l\\docs\\screenshots\\mobile-lightbox.png",
+    "C:\\Users\\arkhi\\Downloads\\hackathon l\\docs\\screenshots\\mobile-popover.png"
+  ]
+}
