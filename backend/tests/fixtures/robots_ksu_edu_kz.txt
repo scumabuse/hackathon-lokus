@@ -1,0 +1,41 @@
+User-Agent: Googlebot
+Disallow: /?
+Disallow: /biblioteka-report/
+Disallow: /admin
+Disallow: /index.php
+Disallow: /emarket/addToCompare
+Disallow: /emarket/basket
+Disallow: /emarket/gateway
+Disallow: /go-out.php
+Disallow: /cron.php
+Disallow: /filemonitor.php
+Disallow: /search
+
+User-Agent: Yandex
+Disallow: /?
+Disallow: /biblioteka-report/
+Disallow: /admin
+Disallow: /index.php
+Disallow: /emarket/addToCompare
+Disallow: /emarket/basket
+Disallow: /emarket/gateway
+Disallow: /go-out.php
+Disallow: /cron.php
+Disallow: /filemonitor.php
+Disallow: /search
+
+User-Agent: *
+Disallow: /?
+Disallow: /biblioteka-report/
+Disallow: /admin
+Disallow: /index.php
+Disallow: /emarket/addToCompare
+Disallow: /emarket/basket
+Disallow: /emarket/gateway
+Disallow: /go-out.php
+Disallow: /cron.php
+Disallow: /filemonitor.php
+Disallow: /search
+
+Host: https://ksu.edu.kz
+Crawl-delay: 30

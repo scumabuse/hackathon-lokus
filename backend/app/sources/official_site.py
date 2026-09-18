@@ -4,7 +4,7 @@ Scrapes the university's P856 official website for images: homepage first, then 
 internal pages whose href or anchor text signals campus/facilities/student life.
 
 Rules:
-- robots.txt respected (urllib.robotparser; fetch failure → assume allowed)
+- robots.txt respected (RobotsRules, an RFC 9309 matcher; fetch failure or non-200 → allowed)
 - User-Agent: Mozilla/5.0 (compatible; VisualCampusBot/1.0; +mailto:{CONTACT_EMAIL})
 - Per-page budget 6 s; source budget 8 s; max pages = 7 (homepage + 6)
 - Concurrency 4 for the sub-pages
@@ -20,7 +20,6 @@ import re
 import time
 from email.utils import parsedate_to_datetime
 from urllib.parse import urljoin, urlparse
-from urllib.robotparser import RobotFileParser
 
 import httpx
 from bs4 import BeautifulSoup
@@ -38,6 +37,77 @@ ROBOTS_TIMEOUT_S = 3.0
 MAX_PAGES = 7  # homepage + 6 internal
 SUB_PAGE_CONCURRENCY = 4
 MAX_CANDIDATES = 40
+ROBOTS_AGENT = "visualcampusbot"  # product token of the bot User-Agent below
+
+
+class RobotsRules:
+    """Minimal RFC 9309 robots.txt matcher for one user agent.
+
+    urllib.robotparser is deliberately not used: while normalizing rule paths it rewrites
+    ``Disallow: /?`` (block only the root page with a query string, a rule many CMS sites ship)
+    into ``Disallow: /``, which hid entire official sites such as ksu.edu.kz.
+
+    Semantics: the group naming our product token wins over the ``*`` group (groups with the
+    same agent are merged); the longest matching rule wins and ``Allow`` beats ``Disallow`` on
+    equal length; ``*`` matches any run of characters and a trailing ``$`` anchors the end.
+    Crawl-delay is not part of RFC 9309 and is ignored (the source fetches at most 7 pages).
+    """
+
+    def __init__(self, rules: list[tuple[bool, str]]) -> None:
+        self._rules = [(allow, pattern, self._compile(pattern)) for allow, pattern in rules]
+
+    @staticmethod
+    def _compile(pattern: str) -> re.Pattern[str]:
+        anchored = pattern.endswith("$")
+        body = pattern[:-1] if anchored else pattern
+        regex = ".*".join(re.escape(part) for part in body.split("*"))
+        return re.compile(regex + ("$" if anchored else ""))
+
+    @classmethod
+    def parse(cls, text: str, agent: str = ROBOTS_AGENT) -> RobotsRules:
+        groups: list[tuple[list[str], list[tuple[bool, str]]]] = []
+        agents: list[str] = []
+        rules: list[tuple[bool, str]] = []
+        collecting_agents = False
+        for raw in text.splitlines():
+            line = raw.split("#", 1)[0].strip()
+            key, sep, value = line.partition(":")
+            if not sep:
+                continue
+            key = key.strip().lower()
+            value = value.strip()
+            if key == "user-agent":
+                if not collecting_agents:
+                    if agents:
+                        groups.append((agents, rules))
+                    agents, rules = [], []
+                    collecting_agents = True
+                agents.append(value.split("/", 1)[0].strip().lower())
+            else:
+                collecting_agents = False
+                if key in ("allow", "disallow") and value:  # an empty Disallow allows everything
+                    rules.append((key == "allow", value))
+        if agents:
+            groups.append((agents, rules))
+        agent = agent.lower()
+        chosen = [rule for names, group in groups if agent in names for rule in group]
+        if not any(agent in names for names, _ in groups):
+            chosen = [rule for names, group in groups if "*" in names for rule in group]
+        return cls(chosen)
+
+    def allows(self, url: str) -> bool:
+        parsed = urlparse(url)
+        target = parsed.path or "/"
+        if parsed.query:
+            target += "?" + parsed.query
+        best: tuple[int, bool] | None = None
+        for allow, pattern, regex in self._rules:
+            if regex.match(target):
+                key = (len(pattern), allow)
+                if best is None or key > best:
+                    best = key
+        return True if best is None else best[1]
+
 
 # Image URL exclusion pattern (Section 7.5 step 5)
 _IMG_EXCLUDE = re.compile(
@@ -210,7 +280,7 @@ class OfficialSiteSource(BaseSource):
         headers = {"User-Agent": bot_ua, "Accept": "text/html,*/*"}
 
         # robots.txt check (Section 7.5): a missing or unreadable file means "allowed"
-        self._robots = None
+        self._robots: RobotsRules | None = None
         robots_url = f"{parsed_base.scheme}://{base_host}/robots.txt"
         try:
             robots_resp = await asyncio.wait_for(
@@ -218,20 +288,12 @@ class OfficialSiteSource(BaseSource):
                 timeout=ROBOTS_TIMEOUT_S,
             )
             if robots_resp.status_code == 200:
-                rp = RobotFileParser()
-                rp.set_url(robots_url)
-                rp.parse(robots_resp.text.splitlines())
-                self._robots = rp
+                self._robots = RobotsRules.parse(robots_resp.text)
         except (httpx.HTTPError, TimeoutError, ValueError) as exc:
             log.debug("official_site: robots.txt unavailable for %s (%s)", base_host, exc)
 
         def is_allowed(url: str) -> bool:
-            if self._robots is None:
-                return True
-            try:
-                return self._robots.can_fetch("*", url)
-            except (ValueError, KeyError, AttributeError):
-                return True
+            return self._robots is None or self._robots.allows(url)
 
         candidates: list[RawCandidate] = []
 
