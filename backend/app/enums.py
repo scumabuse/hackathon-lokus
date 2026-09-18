@@ -21,6 +21,7 @@ class SourceType(str, Enum):
     wikidata_p18 = "wikidata_p18"
     official_site = "official_site"
     commons_category = "commons_category"
+    commons_geo = "commons_geo"  # Wikimedia Commons geosearch (Section 7.4A, keyless)
     flickr_geo = "flickr_geo"
     commons_search = "commons_search"
     web_search = "web_search"
@@ -32,6 +33,7 @@ SOURCE_PRIORITY: list[SourceType] = [
     SourceType.wikidata_p18,
     SourceType.official_site,
     SourceType.commons_category,
+    SourceType.commons_geo,
     SourceType.flickr_geo,
     SourceType.commons_search,
     SourceType.web_search,
@@ -57,6 +59,7 @@ class ReasonCode(str, Enum):
     official_site_source = "official_site_source"
     commons_category_source = "commons_category_source"
     commons_search_source = "commons_search_source"
+    commons_geo_source = "commons_geo_source"
     flickr_geo_source = "flickr_geo_source"
     web_search_source = "web_search_source"
     city_category_source = "city_category_source"

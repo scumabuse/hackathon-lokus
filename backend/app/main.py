@@ -65,7 +65,7 @@ async def lifespan(app: FastAPI) -> AsyncIterator[None]:
     app.state.ai = AIClient(settings)
     app.state.cache = Cache(settings.cache_db_path)
     await app.state.cache.init()
-    if settings.anthropic_api_key:
+    if settings.gemini_api_key:
         # never fails startup: on error the client marks itself unavailable and logs loudly
         await app.state.ai.startup_check()
     log.info(

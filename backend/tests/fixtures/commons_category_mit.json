@@ -1,0 +1,2662 @@
+{
+  "batchcomplete": "",
+  "continue": {
+    "gcmcontinue": "file|4d49542054582d3020434f4d5055544552205048494c434f20535552464143452d42415252494552205452414e534953544f52532e4a5047|25915303",
+    "continue": "gcmcontinue||"
+  },
+  "query": {
+    "pages": {
+      "699007": {
+        "pageid": 699007,
+        "ns": 6,
+        "title": "File:060123-John.Willinsky-The.Economics.of.Knowledge.as.a.Public.Good.ogg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2006-04-12T11:20:42Z",
+            "size": 19756097,
+            "width": 0,
+            "height": 0,
+            "duration": 2411.8933106575964,
+            "thumburl": "https://commons.wikimedia.org/w/resources/assets/file-type-icons/fileicon-ogg.png",
+            "thumbwidth": 640,
+            "thumbheight": 640,
+            "thumbattribs": [],
+            "url": "https://upload.wikimedia.org/wikipedia/commons/7/70/060123-John.Willinsky-The.Economics.of.Knowledge.as.a.Public.Good.ogg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:060123-John.Willinsky-The.Economics.of.Knowledge.as.a.Public.Good.ogg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=699007",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "060123-John.Willinsky-The.Economics.of.Knowledge.as.a.Public.Good",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "<p>Sumit Pichad from Agriculture collage sonai - Speech on \"The Economics of Knowledge as a Public Good\" (on the benefits of Open Access in the Sciences) at \"The Economics of Open Content Symposium\" 2006 at Massachusetts Institute of Technology \n</p>\n<ul><li><b>Time</b>: 40:11 min</li>\n<li><b>Language/Accent</b>: English</li></ul>",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2006-01-23",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "John Willinsky",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 2.5",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "application/ogg"
+          }
+        ]
+      },
+      "182292207": {
+        "pageid": 182292207,
+        "ns": 6,
+        "title": "File:BEC1.1.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2026-01-23T16:09:31Z",
+            "size": 1584449,
+            "width": 1500,
+            "height": 1000,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/BEC1.1.jpg/960px-BEC1.1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 427,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/BEC1.1.jpg/1280px-BEC1.1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/BEC1.1.jpg/960px-BEC1.1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 427,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/BEC1.1.jpg/1280px-BEC1.1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/BEC1.1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:BEC1.1.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=182292207",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "BEC1.1",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "BEC 1, the apparatus on which Prof. Wolfgang Ketterle's group did the research awarded the 2001 Nobel Prize in Physics. Photograph taken on 1.15.2020 in Building 26 of MIT",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2020-01-15 11:59:27",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:SJMW1987\" title=\"User:SJMW1987\">SJMW1987</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "182292206": {
+        "pageid": 182292206,
+        "ns": 6,
+        "title": "File:BEC1.2.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2026-01-23T16:09:31Z",
+            "size": 1844906,
+            "width": 1500,
+            "height": 1000,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/BEC1.2.jpg/960px-BEC1.2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 427,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/BEC1.2.jpg/1280px-BEC1.2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/BEC1.2.jpg/960px-BEC1.2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 427,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/BEC1.2.jpg/1280px-BEC1.2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/BEC1.2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:BEC1.2.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=182292206",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "BEC1.2",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "BEC 1, the apparatus on which Prof. Wolfgang Ketterle's group did the research awarded the 2001 Nobel Prize in Physics. Photograph taken on 1.15.2020 in Building 26 of MIT",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2020-01-15 11:24:24",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:SJMW1987\" title=\"User:SJMW1987\">SJMW1987</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "116220454": {
+        "pageid": 116220454,
+        "ns": 6,
+        "title": "File:Building62and64.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2006-05-29T15:39:56Z",
+            "size": 206700,
+            "width": 800,
+            "height": 600,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/4/43/Building62and64.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 640,
+            "thumbheight": 480,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/4/43/Building62and64.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 480
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/4/43/Building62and64.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Building62and64.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=116220454",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Building62and64",
+                "source": "mediawiki-metadata"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 2.5",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "170090977": {
+        "pageid": 170090977,
+        "ns": 6,
+        "title": "File:COBOL poster (1969).jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2025-07-16T00:13:45Z",
+            "size": 237939,
+            "width": 588,
+            "height": 1024,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/f/f4/COBOL_poster_%281969%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 640,
+            "thumbheight": 1115,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/f/f4/COBOL_poster_%281969%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 1115
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/COBOL_poster_%281969%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:COBOL_poster_(1969).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=170090977",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "COBOL poster (1969)",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "A 1969 poster promoting a summer course at MIT for COBOL, an early computer language. The course is titled: \"Special Summer Computer Course Introduction to COBOL Programming\" and it appears the Lowell Institute School was involved with this course. A variety of details are included such as: the deadline to apply, what assignments/quizzes there will be, cost of the course, a basic description for it, class times along with lengths and what educational requirements are required. Author's name is not signed on the poster but according to the 2nd link included for the source, it was made by Dietmar R. Winkler. Poster does not contain a copyright symbol on it.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1969",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Dietmar R. Winkler",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "25685419": {
+        "pageid": 25685419,
+        "ns": 6,
+        "title": "File:DARPA amplifier on silicon MIT.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2013-04-20T20:25:53Z",
+            "size": 250742,
+            "width": 638,
+            "height": 400,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/e/ee/DARPA_amplifier_on_silicon_MIT.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 640,
+            "thumbheight": 401,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/e/ee/DARPA_amplifier_on_silicon_MIT.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 401
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/DARPA_amplifier_on_silicon_MIT.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:DARPA_amplifier_on_silicon_MIT.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=25685419",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "DARPA amplifier on silicon MIT",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Two teams of DARPA performers have achieved world record power output levels using silicon-based technologies for millimeter-wave power amplifiers. RF power amplifiers are used in communications and sensor systems to boost power levels for reliable transmission of signals over the distance required by the given application. These breakthroughs were achieved under the Efficient Linearized All-Silicon Transmitter ICs (ELASTx) program. Further integration efforts may unlock applications in low-cost satellite communications and millimeter-wave sensing. MIT and Carnegie Mellon University researchers,demonstrated a 0.13 micrometer silicon-germanium (SiGe) BiCMOS power amplifier employing multistage power amplifier cells and efficient 16-way on-chip power-combining. This amplifier has achieved power output of 0.7 W at 42 gigahertz,  a 3.5 times increase in output power compared to the next best reported silicon-based millimeter-wave power amplifier; this result was reported at the 2013 International Solid-State Circuits Conference (ISSCC). See <a rel=\"nofollow\" class=\"external free\" href=\"http://www.darpa.mil/NewsEvents/Releases/2013/03/26.aspx\">http://www.darpa.mil/NewsEvents/Releases/2013/03/26.aspx</a> for more details.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2013-03-05",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "MIT and Carnegie Mellon University",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "42657723": {
+        "pageid": 42657723,
+        "ns": 6,
+        "title": "File:Gas and fuel analysis for engineers. A compend for those interested in the economical application of fuel. Prepared especially for the use of students at the Massachusetts institute of technology (14760218856).jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2015-08-26T07:34:16Z",
+            "size": 1598700,
+            "width": 2072,
+            "height": 3800,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Gas_and_fuel_analysis_for_engineers._A_compend_for_those_interested_in_the_economical_application_of_fuel._Prepared_especially_for_the_use_of_students_at_the_Massachusetts_institute_of_technology_%2814760218856%29.jpg/960px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 1174,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Gas_and_fuel_analysis_for_engineers._A_compend_for_those_interested_in_the_economical_application_of_fuel._Prepared_especially_for_the_use_of_students_at_the_Massachusetts_institute_of_technology_%2814760218856%29.jpg/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Gas_and_fuel_analysis_for_engineers._A_compend_for_those_interested_in_the_economical_application_of_fuel._Prepared_especially_for_the_use_of_students_at_the_Massachusetts_institute_of_technology_%2814760218856%29.jpg/960px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 1174,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Gas_and_fuel_analysis_for_engineers._A_compend_for_those_interested_in_the_economical_application_of_fuel._Prepared_especially_for_the_use_of_students_at_the_Massachusetts_institute_of_technology_%2814760218856%29.jpg/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Gas_and_fuel_analysis_for_engineers._A_compend_for_those_interested_in_the_economical_application_of_fuel._Prepared_especially_for_the_use_of_students_at_the_Massachusetts_institute_of_technology_%2814760218856%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Gas_and_fuel_analysis_for_engineers._A_compend_for_those_interested_in_the_economical_application_of_fuel._Prepared_especially_for_the_use_of_students_at_the_Massachusetts_institute_of_technology_(14760218856).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=42657723",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Gas and fuel analysis for engineers. A compend for those interested in the economical application of fuel. Prepared especially for the use of students at the Massachusetts institute of technology (14760218856)",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "<br>\n<p><b>Identifier</b>: gasfuelanal00gill (<a class=\"external text\" href=\"https://commons.wikimedia.org/w/index.php?title=Special%3ASearch&amp;profile=default&amp;fulltext=Search&amp;search=insource%3A%2Fgasfuelanal00gill%2F\">find matches</a>)<br>\n<b>Title</b>: <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/internetarchivebookimages/tags/bookidgasfuelanal00gill\">Gas and fuel analysis for engineers. A compend for those interested in the economical application of fuel. Prepared especially for the use of students at the Massachusetts institute of technology</a><br>\n<b>Year</b>: <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/internetarchivebookimages/tags/bookyear1912\">1912</a> (<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/internetarchivebookimages/tags/bookdecade1910\">1910s</a>)<br>\n<b>Authors</b>:  <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/internetarchivebookimages/tags/bookauthorGill__Augustus_H___Augustus_Herman___b__1864\">Gill, Augustus H. (Augustus Herman), b. 1864</a><br>\n<b>Subjects</b>:  <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/internetarchivebookimages/tags/booksubjectGases\">Gases</a> <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/internetarchivebookimages/tags/booksubjectFuel\">Fuel</a> <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/internetarchivebookimages/tags/booksubjectCalorimeters_and_calorimetry\">Calorimeters and calorimetry</a><br>\n<b>Publisher</b>:  <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/internetarchivebookimages/tags/bookpublisherNew_York__J__Wiley___sons\">New York, J. Wiley &amp; sons</a> <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/internetarchivebookimages/tags/bookpublisher__etc__etc__\">(etc.,etc.)</a><br>\n<b>Contributing Library</b>:  <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/internetarchivebookimages/tags/bookcontributorThe_Library_of_Congress\">The Library of Congress</a><br>\n<b>Digitizing Sponsor</b>:  <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/internetarchivebookimages/tags/booksponsorThe_Library_of_Congress\">The Library of Congress</a><br>\n<br>\n<b>View Book Page</b>: <a rel=\"nofollow\" class=\"external text\" href=\"https://archive.org/stream/gasfuelanal00gill/gasfuelanal00gill#page/n47/mode/1up\">Book Viewer</a><br>\n<b>About This Book</b>: <a rel=\"nofollow\" class=\"external text\" href=\"https://archive.org/details/gasfuelanal00gill\">Catalog Entry</a><br>\n<b>View All Images</b>: <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/internetarchivebookimages/tags/bookidgasfuelanal00gill\">All Images From Book</a><br>\nClick here to <a rel=\"nofollow\" class=\"external text\" href=\"https://archive.org/stream/gasfuelanal00gill/gasfuelanal00gill#page/n47/mode/1up\"><b>view book online</b></a> to see this illustration in context in a browseable online version of this book.<br>\n<br>\n<b>Text Appearing Before Image:</b><br>\n<i>Similarly, Per cent, heat lost Per cent, carbon in coal 200 +per cent. CO2 X Heating value of coal Per cent. C02 +per cent.COrise in temperature in °C. X 0.2864. The values found by this equation are 0.5 per cent, low,as no cognizance has been taken of the water vapor. In rapid work the following formula will be foundmore applicable: Let o and n represent the percent-ages of oxygen and nitrogen found in the chimney-gas; then the ratio of the air actually used to thattheoretically necessary is expressed by the formula 21 2\\ \\ n. / Applying it in the case of the flue-gas given, it becomes 21 21 7—: r = l = 1 • 533 ratio. 2I _ (79 X 7A\\ 13.7 \\ 80.2 Multiplying this by 11.54, the theoretical number ofpounds of air per pound of carbon, we obtain 17.69 asagainst 18.02 on page 28. Bunte * has given a shorter method for the deter- * Jour. f. Gasbelcuchtung, 43, 637 (1900) ; Abstr. Jour. Soc.thm. Industry, 19, 887. TABUNTES CHART SHOWING HEAT LOST IN CHI TEMP % PER CEI m&gt;-°90 10 -w 40</i><br>\n<b>Text Appearing After Image:</b><br>\n<i>X. ^-GASES FROM THE CARBONIC ACID AND THEURE. RCIENCY 60</i><br>\n<br>\n<b>Note About Images</b><br>\n</p>\n<i>Please note that these images are extracted from scanned page images that may have been digitally enhanced for readability - coloration and appearance of these illustrations may not perfectly resemble the original work.</i>",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1912",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Gill, Augustus H. (Augustus Herman), b. 1864",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "No restrictions",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "42657602": {
+        "pageid": 42657602,
+        "ns": 6,
+        "title": "File:Gas and fuel analysis for engineers. A compend for those interested in the economical application of fuel. Prepared especially for the use of students at the Massachusetts institute of technology (14760220486).jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2015-08-26T07:25:21Z",
+            "size": 1589010,
+            "width": 2184,
+            "height": 3252,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Gas_and_fuel_analysis_for_engineers._A_compend_for_those_interested_in_the_economical_application_of_fuel._Prepared_especially_for_the_use_of_students_at_the_Massachusetts_institute_of_technology_%2814760220486%29.jpg/960px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 953,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Gas_and_fuel_analysis_for_engineers._A_compend_for_those_interested_in_the_economical_application_of_fuel._Prepared_especially_for_the_use_of_students_at_the_Massachusetts_institute_of_technology_%2814760220486%29.jpg/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Gas_and_fuel_analysis_for_engineers._A_compend_for_those_interested_in_the_economical_application_of_fuel._Prepared_especially_for_the_use_of_students_at_the_Massachusetts_institute_of_technology_%2814760220486%29.jpg/960px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 953,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Gas_and_fuel_analysis_for_engineers._A_compend_for_those_interested_in_the_economical_application_of_fuel._Prepared_especially_for_the_use_of_students_at_the_Massachusetts_institute_of_technology_%2814760220486%29.jpg/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/3/35/Gas_and_fuel_analysis_for_engineers._A_compend_for_those_interested_in_the_economical_application_of_fuel._Prepared_especially_for_the_use_of_students_at_the_Massachusetts_institute_of_technology_%2814760220486%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Gas_and_fuel_analysis_for_engineers._A_compend_for_those_interested_in_the_economical_application_of_fuel._Prepared_especially_for_the_use_of_students_at_the_Massachusetts_institute_of_technology_(14760220486).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=42657602",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Gas and fuel analysis for engineers. A compend for those interested in the economical application of fuel. Prepared especially for the use of students at the Massachusetts institute of technology (14760220486)",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "<br>\n<p><b>Identifier</b>: gasfuelanal00gill (<a class=\"external text\" href=\"https://commons.wikimedia.org/w/index.php?title=Special%3ASearch&amp;profile=default&amp;fulltext=Search&amp;search=insource%3A%2Fgasfuelanal00gill%2F\">find matches</a>)<br>\n<b>Title</b>: <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/internetarchivebookimages/tags/bookidgasfuelanal00gill\">Gas and fuel analysis for engineers. A compend for those interested in the economical application of fuel. Prepared especially for the use of students at the Massachusetts institute of technology</a><br>\n<b>Year</b>: <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/internetarchivebookimages/tags/bookyear1912\">1912</a> (<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/internetarchivebookimages/tags/bookdecade1910\">1910s</a>)<br>\n<b>Authors</b>:  <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/internetarchivebookimages/tags/bookauthorGill__Augustus_H___Augustus_Herman___b__1864\">Gill, Augustus H. (Augustus Herman), b. 1864</a><br>\n<b>Subjects</b>:  <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/internetarchivebookimages/tags/booksubjectGases\">Gases</a> <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/internetarchivebookimages/tags/booksubjectFuel\">Fuel</a> <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/internetarchivebookimages/tags/booksubjectCalorimeters_and_calorimetry\">Calorimeters and calorimetry</a><br>\n<b>Publisher</b>:  <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/internetarchivebookimages/tags/bookpublisherNew_York__J__Wiley___sons\">New York, J. Wiley &amp; sons</a> <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/internetarchivebookimages/tags/bookpublisher__etc__etc__\">(etc.,etc.)</a><br>\n<b>Contributing Library</b>:  <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/internetarchivebookimages/tags/bookcontributorThe_Library_of_Congress\">The Library of Congress</a><br>\n<b>Digitizing Sponsor</b>:  <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/internetarchivebookimages/tags/booksponsorThe_Library_of_Congress\">The Library of Congress</a><br>\n<br>\n<b>View Book Page</b>: <a rel=\"nofollow\" class=\"external text\" href=\"https://archive.org/stream/gasfuelanal00gill/gasfuelanal00gill#page/n50/mode/1up\">Book Viewer</a><br>\n<b>About This Book</b>: <a rel=\"nofollow\" class=\"external text\" href=\"https://archive.org/details/gasfuelanal00gill\">Catalog Entry</a><br>\n<b>View All Images</b>: <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/internetarchivebookimages/tags/bookidgasfuelanal00gill\">All Images From Book</a><br>\nClick here to <a rel=\"nofollow\" class=\"external text\" href=\"https://archive.org/stream/gasfuelanal00gill/gasfuelanal00gill#page/n50/mode/1up\"><b>view book online</b></a> to see this illustration in context in a browseable online version of this book.<br>\n<br>\n<b>Text Appearing Before Image:</b><br>\n<i>r loss 10 0 To face page 33, TABLE XL</i><br>\n<b>Text Appearing After Image:</b><br>\n<i>s 8 &amp; g g o o o o ACTUAL TEMPERATURES CALCULATIONS. 33 mination of the quantity of heat passing up chimney,and one which does not involve the analysis of thecoal. For every per cent of carbonic acid present 43.43 C.per cubic meter of flue-gases have been developed = W\\C = specific heat of the flue-gases per cubic meter;then W/C represents the initial temperature (which isnever attained) the ratio of which to the actual exittemperature of the flue-gases shows the heat lost. IfT= this initial temperature and / the rise of tempera-ture of the flue-gases, then t/T represents the heatlost in the chimney-gases. The following table gives the data for the calculationfor both pure carbon and coal of average value. Per Cent of COain Chimney Gas. Specific Heat ofChimney Gas. Initial Temperature, W/C. Degrees C. For Carbon For Coal= T. Diff. foro.i#COs. I2 34 56 78 9 10111213141516 O.308O.3IOO.3IIO.312 0.313O.3140.3I5O.316O.318O.319O.32OO.322O.323O.324O.324O.325 141280419 557 694 830 962 1096</i><br>\n<br>\n<b>Note About Images</b><br>\n</p>\n<i>Please note that these images are extracted from scanned page images that may have been digitally enhanced for readability - coloration and appearance of these illustrations may not perfectly resemble the original work.</i>",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1912",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Gill, Augustus H. (Augustus Herman), b. 1864",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "No restrictions",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "43469282": {
+        "pageid": 43469282,
+        "ns": 6,
+        "title": "File:Gas and fuel analysis for engineers. A compend for those interested in the economical application of fuel. Prepared especially for the use of students at the Massachusetts institute of technology (14760221916).jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2015-09-21T12:17:03Z",
+            "size": 517869,
+            "width": 1588,
+            "height": 1832,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Gas_and_fuel_analysis_for_engineers._A_compend_for_those_interested_in_the_economical_application_of_fuel._Prepared_especially_for_the_use_of_students_at_the_Massachusetts_institute_of_technology_%2814760221916%29.jpg/960px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 738,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Gas_and_fuel_analysis_for_engineers._A_compend_for_those_interested_in_the_economical_application_of_fuel._Prepared_especially_for_the_use_of_students_at_the_Massachusetts_institute_of_technology_%2814760221916%29.jpg/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Gas_and_fuel_analysis_for_engineers._A_compend_for_those_interested_in_the_economical_application_of_fuel._Prepared_especially_for_the_use_of_students_at_the_Massachusetts_institute_of_technology_%2814760221916%29.jpg/960px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 738,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Gas_and_fuel_analysis_for_engineers._A_compend_for_those_interested_in_the_economical_application_of_fuel._Prepared_especially_for_the_use_of_students_at_the_Massachusetts_institute_of_technology_%2814760221916%29.jpg/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Gas_and_fuel_analysis_for_engineers._A_compend_for_those_interested_in_the_economical_application_of_fuel._Prepared_especially_for_the_use_of_students_at_the_Massachusetts_institute_of_technology_%2814760221916%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Gas_and_fuel_analysis_for_engineers._A_compend_for_those_interested_in_the_economical_application_of_fuel._Prepared_especially_for_the_use_of_students_at_the_Massachusetts_institute_of_technology_(14760221916).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=43469282",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Gas and fuel analysis for engineers. A compend for those interested in the economical application of fuel. Prepared especially for the use of students at the Massachusetts institute of technology (14760221916)",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "<br>\n<p><b>Identifier</b>: gasfuelanal00gill (<a class=\"external text\" href=\"https://commons.wikimedia.org/w/index.php?title=Special%3ASearch&amp;profile=default&amp;fulltext=Search&amp;search=insource%3A%2Fgasfuelanal00gill%2F\">find matches</a>)<br>\n<b>Title</b>: <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/internetarchivebookimages/tags/bookidgasfuelanal00gill\">Gas and fuel analysis for engineers. A compend for those interested in the economical application of fuel. Prepared especially for the use of students at the Massachusetts institute of technology</a><br>\n<b>Year</b>: <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/internetarchivebookimages/tags/bookyear1912\">1912</a> (<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/internetarchivebookimages/tags/bookdecade1910\">1910s</a>)<br>\n<b>Authors</b>:  <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/internetarchivebookimages/tags/bookauthorGill__Augustus_H___Augustus_Herman___b__1864\">Gill, Augustus H. (Augustus Herman), b. 1864</a><br>\n<b>Subjects</b>:  <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/internetarchivebookimages/tags/booksubjectGases\">Gases</a> <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/internetarchivebookimages/tags/booksubjectFuel\">Fuel</a> <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/internetarchivebookimages/tags/booksubjectCalorimeters_and_calorimetry\">Calorimeters and calorimetry</a><br>\n<b>Publisher</b>:  <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/internetarchivebookimages/tags/bookpublisherNew_York__J__Wiley___sons\">New York, J. Wiley &amp; sons</a> <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/internetarchivebookimages/tags/bookpublisher__etc__etc__\">(etc.,etc.)</a><br>\n<b>Contributing Library</b>:  <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/internetarchivebookimages/tags/bookcontributorThe_Library_of_Congress\">The Library of Congress</a><br>\n<b>Digitizing Sponsor</b>:  <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/internetarchivebookimages/tags/booksponsorThe_Library_of_Congress\">The Library of Congress</a><br>\n<br>\n<b>View Book Page</b>: <a rel=\"nofollow\" class=\"external text\" href=\"https://archive.org/stream/gasfuelanal00gill/gasfuelanal00gill#page/n57/mode/1up\">Book Viewer</a><br>\n<b>About This Book</b>: <a rel=\"nofollow\" class=\"external text\" href=\"https://archive.org/details/gasfuelanal00gill\">Catalog Entry</a><br>\n<b>View All Images</b>: <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/internetarchivebookimages/tags/bookidgasfuelanal00gill\">All Images From Book</a><br>\nClick here to <a rel=\"nofollow\" class=\"external text\" href=\"https://archive.org/stream/gasfuelanal00gill/gasfuelanal00gill#page/n57/mode/1up\"><b>view book online</b></a> to see this illustration in context in a browseable online version of this book.<br>\n<br>\n<b>Text Appearing Before Image:</b><br>\n<i>Fig. 12.—Showing Hempel Burette connected with theSimple Pipette on the Stand. with a six-cell Samson battery, four simplepipettes and a mercury burette, complete the outfit. The burette should be carefully calibrated and thecorrections may very well be etched upon it oppositethe io-cc. divisions. 3» GAS AND FUEL ANALYSIS. In working with the apparatus the pipettes are placedupon the adjustable stand 5 and connection made withthe doubly bent capillary tube. Manipulation.—To acquire facility with the use ofthe apparatus before proceeding to the analysis of</i><br>\n<b>Text Appearing After Image:</b><br>\n<i>Fig. 13.—Explosion Pipette for Mercury and Sulphuric Acid Pipette. illuminating-gas, it is well to make the following deter-minations, obtaining check readings in every case:I. Oxygen in air, by (1) absorption with phosphorus; (2) absorption with potassium (or sodium) pyrogallate; (3) by explosion with hydrogen. APPARATUS. 39 I. DETERMINATION OF OXYGEN IN AIR. (i) By Phosphorus.—100 cc. of air are measuredout as with the Orsat apparatus, the burette beingallowed to drain two minutes. The rubber connectorsupon the burette and pipette are filled with water, thecapillary tube inserted, as far as it will go, by a twist-ing motion, into the connector upon the burette, thusfilling the capillary with water; the free end of thecapillary is inserted into the pipette connector, thelatter pinched so as to form a channel for the watercontained in it to escape, and the capillary twisted andforced down to the pinch-cock. There should be aslittle free space as possible between the capillaries an</i><br>\n<br>\n<b>Note About Images</b><br>\n</p>\n<i>Please note that these images are extracted from scanned page images that may have been digitally enhanced for readability - coloration and appearance of these illustrations may not perfectly resemble the original work.</i>",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1912",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/126377022@N07\">Internet Archive Book Images</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "No restrictions",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "43496656": {
+        "pageid": 43496656,
+        "ns": 6,
+        "title": "File:Gas and fuel analysis for engineers. A compend for those interested in the economical application of fuel. Prepared especially for the use of students at the Massachusetts institute of technology (14780860174).jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2015-09-22T01:22:51Z",
+            "size": 532270,
+            "width": 1612,
+            "height": 2248,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Gas_and_fuel_analysis_for_engineers._A_compend_for_those_interested_in_the_economical_application_of_fuel._Prepared_especially_for_the_use_of_students_at_the_Massachusetts_institute_of_technology_%2814780860174%29.jpg/960px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 893,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Gas_and_fuel_analysis_for_engineers._A_compend_for_those_interested_in_the_economical_application_of_fuel._Prepared_especially_for_the_use_of_students_at_the_Massachusetts_institute_of_technology_%2814780860174%29.jpg/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Gas_and_fuel_analysis_for_engineers._A_compend_for_those_interested_in_the_economical_application_of_fuel._Prepared_especially_for_the_use_of_students_at_the_Massachusetts_institute_of_technology_%2814780860174%29.jpg/960px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 893,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Gas_and_fuel_analysis_for_engineers._A_compend_for_those_interested_in_the_economical_application_of_fuel._Prepared_especially_for_the_use_of_students_at_the_Massachusetts_institute_of_technology_%2814780860174%29.jpg/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Gas_and_fuel_analysis_for_engineers._A_compend_for_those_interested_in_the_economical_application_of_fuel._Prepared_especially_for_the_use_of_students_at_the_Massachusetts_institute_of_technology_%2814780860174%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Gas_and_fuel_analysis_for_engineers._A_compend_for_those_interested_in_the_economical_application_of_fuel._Prepared_especially_for_the_use_of_students_at_the_Massachusetts_institute_of_technology_(14780860174).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=43496656",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Gas and fuel analysis for engineers. A compend for those interested in the economical application of fuel. Prepared especially for the use of students at the Massachusetts institute of technology (14780860174)",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "<br>\n<p><b>Identifier</b>: gasfuelanal00gill (<a class=\"external text\" href=\"https://commons.wikimedia.org/w/index.php?title=Special%3ASearch&amp;profile=default&amp;fulltext=Search&amp;search=insource%3A%2Fgasfuelanal00gill%2F\">find matches</a>)<br>\n<b>Title</b>: <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/internetarchivebookimages/tags/bookidgasfuelanal00gill\">Gas and fuel analysis for engineers. A compend for those interested in the economical application of fuel. Prepared especially for the use of students at the Massachusetts institute of technology</a><br>\n<b>Year</b>: <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/internetarchivebookimages/tags/bookyear1912\">1912</a> (<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/internetarchivebookimages/tags/bookdecade1910\">1910s</a>)<br>\n<b>Authors</b>:  <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/internetarchivebookimages/tags/bookauthorGill__Augustus_H___Augustus_Herman___b__1864\">Gill, Augustus H. (Augustus Herman), b. 1864</a><br>\n<b>Subjects</b>:  <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/internetarchivebookimages/tags/booksubjectGases\">Gases</a> <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/internetarchivebookimages/tags/booksubjectFuel\">Fuel</a> <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/internetarchivebookimages/tags/booksubjectCalorimeters_and_calorimetry\">Calorimeters and calorimetry</a><br>\n<b>Publisher</b>:  <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/internetarchivebookimages/tags/bookpublisherNew_York__J__Wiley___sons\">New York, J. Wiley &amp; sons</a> <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/internetarchivebookimages/tags/bookpublisher__etc__etc__\">(etc.,etc.)</a><br>\n<b>Contributing Library</b>:  <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/internetarchivebookimages/tags/bookcontributorThe_Library_of_Congress\">The Library of Congress</a><br>\n<b>Digitizing Sponsor</b>:  <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/internetarchivebookimages/tags/booksponsorThe_Library_of_Congress\">The Library of Congress</a><br>\n<br>\n<b>View Book Page</b>: <a rel=\"nofollow\" class=\"external text\" href=\"https://archive.org/stream/gasfuelanal00gill/gasfuelanal00gill#page/n56/mode/1up\">Book Viewer</a><br>\n<b>About This Book</b>: <a rel=\"nofollow\" class=\"external text\" href=\"https://archive.org/details/gasfuelanal00gill\">Catalog Entry</a><br>\n<b>View All Images</b>: <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/internetarchivebookimages/tags/bookidgasfuelanal00gill\">All Images From Book</a><br>\nClick here to <a rel=\"nofollow\" class=\"external text\" href=\"https://archive.org/stream/gasfuelanal00gill/gasfuelanal00gill#page/n56/mode/1up\"><b>view book online</b></a> to see this illustration in context in a browseable online version of this book.<br>\n<br>\n<b>Text Appearing Before Image:</b><br>\n<i>h a rubber bag; this form, afterten years of use, can be said to satisfactorily take theplace of the cumbersome compound pipette. The pipette for fuming sulphuric acid f is shown atFy and differs from the ordinary in that vertical tubesafter the manner of those in the Orsat pipettes replacethe usual glass beads. This prevents the trapping ofany gas by the filling, which was so common with thebeads and glass wool. E represents the large explo-sion pipette,\\ of about 250 cc. capacity, with walls halfan inch thick; the explosion wires enter at the top andbottom to prevent short-circuiting; mercury is theconfining liquid. The small explosion pipette holds * Gill, Am. Chem. J., 14, 231 (1892).f Id., J. Am. Chem. Soc, 18, 67 (1896).\\ Gill, J. Am. Chem. Soc, 17, 771 (1895). 36 APPARATUS. 37 about no cc, and is of glass, the same thickness asthe simple pipettes. Water is here used as the confin-ing liquid, and also usually in the burette. An induction coil capable of giving a half-inch spark,</i><br>\n<b>Text Appearing After Image:</b><br>\n<i>Fig. 12.—Showing Hempel Burette connected with theSimple Pipette on the Stand. with a six-cell Samson battery, four simplepipettes and a mercury burette, complete the outfit. The burette should be carefully calibrated and thecorrections may very well be etched upon it oppositethe io-cc. divisions. 3» GAS AND FUEL ANALYSIS. In working with the apparatus the pipettes are placedupon the adjustable stand 5 and connection made withthe doubly bent capillary tube. Manipulation.—To acquire facility with the use ofthe apparatus before proceeding to the analysis of</i><br>\n<br>\n<b>Note About Images</b><br>\n</p>\n<i>Please note that these images are extracted from scanned page images that may have been digitally enhanced for readability - coloration and appearance of these illustrations may not perfectly resemble the original work.</i>",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1912",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/126377022@N07\">Internet Archive Book Images</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "No restrictions",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "42657658": {
+        "pageid": 42657658,
+        "ns": 6,
+        "title": "File:Gas and fuel analysis for engineers. A compend for those interested in the economical application of fuel. Prepared especially for the use of students at the Massachusetts institute of technology (14783217115).jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2015-08-26T07:30:38Z",
+            "size": 1708945,
+            "width": 2020,
+            "height": 3852,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Gas_and_fuel_analysis_for_engineers._A_compend_for_those_interested_in_the_economical_application_of_fuel._Prepared_especially_for_the_use_of_students_at_the_Massachusetts_institute_of_technology_%2814783217115%29.jpg/960px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 1220,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Gas_and_fuel_analysis_for_engineers._A_compend_for_those_interested_in_the_economical_application_of_fuel._Prepared_especially_for_the_use_of_students_at_the_Massachusetts_institute_of_technology_%2814783217115%29.jpg/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Gas_and_fuel_analysis_for_engineers._A_compend_for_those_interested_in_the_economical_application_of_fuel._Prepared_especially_for_the_use_of_students_at_the_Massachusetts_institute_of_technology_%2814783217115%29.jpg/960px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 1220,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Gas_and_fuel_analysis_for_engineers._A_compend_for_those_interested_in_the_economical_application_of_fuel._Prepared_especially_for_the_use_of_students_at_the_Massachusetts_institute_of_technology_%2814783217115%29.jpg/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Gas_and_fuel_analysis_for_engineers._A_compend_for_those_interested_in_the_economical_application_of_fuel._Prepared_especially_for_the_use_of_students_at_the_Massachusetts_institute_of_technology_%2814783217115%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Gas_and_fuel_analysis_for_engineers._A_compend_for_those_interested_in_the_economical_application_of_fuel._Prepared_especially_for_the_use_of_students_at_the_Massachusetts_institute_of_technology_(14783217115).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=42657658",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Gas and fuel analysis for engineers. A compend for those interested in the economical application of fuel. Prepared especially for the use of students at the Massachusetts institute of technology (14783217115)",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "<br>\n<p><b>Identifier</b>: gasfuelanal00gill (<a class=\"external text\" href=\"https://commons.wikimedia.org/w/index.php?title=Special%3ASearch&amp;profile=default&amp;fulltext=Search&amp;search=insource%3A%2Fgasfuelanal00gill%2F\">find matches</a>)<br>\n<b>Title</b>: <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/internetarchivebookimages/tags/bookidgasfuelanal00gill\">Gas and fuel analysis for engineers. A compend for those interested in the economical application of fuel. Prepared especially for the use of students at the Massachusetts institute of technology</a><br>\n<b>Year</b>: <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/internetarchivebookimages/tags/bookyear1912\">1912</a> (<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/internetarchivebookimages/tags/bookdecade1910\">1910s</a>)<br>\n<b>Authors</b>:  <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/internetarchivebookimages/tags/bookauthorGill__Augustus_H___Augustus_Herman___b__1864\">Gill, Augustus H. (Augustus Herman), b. 1864</a><br>\n<b>Subjects</b>:  <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/internetarchivebookimages/tags/booksubjectGases\">Gases</a> <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/internetarchivebookimages/tags/booksubjectFuel\">Fuel</a> <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/internetarchivebookimages/tags/booksubjectCalorimeters_and_calorimetry\">Calorimeters and calorimetry</a><br>\n<b>Publisher</b>:  <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/internetarchivebookimages/tags/bookpublisherNew_York__J__Wiley___sons\">New York, J. Wiley &amp; sons</a> <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/internetarchivebookimages/tags/bookpublisher__etc__etc__\">(etc.,etc.)</a><br>\n<b>Contributing Library</b>:  <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/internetarchivebookimages/tags/bookcontributorThe_Library_of_Congress\">The Library of Congress</a><br>\n<b>Digitizing Sponsor</b>:  <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/internetarchivebookimages/tags/booksponsorThe_Library_of_Congress\">The Library of Congress</a><br>\n<br>\n<b>View Book Page</b>: <a rel=\"nofollow\" class=\"external text\" href=\"https://archive.org/stream/gasfuelanal00gill/gasfuelanal00gill#page/n48/mode/1up\">Book Viewer</a><br>\n<b>About This Book</b>: <a rel=\"nofollow\" class=\"external text\" href=\"https://archive.org/details/gasfuelanal00gill\">Catalog Entry</a><br>\n<b>View All Images</b>: <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/internetarchivebookimages/tags/bookidgasfuelanal00gill\">All Images From Book</a><br>\nClick here to <a rel=\"nofollow\" class=\"external text\" href=\"https://archive.org/stream/gasfuelanal00gill/gasfuelanal00gill#page/n48/mode/1up\"><b>view book online</b></a> to see this illustration in context in a browseable online version of this book.<br>\n<br>\n<b>Text Appearing Before Image:</b><br>\n<i>X. ^-GASES FROM THE CARBONIC ACID AND THEURE. RCIENCY 60</i><br>\n<b>Text Appearing After Image:</b><br>\n<i>r loss 10 0 To face page 33, TABLE XL</i><br>\n<br>\n<b>Note About Images</b><br>\n</p>\n<i>Please note that these images are extracted from scanned page images that may have been digitally enhanced for readability - coloration and appearance of these illustrations may not perfectly resemble the original work.</i>",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1912",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Gill, Augustus H. (Augustus Herman), b. 1864",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "No restrictions",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "176610980": {
+        "pageid": 176610980,
+        "ns": 6,
+        "title": "File:Gaza protest Boston Nov 12 2023.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2025-10-12T18:15:03Z",
+            "size": 168978,
+            "width": 878,
+            "height": 658,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Gaza_protest_Boston_Nov_12_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 640,
+            "thumbheight": 480,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Gaza_protest_Boston_Nov_12_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 480
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Gaza_protest_Boston_Nov_12_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Gaza_protest_Boston_Nov_12_2023.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=176610980",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Gaza protest Boston Nov 12 2023",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Gaza protest shuts down Massachusetts Avenue bridge in Boston/Cambridge. November 12, 2023",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "11.12.2023",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Unknown author<span style=\"display: none;\">Unknown author</span>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "169492041": {
+        "pageid": 169492041,
+        "ns": 6,
+        "title": "File:Harold W. Streeter.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2025-07-08T20:05:06Z",
+            "size": 178629,
+            "width": 1168,
+            "height": 1780,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Harold_W._Streeter.jpg/960px-Harold_W._Streeter.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 975,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/9/91/Harold_W._Streeter.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Harold_W._Streeter.jpg/960px-Harold_W._Streeter.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 975,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/9/91/Harold_W._Streeter.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Harold_W._Streeter.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Harold_W._Streeter.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=169492041",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Harold W. Streeter",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Harold Warner Streeter, Sanitary Engineer",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1958-03-07",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Robert A. Taft",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "74796337": {
+        "pageid": 74796337,
+        "ns": 6,
+        "title": "File:IdeaHexagonRaskar2.png",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2018-12-02T07:36:20Z",
+            "size": 59442,
+            "width": 948,
+            "height": 802,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/2/23/IdeaHexagonRaskar2.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 640,
+            "thumbheight": 541,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/2/23/IdeaHexagonRaskar2.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 541
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/2/23/IdeaHexagonRaskar2.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:IdeaHexagonRaskar2.png",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=74796337",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "IdeaHexagonRaskar2",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Idea Hexagon framework by Ramesh Raskar depicts how to invent new ideas from a given a central idea 'X' using six formulas.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2011-06-14",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Mituser2000&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Mituser2000 (page does not exist)\">Mituser2000</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/png"
+          }
+        ]
+      },
+      "145907222": {
+        "pageid": 145907222,
+        "ns": 6,
+        "title": "File:J Michael Straczynski- The Julius Schwartz Lecture.webm",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2024-02-28T08:54:23Z",
+            "size": 393864004,
+            "width": 640,
+            "height": 360,
+            "duration": 10478.861,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/J_Michael_Straczynski-_The_Julius_Schwartz_Lecture.webm/500px--J_Michael_Straczynski-_The_Julius_Schwartz_Lecture.webm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo",
+            "thumbwidth": 640,
+            "thumbheight": 360,
+            "thumbattribs": [],
+            "url": "https://upload.wikimedia.org/wikipedia/commons/3/36/J_Michael_Straczynski-_The_Julius_Schwartz_Lecture.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:J_Michael_Straczynski-_The_Julius_Schwartz_Lecture.webm",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=145907222",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "J Michael Straczynski- The Julius Schwartz Lecture",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "The second annual Julius Schwartz Lecture brings J. Michael Straczynski, the creator of the cult science fiction hit Babylon 5. The Julius Schwartz Lecture is an annual event held to honor an individual who has made significant contributions to the culture, creativity and community of comics and popular entertainment.\n<p>The lecture is hosted by the Comparative Media Studies program at MIT and was founded to honor the memory of longtime DC Comics editor Julius “Julie” Schwartz, whose contributions to our culture include co-founding the first science fiction fanzine in 1932, the first science fiction literary agency in 1934, and the first World Science Fiction Convention in 1939. Schwartz went on to launch a career in comics that would last for well over 42 years, during which time he helped launch the Silver Age of Comics, introduced the idea of parallel universes, and had a hand in the reinvention of such characters as Batman, Superman, the Flash, Green Lantern, Hawkman and the Atom.\n</p>\nThe event is typically structured as a short lecture presented by the honored speaker, followed by a question-and-answer discussion between the speaker and the head of the Comparative Media Studies program, media scholar Henry Jenkins III. This will be followed by an open question-and-answer session between the lecturer and the audience. The inaugural speaker for the series was New York Times bestselling author Neil Gaiman.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2015-11-09",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.youtube.com/@mit_cmsw\">MIT Comparative Media Studies/Writing</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "video/webm"
+          }
+        ]
+      },
+      "68000680": {
+        "pageid": 68000680,
+        "ns": 6,
+        "title": "File:John Thompson Dorrance Laboratory, M.I.T., Cambridge, Massachusetts. LOC gsc.5a22014.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2018-04-04T03:28:20Z",
+            "size": 16164,
+            "width": 340,
+            "height": 420,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/3/37/John_Thompson_Dorrance_Laboratory%2C_M.I.T.%2C_Cambridge%2C_Massachusetts._LOC_gsc.5a22014.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 640,
+            "thumbheight": 791,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/3/37/John_Thompson_Dorrance_Laboratory%2C_M.I.T.%2C_Cambridge%2C_Massachusetts._LOC_gsc.5a22014.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 791
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/3/37/John_Thompson_Dorrance_Laboratory%2C_M.I.T.%2C_Cambridge%2C_Massachusetts._LOC_gsc.5a22014.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:John_Thompson_Dorrance_Laboratory,_M.I.T.,_Cambridge,_Massachusetts._LOC_gsc.5a22014.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=68000680",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "John Thompson Dorrance Laboratory, M.I.T., Cambridge, Massachusetts. LOC gsc.5a22014",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "<i>Title:</i> John Thompson Dorrance Laboratory, M.I.T., Cambridge, Massachusetts.\n<p><i>Abstract/medium:</i> Gottscho-Schleisner Collection (Library of Congress)\n</p>\n<i>Physical description:</i> 1 negative :",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1953",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Gottscho-Schleisner Collection",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "156335374": {
+        "pageid": 156335374,
+        "ns": 6,
+        "title": "File:Labeled SoFi fish.png",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2024-12-06T02:58:16Z",
+            "size": 169780,
+            "width": 1412,
+            "height": 1031,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Labeled_SoFi_fish.png/960px-Labeled_SoFi_fish.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 467,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Labeled_SoFi_fish.png/1280px-Labeled_SoFi_fish.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Labeled_SoFi_fish.png/960px-Labeled_SoFi_fish.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 467,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Labeled_SoFi_fish.png/1280px-Labeled_SoFi_fish.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Labeled_SoFi_fish.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Labeled_SoFi_fish.png",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=156335374",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Labeled SoFi fish",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "A detailed illustration of the SoFi fish by MIT, shadows are cross-patched, with the different parts labeled. Credits to MIT.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2024-12-05",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Informationappeared&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Informationappeared (page does not exist)\">Informationappeared</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/png"
+          }
+        ]
+      },
+      "91173340": {
+        "pageid": 91173340,
+        "ns": 6,
+        "title": "File:Les-2.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2020-06-13T14:51:31Z",
+            "size": 55366,
+            "width": 310,
+            "height": 337,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Les-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 640,
+            "thumbheight": 696,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Les-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 696
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Les-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Les-2.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=91173340",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Les-2",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Lincoln Experimental Satellite (LES) 2 prior to launch at Lincoln Laboratories in Massachusetts",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1965-01-01",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Lincoln Laboratories (a DOD-funded R&amp;D center)",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "107462511": {
+        "pageid": 107462511,
+        "ns": 6,
+        "title": "File:Lights on a tree on the MIT campus (51306067552).jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2021-07-12T17:07:15Z",
+            "size": 11282373,
+            "width": 6240,
+            "height": 4160,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Lights_on_a_tree_on_the_MIT_campus_%2851306067552%29.jpg/960px-Lights_on_a_tree_on_the_MIT_campus_%2851306067552%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 427,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Lights_on_a_tree_on_the_MIT_campus_%2851306067552%29.jpg/1280px-Lights_on_a_tree_on_the_MIT_campus_%2851306067552%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Lights_on_a_tree_on_the_MIT_campus_%2851306067552%29.jpg/960px-Lights_on_a_tree_on_the_MIT_campus_%2851306067552%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 427,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Lights_on_a_tree_on_the_MIT_campus_%2851306067552%29.jpg/1280px-Lights_on_a_tree_on_the_MIT_campus_%2851306067552%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Lights_on_a_tree_on_the_MIT_campus_%2851306067552%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Lights_on_a_tree_on_the_MIT_campus_(51306067552).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=107462511",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Lights on a tree on the MIT campus (51306067552)",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "In Cambridge, MA",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2020-12-19 18:39",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/193316968@N06\">Chris Rycroft</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "107462517": {
+        "pageid": 107462517,
+        "ns": 6,
+        "title": "File:Lights on a tree on the MIT campusDSCF5010 (51306067842).jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2021-07-12T17:07:19Z",
+            "size": 9921371,
+            "width": 6171,
+            "height": 4114,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Lights_on_a_tree_on_the_MIT_campusDSCF5010_%2851306067842%29.jpg/960px-Lights_on_a_tree_on_the_MIT_campusDSCF5010_%2851306067842%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 427,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Lights_on_a_tree_on_the_MIT_campusDSCF5010_%2851306067842%29.jpg/1280px-Lights_on_a_tree_on_the_MIT_campusDSCF5010_%2851306067842%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Lights_on_a_tree_on_the_MIT_campusDSCF5010_%2851306067842%29.jpg/960px-Lights_on_a_tree_on_the_MIT_campusDSCF5010_%2851306067842%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 427,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Lights_on_a_tree_on_the_MIT_campusDSCF5010_%2851306067842%29.jpg/1280px-Lights_on_a_tree_on_the_MIT_campusDSCF5010_%2851306067842%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Lights_on_a_tree_on_the_MIT_campusDSCF5010_%2851306067842%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Lights_on_a_tree_on_the_MIT_campusDSCF5010_(51306067842).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=107462517",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Lights on a tree on the MIT campusDSCF5010 (51306067842)",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "v",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2020-12-19 18:38",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/193316968@N06\">Chris Rycroft</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "159391240": {
+        "pageid": 159391240,
+        "ns": 6,
+        "title": "File:LockheedKills.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2025-02-09T01:45:57Z",
+            "size": 80374,
+            "width": 1378,
+            "height": 546,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/LockheedKills.jpg/960px-LockheedKills.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 254,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/LockheedKills.jpg/1280px-LockheedKills.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/LockheedKills.jpg/960px-LockheedKills.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 254,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/LockheedKills.jpg/1280px-LockheedKills.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/LockheedKills.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:LockheedKills.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=159391240",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "LockheedKills",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "MIT hackers roll out sign above 2024 fall career fair, protesting Lockheed Martin and Gaza Genocide, September 20, 2024.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2024-09-20",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Teenytim&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Teenytim (page does not exist)\">Teenytim</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "159391655": {
+        "pageid": 159391655,
+        "ns": 6,
+        "title": "File:LockheedKills2.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2025-02-09T02:00:38Z",
+            "size": 26299,
+            "width": 576,
+            "height": 298,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/c/c3/LockheedKills2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 640,
+            "thumbheight": 331,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/c/c3/LockheedKills2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 331
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/LockheedKills2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:LockheedKills2.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=159391655",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "LockheedKills2",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Sign above MIT fall career fair, protesting Lockheed Martin, September 20, 2024",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2024-09-20",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Teenytim&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Teenytim (page does not exist)\">Teenytim</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "24266723": {
+        "pageid": 24266723,
+        "ns": 6,
+        "title": "File:Massachusetts Institute of Technology (7200951446).jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2013-01-27T15:58:58Z",
+            "size": 265696,
+            "width": 1600,
+            "height": 1222,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Massachusetts_Institute_of_Technology_%287200951446%29.jpg/960px-Massachusetts_Institute_of_Technology_%287200951446%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 489,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Massachusetts_Institute_of_Technology_%287200951446%29.jpg/1280px-Massachusetts_Institute_of_Technology_%287200951446%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Massachusetts_Institute_of_Technology_%287200951446%29.jpg/960px-Massachusetts_Institute_of_Technology_%287200951446%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 489,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Massachusetts_Institute_of_Technology_%287200951446%29.jpg/1280px-Massachusetts_Institute_of_Technology_%287200951446%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Massachusetts_Institute_of_Technology_%287200951446%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Massachusetts_Institute_of_Technology_(7200951446).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=24266723",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Massachusetts Institute of Technology (7200951446)",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Sign for the Mechanical Engineering Department at MIT",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2012-05-04 15:15",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/56619626@N05\">InSapphoWeTrust</a> from Los Angeles, California, USA",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "160496778": {
+        "pageid": 160496778,
+        "ns": 6,
+        "title": "File:Massachusetts Institute of Technology Lincoln Laboratory to Collaborate with IMCOM-Pacific on Summer 2021 Institute (6366388).jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2025-02-24T19:17:20Z",
+            "size": 671524,
+            "width": 2020,
+            "height": 1264,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Massachusetts_Institute_of_Technology_Lincoln_Laboratory_to_Collaborate_with_IMCOM-Pacific_on_Summer_2021_Institute_%286366388%29.jpg/960px-Massachusetts_Institute_of_Technology_Lincoln_Laboratory_to_Collaborate_with_IMCOM-Pacific_on_Summer_2021_Institute_%286366388%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 400,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Massachusetts_Institute_of_Technology_Lincoln_Laboratory_to_Collaborate_with_IMCOM-Pacific_on_Summer_2021_Institute_%286366388%29.jpg/1280px-Massachusetts_Institute_of_Technology_Lincoln_Laboratory_to_Collaborate_with_IMCOM-Pacific_on_Summer_2021_Institute_%286366388%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Massachusetts_Institute_of_Technology_Lincoln_Laboratory_to_Collaborate_with_IMCOM-Pacific_on_Summer_2021_Institute_%286366388%29.jpg/960px-Massachusetts_Institute_of_Technology_Lincoln_Laboratory_to_Collaborate_with_IMCOM-Pacific_on_Summer_2021_Institute_%286366388%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 400,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Massachusetts_Institute_of_Technology_Lincoln_Laboratory_to_Collaborate_with_IMCOM-Pacific_on_Summer_2021_Institute_%286366388%29.jpg/1280px-Massachusetts_Institute_of_Technology_Lincoln_Laboratory_to_Collaborate_with_IMCOM-Pacific_on_Summer_2021_Institute_%286366388%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Massachusetts_Institute_of_Technology_Lincoln_Laboratory_to_Collaborate_with_IMCOM-Pacific_on_Summer_2021_Institute_%286366388%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Massachusetts_Institute_of_Technology_Lincoln_Laboratory_to_Collaborate_with_IMCOM-Pacific_on_Summer_2021_Institute_(6366388).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=160496778",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Massachusetts Institute of Technology Lincoln Laboratory to Collaborate with IMCOM-Pacific on Summer 2021 Institute (6366388)",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Julia Sholar, left, a Massachusetts Institute of Technology Lincoln Laboratory Beaver Works Summer Institute program participant, shares her team project with parents and friends during the BWSI poster session, Aug. 2, 2020, on U.S. Army Garrison-Kwajalein Atoll. (U.S. Army photo by Jessica Dambruch)",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "Taken on 2 August 2020",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "U.S. Army photo by <a rel=\"nofollow\" class=\"external text\" href=\"https://www.dvidshub.net/portfolio/1654160\">Jessica Dambruch</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "160496790": {
+        "pageid": 160496790,
+        "ns": 6,
+        "title": "File:Massachusetts Institute of Technology Lincoln Laboratory to Collaborate with IMCOM-Pacific on Summer 2021 Institute (6366390).jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2025-02-24T19:17:28Z",
+            "size": 1012339,
+            "width": 1916,
+            "height": 1308,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Massachusetts_Institute_of_Technology_Lincoln_Laboratory_to_Collaborate_with_IMCOM-Pacific_on_Summer_2021_Institute_%286366390%29.jpg/960px-Massachusetts_Institute_of_Technology_Lincoln_Laboratory_to_Collaborate_with_IMCOM-Pacific_on_Summer_2021_Institute_%286366390%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 437,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Massachusetts_Institute_of_Technology_Lincoln_Laboratory_to_Collaborate_with_IMCOM-Pacific_on_Summer_2021_Institute_%286366390%29.jpg/1280px-Massachusetts_Institute_of_Technology_Lincoln_Laboratory_to_Collaborate_with_IMCOM-Pacific_on_Summer_2021_Institute_%286366390%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Massachusetts_Institute_of_Technology_Lincoln_Laboratory_to_Collaborate_with_IMCOM-Pacific_on_Summer_2021_Institute_%286366390%29.jpg/960px-Massachusetts_Institute_of_Technology_Lincoln_Laboratory_to_Collaborate_with_IMCOM-Pacific_on_Summer_2021_Institute_%286366390%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 437,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Massachusetts_Institute_of_Technology_Lincoln_Laboratory_to_Collaborate_with_IMCOM-Pacific_on_Summer_2021_Institute_%286366390%29.jpg/1280px-Massachusetts_Institute_of_Technology_Lincoln_Laboratory_to_Collaborate_with_IMCOM-Pacific_on_Summer_2021_Institute_%286366390%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Massachusetts_Institute_of_Technology_Lincoln_Laboratory_to_Collaborate_with_IMCOM-Pacific_on_Summer_2021_Institute_%286366390%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Massachusetts_Institute_of_Technology_Lincoln_Laboratory_to_Collaborate_with_IMCOM-Pacific_on_Summer_2021_Institute_(6366390).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=160496790",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Massachusetts Institute of Technology Lincoln Laboratory to Collaborate with IMCOM-Pacific on Summer 2021 Institute (6366390)",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Scott Hill, left, and Carrie Aljure, center, check out a game with assistance from Massachusetts Institute of Technology Lincoln Laboratory Beaver Works Summer Institute program attendee Crimson Stambaugh, Aug. 2, 2020, on U.S. Army Garrison-Kwajalein Atoll. (U.S. Army photo by Jessica Dambruch)",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "Taken on 2 August 2020",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "U.S. Army photo by <a rel=\"nofollow\" class=\"external text\" href=\"https://www.dvidshub.net/portfolio/1654160\">Jessica Dambruch</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "73864774": {
+        "pageid": 73864774,
+        "ns": 6,
+        "title": "File:Massachusetts Institute of Technology Military Science bookplate.png",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2018-10-25T15:13:25Z",
+            "size": 33267,
+            "width": 352,
+            "height": 418,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/5/53/Massachusetts_Institute_of_Technology_Military_Science_bookplate.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 640,
+            "thumbheight": 760,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/5/53/Massachusetts_Institute_of_Technology_Military_Science_bookplate.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 760
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/5/53/Massachusetts_Institute_of_Technology_Military_Science_bookplate.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Massachusetts_Institute_of_Technology_Military_Science_bookplate.png",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=73864774",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Massachusetts Institute of Technology Military Science bookplate",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "\"Bookplate of the Department of Military Science, showing a modified form of the seal of the institute.\"",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1915-01-01",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Harry Parker Ward",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/png"
+          }
+        ]
+      },
+      "66283540": {
+        "pageid": 66283540,
+        "ns": 6,
+        "title": "File:Massachusetts Institute of Technology School of Engineering. Graduate Study in Energy Processing and Utilization. LCCN2015646118.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2018-08-06T12:23:44Z",
+            "size": 4555096,
+            "width": 4692,
+            "height": 9652,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Massachusetts_Institute_of_Technology_School_of_Engineering._Graduate_Study_in_Energy_Processing_and_Utilization._LCCN2015646118.jpg/960px-Massachusetts_Institute_of_Technology_School_of_Engineering._Graduate_Study_in_Energy_Processing_and_Utilization._LCCN2015646118.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 1317,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Massachusetts_Institute_of_Technology_School_of_Engineering._Graduate_Study_in_Energy_Processing_and_Utilization._LCCN2015646118.jpg/1280px-Massachusetts_Institute_of_Technology_School_of_Engineering._Graduate_Study_in_Energy_Processing_and_Utilization._LCCN2015646118.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Massachusetts_Institute_of_Technology_School_of_Engineering._Graduate_Study_in_Energy_Processing_and_Utilization._LCCN2015646118.jpg/960px-Massachusetts_Institute_of_Technology_School_of_Engineering._Graduate_Study_in_Energy_Processing_and_Utilization._LCCN2015646118.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 1317,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Massachusetts_Institute_of_Technology_School_of_Engineering._Graduate_Study_in_Energy_Processing_and_Utilization._LCCN2015646118.jpg/1280px-Massachusetts_Institute_of_Technology_School_of_Engineering._Graduate_Study_in_Energy_Processing_and_Utilization._LCCN2015646118.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Massachusetts_Institute_of_Technology_School_of_Engineering._Graduate_Study_in_Energy_Processing_and_Utilization._LCCN2015646118.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Massachusetts_Institute_of_Technology_School_of_Engineering._Graduate_Study_in_Energy_Processing_and_Utilization._LCCN2015646118.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=66283540",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Massachusetts Institute of Technology School of Engineering. Graduate Study in Energy Processing and Utilization. LCCN2015646118",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "<i>Title:</i> Massachusetts Institute of Technology School of Engineering. Graduate Study in Energy Processing and Utilization.\n<i>Abstract/medium:</i> 1 print : color ; sheet 60 x 28 cm (poster format)",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1967",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Winkler, Dietmar R., artist",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "73865025": {
+        "pageid": 73865025,
+        "ns": 6,
+        "title": "File:Massachusetts Institute of Technology Technology Club bookplate.png",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2018-10-25T15:31:39Z",
+            "size": 80367,
+            "width": 480,
+            "height": 321,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/8/81/Massachusetts_Institute_of_Technology_Technology_Club_bookplate.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 640,
+            "thumbheight": 428,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/8/81/Massachusetts_Institute_of_Technology_Technology_Club_bookplate.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 428
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/8/81/Massachusetts_Institute_of_Technology_Technology_Club_bookplate.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Massachusetts_Institute_of_Technology_Technology_Club_bookplate.png",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=73865025",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Massachusetts Institute of Technology Technology Club bookplate",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "This bookplate \"is taken from the seal of the Institute, but in a modified form which was never officially adopted.  The supporters of the altar of learning are taking a rest from their official position, and are seen at their ease in the Morris chairs which form a delightful feature of the club.\"",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1915-01-01",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Harry Parker Ward",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/png"
+          }
+        ]
+      },
+      "73864862": {
+        "pageid": 73864862,
+        "ns": 6,
+        "title": "File:Massachusetts Institute of Technology Walker Library bookplate.png",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2018-10-25T15:20:16Z",
+            "size": 68967,
+            "width": 321,
+            "height": 431,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Massachusetts_Institute_of_Technology_Walker_Library_bookplate.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 640,
+            "thumbheight": 859,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Massachusetts_Institute_of_Technology_Walker_Library_bookplate.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 859
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Massachusetts_Institute_of_Technology_Walker_Library_bookplate.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Massachusetts_Institute_of_Technology_Walker_Library_bookplate.png",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=73864862",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Massachusetts Institute of Technology Walker Library bookplate",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "These books on economics \"belonged to the late General Francis A. Walker, who was president of MIT from 1881 until his death in 1897.\"",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1915-01-01",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Harry Parker Ward",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/png"
+          }
+        ]
+      },
+      "179190235": {
+        "pageid": 179190235,
+        "ns": 6,
+        "title": "File:Massachusetts-Institute-Technology-poster-talk-Gunnar-Klack.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2025-11-30T12:27:21Z",
+            "size": 665909,
+            "width": 1346,
+            "height": 1865,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Massachusetts-Institute-Technology-poster-talk-Gunnar-Klack.jpg/960px-Massachusetts-Institute-Technology-poster-talk-Gunnar-Klack.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 887,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Massachusetts-Institute-Technology-poster-talk-Gunnar-Klack.jpg/1280px-Massachusetts-Institute-Technology-poster-talk-Gunnar-Klack.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Massachusetts-Institute-Technology-poster-talk-Gunnar-Klack.jpg/960px-Massachusetts-Institute-Technology-poster-talk-Gunnar-Klack.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 887,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Massachusetts-Institute-Technology-poster-talk-Gunnar-Klack.jpg/1280px-Massachusetts-Institute-Technology-poster-talk-Gunnar-Klack.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Massachusetts-Institute-Technology-poster-talk-Gunnar-Klack.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Massachusetts-Institute-Technology-poster-talk-Gunnar-Klack.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=179190235",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Massachusetts-Institute-Technology-poster-talk-Gunnar-Klack",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Massachusetts Institute of Technology Plakat. Massachusetts Institute of Technology Plakat. Das Foto von der Berliner Mauer auf dem Plakat stammt von Tom Godber auf Flickr. Es wurde damals auf Flickr mit Creative-Commons-Lizenz hochgeladen. Heute ist das Originalbild nicht mehr online.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2014-04-07",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Kristof_Magnusson\" title=\"User:Kristof Magnusson\">Kristof Magnusson</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "93356184": {
+        "pageid": 93356184,
+        "ns": 6,
+        "title": "File:Massachusetts institute of technology (IA massachusettsins01mass).pdf",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2020-08-21T03:43:44Z",
+            "size": 908724,
+            "width": 1208,
+            "height": 1983,
+            "pagecount": 24,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Massachusetts_institute_of_technology_%28IA_massachusettsins01mass%29.pdf/page1-960px-Massachusetts_institute_of_technology_%28IA_massachusettsins01mass%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 1051,
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Massachusetts_institute_of_technology_%28IA_massachusettsins01mass%29.pdf/page1-960px-Massachusetts_institute_of_technology_%28IA_massachusettsins01mass%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 1051
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Massachusetts_institute_of_technology_%28IA_massachusettsins01mass%29.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Massachusetts_institute_of_technology_(IA_massachusettsins01mass).pdf",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=93356184",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "<div class=\"fn\">\nMassachusetts institute of technology</div>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<div class=\"fn value\">\nMassachusetts institute of technology. Society of arts</div>",
+                "source": "commons-desc-page"
+              },
+              "ImageDescription": {
+                "value": "<div class=\"description\">\nSubjects:</div>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "application/pdf"
+          }
+        ]
+      },
+      "56929239": {
+        "pageid": 56929239,
+        "ns": 6,
+        "title": "File:Mathematics for Computer Science by Eric Lehman, F. Thomson Leighton, and Albert R. Meyer.pdf",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2017-03-09T05:19:50Z",
+            "size": 13455977,
+            "width": 1275,
+            "height": 1650,
+            "pagecount": 987,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Mathematics_for_Computer_Science_by_Eric_Lehman%2C_F._Thomson_Leighton%2C_and_Albert_R._Meyer.pdf/page1-960px-Mathematics_for_Computer_Science_by_Eric_Lehman%2C_F._Thomson_Leighton%2C_and_Albert_R._Meyer.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 828,
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Mathematics_for_Computer_Science_by_Eric_Lehman%2C_F._Thomson_Leighton%2C_and_Albert_R._Meyer.pdf/page1-960px-Mathematics_for_Computer_Science_by_Eric_Lehman%2C_F._Thomson_Leighton%2C_and_Albert_R._Meyer.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 828
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Mathematics_for_Computer_Science_by_Eric_Lehman%2C_F._Thomson_Leighton%2C_and_Albert_R._Meyer.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Mathematics_for_Computer_Science_by_Eric_Lehman,_F._Thomson_Leighton,_and_Albert_R._Meyer.pdf",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=56929239",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Mathematics for Computer Science by Eric Lehman, F. Thomson Leighton, and Albert R. Meyer",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "2017 textbook for the MIT course <a rel=\"nofollow\" class=\"external text\" href=\"https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/index.htm\">Mathematics for Computer Science</a>",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2017-03-07",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Eric Lehman, F. Thomson Leighton, and Albert R. Meyer",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "application/pdf"
+          }
+        ]
+      },
+      "42924451": {
+        "pageid": 42924451,
+        "ns": 6,
+        "title": "File:MBTA route 68 bus on Amherst Street (1), September 2015.JPG",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2015-09-05T19:15:09Z",
+            "size": 3786939,
+            "width": 4320,
+            "height": 3240,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/MBTA_route_68_bus_on_Amherst_Street_%281%29%2C_September_2015.JPG/960px-MBTA_route_68_bus_on_Amherst_Street_%281%29%2C_September_2015.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 480,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/MBTA_route_68_bus_on_Amherst_Street_%281%29%2C_September_2015.JPG/1280px-MBTA_route_68_bus_on_Amherst_Street_%281%29%2C_September_2015.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/MBTA_route_68_bus_on_Amherst_Street_%281%29%2C_September_2015.JPG/960px-MBTA_route_68_bus_on_Amherst_Street_%281%29%2C_September_2015.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 480,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/MBTA_route_68_bus_on_Amherst_Street_%281%29%2C_September_2015.JPG/1280px-MBTA_route_68_bus_on_Amherst_Street_%281%29%2C_September_2015.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/MBTA_route_68_bus_on_Amherst_Street_%281%29%2C_September_2015.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:MBTA_route_68_bus_on_Amherst_Street_(1),_September_2015.JPG",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=42924451",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "MBTA route 68 bus on Amherst Street (1), September 2015",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "A #68 bus on Amherst Street in MIT's East Campus in September 2015. MBTA buses do not normally travel on this street; it was detoured because of construction at the Kendall/MIT station busway.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2015-09-03",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Pi.1415926535\" title=\"User:Pi.1415926535\">Pi.1415926535</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "95979824": {
+        "pageid": 95979824,
+        "ns": 6,
+        "title": "File:Mini-Brains (42329302011).jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2020-11-10T10:40:58Z",
+            "size": 208138,
+            "width": 450,
+            "height": 449,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/1/17/Mini-Brains_%2842329302011%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 640,
+            "thumbheight": 639,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/1/17/Mini-Brains_%2842329302011%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 639
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/1/17/Mini-Brains_%2842329302011%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Mini-Brains_(42329302011).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=95979824",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Mini-Brains (42329302011)",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "<p>Growing mini-brains in a dish\n</p>\nCredit: Collin Edington and Iris Lee, Department of Biomedical Engineering, MIT",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2018-05-24 16:23",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/64860478@N05\">National Center for Advancing Translational Sciences</a> from Bethesda, MD",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "83971905": {
+        "pageid": 83971905,
+        "ns": 6,
+        "title": "File:MIT African Student Association..jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2019-11-15T00:09:02Z",
+            "size": 4313166,
+            "width": 3456,
+            "height": 4608,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/MIT_African_Student_Association..jpg/960px-MIT_African_Student_Association..jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 853,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/MIT_African_Student_Association..jpg/1280px-MIT_African_Student_Association..jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/MIT_African_Student_Association..jpg/960px-MIT_African_Student_Association..jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 853,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/MIT_African_Student_Association..jpg/1280px-MIT_African_Student_Association..jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/MIT_African_Student_Association..jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:MIT_African_Student_Association..jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=83971905",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "MIT African Student Association.",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "photo by Linda Fletcher.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "11/09/2019 (according to <span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Exif\" class=\"extiw\" title=\"en:Exif\">Exif</a></span> data)",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Adjoajo\" title=\"User:Adjoajo\">adjoajo</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "83972233": {
+        "pageid": 83972233,
+        "ns": 6,
+        "title": "File:MIT African Student Association.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2019-11-15T00:23:11Z",
+            "size": 3489125,
+            "width": 3456,
+            "height": 4608,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/MIT_African_Student_Association.jpg/960px-MIT_African_Student_Association.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 853,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/MIT_African_Student_Association.jpg/1280px-MIT_African_Student_Association.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/MIT_African_Student_Association.jpg/960px-MIT_African_Student_Association.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 853,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/MIT_African_Student_Association.jpg/1280px-MIT_African_Student_Association.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/MIT_African_Student_Association.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:MIT_African_Student_Association.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=83972233",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "MIT African Student Association",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "photo by Linda Fletcher.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "11/09/2019 (according to <span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Exif\" class=\"extiw\" title=\"en:Exif\">Exif</a></span> data)",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Adjoajo\" title=\"User:Adjoajo\">adjoajo</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "173319386": {
+        "pageid": 173319386,
+        "ns": 6,
+        "title": "File:MIT Campus Map.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2025-08-22T20:06:11Z",
+            "size": 2143980,
+            "width": 4080,
+            "height": 2296,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/MIT_Campus_Map.jpg/960px-MIT_Campus_Map.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 360,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/MIT_Campus_Map.jpg/1280px-MIT_Campus_Map.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/MIT_Campus_Map.jpg/960px-MIT_Campus_Map.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 360,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/MIT_Campus_Map.jpg/1280px-MIT_Campus_Map.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/9/92/MIT_Campus_Map.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:MIT_Campus_Map.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=173319386",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "MIT Campus Map",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Mapa de vista del Massachusetts Institute of Technology",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2025-06-23",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:EstherWikipedian\" title=\"User:EstherWikipedian\">EstherWikipedian</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "106643625": {
+        "pageid": 106643625,
+        "ns": 6,
+        "title": "File:MIT corner building (121899367).jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2021-06-16T14:16:38Z",
+            "size": 63367,
+            "width": 431,
+            "height": 575,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/0/01/MIT_corner_building_%28121899367%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 640,
+            "thumbheight": 854,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/0/01/MIT_corner_building_%28121899367%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 854
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/MIT_corner_building_%28121899367%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:MIT_corner_building_(121899367).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=106643625",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "MIT corner building (121899367)",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Picture of arty things in massachusetts. Originally posted here: &lt;a href=\"<a rel=\"nofollow\" class=\"external free\" href=\"http://www.istolethe.tv/blahblahblah/2005/07/but-is-it-aht.html\">http://www.istolethe.tv/blahblahblah/2005/07/but-is-it-aht.html</a>\"&gt;www.istolethe.tv/blahblahblah/2005/07/but-is-it-aht.html&lt;/a&gt;",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2005-07-02 15:39",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/44124401641@N01\">istolethetv</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "25393975": {
+        "pageid": 25393975,
+        "ns": 6,
+        "title": "File:MIT Data conf1 2012-07-18.JPG",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2014-08-01T17:00:27Z",
+            "size": 1369275,
+            "width": 1936,
+            "height": 2592,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/MIT_Data_conf1_2012-07-18.JPG/960px-MIT_Data_conf1_2012-07-18.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 857,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/MIT_Data_conf1_2012-07-18.JPG/1280px-MIT_Data_conf1_2012-07-18.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/MIT_Data_conf1_2012-07-18.JPG/960px-MIT_Data_conf1_2012-07-18.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 857,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/MIT_Data_conf1_2012-07-18.JPG/1280px-MIT_Data_conf1_2012-07-18.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/9/94/MIT_Data_conf1_2012-07-18.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:MIT_Data_conf1_2012-07-18.JPG",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=25393975",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "MIT Data conf1 2012-07-18",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Chief Data Officer Forum @ MIT",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2012-07-17 13:16:17",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:PeterDandy\" title=\"User:PeterDandy\">PeterDandy</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "25393976": {
+        "pageid": 25393976,
+        "ns": 6,
+        "title": "File:MIT data conf2 2012-07-18.JPG",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2013-04-01T15:07:50Z",
+            "size": 2111091,
+            "width": 2592,
+            "height": 1936,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/MIT_data_conf2_2012-07-18.JPG/960px-MIT_data_conf2_2012-07-18.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 478,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/MIT_data_conf2_2012-07-18.JPG/1280px-MIT_data_conf2_2012-07-18.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/MIT_data_conf2_2012-07-18.JPG/960px-MIT_data_conf2_2012-07-18.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 478,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/MIT_data_conf2_2012-07-18.JPG/1280px-MIT_data_conf2_2012-07-18.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/MIT_data_conf2_2012-07-18.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:MIT_data_conf2_2012-07-18.JPG",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=25393976",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "MIT data conf2 2012-07-18",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Chief Data Officer Forum @ MIT",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2012-07-17 10:53:48",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:PeterDandy\" title=\"User:PeterDandy\">PeterDandy</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "170816939": {
+        "pageid": 170816939,
+        "ns": 6,
+        "title": "File:MIT doesnt do Windows.png",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2025-07-27T20:12:29Z",
+            "size": 2563261,
+            "width": 1734,
+            "height": 1048,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/MIT_doesnt_do_Windows.png/960px-MIT_doesnt_do_Windows.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 387,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/MIT_doesnt_do_Windows.png/1280px-MIT_doesnt_do_Windows.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/MIT_doesnt_do_Windows.png/960px-MIT_doesnt_do_Windows.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 387,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/MIT_doesnt_do_Windows.png/1280px-MIT_doesnt_do_Windows.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/MIT_doesnt_do_Windows.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:MIT_doesnt_do_Windows.png",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=170816939",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "MIT doesnt do Windows",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Protest Banner by MIT Hackers on Stratton Student Center (stud) protests Microsoft, 1996 (cited in Peterson. 2011. Nightwork, Updated Edition: A History of Hacks and Pranks at MIT. MIT Press. page 127)",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1996",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Unknown author<span style=\"display: none;\">Unknown author</span>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/png"
+          }
+        ]
+      },
+      "69873029": {
+        "pageid": 69873029,
+        "ns": 6,
+        "title": "File:MIT EarlyYears-233a.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2018-06-11T18:40:36Z",
+            "size": 1818131,
+            "width": 8104,
+            "height": 1360,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/MIT_EarlyYears-233a.jpg/960px-MIT_EarlyYears-233a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 107,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/MIT_EarlyYears-233a.jpg/1280px-MIT_EarlyYears-233a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/MIT_EarlyYears-233a.jpg/960px-MIT_EarlyYears-233a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 107,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/MIT_EarlyYears-233a.jpg/1280px-MIT_EarlyYears-233a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/MIT_EarlyYears-233a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:MIT_EarlyYears-233a.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=69873029",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "MIT EarlyYears-233a",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "First MEG trace",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2018-06-11",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Sherrykhan78&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Sherrykhan78 (page does not exist)\">Sherrykhan78</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "69873131": {
+        "pageid": 69873131,
+        "ns": 6,
+        "title": "File:MIT EarlyYEARS-261 croped.tif",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2018-06-11T18:46:58Z",
+            "size": 559206,
+            "width": 531,
+            "height": 624,
+            "pagecount": 1,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/MIT_EarlyYEARS-261_croped.tif/lossless-page1-500px-MIT_EarlyYEARS-261_croped.tif.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 752,
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/MIT_EarlyYEARS-261_croped.tif/lossless-page1-500px-MIT_EarlyYEARS-261_croped.tif.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 752
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/MIT_EarlyYEARS-261_croped.tif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:MIT_EarlyYEARS-261_croped.tif",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=69873131",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "MIT EarlyYEARS-261 croped",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Dr. Cohen's Shielded room",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2018-06-11",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Sherrykhan78&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Sherrykhan78 (page does not exist)\">Sherrykhan78</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/tiff"
+          }
+        ]
+      },
+      "170822291": {
+        "pageid": 170822291,
+        "ns": 6,
+        "title": "File:MIT Emma Rogers Hack Display.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2025-07-27T22:17:36Z",
+            "size": 259611,
+            "width": 2048,
+            "height": 1153,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/MIT_Emma_Rogers_Hack_Display.jpg/960px-MIT_Emma_Rogers_Hack_Display.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 360,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/MIT_Emma_Rogers_Hack_Display.jpg/1280px-MIT_Emma_Rogers_Hack_Display.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/MIT_Emma_Rogers_Hack_Display.jpg/960px-MIT_Emma_Rogers_Hack_Display.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 360,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/MIT_Emma_Rogers_Hack_Display.jpg/1280px-MIT_Emma_Rogers_Hack_Display.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/6/69/MIT_Emma_Rogers_Hack_Display.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:MIT_Emma_Rogers_Hack_Display.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=170822291",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "MIT Emma Rogers Hack Display",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "MIT \"Ethical Scientists\" Hacker Display in frame of Emma Savage Rogers painting in MIT Building 10, replaced with memorial to Yaqeen Hammad and Isabella Gibbons, May 24, 2025.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2025-05-25",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Unknown author<span style=\"display: none;\">Unknown author</span>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "61798362": {
+        "pageid": 61798362,
+        "ns": 6,
+        "title": "File:MIT EmTech 2016 Heather Bowerman.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2017-08-19T22:24:34Z",
+            "size": 813663,
+            "width": 1080,
+            "height": 911,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/MIT_EmTech_2016_Heather_Bowerman.jpg/960px-MIT_EmTech_2016_Heather_Bowerman.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 540,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/0/05/MIT_EmTech_2016_Heather_Bowerman.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/MIT_EmTech_2016_Heather_Bowerman.jpg/960px-MIT_EmTech_2016_Heather_Bowerman.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 540,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/0/05/MIT_EmTech_2016_Heather_Bowerman.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/0/05/MIT_EmTech_2016_Heather_Bowerman.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:MIT_EmTech_2016_Heather_Bowerman.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=61798362",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "MIT EmTech 2016 Heather Bowerman",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Heather Bowerman at MIT EmTech 2016, MIT Media Lab, Cambridge, MA, United States",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2016-10-18",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "EmTech MIT 2016",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "90781769": {
+        "pageid": 90781769,
+        "ns": 6,
+        "title": "File:MIT ESP Splash 2018 Lecture Class.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2020-05-30T04:47:22Z",
+            "size": 1475000,
+            "width": 2560,
+            "height": 1920,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/MIT_ESP_Splash_2018_Lecture_Class.jpg/960px-MIT_ESP_Splash_2018_Lecture_Class.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 480,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/MIT_ESP_Splash_2018_Lecture_Class.jpg/1280px-MIT_ESP_Splash_2018_Lecture_Class.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/MIT_ESP_Splash_2018_Lecture_Class.jpg/960px-MIT_ESP_Splash_2018_Lecture_Class.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 480,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/MIT_ESP_Splash_2018_Lecture_Class.jpg/1280px-MIT_ESP_Splash_2018_Lecture_Class.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/MIT_ESP_Splash_2018_Lecture_Class.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:MIT_ESP_Splash_2018_Lecture_Class.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=90781769",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "MIT ESP Splash 2018 Lecture Class",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Christian Ferko and Colin Nancarrow teach a class called \"Quantum Physics in Flatland\" to high school students at MIT ESP Splash 2018.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2018-11-18",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:BXu99&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:BXu99 (page does not exist)\">BXu99</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "41791336": {
+        "pageid": 41791336,
+        "ns": 6,
+        "title": "File:MIT Leaves Winter Cambridge (17465332866).jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2015-07-23T06:50:38Z",
+            "size": 10491491,
+            "width": 5760,
+            "height": 3840,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/MIT_Leaves_Winter_Cambridge_%2817465332866%29.jpg/960px-MIT_Leaves_Winter_Cambridge_%2817465332866%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 427,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/MIT_Leaves_Winter_Cambridge_%2817465332866%29.jpg/1280px-MIT_Leaves_Winter_Cambridge_%2817465332866%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/MIT_Leaves_Winter_Cambridge_%2817465332866%29.jpg/960px-MIT_Leaves_Winter_Cambridge_%2817465332866%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 427,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/MIT_Leaves_Winter_Cambridge_%2817465332866%29.jpg/1280px-MIT_Leaves_Winter_Cambridge_%2817465332866%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/MIT_Leaves_Winter_Cambridge_%2817465332866%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:MIT_Leaves_Winter_Cambridge_(17465332866).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=41791336",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "MIT Leaves Winter Cambridge (17465332866)",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Cambridge, Massachusetts",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2014-12-05 13:27",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/87296837@N00\">Tony Webster</a> from Portland, Oregon",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "170816756": {
+        "pageid": 170816756,
+        "ns": 6,
+        "title": "File:MIT Monster Eats Boston Back Bay.png",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2025-07-27T20:07:22Z",
+            "size": 1943143,
+            "width": 1630,
+            "height": 1270,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/MIT_Monster_Eats_Boston_Back_Bay.png/960px-MIT_Monster_Eats_Boston_Back_Bay.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 499,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/MIT_Monster_Eats_Boston_Back_Bay.png/1280px-MIT_Monster_Eats_Boston_Back_Bay.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/MIT_Monster_Eats_Boston_Back_Bay.png/960px-MIT_Monster_Eats_Boston_Back_Bay.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 499,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/MIT_Monster_Eats_Boston_Back_Bay.png/1280px-MIT_Monster_Eats_Boston_Back_Bay.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/MIT_Monster_Eats_Boston_Back_Bay.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:MIT_Monster_Eats_Boston_Back_Bay.png",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=170816756",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "MIT Monster Eats Boston Back Bay",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Sign hack by MIT pranksters on Memorial Drive in 1985, cited in T.F. Peterson, Nightwork, Updated Edition: A History of Hacks and Pranks at MIT. MIT Press (page 132)",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1985-01-01",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Unknown author<span style=\"display: none;\">Unknown author</span>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/png"
+          }
+        ]
+      },
+      "100997898": {
+        "pageid": 100997898,
+        "ns": 6,
+        "title": "File:MIT punched card.agr.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2021-03-04T14:16:33Z",
+            "size": 189437,
+            "width": 526,
+            "height": 237,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/c/c0/MIT_punched_card.agr.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 640,
+            "thumbheight": 288,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/c/c0/MIT_punched_card.agr.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 288
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/MIT_punched_card.agr.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:MIT_punched_card.agr.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=100997898",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "MIT punched card.agr",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Punched card with older MIT logo",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "circa 1969<div style=\"display: none;\">date QS:P,+1969-00-00T00:00:00Z/9,P1480,Q5727902</div>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:ArnoldReinhold\" title=\"User:ArnoldReinhold\">ArnoldReinhold</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "114997450": {
+        "pageid": 114997450,
+        "ns": 6,
+        "title": "File:MIT Skyline (4359489829).jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2022-02-05T17:37:08Z",
+            "size": 130896,
+            "width": 1024,
+            "height": 680,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/MIT_Skyline_%284359489829%29.jpg/960px-MIT_Skyline_%284359489829%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 425,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/e/ea/MIT_Skyline_%284359489829%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/MIT_Skyline_%284359489829%29.jpg/960px-MIT_Skyline_%284359489829%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 425,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/e/ea/MIT_Skyline_%284359489829%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/MIT_Skyline_%284359489829%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:MIT_Skyline_(4359489829).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=114997450",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "MIT Skyline (4359489829)",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "MIT Skyline",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2010-01-10 12:31",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/38494587@N06\">amazingarfa</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      }
+    }
+  }
+}

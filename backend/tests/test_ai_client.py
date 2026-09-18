@@ -1,274 +1,298 @@
-"""AI client wrapper: JSON recovery, availability, retry policy (SPEC Sections 7.7, 9)."""
+"""Gemini client wrapper: JSON recovery, availability, retry policy (SPEC 7.7, 7.8, 9)."""
 
 from __future__ import annotations
 
-from collections.abc import AsyncIterator
-from types import SimpleNamespace
+from collections.abc import Awaitable, Callable
 from typing import Any
 
-import anthropic
-import httpx2
+import httpx
 import pytest
+from google.genai import errors, types
 from tenacity import wait_none
 
 from app.ai import client as client_module
 from app.ai.client import (
-    DEFAULT_TIMEOUT_S,
     AIClient,
     AIUnavailableError,
+    finish_reason,
     is_retryable,
     message_text,
     parse_json_text,
     strip_code_fences,
+    thinking_config,
 )
 from app.config import Settings
 
-API_URL = "https://api.anthropic.com/v1/messages"
+FakeGenerate = Callable[..., Awaitable[types.GenerateContentResponse]]
 
 
-def _request() -> httpx2.Request:
-    return httpx2.Request("POST", API_URL)
-
-
-def _response(status: int) -> httpx2.Response:
-    return httpx2.Response(status, request=_request())
-
-
-def _status_error(
-    status: int, cls: type[anthropic.APIStatusError] = anthropic.APIStatusError
-) -> Any:
-    return cls(f"status {status}", response=_response(status), body=None)
-
-
-def _message(text: str) -> SimpleNamespace:
-    return SimpleNamespace(
-        content=[
-            SimpleNamespace(type="text", text=text),
-            SimpleNamespace(type="tool_use", text="ignored"),
+def fake_response(text: str, reason: types.FinishReason = types.FinishReason.STOP) -> Any:
+    return types.GenerateContentResponse(
+        candidates=[
+            types.Candidate(
+                content=types.Content(role="model", parts=[types.Part(text=text)]),
+                finish_reason=reason,
+            )
         ]
     )
 
 
+def api_error(code: int, message: str = "boom") -> errors.APIError:
+    body = {"error": {"code": code, "message": message, "status": "ERR"}}
+    if code >= 500:
+        return errors.ServerError(code, body)
+    return errors.ClientError(code, body)
+
+
 @pytest.fixture
-async def keyed_ai(monkeypatch: pytest.MonkeyPatch) -> AsyncIterator[AIClient]:
-    """A client with a (fake) key and no retry sleeps; the SDK call is always monkeypatched."""
+def keyed_ai(monkeypatch: pytest.MonkeyPatch) -> AIClient:
     monkeypatch.setattr(client_module, "RETRY_WAIT", wait_none())
-    ai = AIClient(Settings(anthropic_api_key="sk-ant-test-not-a-real-key"))
-    yield ai
-    await ai.aclose()
+    return AIClient(Settings(gemini_api_key="test-not-a-real-key", vision_model="gemini-x"))
 
 
-def _patch_create(
-    monkeypatch: pytest.MonkeyPatch, ai: AIClient, outcomes: list[Any]
-) -> list[dict[str, Any]]:
-    """Replace the SDK call: each outcome is an exception to raise or a message to return."""
-    calls: list[dict[str, Any]] = []
-    queue = list(outcomes)
-
-    async def fake_create(**kwargs: Any) -> Any:
-        calls.append(kwargs)
-        outcome = queue.pop(0) if len(queue) > 1 else queue[0]
-        if isinstance(outcome, BaseException):
-            raise outcome
-        return outcome
-
+def install(monkeypatch: pytest.MonkeyPatch, ai: AIClient, fake: FakeGenerate) -> None:
     assert ai._client is not None
-    monkeypatch.setattr(ai._client.messages, "create", fake_create)
-    return calls
+    monkeypatch.setattr(ai._client.aio.models, "generate_content", fake)
 
 
-# --- JSON recovery (Section 9 "Parsing") -----------------------------------------------------
+# ----------------------------------------------------------------------------- JSON recovery
 
 
 @pytest.mark.parametrize(
     ("raw", "expected"),
     [
-        ("```json\n[1, 2]\n```", "[1, 2]"),
-        ("```\n[1, 2]\n```", "[1, 2]"),
-        ('  ```JSON\r\n{"a": 1}\r\n```  ', '{"a": 1}'),
-        ("```json\n[1]", "[1]"),
-        ("[1, 2]", "[1, 2]"),
-        ("plain text", "plain text"),
+        ('```json\n[{"a": 1}]\n```', '[{"a": 1}]'),
+        ("```\n{}\n```", "{}"),
+        ("  [1, 2]  ", "[1, 2]"),
+        ("```JSON\r\n[]\r\n```", "[]"),
     ],
 )
 def test_strip_code_fences(raw: str, expected: str) -> None:
     assert strip_code_fences(raw) == expected
 
 
-def test_parse_json_text_fenced() -> None:
-    assert parse_json_text('```json\n["Example University", "Sample College"]\n```') == [
-        "Example University",
-        "Sample College",
+def test_parse_json_text_fenced_plain_and_prose() -> None:
+    assert parse_json_text('```json\n[{"index": 1}]\n```') == [{"index": 1}]
+    assert parse_json_text('{"text_ru": "а", "text_en": "b"}') == {"text_ru": "а", "text_en": "b"}
+    assert parse_json_text('Sure! Here it is: ["MIT", "ETH Zurich"] hope it helps') == [
+        "MIT",
+        "ETH Zurich",
     ]
+    assert parse_json_text('Result: {"items": [1, 2]}') == {"items": [1, 2]}
 
 
-def test_parse_json_text_plain() -> None:
-    assert parse_json_text('{"text_en": "x", "n": 2}') == {"text_en": "x", "n": 2}
-
-
-def test_parse_json_text_prose_wrapped_array() -> None:
-    raw = 'Sure! Here are the names:\n["Example University"]\nHope this helps.'
-    assert parse_json_text(raw) == ["Example University"]
-
-
-def test_parse_json_text_prose_wrapped_object_with_inner_array() -> None:
-    raw = 'Result: {"items": [1, 2]} -- done'
-    assert parse_json_text(raw) == {"items": [1, 2]}
-
-
-@pytest.mark.parametrize("raw", ["no json here", "[1, 2", "", "``` ```", "{oops: [}"])
+@pytest.mark.parametrize("raw", ["", "no json here", "[1, 2", "```json\n```"])
 def test_parse_json_text_invalid_raises(raw: str) -> None:
     with pytest.raises(ValueError, match="no valid JSON"):
         parse_json_text(raw)
 
 
-def test_message_text_joins_only_text_blocks() -> None:
-    message = SimpleNamespace(
-        content=[
-            SimpleNamespace(type="text", text="a"),
-            SimpleNamespace(type="tool_use", text="ignored"),
-            SimpleNamespace(type="text", text="b"),
-        ]
-    )
-    assert message_text(message) == "ab"  # type: ignore[arg-type]
+def test_message_text_and_finish_reason() -> None:
+    response = fake_response("hello", types.FinishReason.MAX_TOKENS)
+    assert message_text(response) == "hello"
+    assert finish_reason(response) == "MAX_TOKENS"
+    empty = types.GenerateContentResponse(candidates=[])
+    assert message_text(empty) == ""
+    assert finish_reason(empty) is None
 
 
-# --- availability ----------------------------------------------------------------------------
+def test_thinking_config_per_model_family() -> None:
+    assert thinking_config("gemini-2.5-flash-lite").thinking_budget == 0
+    assert thinking_config("gemini-3.5-flash-lite").thinking_level == types.ThinkingLevel.MINIMAL
+
+
+# ----------------------------------------------------------------------------- availability
 
 
 async def test_without_key_is_unavailable() -> None:
-    ai = AIClient(Settings(anthropic_api_key=None))
+    ai = AIClient(Settings(gemini_api_key=None))
     assert ai.available is False
     assert ai.configured is False
+    assert ai.unavailable_reason
     assert await ai.startup_check() is False
     with pytest.raises(AIUnavailableError):
-        await ai.complete_text("hello", max_tokens=5)
-    with pytest.raises(AIUnavailableError):
-        await ai.create_message(model="m", max_tokens=5, messages=[])
+        await ai.complete_text("hi", max_tokens=5)
     await ai.aclose()
 
 
 def test_model_properties() -> None:
-    same = AIClient(Settings(anthropic_api_key=None, vision_model="vision-x", text_model=None))
+    same = AIClient(Settings(gemini_api_key=None, vision_model="vision-x", text_model=None))
     assert same.vision_model == "vision-x"
     assert same.text_model == "vision-x"
-    split = AIClient(Settings(anthropic_api_key=None, vision_model="vision-x", text_model="t"))
+    split = AIClient(Settings(gemini_api_key=None, vision_model="vision-x", text_model="t"))
     assert split.text_model == "t"
 
 
 def test_keyed_client_is_available_before_check(keyed_ai: AIClient) -> None:
-    assert keyed_ai.available is True
     assert keyed_ai.configured is True
+    assert keyed_ai.available is True
 
 
 async def test_startup_check_success(keyed_ai: AIClient, monkeypatch: pytest.MonkeyPatch) -> None:
-    calls = _patch_create(monkeypatch, keyed_ai, [_message("OK")])
+    calls: list[dict[str, Any]] = []
+
+    async def fake(**kwargs: Any) -> Any:
+        calls.append(kwargs)
+        return fake_response("OK")
+
+    install(monkeypatch, keyed_ai, fake)
     assert await keyed_ai.startup_check() is True
     assert keyed_ai.available is True
-    assert len(calls) == 1
-    assert calls[0]["max_tokens"] == 5
-    assert calls[0]["model"] == keyed_ai.text_model
+    assert calls[0]["model"] == "gemini-x"
+    assert calls[0]["config"].max_output_tokens == 5
 
 
 async def test_startup_check_failure_disables_client(
     keyed_ai: AIClient, monkeypatch: pytest.MonkeyPatch
 ) -> None:
-    calls = _patch_create(
-        monkeypatch, keyed_ai, [_status_error(401, anthropic.AuthenticationError)]
-    )
-    assert await keyed_ai.startup_check() is False  # never raises
+    async def fake(**kwargs: Any) -> Any:
+        raise api_error(401, "bad key")
+
+    install(monkeypatch, keyed_ai, fake)
+    assert await keyed_ai.startup_check() is False
     assert keyed_ai.available is False
-    assert len(calls) == 1  # 401 is not retried
+    assert "startup check failed" in (keyed_ai.unavailable_reason or "")
     with pytest.raises(AIUnavailableError):
-        await keyed_ai.complete_text("x", max_tokens=5)
+        await keyed_ai.complete_text("hi", max_tokens=5)
 
 
-# --- retry policy ----------------------------------------------------------------------------
+# ----------------------------------------------------------------------------- retry policy
 
 
 def test_is_retryable_matrix() -> None:
-    assert is_retryable(_status_error(429, anthropic.RateLimitError)) is True
-    assert is_retryable(_status_error(500, anthropic.InternalServerError)) is True
-    assert is_retryable(_status_error(503)) is True
-    assert is_retryable(_status_error(529)) is True
-    assert is_retryable(anthropic.APIConnectionError(request=_request())) is True
-    assert is_retryable(anthropic.APITimeoutError(request=_request())) is True
-    assert is_retryable(_status_error(400)) is False
-    assert is_retryable(_status_error(401)) is False
-    assert is_retryable(_status_error(404)) is False
-    assert is_retryable(_status_error(422)) is False
+    assert is_retryable(api_error(429)) is True
+    assert is_retryable(api_error(503)) is True
+    assert is_retryable(api_error(500)) is True
+    assert is_retryable(api_error(400)) is False
+    assert is_retryable(api_error(401)) is False
+    assert is_retryable(api_error(404)) is False
+    request = httpx.Request("POST", "https://example.invalid")
+    assert is_retryable(httpx.ConnectError("down", request=request)) is True
+    assert is_retryable(httpx.ReadTimeout("slow", request=request)) is True
+    assert is_retryable(TimeoutError()) is True
     assert is_retryable(ValueError("x")) is False
 
 
 async def test_rate_limit_retried_twice_then_succeeds(
     keyed_ai: AIClient, monkeypatch: pytest.MonkeyPatch
 ) -> None:
-    calls = _patch_create(
-        monkeypatch,
-        keyed_ai,
-        [
-            _status_error(429, anthropic.RateLimitError),
-            _status_error(429, anthropic.RateLimitError),
-            _message("hello"),
-        ],
-    )
-    result = await keyed_ai.complete_text("prompt text", max_tokens=10, timeout=3.0)
-    assert result == "hello"
-    assert len(calls) == 3
-    sent = calls[-1]
-    assert sent["model"] == keyed_ai.text_model
-    assert sent["max_tokens"] == 10
-    assert sent["temperature"] == 0.0
-    assert sent["timeout"] == 3.0
-    assert sent["messages"] == [{"role": "user", "content": "prompt text"}]
-    assert "system" not in sent
+    attempts = 0
+
+    async def fake(**kwargs: Any) -> Any:
+        nonlocal attempts
+        attempts += 1
+        if attempts < 3:
+            raise api_error(429, "quota")
+        return fake_response("done")
+
+    install(monkeypatch, keyed_ai, fake)
+    assert await keyed_ai.complete_text("hi", max_tokens=10) == "done"
+    assert attempts == 3
 
 
 async def test_bad_request_is_not_retried(
     keyed_ai: AIClient, monkeypatch: pytest.MonkeyPatch
 ) -> None:
-    calls = _patch_create(monkeypatch, keyed_ai, [_status_error(400)])
-    with pytest.raises(anthropic.APIStatusError):
-        await keyed_ai.complete_text("prompt", max_tokens=10)
-    assert len(calls) == 1
-    assert keyed_ai.available is True  # a per-call failure does not disable the client
+    attempts = 0
+
+    async def fake(**kwargs: Any) -> Any:
+        nonlocal attempts
+        attempts += 1
+        raise api_error(400, "invalid argument")
+
+    install(monkeypatch, keyed_ai, fake)
+    with pytest.raises(errors.ClientError):
+        await keyed_ai.complete_text("hi", max_tokens=10)
+    assert attempts == 1
 
 
 async def test_server_error_gives_up_after_two_retries(
     keyed_ai: AIClient, monkeypatch: pytest.MonkeyPatch
 ) -> None:
-    calls = _patch_create(
-        monkeypatch, keyed_ai, [_status_error(500, anthropic.InternalServerError)]
-    )
-    with pytest.raises(anthropic.InternalServerError):
-        await keyed_ai.create_message(model="m", max_tokens=5, messages=[])
-    assert len(calls) == 3
+    attempts = 0
+
+    async def fake(**kwargs: Any) -> Any:
+        nonlocal attempts
+        attempts += 1
+        raise api_error(503, "overloaded")
+
+    install(monkeypatch, keyed_ai, fake)
+    with pytest.raises(errors.ServerError):
+        await keyed_ai.complete_text("hi", max_tokens=10)
+    assert attempts == 3
 
 
-async def test_timeout_error_retried(keyed_ai: AIClient, monkeypatch: pytest.MonkeyPatch) -> None:
-    calls = _patch_create(
-        monkeypatch, keyed_ai, [anthropic.APITimeoutError(request=_request()), _message("ok")]
-    )
-    assert await keyed_ai.complete_text("prompt", max_tokens=10) == "ok"
-    assert len(calls) == 2
+async def test_timeout_is_retried(keyed_ai: AIClient, monkeypatch: pytest.MonkeyPatch) -> None:
+    attempts = 0
+
+    async def fake(**kwargs: Any) -> Any:
+        nonlocal attempts
+        attempts += 1
+        if attempts == 1:
+            raise httpx.ReadTimeout("slow", request=httpx.Request("POST", "https://x"))
+        return fake_response("late")
+
+    install(monkeypatch, keyed_ai, fake)
+    assert await keyed_ai.complete_text("hi", max_tokens=10) == "late"
+    assert attempts == 2
 
 
-async def test_complete_text_defaults_and_system(
+async def test_thinking_config_rejected_is_retried_without_it(
     keyed_ai: AIClient, monkeypatch: pytest.MonkeyPatch
 ) -> None:
-    calls = _patch_create(monkeypatch, keyed_ai, [_message("done")])
-    await keyed_ai.complete_text("p", max_tokens=7, system="be terse", model="other-model")
-    sent = calls[0]
-    assert sent["timeout"] == DEFAULT_TIMEOUT_S
-    assert sent["system"] == "be terse"
-    assert sent["model"] == "other-model"
+    configs: list[types.GenerateContentConfig] = []
+
+    async def fake(**kwargs: Any) -> Any:
+        configs.append(kwargs["config"])
+        if kwargs["config"].thinking_config is not None:
+            raise api_error(400, "Thinking level is not supported for this model")
+        return fake_response("ok")
+
+    install(monkeypatch, keyed_ai, fake)
+    assert await keyed_ai.complete_text("hi", max_tokens=10) == "ok"
+    assert configs[0].thinking_config is not None
+    assert configs[-1].thinking_config is None
+    # the model is remembered: the next call skips the thinking config right away
+    configs.clear()
+    assert await keyed_ai.complete_text("hi", max_tokens=10) == "ok"
+    assert len(configs) == 1 and configs[0].thinking_config is None
 
 
-async def test_create_message_passthrough_sets_default_timeout(
+async def test_complete_text_passes_system_json_mode_and_timeout(
     keyed_ai: AIClient, monkeypatch: pytest.MonkeyPatch
 ) -> None:
-    calls = _patch_create(monkeypatch, keyed_ai, [_message("x")])
-    message = await keyed_ai.create_message(model="m", max_tokens=5, messages=[], system="s")
-    assert message_text(message) == "x"
-    assert calls[0]["timeout"] == DEFAULT_TIMEOUT_S
-    assert calls[0]["system"] == "s"
+    seen: list[dict[str, Any]] = []
+
+    async def fake(**kwargs: Any) -> Any:
+        seen.append(kwargs)
+        return fake_response('{"ok": true}')
+
+    install(monkeypatch, keyed_ai, fake)
+    text = await keyed_ai.complete_text(
+        "prompt", max_tokens=77, system="sys", timeout=6.0, json_mode=True, temperature=0.0
+    )
+    assert text == '{"ok": true}'
+    config = seen[0]["config"]
+    assert seen[0]["model"] == "gemini-x"
+    assert seen[0]["contents"] == "prompt"
+    assert config.system_instruction == "sys"
+    assert config.max_output_tokens == 77
+    assert config.temperature == 0.0
+    assert config.response_mime_type == "application/json"
+    assert config.http_options is not None and config.http_options.timeout == 6000
+    assert config.thinking_config is not None
+
+
+async def test_generate_default_timeout(
+    keyed_ai: AIClient, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    seen: list[dict[str, Any]] = []
+
+    async def fake(**kwargs: Any) -> Any:
+        seen.append(kwargs)
+        return fake_response("x")
+
+    install(monkeypatch, keyed_ai, fake)
+    await keyed_ai.generate(contents="p", max_output_tokens=5, json_mode=False)
+    assert seen[0]["config"].http_options.timeout == int(client_module.DEFAULT_TIMEOUT_S * 1000)
+    assert seen[0]["config"].response_mime_type is None

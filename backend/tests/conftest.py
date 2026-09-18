@@ -26,7 +26,7 @@ def read_fixture(name: str) -> Any:
 
 @pytest.fixture
 def settings() -> Settings:
-    return Settings(anthropic_api_key=None, flickr_api_key=None)
+    return Settings(gemini_api_key=None, flickr_api_key=None)
 
 
 @pytest.fixture

@@ -1,0 +1,3 @@
+Real thumbnails downloaded from upload.wikimedia.org by scripts/probe_commons.py.
+Each line: fixture -> Commons file page | license | author (Artist, HTML stripped) | thumbnail URL
+

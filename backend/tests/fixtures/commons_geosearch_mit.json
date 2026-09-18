@@ -1,0 +1,3179 @@
+{
+  "batchcomplete": "",
+  "query": {
+    "pages": {
+      "3078866": {
+        "pageid": 3078866,
+        "ns": 6,
+        "title": "File:MIT Dome night1 Edit.jpg",
+        "index": -1,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2007-11-12T15:48:49Z",
+            "size": 3515212,
+            "width": 2644,
+            "height": 1610,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/MIT_Dome_night1_Edit.jpg/960px-MIT_Dome_night1_Edit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 390,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/MIT_Dome_night1_Edit.jpg/1280px-MIT_Dome_night1_Edit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/MIT_Dome_night1_Edit.jpg/960px-MIT_Dome_night1_Edit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 390,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/MIT_Dome_night1_Edit.jpg/1280px-MIT_Dome_night1_Edit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/MIT_Dome_night1_Edit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:MIT_Dome_night1_Edit.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=3078866",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "MIT Dome night1 Edit",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "A HDR image of the dome at the MIT campus. This version edited by reducing exposure (to save the highlights), applying highlight recovery (to save highlights), some curves work, noise reduction and some cropping.",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Fcb981, this edited version by <a href=\"//commons.wikimedia.org/wiki/User:Thermos\" title=\"User:Thermos\">Thermos</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ],
+        "coordinates": [
+          {
+            "lat": 42.35908333,
+            "lon": -71.09166667,
+            "primary": "",
+            "globe": "earth"
+          }
+        ]
+      },
+      "4778911": {
+        "pageid": 4778911,
+        "ns": 6,
+        "title": "File:Burnie Burns at ROFLCon 2008.jpg",
+        "index": 0,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2008-09-13T17:42:30Z",
+            "size": 594507,
+            "width": 1123,
+            "height": 1684,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Burnie_Burns_at_ROFLCon_2008.jpg/960px-Burnie_Burns_at_ROFLCon_2008.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 960,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Burnie_Burns_at_ROFLCon_2008.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Burnie_Burns_at_ROFLCon_2008.jpg/960px-Burnie_Burns_at_ROFLCon_2008.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 960,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Burnie_Burns_at_ROFLCon_2008.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Burnie_Burns_at_ROFLCon_2008.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Burnie_Burns_at_ROFLCon_2008.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=4778911",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Burnie Burns at ROFLCon 2008",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Brad Neely(superdelux.com) and Burnie Burns(Red vs. Blue)",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2008-04-26 09:51",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/96983611@N00\">Steven Isaacson</a> from Somerville, MA, USA",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ],
+        "coordinates": [
+          {
+            "lat": 42.360248,
+            "lon": -71.091552,
+            "primary": "",
+            "globe": "earth"
+          }
+        ]
+      },
+      "15550635": {
+        "pageid": 15550635,
+        "ns": 6,
+        "title": "File:MIT Building 10 and the Great Dome, Cambridge MA.jpg",
+        "index": 1,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2011-06-18T22:44:24Z",
+            "size": 1947025,
+            "width": 2816,
+            "height": 2112,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/MIT_Building_10_and_the_Great_Dome%2C_Cambridge_MA.jpg/960px-MIT_Building_10_and_the_Great_Dome%2C_Cambridge_MA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 480,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/MIT_Building_10_and_the_Great_Dome%2C_Cambridge_MA.jpg/1280px-MIT_Building_10_and_the_Great_Dome%2C_Cambridge_MA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/MIT_Building_10_and_the_Great_Dome%2C_Cambridge_MA.jpg/960px-MIT_Building_10_and_the_Great_Dome%2C_Cambridge_MA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 480,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/MIT_Building_10_and_the_Great_Dome%2C_Cambridge_MA.jpg/1280px-MIT_Building_10_and_the_Great_Dome%2C_Cambridge_MA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/0/05/MIT_Building_10_and_the_Great_Dome%2C_Cambridge_MA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:MIT_Building_10_and_the_Great_Dome,_Cambridge_MA.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=15550635",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "MIT Building 10 and the Great Dome, Cambridge MA",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "MIT Building 10 and the Great Dome, Cambridge Massachusetts",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2011-06-18",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Faolin42\" title=\"User:Faolin42\">John Phelan</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "16997200": {
+        "pageid": 16997200,
+        "ns": 6,
+        "title": "File:Great Dome, Massachusetts Institute of Technology, Cambridge MA.jpg",
+        "index": 2,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2011-10-16T00:04:28Z",
+            "size": 1966196,
+            "width": 2816,
+            "height": 2112,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Great_Dome%2C_Massachusetts_Institute_of_Technology%2C_Cambridge_MA.jpg/960px-Great_Dome%2C_Massachusetts_Institute_of_Technology%2C_Cambridge_MA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 480,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Great_Dome%2C_Massachusetts_Institute_of_Technology%2C_Cambridge_MA.jpg/1280px-Great_Dome%2C_Massachusetts_Institute_of_Technology%2C_Cambridge_MA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Great_Dome%2C_Massachusetts_Institute_of_Technology%2C_Cambridge_MA.jpg/960px-Great_Dome%2C_Massachusetts_Institute_of_Technology%2C_Cambridge_MA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 480,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Great_Dome%2C_Massachusetts_Institute_of_Technology%2C_Cambridge_MA.jpg/1280px-Great_Dome%2C_Massachusetts_Institute_of_Technology%2C_Cambridge_MA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Great_Dome%2C_Massachusetts_Institute_of_Technology%2C_Cambridge_MA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Great_Dome,_Massachusetts_Institute_of_Technology,_Cambridge_MA.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=16997200",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Great Dome, Massachusetts Institute of Technology, Cambridge MA",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Great Dome, Massachusetts Institute of Technology, Cambridge Massachusetts",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2011-10-15",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Faolin42\" title=\"User:Faolin42\">John Phelan</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "19947427": {
+        "pageid": 19947427,
+        "ns": 6,
+        "title": "File:Dedication of MIT Building 13 to Vannevar Bush.jpg",
+        "index": 3,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2012-06-18T18:35:20Z",
+            "size": 1085400,
+            "width": 3102,
+            "height": 1242,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Dedication_of_MIT_Building_13_to_Vannevar_Bush.jpg/960px-Dedication_of_MIT_Building_13_to_Vannevar_Bush.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 256,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Dedication_of_MIT_Building_13_to_Vannevar_Bush.jpg/1280px-Dedication_of_MIT_Building_13_to_Vannevar_Bush.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Dedication_of_MIT_Building_13_to_Vannevar_Bush.jpg/960px-Dedication_of_MIT_Building_13_to_Vannevar_Bush.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 256,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Dedication_of_MIT_Building_13_to_Vannevar_Bush.jpg/1280px-Dedication_of_MIT_Building_13_to_Vannevar_Bush.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Dedication_of_MIT_Building_13_to_Vannevar_Bush.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Dedication_of_MIT_Building_13_to_Vannevar_Bush.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=19947427",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Dedication of MIT Building 13 to Vannevar Bush",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Photo of wall in lobby of the building, for use in article <a href=\"https://en.wikipedia.org/wiki/Vannevar_Bush\" class=\"extiw\" title=\"en:Vannevar Bush\">Vannevar Bush</a>",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2012-06-11",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Chymicus&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Chymicus (page does not exist)\">Chymicus</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ],
+        "coordinates": [
+          {
+            "lat": 42.36033333,
+            "lon": -71.09233333,
+            "primary": "",
+            "globe": "earth"
+          }
+        ]
+      },
+      "21583717": {
+        "pageid": 21583717,
+        "ns": 6,
+        "title": "File:Massachvsetts Institvte of.jpg",
+        "index": 4,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2012-09-24T03:18:54Z",
+            "size": 736959,
+            "width": 2546,
+            "height": 1596,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Massachvsetts_Institvte_of.jpg/960px-Massachvsetts_Institvte_of.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 401,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Massachvsetts_Institvte_of.jpg/1280px-Massachvsetts_Institvte_of.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Massachvsetts_Institvte_of.jpg/960px-Massachvsetts_Institvte_of.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 401,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Massachvsetts_Institvte_of.jpg/1280px-Massachvsetts_Institvte_of.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Massachvsetts_Institvte_of.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Massachvsetts_Institvte_of.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=21583717",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Massachvsetts Institvte of",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Facade of 77 Massachusetts Avenue, September 2012",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2012-09-22 15:05:24",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Common-Pics\" title=\"User:Common-Pics\">Common-Pics</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ],
+        "coordinates": [
+          {
+            "lat": 42.359321,
+            "lon": -71.091824,
+            "primary": "",
+            "globe": "earth"
+          }
+        ]
+      },
+      "24266722": {
+        "pageid": 24266722,
+        "ns": 6,
+        "title": "File:Massachusetts Institute of Technology (7200951252).jpg",
+        "index": 5,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2013-01-27T15:58:57Z",
+            "size": 504853,
+            "width": 1600,
+            "height": 1063,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Massachusetts_Institute_of_Technology_%287200951252%29.jpg/960px-Massachusetts_Institute_of_Technology_%287200951252%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 425,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Massachusetts_Institute_of_Technology_%287200951252%29.jpg/1280px-Massachusetts_Institute_of_Technology_%287200951252%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Massachusetts_Institute_of_Technology_%287200951252%29.jpg/960px-Massachusetts_Institute_of_Technology_%287200951252%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 425,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Massachusetts_Institute_of_Technology_%287200951252%29.jpg/1280px-Massachusetts_Institute_of_Technology_%287200951252%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Massachusetts_Institute_of_Technology_%287200951252%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Massachusetts_Institute_of_Technology_(7200951252).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=24266722",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Massachusetts Institute of Technology (7200951252)",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "The domed Maclaurin Building, as seen from Killian Court.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2012-05-04 15:14",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/56619626@N05\">InSapphoWeTrust</a> from Los Angeles, California, USA",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ],
+        "coordinates": [
+          {
+            "lat": 42.358876,
+            "lon": -71.091477,
+            "primary": "",
+            "globe": "earth"
+          }
+        ]
+      },
+      "24266748": {
+        "pageid": 24266748,
+        "ns": 6,
+        "title": "File:Massachusetts Institute of Technology (7194419730).jpg",
+        "index": 6,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2013-01-27T15:59:16Z",
+            "size": 550831,
+            "width": 1600,
+            "height": 1041,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Massachusetts_Institute_of_Technology_%287194419730%29.jpg/960px-Massachusetts_Institute_of_Technology_%287194419730%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 416,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Massachusetts_Institute_of_Technology_%287194419730%29.jpg/1280px-Massachusetts_Institute_of_Technology_%287194419730%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Massachusetts_Institute_of_Technology_%287194419730%29.jpg/960px-Massachusetts_Institute_of_Technology_%287194419730%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 416,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Massachusetts_Institute_of_Technology_%287194419730%29.jpg/1280px-Massachusetts_Institute_of_Technology_%287194419730%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/3/34/Massachusetts_Institute_of_Technology_%287194419730%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Massachusetts_Institute_of_Technology_(7194419730).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=24266748",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Massachusetts Institute of Technology (7194419730)",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "The domed Maclaurin Building, as seen from Killian Court.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2012-05-04 15:13",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/56619626@N05\">InSapphoWeTrust</a> from Los Angeles, California, USA",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ],
+        "coordinates": [
+          {
+            "lat": 42.358876,
+            "lon": -71.091477,
+            "primary": "",
+            "globe": "earth"
+          }
+        ]
+      },
+      "24269396": {
+        "pageid": 24269396,
+        "ns": 6,
+        "title": "File:Massachusetts Institute of Technology (5677961549).jpg",
+        "index": 7,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2013-01-27T16:41:05Z",
+            "size": 231815,
+            "width": 1000,
+            "height": 670,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Massachusetts_Institute_of_Technology_%285677961549%29.jpg/960px-Massachusetts_Institute_of_Technology_%285677961549%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 429,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Massachusetts_Institute_of_Technology_%285677961549%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Massachusetts_Institute_of_Technology_%285677961549%29.jpg/960px-Massachusetts_Institute_of_Technology_%285677961549%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 429,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Massachusetts_Institute_of_Technology_%285677961549%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Massachusetts_Institute_of_Technology_%285677961549%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Massachusetts_Institute_of_Technology_(5677961549).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=24269396",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Massachusetts Institute of Technology (5677961549)",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Great Dome, Massachusetts Institute of Technology",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1994-11-26 10:00",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/56619626@N05\">InSapphoWeTrust</a> from Los Angeles, California, USA",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ],
+        "coordinates": [
+          {
+            "lat": 42.358876,
+            "lon": -71.091477,
+            "primary": "",
+            "globe": "earth"
+          }
+        ]
+      },
+      "30791930": {
+        "pageid": 30791930,
+        "ns": 6,
+        "title": "File:MIT (7909681476).jpg",
+        "index": 8,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2014-01-25T10:47:01Z",
+            "size": 3737289,
+            "width": 3552,
+            "height": 2000,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/MIT_%287909681476%29.jpg/960px-MIT_%287909681476%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 360,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/MIT_%287909681476%29.jpg/1280px-MIT_%287909681476%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/MIT_%287909681476%29.jpg/960px-MIT_%287909681476%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 360,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/MIT_%287909681476%29.jpg/1280px-MIT_%287909681476%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/MIT_%287909681476%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:MIT_(7909681476).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=30791930",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "MIT (7909681476)",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "The dome without the dome",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2012-08-31 17:52",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/63488671@N00\">Edgar Jiménez</a> from Porto, Portugal",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ],
+        "coordinates": [
+          {
+            "lat": 42.359093,
+            "lon": -71.091799,
+            "primary": "",
+            "globe": "earth"
+          }
+        ]
+      },
+      "32222231": {
+        "pageid": 32222231,
+        "ns": 6,
+        "title": "File:051909 MIT Hack Apollo 10 Snoopy.jpg",
+        "index": 9,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2014-04-17T09:09:46Z",
+            "size": 650918,
+            "width": 3264,
+            "height": 2448,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/051909_MIT_Hack_Apollo_10_Snoopy.jpg/960px-051909_MIT_Hack_Apollo_10_Snoopy.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 480,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/051909_MIT_Hack_Apollo_10_Snoopy.jpg/1280px-051909_MIT_Hack_Apollo_10_Snoopy.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/051909_MIT_Hack_Apollo_10_Snoopy.jpg/960px-051909_MIT_Hack_Apollo_10_Snoopy.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 480,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/051909_MIT_Hack_Apollo_10_Snoopy.jpg/1280px-051909_MIT_Hack_Apollo_10_Snoopy.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/051909_MIT_Hack_Apollo_10_Snoopy.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:051909_MIT_Hack_Apollo_10_Snoopy.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=32222231",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "051909 MIT Hack Apollo 10 Snoopy",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "The world's greatest hackers celebrate the 10th Anniversary of Apollo 10 and the Lunar Module Snoopy. (description from author)",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2009-05-19 06:12:16",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.flickr.com/photos/namlhots/\">https://www.flickr.com/photos/namlhots/</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "37105748": {
+        "pageid": 37105748,
+        "ns": 6,
+        "title": "File:Barker Library MIT October 2014 001.jpg",
+        "index": 10,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2014-12-05T07:05:47Z",
+            "size": 4134301,
+            "width": 4440,
+            "height": 2960,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Barker_Library_MIT_October_2014_001.jpg/960px-Barker_Library_MIT_October_2014_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 427,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Barker_Library_MIT_October_2014_001.jpg/1280px-Barker_Library_MIT_October_2014_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Barker_Library_MIT_October_2014_001.jpg/960px-Barker_Library_MIT_October_2014_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 427,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Barker_Library_MIT_October_2014_001.jpg/1280px-Barker_Library_MIT_October_2014_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Barker_Library_MIT_October_2014_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Barker_Library_MIT_October_2014_001.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=37105748",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Barker Library MIT October 2014 001",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "The Great Dome above Barker Engineering Library, <a href=\"//commons.wikimedia.org/w/index.php?title=Massachusetts_Institute_of_Technology&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"Massachusetts Institute of Technology (page does not exist)\">Massachusetts Institute of Technology</a>, <a href=\"https://en.wikipedia.org/wiki/Cambridge,_Massachusetts\" class=\"extiw\" title=\"w:Cambridge, Massachusetts\">Cambridge</a>, <a href=\"//commons.wikimedia.org/wiki/Massachusetts\" title=\"Massachusetts\">Massachusetts</a>.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2014-10-11",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:King_of_Hearts\" title=\"User:King of Hearts\">King of Hearts</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ],
+        "coordinates": [
+          {
+            "lat": 42.3597,
+            "lon": -71.092,
+            "primary": "",
+            "globe": "earth"
+          }
+        ]
+      },
+      "37105750": {
+        "pageid": 37105750,
+        "ns": 6,
+        "title": "File:Barker Library MIT October 2014 002.jpg",
+        "index": 11,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2014-12-03T03:42:15Z",
+            "size": 7124385,
+            "width": 4928,
+            "height": 3264,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Barker_Library_MIT_October_2014_002.jpg/960px-Barker_Library_MIT_October_2014_002.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 424,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Barker_Library_MIT_October_2014_002.jpg/1280px-Barker_Library_MIT_October_2014_002.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Barker_Library_MIT_October_2014_002.jpg/960px-Barker_Library_MIT_October_2014_002.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 424,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Barker_Library_MIT_October_2014_002.jpg/1280px-Barker_Library_MIT_October_2014_002.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Barker_Library_MIT_October_2014_002.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Barker_Library_MIT_October_2014_002.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=37105750",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Barker Library MIT October 2014 002",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Study room of Barker Engineering Library underneath the Great Dome, <a href=\"//commons.wikimedia.org/w/index.php?title=Massachusetts_Institute_of_Technology&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"Massachusetts Institute of Technology (page does not exist)\">Massachusetts Institute of Technology</a>, <a href=\"https://en.wikipedia.org/wiki/Cambridge,_Massachusetts\" class=\"extiw\" title=\"w:Cambridge, Massachusetts\">Cambridge</a>, <a href=\"//commons.wikimedia.org/wiki/Massachusetts\" title=\"Massachusetts\">Massachusetts</a>.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2014-10-11",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:King_of_Hearts\" title=\"User:King of Hearts\">King of Hearts</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ],
+        "coordinates": [
+          {
+            "lat": 42.3597,
+            "lon": -71.092,
+            "primary": "",
+            "globe": "earth"
+          }
+        ]
+      },
+      "41791353": {
+        "pageid": 41791353,
+        "ns": 6,
+        "title": "File:MIT Berries Cambridge (17465262866).jpg",
+        "index": 12,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2015-07-23T06:51:11Z",
+            "size": 10397290,
+            "width": 5468,
+            "height": 3490,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/MIT_Berries_Cambridge_%2817465262866%29.jpg/960px-MIT_Berries_Cambridge_%2817465262866%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 408,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/MIT_Berries_Cambridge_%2817465262866%29.jpg/1280px-MIT_Berries_Cambridge_%2817465262866%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/MIT_Berries_Cambridge_%2817465262866%29.jpg/960px-MIT_Berries_Cambridge_%2817465262866%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 408,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/MIT_Berries_Cambridge_%2817465262866%29.jpg/1280px-MIT_Berries_Cambridge_%2817465262866%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/6/66/MIT_Berries_Cambridge_%2817465262866%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:MIT_Berries_Cambridge_(17465262866).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=41791353",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "MIT Berries Cambridge (17465262866)",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Cambridge, Massachusetts",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2014-12-05 13:32",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/87296837@N00\">Tony Webster</a> from Portland, Oregon",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ],
+        "coordinates": [
+          {
+            "lat": 42.360027,
+            "lon": -71.093106,
+            "primary": "",
+            "globe": "earth"
+          }
+        ]
+      },
+      "48900650": {
+        "pageid": 48900650,
+        "ns": 6,
+        "title": "File:The Brothers Chaps (2451296390).jpg",
+        "index": 13,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2016-05-20T03:53:15Z",
+            "size": 3897284,
+            "width": 3456,
+            "height": 2304,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/The_Brothers_Chaps_%282451296390%29.jpg/960px-The_Brothers_Chaps_%282451296390%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 427,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/The_Brothers_Chaps_%282451296390%29.jpg/1280px-The_Brothers_Chaps_%282451296390%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/The_Brothers_Chaps_%282451296390%29.jpg/960px-The_Brothers_Chaps_%282451296390%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 427,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/The_Brothers_Chaps_%282451296390%29.jpg/1280px-The_Brothers_Chaps_%282451296390%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/The_Brothers_Chaps_%282451296390%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:The_Brothers_Chaps_(2451296390).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=48900650",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "The Brothers Chaps (2451296390)",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "<a href=\"https://en.wikipedia.org/wiki/The_Brothers_Chaps\" class=\"extiw\" title=\"w:The Brothers Chaps\">The Brothers Chaps</a> at ROFLCon 2008.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2008-04-26 09:52",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/96983611@N00\">Steven Isaacson</a> from Somerville, MA, USA",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ],
+        "coordinates": [
+          {
+            "lat": 42.360248,
+            "lon": -71.091552,
+            "primary": "",
+            "globe": "earth"
+          }
+        ]
+      },
+      "48900662": {
+        "pageid": 48900662,
+        "ns": 6,
+        "title": "File:Randall Munroe (2450480631).jpg",
+        "index": 14,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2016-05-20T03:55:37Z",
+            "size": 4034620,
+            "width": 2304,
+            "height": 3456,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Randall_Munroe_%282450480631%29.jpg/960px-Randall_Munroe_%282450480631%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 960,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Randall_Munroe_%282450480631%29.jpg/1280px-Randall_Munroe_%282450480631%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Randall_Munroe_%282450480631%29.jpg/960px-Randall_Munroe_%282450480631%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 960,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Randall_Munroe_%282450480631%29.jpg/1280px-Randall_Munroe_%282450480631%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Randall_Munroe_%282450480631%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Randall_Munroe_(2450480631).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=48900662",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Randall Munroe (2450480631)",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "<a href=\"https://en.wikipedia.org/wiki/Randall_Munroe\" class=\"extiw\" title=\"w:Randall Munroe\">Randall Munroe</a>, creator of <i><a href=\"https://en.wikipedia.org/wiki/xkcd\" class=\"extiw\" title=\"w:xkcd\">xkcd</a></i>, at ROFLCon 2008.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2008-04-26 15:43",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/96983611@N00\">Steven Isaacson</a> from Somerville, MA, USA",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ],
+        "coordinates": [
+          {
+            "lat": 42.360248,
+            "lon": -71.091552,
+            "primary": "",
+            "globe": "earth"
+          }
+        ]
+      },
+      "57926653": {
+        "pageid": 57926653,
+        "ns": 6,
+        "title": "File:Massachusetts Institute of Technology - panoramio.jpg",
+        "index": 15,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2017-04-11T14:11:14Z",
+            "size": 372370,
+            "width": 2400,
+            "height": 1350,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Massachusetts_Institute_of_Technology_-_panoramio.jpg/960px-Massachusetts_Institute_of_Technology_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 360,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Massachusetts_Institute_of_Technology_-_panoramio.jpg/1280px-Massachusetts_Institute_of_Technology_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Massachusetts_Institute_of_Technology_-_panoramio.jpg/960px-Massachusetts_Institute_of_Technology_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 360,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Massachusetts_Institute_of_Technology_-_panoramio.jpg/1280px-Massachusetts_Institute_of_Technology_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Massachusetts_Institute_of_Technology_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Massachusetts_Institute_of_Technology_-_panoramio.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=57926653",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Massachusetts Institute of Technology - panoramio",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Massachusetts Institute of Technology",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "Taken on 17 August 2014",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161031143120/http://www.panoramio.com/user/6554571?with_photo_id=110601470\">黃逸樂（世界首窮）</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ],
+        "coordinates": [
+          {
+            "lat": 42.359034,
+            "lon": -71.091536,
+            "primary": "",
+            "globe": "earth"
+          }
+        ]
+      },
+      "57926709": {
+        "pageid": 57926709,
+        "ns": 6,
+        "title": "File:Massachusetts Institute of Technology - panoramio (1).jpg",
+        "index": 16,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2017-04-11T14:12:35Z",
+            "size": 545014,
+            "width": 2400,
+            "height": 1350,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Massachusetts_Institute_of_Technology_-_panoramio_%281%29.jpg/960px-Massachusetts_Institute_of_Technology_-_panoramio_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 360,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Massachusetts_Institute_of_Technology_-_panoramio_%281%29.jpg/1280px-Massachusetts_Institute_of_Technology_-_panoramio_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Massachusetts_Institute_of_Technology_-_panoramio_%281%29.jpg/960px-Massachusetts_Institute_of_Technology_-_panoramio_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 360,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Massachusetts_Institute_of_Technology_-_panoramio_%281%29.jpg/1280px-Massachusetts_Institute_of_Technology_-_panoramio_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Massachusetts_Institute_of_Technology_-_panoramio_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Massachusetts_Institute_of_Technology_-_panoramio_(1).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=57926709",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Massachusetts Institute of Technology - panoramio (1)",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Massachusetts Institute of Technology",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "Taken on 17 August 2014",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161102201553/http://www.panoramio.com/user/6554571?with_photo_id=110601656\">黃逸樂（世界首窮）</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ],
+        "coordinates": [
+          {
+            "lat": 42.359058,
+            "lon": -71.091665,
+            "primary": "",
+            "globe": "earth"
+          }
+        ]
+      },
+      "79312846": {
+        "pageid": 79312846,
+        "ns": 6,
+        "title": "File:Lab instrumentation rack at MIT flea.agr.jpg",
+        "index": 17,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2019-05-29T18:09:32Z",
+            "size": 3497653,
+            "width": 3082,
+            "height": 1548,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Lab_instrumentation_rack_at_MIT_flea.agr.jpg/960px-Lab_instrumentation_rack_at_MIT_flea.agr.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 321,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Lab_instrumentation_rack_at_MIT_flea.agr.jpg/1280px-Lab_instrumentation_rack_at_MIT_flea.agr.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Lab_instrumentation_rack_at_MIT_flea.agr.jpg/960px-Lab_instrumentation_rack_at_MIT_flea.agr.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 321,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Lab_instrumentation_rack_at_MIT_flea.agr.jpg/1280px-Lab_instrumentation_rack_at_MIT_flea.agr.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Lab_instrumentation_rack_at_MIT_flea.agr.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Lab_instrumentation_rack_at_MIT_flea.agr.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=79312846",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Lab instrumentation rack at MIT flea.agr",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Item on display at the MIT Flea Market, held monthly from April to October on the MIT campus.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2014-09-21 13:01:57",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:ArnoldReinhold\" title=\"User:ArnoldReinhold\">ArnoldReinhold</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ],
+        "coordinates": [
+          {
+            "lat": 42.359633,
+            "lon": -71.092728,
+            "primary": "",
+            "globe": "earth"
+          }
+        ]
+      },
+      "79900587": {
+        "pageid": 79900587,
+        "ns": 6,
+        "title": "File:MITPhysics.jpg",
+        "index": 18,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2019-06-23T20:22:02Z",
+            "size": 1908513,
+            "width": 3942,
+            "height": 2958,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/MITPhysics.jpg/960px-MITPhysics.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 480,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/MITPhysics.jpg/1280px-MITPhysics.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/MITPhysics.jpg/960px-MITPhysics.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 480,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/MITPhysics.jpg/1280px-MITPhysics.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/8/89/MITPhysics.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:MITPhysics.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=79900587",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "MITPhysics",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Building 6C forms the core of the MIT Department of Physics. Laboratories are often distributed throughout campus depending on their research areas.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2019-06-23",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:QuantumPhys&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:QuantumPhys (page does not exist)\">QuantumPhys</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ],
+        "coordinates": [
+          {
+            "lat": 42.35971389,
+            "lon": -71.09106389,
+            "primary": "",
+            "globe": "earth"
+          }
+        ]
+      },
+      "84673388": {
+        "pageid": 84673388,
+        "ns": 6,
+        "title": "File:Cambridge, MA (2019) - 05.jpg",
+        "index": 19,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2019-12-07T02:30:55Z",
+            "size": 3026612,
+            "width": 5312,
+            "height": 2988,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Cambridge%2C_MA_%282019%29_-_05.jpg/960px-Cambridge%2C_MA_%282019%29_-_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 360,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Cambridge%2C_MA_%282019%29_-_05.jpg/1280px-Cambridge%2C_MA_%282019%29_-_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Cambridge%2C_MA_%282019%29_-_05.jpg/960px-Cambridge%2C_MA_%282019%29_-_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 360,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Cambridge%2C_MA_%282019%29_-_05.jpg/1280px-Cambridge%2C_MA_%282019%29_-_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Cambridge%2C_MA_%282019%29_-_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Cambridge,_MA_(2019)_-_05.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=84673388",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Cambridge, MA (2019) - 05",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Cambridge, MA (2019)",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2019-11-09 14:19:08",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Another_Believer\" title=\"User:Another Believer\">Another Believer</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ],
+        "coordinates": [
+          {
+            "lat": 42.358889,
+            "lon": -71.091389,
+            "primary": "",
+            "globe": "earth"
+          }
+        ]
+      },
+      "90782713": {
+        "pageid": 90782713,
+        "ns": 6,
+        "title": "File:MIT.nano building panorama at night.jpg",
+        "index": 20,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2020-05-30T05:32:39Z",
+            "size": 11614704,
+            "width": 13828,
+            "height": 4201,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/MIT.nano_building_panorama_at_night.jpg/960px-MIT.nano_building_panorama_at_night.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 194,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/MIT.nano_building_panorama_at_night.jpg/1280px-MIT.nano_building_panorama_at_night.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/MIT.nano_building_panorama_at_night.jpg/960px-MIT.nano_building_panorama_at_night.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 194,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/MIT.nano_building_panorama_at_night.jpg/1280px-MIT.nano_building_panorama_at_night.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/MIT.nano_building_panorama_at_night.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:MIT.nano_building_panorama_at_night.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=90782713",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "MIT.nano building panorama at night",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "MIT.nano (Building 12) at night. HDR panorama created from 30 individual photos.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2019-05-09 00:51:54",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:BXu99&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:BXu99 (page does not exist)\">BXu99</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ],
+        "coordinates": [
+          {
+            "lat": 42.360261,
+            "lon": -71.091462,
+            "primary": "",
+            "globe": "earth"
+          }
+        ]
+      },
+      "97802875": {
+        "pageid": 97802875,
+        "ns": 6,
+        "title": "File:I want this.... in my basement! (2902429737).jpg",
+        "index": 21,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2020-12-19T11:19:38Z",
+            "size": 3082933,
+            "width": 2645,
+            "height": 1132,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/I_want_this...._in_my_basement%21_%282902429737%29.jpg/960px-I_want_this...._in_my_basement%21_%282902429737%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 274,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/I_want_this...._in_my_basement%21_%282902429737%29.jpg/1280px-I_want_this...._in_my_basement%21_%282902429737%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/I_want_this...._in_my_basement%21_%282902429737%29.jpg/960px-I_want_this...._in_my_basement%21_%282902429737%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 274,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/I_want_this...._in_my_basement%21_%282902429737%29.jpg/1280px-I_want_this...._in_my_basement%21_%282902429737%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/I_want_this...._in_my_basement%21_%282902429737%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:I_want_this...._in_my_basement!_(2902429737).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=97802875",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "I want this.... in my basement! (2902429737)",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "P Lab @ MIT.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2008-09-30 11:55",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/38869431@N00\">Juhan Sonin</a> from Boston, USA",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ],
+        "coordinates": [
+          {
+            "lat": 42.358911,
+            "lon": -71.092336,
+            "primary": "",
+            "globe": "earth"
+          }
+        ]
+      },
+      "99968569": {
+        "pageid": 99968569,
+        "ns": 6,
+        "title": "File:Tom Kochan.jpg",
+        "index": 22,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2021-02-17T09:20:29Z",
+            "size": 1781923,
+            "width": 3456,
+            "height": 2304,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Tom_Kochan.jpg/960px-Tom_Kochan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 427,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Tom_Kochan.jpg/1280px-Tom_Kochan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Tom_Kochan.jpg/960px-Tom_Kochan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 427,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Tom_Kochan.jpg/1280px-Tom_Kochan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/4/40/Tom_Kochan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Tom_Kochan.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=99968569",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Tom Kochan",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Tom Kochan xTalk\n<p>Copyright 2014, 2019 Brandon Muramatsu\n</p>\nCreative Commons 4.0 International",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2014-03-18 11:36:07",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Brandon Muramatsu",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ],
+        "coordinates": [
+          {
+            "lat": 42.359717,
+            "lon": -71.092175,
+            "primary": "",
+            "globe": "earth"
+          }
+        ]
+      },
+      "101315477": {
+        "pageid": 101315477,
+        "ns": 6,
+        "title": "File:MIT infinite corridor 04.jpg",
+        "index": 23,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2021-03-11T16:58:06Z",
+            "size": 2804600,
+            "width": 4032,
+            "height": 3024,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/MIT_infinite_corridor_04.jpg/960px-MIT_infinite_corridor_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 480,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/MIT_infinite_corridor_04.jpg/1280px-MIT_infinite_corridor_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/MIT_infinite_corridor_04.jpg/960px-MIT_infinite_corridor_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 480,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/MIT_infinite_corridor_04.jpg/1280px-MIT_infinite_corridor_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/MIT_infinite_corridor_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:MIT_infinite_corridor_04.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=101315477",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "MIT infinite corridor 04",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "MIT Infinite Corridor during COVID-19 outbreak.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2021-03-05 13:58:57",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Peacearth\" title=\"User:Peacearth\">Peacearth</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ],
+        "coordinates": [
+          {
+            "lat": 42.35995,
+            "lon": -71.09089,
+            "primary": "",
+            "globe": "earth"
+          }
+        ]
+      },
+      "101315481": {
+        "pageid": 101315481,
+        "ns": 6,
+        "title": "File:MIT infinite corridor 05.jpg",
+        "index": 24,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2021-03-11T16:58:09Z",
+            "size": 3286342,
+            "width": 4032,
+            "height": 3024,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/MIT_infinite_corridor_05.jpg/960px-MIT_infinite_corridor_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 480,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/MIT_infinite_corridor_05.jpg/1280px-MIT_infinite_corridor_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/MIT_infinite_corridor_05.jpg/960px-MIT_infinite_corridor_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 480,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/MIT_infinite_corridor_05.jpg/1280px-MIT_infinite_corridor_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/MIT_infinite_corridor_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:MIT_infinite_corridor_05.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=101315481",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "MIT infinite corridor 05",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "MIT Infinite Corridor during COVID-19 outbreak.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2021-03-05 13:59:21",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Peacearth\" title=\"User:Peacearth\">Peacearth</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ],
+        "coordinates": [
+          {
+            "lat": 42.35982,
+            "lon": -71.09124,
+            "primary": "",
+            "globe": "earth"
+          }
+        ]
+      },
+      "101316262": {
+        "pageid": 101316262,
+        "ns": 6,
+        "title": "File:Looking outward from the Great Dome.jpg",
+        "index": 25,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2021-03-11T17:18:14Z",
+            "size": 2275946,
+            "width": 4032,
+            "height": 3024,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Looking_outward_from_the_Great_Dome.jpg/960px-Looking_outward_from_the_Great_Dome.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 480,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Looking_outward_from_the_Great_Dome.jpg/1280px-Looking_outward_from_the_Great_Dome.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Looking_outward_from_the_Great_Dome.jpg/960px-Looking_outward_from_the_Great_Dome.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 480,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Looking_outward_from_the_Great_Dome.jpg/1280px-Looking_outward_from_the_Great_Dome.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Looking_outward_from_the_Great_Dome.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Looking_outward_from_the_Great_Dome.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=101316262",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Looking outward from the Great Dome",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Looking outward from the MIT Great Dome.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2021-03-05 14:00:30",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Peacearth\" title=\"User:Peacearth\">Peacearth</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ],
+        "coordinates": [
+          {
+            "lat": 42.35956,
+            "lon": -71.09194,
+            "primary": "",
+            "globe": "earth"
+          }
+        ]
+      },
+      "101321195": {
+        "pageid": 101321195,
+        "ns": 6,
+        "title": "File:Great dome of MIT, Feb 2021.jpg",
+        "index": 26,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2021-03-11T19:48:58Z",
+            "size": 4565862,
+            "width": 4032,
+            "height": 3024,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Great_dome_of_MIT%2C_Feb_2021.jpg/960px-Great_dome_of_MIT%2C_Feb_2021.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 480,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Great_dome_of_MIT%2C_Feb_2021.jpg/1280px-Great_dome_of_MIT%2C_Feb_2021.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Great_dome_of_MIT%2C_Feb_2021.jpg/960px-Great_dome_of_MIT%2C_Feb_2021.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 480,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Great_dome_of_MIT%2C_Feb_2021.jpg/1280px-Great_dome_of_MIT%2C_Feb_2021.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Great_dome_of_MIT%2C_Feb_2021.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Great_dome_of_MIT,_Feb_2021.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=101321195",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Great dome of MIT, Feb 2021",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Great dome of MIT, Feb 2021",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2021-02-08 16:08:57",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Peacearth\" title=\"User:Peacearth\">Peacearth</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ],
+        "coordinates": [
+          {
+            "lat": 42.35801,
+            "lon": -71.091,
+            "primary": "",
+            "globe": "earth"
+          }
+        ]
+      },
+      "114087056": {
+        "pageid": 114087056,
+        "ns": 6,
+        "title": "File:Measure Snow Depth at MIT Killian Court 20220107.png",
+        "index": 27,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2022-01-07T21:52:29Z",
+            "size": 9427072,
+            "width": 4032,
+            "height": 3024,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Measure_Snow_Depth_at_MIT_Killian_Court_20220107.png/960px-Measure_Snow_Depth_at_MIT_Killian_Court_20220107.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 480,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Measure_Snow_Depth_at_MIT_Killian_Court_20220107.png/1280px-Measure_Snow_Depth_at_MIT_Killian_Court_20220107.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Measure_Snow_Depth_at_MIT_Killian_Court_20220107.png/960px-Measure_Snow_Depth_at_MIT_Killian_Court_20220107.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 480,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Measure_Snow_Depth_at_MIT_Killian_Court_20220107.png/1280px-Measure_Snow_Depth_at_MIT_Killian_Court_20220107.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Measure_Snow_Depth_at_MIT_Killian_Court_20220107.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Measure_Snow_Depth_at_MIT_Killian_Court_20220107.png",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=114087056",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Measure Snow Depth at MIT Killian Court 20220107",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Measuring snow depth at MIT Killian Court with a 15-cm long ruler, Jan 07 2022.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2022-01-07",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Peacearth\" title=\"User:Peacearth\">Peacearth</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/png"
+          }
+        ],
+        "coordinates": [
+          {
+            "lat": 42.35916667,
+            "lon": -71.09138889,
+            "primary": "",
+            "globe": "earth"
+          }
+        ]
+      },
+      "114832791": {
+        "pageid": 114832791,
+        "ns": 6,
+        "title": "File:MIThenge2.jpg",
+        "index": 28,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2026-05-25T17:18:04Z",
+            "size": 2102047,
+            "width": 1705,
+            "height": 2558,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/MIThenge2.jpg/960px-MIThenge2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 960,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/MIThenge2.jpg/1280px-MIThenge2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/MIThenge2.jpg/960px-MIThenge2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 960,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/MIThenge2.jpg/1280px-MIThenge2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/MIThenge2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:MIThenge2.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=114832791",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "MIThenge2",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Taken from the stairs at the back of the building 8 at MIT. There were a ton of people in the 3rd floor corridor of building eight it was so crowded",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2022-01-30 16:47:31",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:AI_coolTIM\" title=\"User:AI coolTIM\">AI coolTIM</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ],
+        "coordinates": [
+          {
+            "lat": 42.36002,
+            "lon": -71.090654,
+            "primary": "",
+            "globe": "earth"
+          }
+        ]
+      },
+      "114832792": {
+        "pageid": 114832792,
+        "ns": 6,
+        "title": "File:MIThenge3.jpg",
+        "index": 29,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2022-01-30T22:36:16Z",
+            "size": 410758,
+            "width": 2963,
+            "height": 3190,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/MIThenge3.jpg/960px-MIThenge3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 689,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/MIThenge3.jpg/1280px-MIThenge3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/MIThenge3.jpg/960px-MIThenge3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 689,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/MIThenge3.jpg/1280px-MIThenge3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/MIThenge3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:MIThenge3.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=114832792",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "MIThenge3",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Taken from the stairs at the back of the building 8 at MIT",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2022-01-30 16:49:19",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:AI_coolTIM\" title=\"User:AI coolTIM\">AI coolTIM</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ],
+        "coordinates": [
+          {
+            "lat": 42.36002,
+            "lon": -71.090654,
+            "primary": "",
+            "globe": "earth"
+          }
+        ]
+      },
+      "114832793": {
+        "pageid": 114832793,
+        "ns": 6,
+        "title": "File:MIThenge1.jpg",
+        "index": 30,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2026-05-25T17:18:37Z",
+            "size": 726539,
+            "width": 1081,
+            "height": 1622,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/MIThenge1.jpg/960px-MIThenge1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 960,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/8/8d/MIThenge1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/MIThenge1.jpg/960px-MIThenge1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 960,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/8/8d/MIThenge1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/MIThenge1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:MIThenge1.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=114832793",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "MIThenge1",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Taken from the stairs at the back of the building 8 at MIT",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2022-01-30 16:49:05",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:AI_coolTIM\" title=\"User:AI coolTIM\">AI coolTIM</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ],
+        "coordinates": [
+          {
+            "lat": 42.36002,
+            "lon": -71.090654,
+            "primary": "",
+            "globe": "earth"
+          }
+        ]
+      },
+      "115646782": {
+        "pageid": 115646782,
+        "ns": 6,
+        "title": "File:MIT Rally for Ukraine at Killian Court 20220228.jpg",
+        "index": 31,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2022-02-28T19:14:18Z",
+            "size": 3570152,
+            "width": 4032,
+            "height": 3024,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/MIT_Rally_for_Ukraine_at_Killian_Court_20220228.jpg/960px-MIT_Rally_for_Ukraine_at_Killian_Court_20220228.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 480,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/MIT_Rally_for_Ukraine_at_Killian_Court_20220228.jpg/1280px-MIT_Rally_for_Ukraine_at_Killian_Court_20220228.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/MIT_Rally_for_Ukraine_at_Killian_Court_20220228.jpg/960px-MIT_Rally_for_Ukraine_at_Killian_Court_20220228.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 480,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/MIT_Rally_for_Ukraine_at_Killian_Court_20220228.jpg/1280px-MIT_Rally_for_Ukraine_at_Killian_Court_20220228.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/4/47/MIT_Rally_for_Ukraine_at_Killian_Court_20220228.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:MIT_Rally_for_Ukraine_at_Killian_Court_20220228.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=115646782",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "MIT Rally for Ukraine at Killian Court 20220228",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "MIT <a href=\"https://en.wikipedia.org/wiki/Protests_against_the_2022_Russian_invasion_of_Ukraine\" class=\"extiw\" title=\"w:Protests against the 2022 Russian invasion of Ukraine\">Rally for Ukraine</a> at Killian Court. Feb 28, 2022",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2022-02-28 12:53:26",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Peacearth\" title=\"User:Peacearth\">Peacearth</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ],
+        "coordinates": [
+          {
+            "lat": 42.358978,
+            "lon": -71.091247,
+            "primary": "",
+            "globe": "earth"
+          }
+        ]
+      },
+      "119139885": {
+        "pageid": 119139885,
+        "ns": 6,
+        "title": "File:Hanging out with the smart people at MIT tonight. Cheers. At the Muddy Charles Pub on campus. RIP Sean Collier. https en.m.wikipedia.org wiki Massachusetts Institute of Technology Police Department -mit -muddycharles (33973251352).jpg",
+        "index": 32,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2022-06-10T12:31:35Z",
+            "size": 91220,
+            "width": 1080,
+            "height": 1080,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Hanging_out_with_the_smart_people_at_MIT_tonight._Cheers._At_the_Muddy_Charles_Pub_on_campus._RIP_Sean_Collier._https_en.m.wikipedia.org_wiki_Massachusetts_Institute_of_Technology_Police_Department_-mit_-muddycharles_%2833973251352%29.jpg/960px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 640,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/9/94/Hanging_out_with_the_smart_people_at_MIT_tonight._Cheers._At_the_Muddy_Charles_Pub_on_campus._RIP_Sean_Collier._https_en.m.wikipedia.org_wiki_Massachusetts_Institute_of_Technology_Police_Department_-mit_-muddycharles_%2833973251352%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Hanging_out_with_the_smart_people_at_MIT_tonight._Cheers._At_the_Muddy_Charles_Pub_on_campus._RIP_Sean_Collier._https_en.m.wikipedia.org_wiki_Massachusetts_Institute_of_Technology_Police_Department_-mit_-muddycharles_%2833973251352%29.jpg/960px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 640,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/9/94/Hanging_out_with_the_smart_people_at_MIT_tonight._Cheers._At_the_Muddy_Charles_Pub_on_campus._RIP_Sean_Collier._https_en.m.wikipedia.org_wiki_Massachusetts_Institute_of_Technology_Police_Department_-mit_-muddycharles_%2833973251352%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/9/94/Hanging_out_with_the_smart_people_at_MIT_tonight._Cheers._At_the_Muddy_Charles_Pub_on_campus._RIP_Sean_Collier._https_en.m.wikipedia.org_wiki_Massachusetts_Institute_of_Technology_Police_Department_-mit_-muddycharles_%2833973251352%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Hanging_out_with_the_smart_people_at_MIT_tonight._Cheers._At_the_Muddy_Charles_Pub_on_campus._RIP_Sean_Collier._https_en.m.wikipedia.org_wiki_Massachusetts_Institute_of_Technology_Police_Department_-mit_-muddycharles_(33973251352).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=119139885",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Hanging out with the smart people at MIT tonight. Cheers. At the Muddy Charles Pub on campus. RIP Sean Collier. https en.m.wikipedia.org wiki Massachusetts Institute of Technology Police Department -mit -muddycharles (33973251352)",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Hanging out with the smart people at MIT tonight. Cheers. At the Muddy Charles Pub on campus. RIP Sean Collier. <a class=\"external free\" href=\"https://en.m.wikipedia.org/wiki/Massachusetts_Institute_of_Technology_Police_Department\">https://en.m.wikipedia.org/wiki/Massachusetts_Institute_of_Technology_Police_Department</a> #mit #muddycharles",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2017-04-18 22:55",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/34666709@N00\">Betsy Weber</a> from Brooklyn, NY, USA",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ],
+        "coordinates": [
+          {
+            "lat": 42.360011,
+            "lon": -71.091869,
+            "primary": "",
+            "globe": "earth"
+          }
+        ]
+      },
+      "133920703": {
+        "pageid": 133920703,
+        "ns": 6,
+        "title": "File:MIT - Building 10 and Dome (4709371488).jpg",
+        "index": 33,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2023-07-03T23:30:24Z",
+            "size": 353050,
+            "width": 1000,
+            "height": 666,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/MIT_-_Building_10_and_Dome_%284709371488%29.jpg/960px-MIT_-_Building_10_and_Dome_%284709371488%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 426,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/f/f9/MIT_-_Building_10_and_Dome_%284709371488%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/MIT_-_Building_10_and_Dome_%284709371488%29.jpg/960px-MIT_-_Building_10_and_Dome_%284709371488%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 426,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/f/f9/MIT_-_Building_10_and_Dome_%284709371488%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/MIT_-_Building_10_and_Dome_%284709371488%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:MIT_-_Building_10_and_Dome_(4709371488).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=133920703",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "MIT - Building 10 and Dome (4709371488)",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "<p>The Massachusetts Institute of Technology's major classroom buildings were opened in 1916.  They consist of a series of connected buildings, symmetrical around an open court.  This is Building 10, in the center, with the \"Great Dome.\"  The dome is 150 ft (45 m) high.  It was designed after the Pantheon in Rome.  The dome is the symbol of MIT.  I took this photo from Memorial Drive in Cambridge.  \n</p>\nI do not remember hearing the term \"Great Dome\" during my time at MIT.  Perhaps it is to distinguish it from a smaller dome on Building 7, on Massachusetts Avenue.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1954-10",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/24736216@N07\">Roger W</a> from Sarasota, Florida, U.S.A.",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ],
+        "coordinates": [
+          {
+            "lat": 42.359844,
+            "lon": -71.092057,
+            "primary": "",
+            "globe": "earth"
+          }
+        ]
+      },
+      "133920714": {
+        "pageid": 133920714,
+        "ns": 6,
+        "title": "File:Massachusetts Institute of Technology - Building 10 and Dome (1975) (4715987204).jpg",
+        "index": 34,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2023-07-03T23:30:38Z",
+            "size": 259512,
+            "width": 1020,
+            "height": 681,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Massachusetts_Institute_of_Technology_-_Building_10_and_Dome_%281975%29_%284715987204%29.jpg/960px-Massachusetts_Institute_of_Technology_-_Building_10_and_Dome_%281975%29_%284715987204%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 427,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/5/50/Massachusetts_Institute_of_Technology_-_Building_10_and_Dome_%281975%29_%284715987204%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Massachusetts_Institute_of_Technology_-_Building_10_and_Dome_%281975%29_%284715987204%29.jpg/960px-Massachusetts_Institute_of_Technology_-_Building_10_and_Dome_%281975%29_%284715987204%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 427,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/5/50/Massachusetts_Institute_of_Technology_-_Building_10_and_Dome_%281975%29_%284715987204%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Massachusetts_Institute_of_Technology_-_Building_10_and_Dome_%281975%29_%284715987204%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Massachusetts_Institute_of_Technology_-_Building_10_and_Dome_(1975)_(4715987204).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=133920714",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Massachusetts Institute of Technology - Building 10 and Dome (1975) (4715987204)",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Building 10, the centerpiece of the main campus of MIT, and the dome.  The photo is identical to the one in 1954 (21 years earlier), except that the trees have grown, and the camera and light are both better.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1975-08-18",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/24736216@N07\">Roger W</a> from Sarasota, Florida, U.S.A.",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ],
+        "coordinates": [
+          {
+            "lat": 42.359844,
+            "lon": -71.092057,
+            "primary": "",
+            "globe": "earth"
+          }
+        ]
+      },
+      "133920736": {
+        "pageid": 133920736,
+        "ns": 6,
+        "title": "File:MIT from Prudential Tower (4727430882).jpg",
+        "index": 35,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2023-07-03T23:31:02Z",
+            "size": 465050,
+            "width": 1100,
+            "height": 732,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/MIT_from_Prudential_Tower_%284727430882%29.jpg/960px-MIT_from_Prudential_Tower_%284727430882%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 426,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/3/3e/MIT_from_Prudential_Tower_%284727430882%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/MIT_from_Prudential_Tower_%284727430882%29.jpg/960px-MIT_from_Prudential_Tower_%284727430882%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 426,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/3/3e/MIT_from_Prudential_Tower_%284727430882%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/MIT_from_Prudential_Tower_%284727430882%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:MIT_from_Prudential_Tower_(4727430882).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=133920736",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "MIT from Prudential Tower (4727430882)",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "The main buildings of the Massachusetts Institute of Technology campus, from Prudential Tower in Boston in 1975,  These buildings were opened in 1916.  Some of the modern looking buildings behind this grup were built after I attended MIT in the mid-1950s.  They probably replaced industrial buildings that bordered the campus in the 1950s.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1975-08-18",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/24736216@N07\">Roger W</a> from Sarasota, Florida, U.S.A.",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ],
+        "coordinates": [
+          {
+            "lat": 42.359844,
+            "lon": -71.092057,
+            "primary": "",
+            "globe": "earth"
+          }
+        ]
+      },
+      "133920744": {
+        "pageid": 133920744,
+        "ns": 6,
+        "title": "File:Cambidge - MIT from Air (Postcard) (7839348562).jpg",
+        "index": 36,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2023-07-03T23:31:10Z",
+            "size": 542203,
+            "width": 1150,
+            "height": 673,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Cambidge_-_MIT_from_Air_%28Postcard%29_%287839348562%29.jpg/960px-Cambidge_-_MIT_from_Air_%28Postcard%29_%287839348562%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 375,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Cambidge_-_MIT_from_Air_%28Postcard%29_%287839348562%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Cambidge_-_MIT_from_Air_%28Postcard%29_%287839348562%29.jpg/960px-Cambidge_-_MIT_from_Air_%28Postcard%29_%287839348562%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 375,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Cambidge_-_MIT_from_Air_%28Postcard%29_%287839348562%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Cambidge_-_MIT_from_Air_%28Postcard%29_%287839348562%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Cambidge_-_MIT_from_Air_(Postcard)_(7839348562).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=133920744",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Cambidge - MIT from Air (Postcard) (7839348562)",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "<p>A postcard air view of the Massachusetts Institute of Technology campus in 1975,  The MIT Campus is in Cambridge, Massachusetts, across the Charles River from Boston.  It is along a wide area in the river called the Charles River Basin.  Memorial Drive is parallel to the river.\n</p><p>The original set of classroom buildings from 1913-1916 is at left.  Most buildings at MIT are numbered.  The Great Dome is on Building 10.  The Hayden Library (Building 14) is to the right of the main buildings, and Walker Memorial (Building 50) is the next building.  The tower is the Green Building (Building 54).  It was built in 1962-1964.  It is 295 feet (90 m) high, and is the tallest building in Cambridge.  \n</p><p>Kresge Auditorium, designed by Eero Saarinen and built in 1953-1955, is at top left.  It is supported at three points.  It is Building 46 in the numbering system, but its number is not used.  There are dormitories off the photo, fronting on Memorial Drive, including Burton House, my first \"home\" when I attended MIT.  \n</p>\nThe East Campus dormitories are at the right.  (Dormitories are not in MIT building numbers.)  I lived in Senior House, most of which is shown at bottom right.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "before 1975-08-18",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/24736216@N07\">Roger W</a> from Sarasota, Florida, U.S.A.",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ],
+        "coordinates": [
+          {
+            "lat": 42.359844,
+            "lon": -71.092057,
+            "primary": "",
+            "globe": "earth"
+          }
+        ]
+      },
+      "145903878": {
+        "pageid": 145903878,
+        "ns": 6,
+        "title": "File:MIT Newton's Apple Tree 20240227 01.jpg",
+        "index": 37,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2024-02-28T05:54:27Z",
+            "size": 5107987,
+            "width": 4032,
+            "height": 3024,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/MIT_Newton%27s_Apple_Tree_20240227_01.jpg/960px-MIT_Newton%27s_Apple_Tree_20240227_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 480,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/MIT_Newton%27s_Apple_Tree_20240227_01.jpg/1280px-MIT_Newton%27s_Apple_Tree_20240227_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/MIT_Newton%27s_Apple_Tree_20240227_01.jpg/960px-MIT_Newton%27s_Apple_Tree_20240227_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 480,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/MIT_Newton%27s_Apple_Tree_20240227_01.jpg/1280px-MIT_Newton%27s_Apple_Tree_20240227_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/MIT_Newton%27s_Apple_Tree_20240227_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:MIT_Newton%27s_Apple_Tree_20240227_01.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=145903878",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "MIT Newton's Apple Tree 20240227 01",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "MIT Newton's Apple Tree, photo taken at Feb 27, 2024",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2024-02-27 14:37:03",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Peacearth\" title=\"User:Peacearth\">Peacearth</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ],
+        "coordinates": [
+          {
+            "lat": 42.3597,
+            "lon": -71.092567,
+            "primary": "",
+            "globe": "earth"
+          }
+        ]
+      },
+      "145903879": {
+        "pageid": 145903879,
+        "ns": 6,
+        "title": "File:Plaque of MIT Newton's Apple Tree.jpg",
+        "index": 38,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2024-02-28T05:54:28Z",
+            "size": 5854384,
+            "width": 4032,
+            "height": 3024,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Plaque_of_MIT_Newton%27s_Apple_Tree.jpg/960px-Plaque_of_MIT_Newton%27s_Apple_Tree.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 480,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Plaque_of_MIT_Newton%27s_Apple_Tree.jpg/1280px-Plaque_of_MIT_Newton%27s_Apple_Tree.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Plaque_of_MIT_Newton%27s_Apple_Tree.jpg/960px-Plaque_of_MIT_Newton%27s_Apple_Tree.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 480,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Plaque_of_MIT_Newton%27s_Apple_Tree.jpg/1280px-Plaque_of_MIT_Newton%27s_Apple_Tree.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Plaque_of_MIT_Newton%27s_Apple_Tree.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Plaque_of_MIT_Newton%27s_Apple_Tree.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=145903879",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Plaque of MIT Newton's Apple Tree",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Plaque of MIT Newton's Apple Tree",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2024-02-27 14:36:43",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Peacearth\" title=\"User:Peacearth\">Peacearth</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ],
+        "coordinates": [
+          {
+            "lat": 42.359608,
+            "lon": -71.092444,
+            "primary": "",
+            "globe": "earth"
+          }
+        ]
+      },
+      "145903881": {
+        "pageid": 145903881,
+        "ns": 6,
+        "title": "File:MIT Newton's Apple Tree 20240227 02.jpg",
+        "index": 39,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2024-02-28T05:54:28Z",
+            "size": 4983449,
+            "width": 4032,
+            "height": 3024,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/MIT_Newton%27s_Apple_Tree_20240227_02.jpg/960px-MIT_Newton%27s_Apple_Tree_20240227_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 480,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/MIT_Newton%27s_Apple_Tree_20240227_02.jpg/1280px-MIT_Newton%27s_Apple_Tree_20240227_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/MIT_Newton%27s_Apple_Tree_20240227_02.jpg/960px-MIT_Newton%27s_Apple_Tree_20240227_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 480,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/MIT_Newton%27s_Apple_Tree_20240227_02.jpg/1280px-MIT_Newton%27s_Apple_Tree_20240227_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/MIT_Newton%27s_Apple_Tree_20240227_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:MIT_Newton%27s_Apple_Tree_20240227_02.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=145903881",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "MIT Newton's Apple Tree 20240227 02",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "MIT Newton's Apple Tree, photo taken at Feb 27, 2024",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2024-02-27 14:37:48",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Peacearth\" title=\"User:Peacearth\">Peacearth</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ],
+        "coordinates": [
+          {
+            "lat": 42.359794,
+            "lon": -71.092606,
+            "primary": "",
+            "globe": "earth"
+          }
+        ]
+      },
+      "148638411": {
+        "pageid": 148638411,
+        "ns": 6,
+        "title": "File:20240506 MIT pro-Palestinian protests.jpg",
+        "index": 40,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2024-05-23T05:56:04Z",
+            "size": 4582667,
+            "width": 3024,
+            "height": 4032,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/20240506_MIT_pro-Palestinian_protests.jpg/960px-20240506_MIT_pro-Palestinian_protests.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 853,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/20240506_MIT_pro-Palestinian_protests.jpg/1280px-20240506_MIT_pro-Palestinian_protests.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/20240506_MIT_pro-Palestinian_protests.jpg/960px-20240506_MIT_pro-Palestinian_protests.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 853,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/20240506_MIT_pro-Palestinian_protests.jpg/1280px-20240506_MIT_pro-Palestinian_protests.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/20240506_MIT_pro-Palestinian_protests.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:20240506_MIT_pro-Palestinian_protests.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=148638411",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "20240506 MIT pro-Palestinian protests",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "During May 8, 2024 MIT pro-Palestinian protest, some people wrote some texts including \"DEFUND DIVEST\" outside Lisa T. Su Building (MIT.nano)",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2024-05-06 16:13:36",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Peacearth\" title=\"User:Peacearth\">Peacearth</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ],
+        "coordinates": [
+          {
+            "lat": 42.360533,
+            "lon": -71.091575,
+            "primary": "",
+            "globe": "earth"
+          }
+        ]
+      },
+      "150936616": {
+        "pageid": 150936616,
+        "ns": 6,
+        "title": "File:Newton's Apple Tree at Massachusetts Institute of Technology.jpg",
+        "index": 41,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2024-07-28T16:20:45Z",
+            "size": 5723343,
+            "width": 3600,
+            "height": 2400,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Newton%27s_Apple_Tree_at_Massachusetts_Institute_of_Technology.jpg/960px-Newton%27s_Apple_Tree_at_Massachusetts_Institute_of_Technology.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 427,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Newton%27s_Apple_Tree_at_Massachusetts_Institute_of_Technology.jpg/1280px-Newton%27s_Apple_Tree_at_Massachusetts_Institute_of_Technology.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Newton%27s_Apple_Tree_at_Massachusetts_Institute_of_Technology.jpg/960px-Newton%27s_Apple_Tree_at_Massachusetts_Institute_of_Technology.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 427,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Newton%27s_Apple_Tree_at_Massachusetts_Institute_of_Technology.jpg/1280px-Newton%27s_Apple_Tree_at_Massachusetts_Institute_of_Technology.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Newton%27s_Apple_Tree_at_Massachusetts_Institute_of_Technology.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Newton%27s_Apple_Tree_at_Massachusetts_Institute_of_Technology.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=150936616",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Newton's Apple Tree at Massachusetts Institute of Technology",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Newton's Apple Tree, in the President's Garden at the Massachusetts Institute of Technology",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2024-07-27 18:44:01",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Kzirkel\" title=\"User:Kzirkel\">Kenneth C. Zirkel</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ],
+        "coordinates": [
+          {
+            "lat": 42.359685,
+            "lon": -71.092792,
+            "primary": "",
+            "globe": "earth"
+          }
+        ]
+      },
+      "150936688": {
+        "pageid": 150936688,
+        "ns": 6,
+        "title": "File:Newton's Apple Tree, MIT.jpg",
+        "index": 42,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2024-07-28T16:23:39Z",
+            "size": 5459469,
+            "width": 3600,
+            "height": 2400,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Newton%27s_Apple_Tree%2C_MIT.jpg/960px-Newton%27s_Apple_Tree%2C_MIT.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 427,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Newton%27s_Apple_Tree%2C_MIT.jpg/1280px-Newton%27s_Apple_Tree%2C_MIT.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Newton%27s_Apple_Tree%2C_MIT.jpg/960px-Newton%27s_Apple_Tree%2C_MIT.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 427,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Newton%27s_Apple_Tree%2C_MIT.jpg/1280px-Newton%27s_Apple_Tree%2C_MIT.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Newton%27s_Apple_Tree%2C_MIT.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Newton%27s_Apple_Tree,_MIT.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=150936688",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Newton's Apple Tree, MIT",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Newton's Apple Tree, in the President's Garden at the Massachusetts Institute of Technology",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2024-07-27 18:43:06",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Kzirkel\" title=\"User:Kzirkel\">Kenneth C. Zirkel</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ],
+        "coordinates": [
+          {
+            "lat": 42.35969,
+            "lon": -71.092692,
+            "primary": "",
+            "globe": "earth"
+          }
+        ]
+      },
+      "150936690": {
+        "pageid": 150936690,
+        "ns": 6,
+        "title": "File:Newton's Apple Tree, Massachusetts Institute of Technology.jpg",
+        "index": 43,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2024-07-28T16:23:42Z",
+            "size": 5205617,
+            "width": 2400,
+            "height": 3600,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Newton%27s_Apple_Tree%2C_Massachusetts_Institute_of_Technology.jpg/960px-Newton%27s_Apple_Tree%2C_Massachusetts_Institute_of_Technology.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 960,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Newton%27s_Apple_Tree%2C_Massachusetts_Institute_of_Technology.jpg/1280px-Newton%27s_Apple_Tree%2C_Massachusetts_Institute_of_Technology.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Newton%27s_Apple_Tree%2C_Massachusetts_Institute_of_Technology.jpg/960px-Newton%27s_Apple_Tree%2C_Massachusetts_Institute_of_Technology.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 960,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Newton%27s_Apple_Tree%2C_Massachusetts_Institute_of_Technology.jpg/1280px-Newton%27s_Apple_Tree%2C_Massachusetts_Institute_of_Technology.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Newton%27s_Apple_Tree%2C_Massachusetts_Institute_of_Technology.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Newton%27s_Apple_Tree,_Massachusetts_Institute_of_Technology.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=150936690",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Newton's Apple Tree, Massachusetts Institute of Technology",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Newton's Apple Tree, in the President's Garden at the Massachusetts Institute of Technology",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2024-07-27 18:42:20",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Kzirkel\" title=\"User:Kzirkel\">Kenneth C. Zirkel</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ],
+        "coordinates": [
+          {
+            "lat": 42.359711,
+            "lon": -71.092631,
+            "primary": "",
+            "globe": "earth"
+          }
+        ]
+      },
+      "150936691": {
+        "pageid": 150936691,
+        "ns": 6,
+        "title": "File:Newton's Apple Tree at MIT, Cambridge MA.jpg",
+        "index": 44,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2024-07-28T16:23:46Z",
+            "size": 5215829,
+            "width": 3600,
+            "height": 2400,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Newton%27s_Apple_Tree_at_MIT%2C_Cambridge_MA.jpg/960px-Newton%27s_Apple_Tree_at_MIT%2C_Cambridge_MA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 427,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Newton%27s_Apple_Tree_at_MIT%2C_Cambridge_MA.jpg/1280px-Newton%27s_Apple_Tree_at_MIT%2C_Cambridge_MA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Newton%27s_Apple_Tree_at_MIT%2C_Cambridge_MA.jpg/960px-Newton%27s_Apple_Tree_at_MIT%2C_Cambridge_MA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 427,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Newton%27s_Apple_Tree_at_MIT%2C_Cambridge_MA.jpg/1280px-Newton%27s_Apple_Tree_at_MIT%2C_Cambridge_MA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Newton%27s_Apple_Tree_at_MIT%2C_Cambridge_MA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Newton%27s_Apple_Tree_at_MIT,_Cambridge_MA.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=150936691",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Newton's Apple Tree at MIT, Cambridge MA",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Newton's Apple Tree, in the President's Garden at the Massachusetts Institute of Technology",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2024-07-27 18:42:44",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Kzirkel\" title=\"User:Kzirkel\">Kenneth C. Zirkel</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ],
+        "coordinates": [
+          {
+            "lat": 42.359722,
+            "lon": -71.092661,
+            "primary": "",
+            "globe": "earth"
+          }
+        ]
+      },
+      "152090020": {
+        "pageid": 152090020,
+        "ns": 6,
+        "title": "File:Barker Library at MIT.jpg",
+        "index": 45,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2024-09-01T22:18:15Z",
+            "size": 3255676,
+            "width": 3600,
+            "height": 2499,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Barker_Library_at_MIT.jpg/960px-Barker_Library_at_MIT.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 444,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Barker_Library_at_MIT.jpg/1280px-Barker_Library_at_MIT.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Barker_Library_at_MIT.jpg/960px-Barker_Library_at_MIT.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 444,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Barker_Library_at_MIT.jpg/1280px-Barker_Library_at_MIT.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Barker_Library_at_MIT.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Barker_Library_at_MIT.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=152090020",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Barker Library at MIT",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Barker Engineering Library, under the dome of MIT's Maclaurin Building",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2024-08-31 16:22:44",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Kzirkel\" title=\"User:Kzirkel\">Kenneth C. Zirkel</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ],
+        "coordinates": [
+          {
+            "lat": 42.3593,
+            "lon": -71.091958,
+            "primary": "",
+            "globe": "earth"
+          }
+        ]
+      },
+      "152090022": {
+        "pageid": 152090022,
+        "ns": 6,
+        "title": "File:Inside MIT Building 3.jpg",
+        "index": 46,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2024-09-01T22:18:18Z",
+            "size": 2378721,
+            "width": 3600,
+            "height": 2400,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Inside_MIT_Building_3.jpg/960px-Inside_MIT_Building_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 427,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Inside_MIT_Building_3.jpg/1280px-Inside_MIT_Building_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Inside_MIT_Building_3.jpg/960px-Inside_MIT_Building_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 427,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Inside_MIT_Building_3.jpg/1280px-Inside_MIT_Building_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Inside_MIT_Building_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Inside_MIT_Building_3.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=152090022",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Inside MIT Building 3",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Inside MIT Building 3; architecture fabrication shop at left.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2024-08-31 16:27:11",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Kzirkel\" title=\"User:Kzirkel\">Kenneth C. Zirkel</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ],
+        "coordinates": [
+          {
+            "lat": 42.3593,
+            "lon": -71.091958,
+            "primary": "",
+            "globe": "earth"
+          }
+        ]
+      },
+      "179378484": {
+        "pageid": 179378484,
+        "ns": 6,
+        "title": "File:Massachusetts Institute of Technology (MIT) (54960815718).jpg",
+        "index": 47,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2025-12-04T04:03:06Z",
+            "size": 27878315,
+            "width": 7457,
+            "height": 4195,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Massachusetts_Institute_of_Technology_%28MIT%29_%2854960815718%29.jpg/960px-Massachusetts_Institute_of_Technology_%28MIT%29_%2854960815718%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 360,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Massachusetts_Institute_of_Technology_%28MIT%29_%2854960815718%29.jpg/1280px-Massachusetts_Institute_of_Technology_%28MIT%29_%2854960815718%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Massachusetts_Institute_of_Technology_%28MIT%29_%2854960815718%29.jpg/960px-Massachusetts_Institute_of_Technology_%28MIT%29_%2854960815718%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 360,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Massachusetts_Institute_of_Technology_%28MIT%29_%2854960815718%29.jpg/1280px-Massachusetts_Institute_of_Technology_%28MIT%29_%2854960815718%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Massachusetts_Institute_of_Technology_%28MIT%29_%2854960815718%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Massachusetts_Institute_of_Technology_(MIT)_(54960815718).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=179378484",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Massachusetts Institute of Technology (MIT) (54960815718)",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Cambridge, MA",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2025-11-07 10:15",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/83136374@N05\">ajay_suresh</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ],
+        "coordinates": [
+          {
+            "lat": 42.358777,
+            "lon": -71.091389,
+            "primary": "",
+            "globe": "earth"
+          }
+        ]
+      },
+      "179378523": {
+        "pageid": 179378523,
+        "ns": 6,
+        "title": "File:MIT - Department of Physics (Building 4) (54959751277).jpg",
+        "index": 48,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2025-12-04T04:09:32Z",
+            "size": 28432324,
+            "width": 6884,
+            "height": 3872,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/MIT_-_Department_of_Physics_%28Building_4%29_%2854959751277%29.jpg/960px-MIT_-_Department_of_Physics_%28Building_4%29_%2854959751277%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 360,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/MIT_-_Department_of_Physics_%28Building_4%29_%2854959751277%29.jpg/1280px-MIT_-_Department_of_Physics_%28Building_4%29_%2854959751277%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/MIT_-_Department_of_Physics_%28Building_4%29_%2854959751277%29.jpg/960px-MIT_-_Department_of_Physics_%28Building_4%29_%2854959751277%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 360,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/MIT_-_Department_of_Physics_%28Building_4%29_%2854959751277%29.jpg/1280px-MIT_-_Department_of_Physics_%28Building_4%29_%2854959751277%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/MIT_-_Department_of_Physics_%28Building_4%29_%2854959751277%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:MIT_-_Department_of_Physics_(Building_4)_(54959751277).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=179378523",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "MIT - Department of Physics (Building 4) (54959751277)",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Cambridge, MA",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2025-11-07 10:14",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/83136374@N05\">ajay_suresh</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ],
+        "coordinates": [
+          {
+            "lat": 42.359197,
+            "lon": -71.091317,
+            "primary": "",
+            "globe": "earth"
+          }
+        ]
+      }
+    }
+  }
+}

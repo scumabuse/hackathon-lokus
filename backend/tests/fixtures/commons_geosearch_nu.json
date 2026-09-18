@@ -1,0 +1,3200 @@
+{
+  "batchcomplete": "",
+  "query": {
+    "pages": {
+      "46184648": {
+        "pageid": 46184648,
+        "ns": 6,
+        "title": "File:Work hard and smile.JPG",
+        "index": -1,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2016-01-07T07:01:20Z",
+            "size": 1926412,
+            "width": 2448,
+            "height": 3264,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Work_hard_and_smile.JPG/960px-Work_hard_and_smile.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 853,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Work_hard_and_smile.JPG/1280px-Work_hard_and_smile.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Work_hard_and_smile.JPG/960px-Work_hard_and_smile.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 853,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Work_hard_and_smile.JPG/1280px-Work_hard_and_smile.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Work_hard_and_smile.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Work_hard_and_smile.JPG",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=46184648",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Work hard and smile",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Graduate researcher from France working with the Staubli manipulator",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2015-07-16 10:20:17",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Bauyrzhan.aubakir&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Bauyrzhan.aubakir (page does not exist)\">Bauyrzhan Aubakir</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ],
+        "coordinates": [
+          {
+            "lat": 51.09055278,
+            "lon": 71.39765833,
+            "primary": "",
+            "globe": "earth"
+          }
+        ]
+      },
+      "46184649": {
+        "pageid": 46184649,
+        "ns": 6,
+        "title": "File:Automated.JPG",
+        "index": 0,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2016-01-07T07:01:21Z",
+            "size": 1289004,
+            "width": 3264,
+            "height": 2448,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Automated.JPG/960px-Automated.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 480,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Automated.JPG/1280px-Automated.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Automated.JPG/960px-Automated.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 480,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Automated.JPG/1280px-Automated.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Automated.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Automated.JPG",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=46184649",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Automated",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Young researcher working on CNC machine in order to produce the parts for the robot",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2015-12-08 11:45:58",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Bauyrzhan.aubakir&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Bauyrzhan.aubakir (page does not exist)\">Bauyrzhan Aubakir</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ],
+        "coordinates": [
+          {
+            "lat": 51.09085,
+            "lon": 71.39831667,
+            "primary": "",
+            "globe": "earth"
+          }
+        ]
+      },
+      "46190885": {
+        "pageid": 46190885,
+        "ns": 6,
+        "title": "File:Isolation of zebra fish brain.JPG",
+        "index": 1,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2016-01-07T12:09:33Z",
+            "size": 1688528,
+            "width": 3264,
+            "height": 2448,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Isolation_of_zebra_fish_brain.JPG/960px-Isolation_of_zebra_fish_brain.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 480,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Isolation_of_zebra_fish_brain.JPG/1280px-Isolation_of_zebra_fish_brain.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Isolation_of_zebra_fish_brain.JPG/960px-Isolation_of_zebra_fish_brain.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 480,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Isolation_of_zebra_fish_brain.JPG/1280px-Isolation_of_zebra_fish_brain.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Isolation_of_zebra_fish_brain.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Isolation_of_zebra_fish_brain.JPG",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=46190885",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Isolation of zebra fish brain",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Zebra Fish brain isolation technique requires strong hand and patience. My colleague, Madina Shaimerdenova, has became professional at brain dissections while working at Dr.Charles Gilman's laboratory.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2014-08-12",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Nulu_iman&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Nulu iman (page does not exist)\">Nulu iman</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ],
+        "coordinates": [
+          {
+            "lat": 51.09068056,
+            "lon": 71.39813333,
+            "primary": "",
+            "globe": "earth"
+          }
+        ]
+      },
+      "46191229": {
+        "pageid": 46191229,
+        "ns": 6,
+        "title": "File:Halloween celebration at lab.jpg",
+        "index": 2,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2016-01-07T12:27:38Z",
+            "size": 1990154,
+            "width": 2448,
+            "height": 3264,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Halloween_celebration_at_lab.jpg/960px-Halloween_celebration_at_lab.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 853,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Halloween_celebration_at_lab.jpg/1280px-Halloween_celebration_at_lab.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Halloween_celebration_at_lab.jpg/960px-Halloween_celebration_at_lab.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 853,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Halloween_celebration_at_lab.jpg/1280px-Halloween_celebration_at_lab.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/2/24/Halloween_celebration_at_lab.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Halloween_celebration_at_lab.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=46191229",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Halloween celebration at lab",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "This is how Halloween is celebrated by scientists when they work too much. Please note the white rat sitting on the person's shoulder.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "Taken on 31 October 2013, 11:33:16",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Nulu_iman&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Nulu iman (page does not exist)\">Nulu iman</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ],
+        "coordinates": [
+          {
+            "lat": 51.09098056,
+            "lon": 71.39773611,
+            "primary": "",
+            "globe": "earth"
+          }
+        ]
+      },
+      "46249231": {
+        "pageid": 46249231,
+        "ns": 6,
+        "title": "File:Biology laboratory work, bacteria- bacillus subtilies.JPG",
+        "index": 3,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2016-01-09T14:41:21Z",
+            "size": 643832,
+            "width": 2048,
+            "height": 2048,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Biology_laboratory_work%2C_bacteria-_bacillus_subtilies.JPG/960px-Biology_laboratory_work%2C_bacteria-_bacillus_subtilies.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 640,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Biology_laboratory_work%2C_bacteria-_bacillus_subtilies.JPG/1280px-Biology_laboratory_work%2C_bacteria-_bacillus_subtilies.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Biology_laboratory_work%2C_bacteria-_bacillus_subtilies.JPG/960px-Biology_laboratory_work%2C_bacteria-_bacillus_subtilies.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 640,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Biology_laboratory_work%2C_bacteria-_bacillus_subtilies.JPG/1280px-Biology_laboratory_work%2C_bacteria-_bacillus_subtilies.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Biology_laboratory_work%2C_bacteria-_bacillus_subtilies.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Biology_laboratory_work,_bacteria-_bacillus_subtilies.JPG",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=46249231",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Biology laboratory work, bacteria- bacillus subtilies",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "catalase-positive bacterium",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2015-02-12",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Aizhan9610&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Aizhan9610 (page does not exist)\">Aizhan9610</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ],
+        "coordinates": [
+          {
+            "lat": 51.09080556,
+            "lon": 71.39733889,
+            "primary": "",
+            "globe": "earth"
+          }
+        ]
+      },
+      "46249232": {
+        "pageid": 46249232,
+        "ns": 6,
+        "title": "File:Chemical components.JPG",
+        "index": 4,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2016-01-09T14:41:21Z",
+            "size": 1799743,
+            "width": 3264,
+            "height": 2448,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Chemical_components.JPG/960px-Chemical_components.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 480,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Chemical_components.JPG/1280px-Chemical_components.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Chemical_components.JPG/960px-Chemical_components.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 480,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Chemical_components.JPG/1280px-Chemical_components.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/b/be/Chemical_components.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Chemical_components.JPG",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=46249232",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Chemical components",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Chemistry laboratory work. The mixture of several components was done in order to get different colour compound",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2015-04-24 11:21:29",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Aizhan9610&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Aizhan9610 (page does not exist)\">Aizhan9610</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ],
+        "coordinates": [
+          {
+            "lat": 51.09106111,
+            "lon": 71.39753056,
+            "primary": "",
+            "globe": "earth"
+          }
+        ]
+      },
+      "46249241": {
+        "pageid": 46249241,
+        "ns": 6,
+        "title": "File:Animal heart.JPG",
+        "index": 5,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2016-01-09T14:41:24Z",
+            "size": 813257,
+            "width": 2448,
+            "height": 2448,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Animal_heart.JPG/960px-Animal_heart.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 640,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Animal_heart.JPG/1280px-Animal_heart.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Animal_heart.JPG/960px-Animal_heart.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 640,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Animal_heart.JPG/1280px-Animal_heart.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Animal_heart.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Animal_heart.JPG",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=46249241",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Animal heart",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Biology laboratory work. This is real animal heart",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2014-11-27 09:32:46",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Aizhan9610&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Aizhan9610 (page does not exist)\">Aizhan9610</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ],
+        "coordinates": [
+          {
+            "lat": 51.09251667,
+            "lon": 71.39585,
+            "primary": "",
+            "globe": "earth"
+          }
+        ]
+      },
+      "46252712": {
+        "pageid": 46252712,
+        "ns": 6,
+        "title": "File:Water on copper plate.JPG",
+        "index": 6,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2016-01-09T17:21:51Z",
+            "size": 925436,
+            "width": 2592,
+            "height": 1936,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Water_on_copper_plate.JPG/960px-Water_on_copper_plate.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 478,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Water_on_copper_plate.JPG/1280px-Water_on_copper_plate.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Water_on_copper_plate.JPG/960px-Water_on_copper_plate.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 478,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Water_on_copper_plate.JPG/1280px-Water_on_copper_plate.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Water_on_copper_plate.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Water_on_copper_plate.JPG",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=46252712",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Water on copper plate",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "This is the copper plate before achieving superhydrophobicity.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2015-09-10 17:18:40",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Gmagazova93&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Gmagazova93 (page does not exist)\">Galiya Magazova</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ],
+        "coordinates": [
+          {
+            "lat": 51.09086944,
+            "lon": 71.398125,
+            "primary": "",
+            "globe": "earth"
+          }
+        ]
+      },
+      "46252713": {
+        "pageid": 46252713,
+        "ns": 6,
+        "title": "File:Superhydrophobic surface.JPG",
+        "index": 7,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2016-01-09T17:21:51Z",
+            "size": 1047974,
+            "width": 2592,
+            "height": 1936,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Superhydrophobic_surface.JPG/960px-Superhydrophobic_surface.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 478,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Superhydrophobic_surface.JPG/1280px-Superhydrophobic_surface.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Superhydrophobic_surface.JPG/960px-Superhydrophobic_surface.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 478,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Superhydrophobic_surface.JPG/1280px-Superhydrophobic_surface.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Superhydrophobic_surface.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Superhydrophobic_surface.JPG",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=46252713",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Superhydrophobic surface",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "This picture demonstrates a superhydrophobic property on a copper plate. To mimic lotus leaves the plate was covered by self-assembled nanoparticles.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2015-09-10 16:53:30",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Gmagazova93&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Gmagazova93 (page does not exist)\">Galiya Magazova</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ],
+        "coordinates": [
+          {
+            "lat": 51.0906,
+            "lon": 71.39774444,
+            "primary": "",
+            "globe": "earth"
+          }
+        ]
+      },
+      "46252714": {
+        "pageid": 46252714,
+        "ns": 6,
+        "title": "File:Mirror effect of the superhydrophobic surface on a copper plate.jpg",
+        "index": 8,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2016-01-09T17:21:52Z",
+            "size": 4030768,
+            "width": 2988,
+            "height": 5312,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Mirror_effect_of_the_superhydrophobic_surface_on_a_copper_plate.jpg/960px-Mirror_effect_of_the_superhydrophobic_surface_on_a_copper_plate.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 1138,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Mirror_effect_of_the_superhydrophobic_surface_on_a_copper_plate.jpg/1280px-Mirror_effect_of_the_superhydrophobic_surface_on_a_copper_plate.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Mirror_effect_of_the_superhydrophobic_surface_on_a_copper_plate.jpg/960px-Mirror_effect_of_the_superhydrophobic_surface_on_a_copper_plate.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 1138,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Mirror_effect_of_the_superhydrophobic_surface_on_a_copper_plate.jpg/1280px-Mirror_effect_of_the_superhydrophobic_surface_on_a_copper_plate.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Mirror_effect_of_the_superhydrophobic_surface_on_a_copper_plate.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Mirror_effect_of_the_superhydrophobic_surface_on_a_copper_plate.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=46252714",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Mirror effect of the superhydrophobic surface on a copper plate",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Representation of the mirror effect due to air-water interface on the treated surface. Since the treated surface is superhydrophobic, a layer of air remains on the surface when the plate is submerged in water. After exceeding critical angle, light is reflected off the air-water interface, causing appearance of mirror.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2015-09-10 17:59:07",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Gmagazova93&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Gmagazova93 (page does not exist)\">Galiya Magazova</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ],
+        "coordinates": [
+          {
+            "lat": 51.09086944,
+            "lon": 71.398125,
+            "primary": "",
+            "globe": "earth"
+          }
+        ]
+      },
+      "46252717": {
+        "pageid": 46252717,
+        "ns": 6,
+        "title": "File:AFM image of the superhydrophobic surface.png",
+        "index": 9,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2016-01-09T17:21:54Z",
+            "size": 249563,
+            "width": 964,
+            "height": 967,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/AFM_image_of_the_superhydrophobic_surface.png/960px-AFM_image_of_the_superhydrophobic_surface.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 642,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/b/b7/AFM_image_of_the_superhydrophobic_surface.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/AFM_image_of_the_superhydrophobic_surface.png/960px-AFM_image_of_the_superhydrophobic_surface.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 642,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/b/b7/AFM_image_of_the_superhydrophobic_surface.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/AFM_image_of_the_superhydrophobic_surface.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:AFM_image_of_the_superhydrophobic_surface.png",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=46252717",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "AFM image of the superhydrophobic surface",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "This is the AFM (atomic force microscopy) image of the same surface in cross-section. Observed Cassie–Baxter model explains why the water drops \"sit\" on the copper plate.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2015-11-19",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Gmagazova93&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Gmagazova93 (page does not exist)\">Galiya Magazova</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/png"
+          }
+        ],
+        "coordinates": [
+          {
+            "lat": 51.09086944,
+            "lon": 71.398125,
+            "primary": "",
+            "globe": "earth"
+          }
+        ]
+      },
+      "46253676": {
+        "pageid": 46253676,
+        "ns": 6,
+        "title": "File:Three Tigers.JPG",
+        "index": 10,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2016-01-09T17:58:04Z",
+            "size": 1631056,
+            "width": 2448,
+            "height": 2448,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Three_Tigers.JPG/960px-Three_Tigers.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 640,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Three_Tigers.JPG/1280px-Three_Tigers.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Three_Tigers.JPG/960px-Three_Tigers.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 640,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Three_Tigers.JPG/1280px-Three_Tigers.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Three_Tigers.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Three_Tigers.JPG",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=46253676",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Three Tigers",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "The beauty of nature in the view of three tigers",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2016-01-09",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Aizhan9610&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Aizhan9610 (page does not exist)\">Aizhan9610</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ],
+        "coordinates": [
+          {
+            "lat": 51.08899444,
+            "lon": 71.39690833,
+            "primary": "",
+            "globe": "earth"
+          }
+        ]
+      },
+      "118456363": {
+        "pageid": 118456363,
+        "ns": 6,
+        "title": "File:Skfjsdufsifu.jpg",
+        "index": 11,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2022-05-30T03:37:15Z",
+            "size": 2244537,
+            "width": 3024,
+            "height": 4032,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Skfjsdufsifu.jpg/960px-Skfjsdufsifu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 853,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Skfjsdufsifu.jpg/1280px-Skfjsdufsifu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Skfjsdufsifu.jpg/960px-Skfjsdufsifu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 853,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Skfjsdufsifu.jpg/1280px-Skfjsdufsifu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Skfjsdufsifu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Skfjsdufsifu.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=118456363",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Skfjsdufsifu",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "dkfskhfsfksh",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2022-05-25 12:01:12",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Adyokka&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Adyokka (page does not exist)\">Adyokka</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ],
+        "coordinates": [
+          {
+            "lat": 51.085033,
+            "lon": 71.391922,
+            "primary": "",
+            "globe": "earth"
+          }
+        ]
+      },
+      "118456365": {
+        "pageid": 118456365,
+        "ns": 6,
+        "title": "File:Lilac lol.jpg",
+        "index": 12,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2022-05-30T03:37:15Z",
+            "size": 2950749,
+            "width": 3024,
+            "height": 4032,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Lilac_lol.jpg/960px-Lilac_lol.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 853,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Lilac_lol.jpg/1280px-Lilac_lol.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Lilac_lol.jpg/960px-Lilac_lol.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 853,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Lilac_lol.jpg/1280px-Lilac_lol.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Lilac_lol.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Lilac_lol.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=118456365",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Lilac lol",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "kxjcskdsufisuf",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2022-05-25 12:12:23",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Adyokka&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Adyokka (page does not exist)\">Adyokka</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ],
+        "coordinates": [
+          {
+            "lat": 51.086739,
+            "lon": 71.395661,
+            "primary": "",
+            "globe": "earth"
+          }
+        ]
+      },
+      "118456367": {
+        "pageid": 118456367,
+        "ns": 6,
+        "title": "File:Fofofofofofofo.jpg",
+        "index": 13,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2022-05-30T03:37:19Z",
+            "size": 3150190,
+            "width": 3024,
+            "height": 4032,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Fofofofofofofo.jpg/960px-Fofofofofofofo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 853,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Fofofofofofofo.jpg/1280px-Fofofofofofofo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Fofofofofofofo.jpg/960px-Fofofofofofofo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 853,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Fofofofofofofo.jpg/1280px-Fofofofofofofo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Fofofofofofofo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Fofofofofofofo.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=118456367",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Fofofofofofofo",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "sdffssfsddff",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2022-05-25 11:57:54",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Adyokka&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Adyokka (page does not exist)\">Adyokka</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ],
+        "coordinates": [
+          {
+            "lat": 51.084872,
+            "lon": 71.39225,
+            "primary": "",
+            "globe": "earth"
+          }
+        ]
+      },
+      "118456814": {
+        "pageid": 118456814,
+        "ns": 6,
+        "title": "File:Стебель Одуванчика.jpg",
+        "index": 14,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2022-05-30T04:04:25Z",
+            "size": 64738,
+            "width": 640,
+            "height": 480,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/9/93/%D0%A1%D1%82%D0%B5%D0%B1%D0%B5%D0%BB%D1%8C_%D0%9E%D0%B4%D1%83%D0%B2%D0%B0%D0%BD%D1%87%D0%B8%D0%BA%D0%B0.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 640,
+            "thumbheight": 480,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/9/93/%D0%A1%D1%82%D0%B5%D0%B1%D0%B5%D0%BB%D1%8C_%D0%9E%D0%B4%D1%83%D0%B2%D0%B0%D0%BD%D1%87%D0%B8%D0%BA%D0%B0.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 480
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/%D0%A1%D1%82%D0%B5%D0%B1%D0%B5%D0%BB%D1%8C_%D0%9E%D0%B4%D1%83%D0%B2%D0%B0%D0%BD%D1%87%D0%B8%D0%BA%D0%B0.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:%D0%A1%D1%82%D0%B5%D0%B1%D0%B5%D0%BB%D1%8C_%D0%9E%D0%B4%D1%83%D0%B2%D0%B0%D0%BD%D1%87%D0%B8%D0%BA%D0%B0.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=118456814",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Стебель Одуванчика",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "dandelion",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2022-05-25",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Aigerash&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Aigerash (page does not exist)\">Aigerash</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ],
+        "coordinates": [
+          {
+            "lat": 51.084669,
+            "lon": 71.393856,
+            "primary": "",
+            "globe": "earth"
+          }
+        ]
+      },
+      "118456816": {
+        "pageid": 118456816,
+        "ns": 6,
+        "title": "File:Бархатцы оранжевый.jpg",
+        "index": 15,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2022-05-30T04:04:27Z",
+            "size": 3465166,
+            "width": 3000,
+            "height": 4000,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/%D0%91%D0%B0%D1%80%D1%85%D0%B0%D1%82%D1%86%D1%8B_%D0%BE%D1%80%D0%B0%D0%BD%D0%B6%D0%B5%D0%B2%D1%8B%D0%B9.jpg/960px-%D0%91%D0%B0%D1%80%D1%85%D0%B0%D1%82%D1%86%D1%8B_%D0%BE%D1%80%D0%B0%D0%BD%D0%B6%D0%B5%D0%B2%D1%8B%D0%B9.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 853,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/%D0%91%D0%B0%D1%80%D1%85%D0%B0%D1%82%D1%86%D1%8B_%D0%BE%D1%80%D0%B0%D0%BD%D0%B6%D0%B5%D0%B2%D1%8B%D0%B9.jpg/1280px-%D0%91%D0%B0%D1%80%D1%85%D0%B0%D1%82%D1%86%D1%8B_%D0%BE%D1%80%D0%B0%D0%BD%D0%B6%D0%B5%D0%B2%D1%8B%D0%B9.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/%D0%91%D0%B0%D1%80%D1%85%D0%B0%D1%82%D1%86%D1%8B_%D0%BE%D1%80%D0%B0%D0%BD%D0%B6%D0%B5%D0%B2%D1%8B%D0%B9.jpg/960px-%D0%91%D0%B0%D1%80%D1%85%D0%B0%D1%82%D1%86%D1%8B_%D0%BE%D1%80%D0%B0%D0%BD%D0%B6%D0%B5%D0%B2%D1%8B%D0%B9.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 853,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/%D0%91%D0%B0%D1%80%D1%85%D0%B0%D1%82%D1%86%D1%8B_%D0%BE%D1%80%D0%B0%D0%BD%D0%B6%D0%B5%D0%B2%D1%8B%D0%B9.jpg/1280px-%D0%91%D0%B0%D1%80%D1%85%D0%B0%D1%82%D1%86%D1%8B_%D0%BE%D1%80%D0%B0%D0%BD%D0%B6%D0%B5%D0%B2%D1%8B%D0%B9.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/%D0%91%D0%B0%D1%80%D1%85%D0%B0%D1%82%D1%86%D1%8B_%D0%BE%D1%80%D0%B0%D0%BD%D0%B6%D0%B5%D0%B2%D1%8B%D0%B9.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:%D0%91%D0%B0%D1%80%D1%85%D0%B0%D1%82%D1%86%D1%8B_%D0%BE%D1%80%D0%B0%D0%BD%D0%B6%D0%B5%D0%B2%D1%8B%D0%B9.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=118456816",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Бархатцы оранжевый",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Garden flower - marigold",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2022-05-25 08:56:21",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Aigerash&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Aigerash (page does not exist)\">Aigerash</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ],
+        "coordinates": [
+          {
+            "lat": 51.084669,
+            "lon": 71.393856,
+            "primary": "",
+            "globe": "earth"
+          }
+        ]
+      },
+      "124693598": {
+        "pageid": 124693598,
+        "ns": 6,
+        "title": "File:Монументальная роспись Марата Бекеева в MEGA Silk Way 2.jpg",
+        "index": 16,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2022-10-29T05:08:20Z",
+            "size": 3665095,
+            "width": 2448,
+            "height": 2172,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/%D0%9C%D0%BE%D0%BD%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D1%80%D0%BE%D1%81%D0%BF%D0%B8%D1%81%D1%8C_%D0%9C%D0%B0%D1%80%D0%B0%D1%82%D0%B0_%D0%91%D0%B5%D0%BA%D0%B5%D0%B5%D0%B2%D0%B0_%D0%B2_MEGA_Silk_Way_2.jpg/960px-%D0%9C%D0%BE%D0%BD%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D1%80%D0%BE%D1%81%D0%BF%D0%B8%D1%81%D1%8C_%D0%9C%D0%B0%D1%80%D0%B0%D1%82%D0%B0_%D0%91%D0%B5%D0%BA%D0%B5%D0%B5%D0%B2%D0%B0_%D0%B2_MEGA_Silk_Way_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 568,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/%D0%9C%D0%BE%D0%BD%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D1%80%D0%BE%D1%81%D0%BF%D0%B8%D1%81%D1%8C_%D0%9C%D0%B0%D1%80%D0%B0%D1%82%D0%B0_%D0%91%D0%B5%D0%BA%D0%B5%D0%B5%D0%B2%D0%B0_%D0%B2_MEGA_Silk_Way_2.jpg/1280px-%D0%9C%D0%BE%D0%BD%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D1%80%D0%BE%D1%81%D0%BF%D0%B8%D1%81%D1%8C_%D0%9C%D0%B0%D1%80%D0%B0%D1%82%D0%B0_%D0%91%D0%B5%D0%BA%D0%B5%D0%B5%D0%B2%D0%B0_%D0%B2_MEGA_Silk_Way_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/%D0%9C%D0%BE%D0%BD%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D1%80%D0%BE%D1%81%D0%BF%D0%B8%D1%81%D1%8C_%D0%9C%D0%B0%D1%80%D0%B0%D1%82%D0%B0_%D0%91%D0%B5%D0%BA%D0%B5%D0%B5%D0%B2%D0%B0_%D0%B2_MEGA_Silk_Way_2.jpg/960px-%D0%9C%D0%BE%D0%BD%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D1%80%D0%BE%D1%81%D0%BF%D0%B8%D1%81%D1%8C_%D0%9C%D0%B0%D1%80%D0%B0%D1%82%D0%B0_%D0%91%D0%B5%D0%BA%D0%B5%D0%B5%D0%B2%D0%B0_%D0%B2_MEGA_Silk_Way_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 568,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/%D0%9C%D0%BE%D0%BD%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D1%80%D0%BE%D1%81%D0%BF%D0%B8%D1%81%D1%8C_%D0%9C%D0%B0%D1%80%D0%B0%D1%82%D0%B0_%D0%91%D0%B5%D0%BA%D0%B5%D0%B5%D0%B2%D0%B0_%D0%B2_MEGA_Silk_Way_2.jpg/1280px-%D0%9C%D0%BE%D0%BD%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D1%80%D0%BE%D1%81%D0%BF%D0%B8%D1%81%D1%8C_%D0%9C%D0%B0%D1%80%D0%B0%D1%82%D0%B0_%D0%91%D0%B5%D0%BA%D0%B5%D0%B5%D0%B2%D0%B0_%D0%B2_MEGA_Silk_Way_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/%D0%9C%D0%BE%D0%BD%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D1%80%D0%BE%D1%81%D0%BF%D0%B8%D1%81%D1%8C_%D0%9C%D0%B0%D1%80%D0%B0%D1%82%D0%B0_%D0%91%D0%B5%D0%BA%D0%B5%D0%B5%D0%B2%D0%B0_%D0%B2_MEGA_Silk_Way_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:%D0%9C%D0%BE%D0%BD%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D1%80%D0%BE%D1%81%D0%BF%D0%B8%D1%81%D1%8C_%D0%9C%D0%B0%D1%80%D0%B0%D1%82%D0%B0_%D0%91%D0%B5%D0%BA%D0%B5%D0%B5%D0%B2%D0%B0_%D0%B2_MEGA_Silk_Way_2.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=124693598",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Монументальная роспись Марата Бекеева в MEGA Silk Way 2",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Монументальная роспись Марата Бекеева в MEGA Silk Way.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2018-09-27 20:54:15",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Timur Bekeyev",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ],
+        "coordinates": [
+          {
+            "lat": 51.089511,
+            "lon": 71.407081,
+            "primary": "",
+            "globe": "earth"
+          }
+        ]
+      },
+      "124693599": {
+        "pageid": 124693599,
+        "ns": 6,
+        "title": "File:Монументальная роспись Марата Бекеева в MEGA Silk Way.jpg",
+        "index": 17,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2022-10-29T05:08:20Z",
+            "size": 4694942,
+            "width": 2448,
+            "height": 2615,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/%D0%9C%D0%BE%D0%BD%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D1%80%D0%BE%D1%81%D0%BF%D0%B8%D1%81%D1%8C_%D0%9C%D0%B0%D1%80%D0%B0%D1%82%D0%B0_%D0%91%D0%B5%D0%BA%D0%B5%D0%B5%D0%B2%D0%B0_%D0%B2_MEGA_Silk_Way.jpg/960px-%D0%9C%D0%BE%D0%BD%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D1%80%D0%BE%D1%81%D0%BF%D0%B8%D1%81%D1%8C_%D0%9C%D0%B0%D1%80%D0%B0%D1%82%D0%B0_%D0%91%D0%B5%D0%BA%D0%B5%D0%B5%D0%B2%D0%B0_%D0%B2_MEGA_Silk_Way.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 684,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/%D0%9C%D0%BE%D0%BD%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D1%80%D0%BE%D1%81%D0%BF%D0%B8%D1%81%D1%8C_%D0%9C%D0%B0%D1%80%D0%B0%D1%82%D0%B0_%D0%91%D0%B5%D0%BA%D0%B5%D0%B5%D0%B2%D0%B0_%D0%B2_MEGA_Silk_Way.jpg/1280px-%D0%9C%D0%BE%D0%BD%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D1%80%D0%BE%D1%81%D0%BF%D0%B8%D1%81%D1%8C_%D0%9C%D0%B0%D1%80%D0%B0%D1%82%D0%B0_%D0%91%D0%B5%D0%BA%D0%B5%D0%B5%D0%B2%D0%B0_%D0%B2_MEGA_Silk_Way.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/%D0%9C%D0%BE%D0%BD%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D1%80%D0%BE%D1%81%D0%BF%D0%B8%D1%81%D1%8C_%D0%9C%D0%B0%D1%80%D0%B0%D1%82%D0%B0_%D0%91%D0%B5%D0%BA%D0%B5%D0%B5%D0%B2%D0%B0_%D0%B2_MEGA_Silk_Way.jpg/960px-%D0%9C%D0%BE%D0%BD%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D1%80%D0%BE%D1%81%D0%BF%D0%B8%D1%81%D1%8C_%D0%9C%D0%B0%D1%80%D0%B0%D1%82%D0%B0_%D0%91%D0%B5%D0%BA%D0%B5%D0%B5%D0%B2%D0%B0_%D0%B2_MEGA_Silk_Way.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 684,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/%D0%9C%D0%BE%D0%BD%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D1%80%D0%BE%D1%81%D0%BF%D0%B8%D1%81%D1%8C_%D0%9C%D0%B0%D1%80%D0%B0%D1%82%D0%B0_%D0%91%D0%B5%D0%BA%D0%B5%D0%B5%D0%B2%D0%B0_%D0%B2_MEGA_Silk_Way.jpg/1280px-%D0%9C%D0%BE%D0%BD%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D1%80%D0%BE%D1%81%D0%BF%D0%B8%D1%81%D1%8C_%D0%9C%D0%B0%D1%80%D0%B0%D1%82%D0%B0_%D0%91%D0%B5%D0%BA%D0%B5%D0%B5%D0%B2%D0%B0_%D0%B2_MEGA_Silk_Way.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/%D0%9C%D0%BE%D0%BD%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D1%80%D0%BE%D1%81%D0%BF%D0%B8%D1%81%D1%8C_%D0%9C%D0%B0%D1%80%D0%B0%D1%82%D0%B0_%D0%91%D0%B5%D0%BA%D0%B5%D0%B5%D0%B2%D0%B0_%D0%B2_MEGA_Silk_Way.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:%D0%9C%D0%BE%D0%BD%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D1%80%D0%BE%D1%81%D0%BF%D0%B8%D1%81%D1%8C_%D0%9C%D0%B0%D1%80%D0%B0%D1%82%D0%B0_%D0%91%D0%B5%D0%BA%D0%B5%D0%B5%D0%B2%D0%B0_%D0%B2_MEGA_Silk_Way.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=124693599",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Монументальная роспись Марата Бекеева в MEGA Silk Way",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Монументальная роспись Марата Бекеева в MEGA Silk Way.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2018-09-27 20:56:54",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Timur Bekeyev",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ],
+        "coordinates": [
+          {
+            "lat": 51.089508,
+            "lon": 71.405669,
+            "primary": "",
+            "globe": "earth"
+          }
+        ]
+      },
+      "124693600": {
+        "pageid": 124693600,
+        "ns": 6,
+        "title": "File:Монументальная роспись Марата Бекеева в MEGA Silk Way 3.jpg",
+        "index": 18,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2022-10-29T05:08:20Z",
+            "size": 5055512,
+            "width": 2448,
+            "height": 2241,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/%D0%9C%D0%BE%D0%BD%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D1%80%D0%BE%D1%81%D0%BF%D0%B8%D1%81%D1%8C_%D0%9C%D0%B0%D1%80%D0%B0%D1%82%D0%B0_%D0%91%D0%B5%D0%BA%D0%B5%D0%B5%D0%B2%D0%B0_%D0%B2_MEGA_Silk_Way_3.jpg/960px-%D0%9C%D0%BE%D0%BD%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D1%80%D0%BE%D1%81%D0%BF%D0%B8%D1%81%D1%8C_%D0%9C%D0%B0%D1%80%D0%B0%D1%82%D0%B0_%D0%91%D0%B5%D0%BA%D0%B5%D0%B5%D0%B2%D0%B0_%D0%B2_MEGA_Silk_Way_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 586,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/%D0%9C%D0%BE%D0%BD%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D1%80%D0%BE%D1%81%D0%BF%D0%B8%D1%81%D1%8C_%D0%9C%D0%B0%D1%80%D0%B0%D1%82%D0%B0_%D0%91%D0%B5%D0%BA%D0%B5%D0%B5%D0%B2%D0%B0_%D0%B2_MEGA_Silk_Way_3.jpg/1280px-%D0%9C%D0%BE%D0%BD%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D1%80%D0%BE%D1%81%D0%BF%D0%B8%D1%81%D1%8C_%D0%9C%D0%B0%D1%80%D0%B0%D1%82%D0%B0_%D0%91%D0%B5%D0%BA%D0%B5%D0%B5%D0%B2%D0%B0_%D0%B2_MEGA_Silk_Way_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/%D0%9C%D0%BE%D0%BD%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D1%80%D0%BE%D1%81%D0%BF%D0%B8%D1%81%D1%8C_%D0%9C%D0%B0%D1%80%D0%B0%D1%82%D0%B0_%D0%91%D0%B5%D0%BA%D0%B5%D0%B5%D0%B2%D0%B0_%D0%B2_MEGA_Silk_Way_3.jpg/960px-%D0%9C%D0%BE%D0%BD%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D1%80%D0%BE%D1%81%D0%BF%D0%B8%D1%81%D1%8C_%D0%9C%D0%B0%D1%80%D0%B0%D1%82%D0%B0_%D0%91%D0%B5%D0%BA%D0%B5%D0%B5%D0%B2%D0%B0_%D0%B2_MEGA_Silk_Way_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 586,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/%D0%9C%D0%BE%D0%BD%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D1%80%D0%BE%D1%81%D0%BF%D0%B8%D1%81%D1%8C_%D0%9C%D0%B0%D1%80%D0%B0%D1%82%D0%B0_%D0%91%D0%B5%D0%BA%D0%B5%D0%B5%D0%B2%D0%B0_%D0%B2_MEGA_Silk_Way_3.jpg/1280px-%D0%9C%D0%BE%D0%BD%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D1%80%D0%BE%D1%81%D0%BF%D0%B8%D1%81%D1%8C_%D0%9C%D0%B0%D1%80%D0%B0%D1%82%D0%B0_%D0%91%D0%B5%D0%BA%D0%B5%D0%B5%D0%B2%D0%B0_%D0%B2_MEGA_Silk_Way_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/%D0%9C%D0%BE%D0%BD%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D1%80%D0%BE%D1%81%D0%BF%D0%B8%D1%81%D1%8C_%D0%9C%D0%B0%D1%80%D0%B0%D1%82%D0%B0_%D0%91%D0%B5%D0%BA%D0%B5%D0%B5%D0%B2%D0%B0_%D0%B2_MEGA_Silk_Way_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:%D0%9C%D0%BE%D0%BD%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D1%80%D0%BE%D1%81%D0%BF%D0%B8%D1%81%D1%8C_%D0%9C%D0%B0%D1%80%D0%B0%D1%82%D0%B0_%D0%91%D0%B5%D0%BA%D0%B5%D0%B5%D0%B2%D0%B0_%D0%B2_MEGA_Silk_Way_3.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=124693600",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Монументальная роспись Марата Бекеева в MEGA Silk Way 3",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Монументальная роспись Марата Бекеева в MEGA Silk Way.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2018-09-27 20:52:36",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Timur Bekeyev",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ],
+        "coordinates": [
+          {
+            "lat": 51.089303,
+            "lon": 71.408622,
+            "primary": "",
+            "globe": "earth"
+          }
+        ]
+      },
+      "124693602": {
+        "pageid": 124693602,
+        "ns": 6,
+        "title": "File:Монументальная роспись Марата Бекеева в MEGA Silk Way 4.jpg",
+        "index": 19,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2022-10-29T05:08:24Z",
+            "size": 4179139,
+            "width": 2448,
+            "height": 2609,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/%D0%9C%D0%BE%D0%BD%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D1%80%D0%BE%D1%81%D0%BF%D0%B8%D1%81%D1%8C_%D0%9C%D0%B0%D1%80%D0%B0%D1%82%D0%B0_%D0%91%D0%B5%D0%BA%D0%B5%D0%B5%D0%B2%D0%B0_%D0%B2_MEGA_Silk_Way_4.jpg/960px-%D0%9C%D0%BE%D0%BD%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D1%80%D0%BE%D1%81%D0%BF%D0%B8%D1%81%D1%8C_%D0%9C%D0%B0%D1%80%D0%B0%D1%82%D0%B0_%D0%91%D0%B5%D0%BA%D0%B5%D0%B5%D0%B2%D0%B0_%D0%B2_MEGA_Silk_Way_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 682,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/%D0%9C%D0%BE%D0%BD%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D1%80%D0%BE%D1%81%D0%BF%D0%B8%D1%81%D1%8C_%D0%9C%D0%B0%D1%80%D0%B0%D1%82%D0%B0_%D0%91%D0%B5%D0%BA%D0%B5%D0%B5%D0%B2%D0%B0_%D0%B2_MEGA_Silk_Way_4.jpg/1280px-%D0%9C%D0%BE%D0%BD%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D1%80%D0%BE%D1%81%D0%BF%D0%B8%D1%81%D1%8C_%D0%9C%D0%B0%D1%80%D0%B0%D1%82%D0%B0_%D0%91%D0%B5%D0%BA%D0%B5%D0%B5%D0%B2%D0%B0_%D0%B2_MEGA_Silk_Way_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/%D0%9C%D0%BE%D0%BD%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D1%80%D0%BE%D1%81%D0%BF%D0%B8%D1%81%D1%8C_%D0%9C%D0%B0%D1%80%D0%B0%D1%82%D0%B0_%D0%91%D0%B5%D0%BA%D0%B5%D0%B5%D0%B2%D0%B0_%D0%B2_MEGA_Silk_Way_4.jpg/960px-%D0%9C%D0%BE%D0%BD%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D1%80%D0%BE%D1%81%D0%BF%D0%B8%D1%81%D1%8C_%D0%9C%D0%B0%D1%80%D0%B0%D1%82%D0%B0_%D0%91%D0%B5%D0%BA%D0%B5%D0%B5%D0%B2%D0%B0_%D0%B2_MEGA_Silk_Way_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 682,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/%D0%9C%D0%BE%D0%BD%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D1%80%D0%BE%D1%81%D0%BF%D0%B8%D1%81%D1%8C_%D0%9C%D0%B0%D1%80%D0%B0%D1%82%D0%B0_%D0%91%D0%B5%D0%BA%D0%B5%D0%B5%D0%B2%D0%B0_%D0%B2_MEGA_Silk_Way_4.jpg/1280px-%D0%9C%D0%BE%D0%BD%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D1%80%D0%BE%D1%81%D0%BF%D0%B8%D1%81%D1%8C_%D0%9C%D0%B0%D1%80%D0%B0%D1%82%D0%B0_%D0%91%D0%B5%D0%BA%D0%B5%D0%B5%D0%B2%D0%B0_%D0%B2_MEGA_Silk_Way_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/%D0%9C%D0%BE%D0%BD%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D1%80%D0%BE%D1%81%D0%BF%D0%B8%D1%81%D1%8C_%D0%9C%D0%B0%D1%80%D0%B0%D1%82%D0%B0_%D0%91%D0%B5%D0%BA%D0%B5%D0%B5%D0%B2%D0%B0_%D0%B2_MEGA_Silk_Way_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:%D0%9C%D0%BE%D0%BD%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D1%80%D0%BE%D1%81%D0%BF%D0%B8%D1%81%D1%8C_%D0%9C%D0%B0%D1%80%D0%B0%D1%82%D0%B0_%D0%91%D0%B5%D0%BA%D0%B5%D0%B5%D0%B2%D0%B0_%D0%B2_MEGA_Silk_Way_4.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=124693602",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Монументальная роспись Марата Бекеева в MEGA Silk Way 4",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Монументальная роспись Марата Бекеева в MEGA Silk Way.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2018-09-27 21:00:49",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Timur Bekeyev",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ],
+        "coordinates": [
+          {
+            "lat": 51.089153,
+            "lon": 71.404839,
+            "primary": "",
+            "globe": "earth"
+          }
+        ]
+      },
+      "146521993": {
+        "pageid": 146521993,
+        "ns": 6,
+        "title": "File:Тошматов Маҳмуд.jpg",
+        "index": 20,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2024-03-18T07:05:26Z",
+            "size": 2270798,
+            "width": 4032,
+            "height": 1960,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/%D0%A2%D0%BE%D1%88%D0%BC%D0%B0%D1%82%D0%BE%D0%B2_%D0%9C%D0%B0%D2%B3%D0%BC%D1%83%D0%B4.jpg/960px-%D0%A2%D0%BE%D1%88%D0%BC%D0%B0%D1%82%D0%BE%D0%B2_%D0%9C%D0%B0%D2%B3%D0%BC%D1%83%D0%B4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 311,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/%D0%A2%D0%BE%D1%88%D0%BC%D0%B0%D1%82%D0%BE%D0%B2_%D0%9C%D0%B0%D2%B3%D0%BC%D1%83%D0%B4.jpg/1280px-%D0%A2%D0%BE%D1%88%D0%BC%D0%B0%D1%82%D0%BE%D0%B2_%D0%9C%D0%B0%D2%B3%D0%BC%D1%83%D0%B4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/%D0%A2%D0%BE%D1%88%D0%BC%D0%B0%D1%82%D0%BE%D0%B2_%D0%9C%D0%B0%D2%B3%D0%BC%D1%83%D0%B4.jpg/960px-%D0%A2%D0%BE%D1%88%D0%BC%D0%B0%D1%82%D0%BE%D0%B2_%D0%9C%D0%B0%D2%B3%D0%BC%D1%83%D0%B4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 311,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/%D0%A2%D0%BE%D1%88%D0%BC%D0%B0%D1%82%D0%BE%D0%B2_%D0%9C%D0%B0%D2%B3%D0%BC%D1%83%D0%B4.jpg/1280px-%D0%A2%D0%BE%D1%88%D0%BC%D0%B0%D1%82%D0%BE%D0%B2_%D0%9C%D0%B0%D2%B3%D0%BC%D1%83%D0%B4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/%D0%A2%D0%BE%D1%88%D0%BC%D0%B0%D1%82%D0%BE%D0%B2_%D0%9C%D0%B0%D2%B3%D0%BC%D1%83%D0%B4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:%D0%A2%D0%BE%D1%88%D0%BC%D0%B0%D1%82%D0%BE%D0%B2_%D0%9C%D0%B0%D2%B3%D0%BC%D1%83%D0%B4.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=146521993",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Тошматов Маҳмуд",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Маҳму Тошматов дар ҳангоми сафари корӣ дар Қазоқистон",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2019-05-04 10:47:22",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Zolfeqar_Fatihzadeh\" title=\"User:Zolfeqar Fatihzadeh\">Zolfeqar Fatihzadeh</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ],
+        "coordinates": [
+          {
+            "lat": 51.088889,
+            "lon": 71.404722,
+            "primary": "",
+            "globe": "earth"
+          }
+        ]
+      },
+      "182217549": {
+        "pageid": 182217549,
+        "ns": 6,
+        "title": "File:Students with their supervisor.jpg",
+        "index": 21,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2026-01-22T04:32:21Z",
+            "size": 2827207,
+            "width": 3024,
+            "height": 4032,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Students_with_their_supervisor.jpg/960px-Students_with_their_supervisor.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 853,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Students_with_their_supervisor.jpg/1280px-Students_with_their_supervisor.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Students_with_their_supervisor.jpg/960px-Students_with_their_supervisor.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 853,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Students_with_their_supervisor.jpg/1280px-Students_with_their_supervisor.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Students_with_their_supervisor.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Students_with_their_supervisor.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=182217549",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Students with their supervisor",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Students",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2024-06-06 14:13:27",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:ZhanatKappassov&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:ZhanatKappassov (page does not exist)\">ZhanatKappassov</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ],
+        "coordinates": [
+          {
+            "lat": 51.091361,
+            "lon": 71.395844,
+            "primary": "",
+            "globe": "earth"
+          }
+        ]
+      },
+      "182669471": {
+        "pageid": 182669471,
+        "ns": 6,
+        "title": "File:Young researchers.jpg",
+        "index": 22,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2026-01-29T13:03:07Z",
+            "size": 2064286,
+            "width": 3024,
+            "height": 4032,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Young_researchers.jpg/960px-Young_researchers.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 853,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Young_researchers.jpg/1280px-Young_researchers.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Young_researchers.jpg/960px-Young_researchers.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 853,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Young_researchers.jpg/1280px-Young_researchers.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Young_researchers.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Young_researchers.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=182669471",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Young researchers",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Two young researchers in lab coats discuss visual scientific materials",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2026-01-29 11:46:43",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Nazekkama&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Nazekkama (page does not exist)\">Nazekkama</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ],
+        "coordinates": [
+          {
+            "lat": 51.091053,
+            "lon": 71.400392,
+            "primary": "",
+            "globe": "earth"
+          }
+        ]
+      },
+      "182669472": {
+        "pageid": 182669472,
+        "ns": 6,
+        "title": "File:Biology laboratory 2026.jpg",
+        "index": 23,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2026-01-29T13:03:07Z",
+            "size": 1084278,
+            "width": 2714,
+            "height": 4027,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Biology_laboratory_2026.jpg/960px-Biology_laboratory_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 950,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Biology_laboratory_2026.jpg/1280px-Biology_laboratory_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Biology_laboratory_2026.jpg/960px-Biology_laboratory_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 950,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Biology_laboratory_2026.jpg/1280px-Biology_laboratory_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Biology_laboratory_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Biology_laboratory_2026.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=182669472",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Biology laboratory 2026",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Biology laboratory sample making.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2026-01-27 17:30:54",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Nazekkama&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Nazekkama (page does not exist)\">Nazekkama</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ],
+        "coordinates": [
+          {
+            "lat": 51.090858,
+            "lon": 71.396461,
+            "primary": "",
+            "globe": "earth"
+          }
+        ]
+      },
+      "182669473": {
+        "pageid": 182669473,
+        "ns": 6,
+        "title": "File:Women in Science.jpg",
+        "index": 24,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2026-01-29T13:03:07Z",
+            "size": 1832935,
+            "width": 3024,
+            "height": 4032,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Women_in_Science.jpg/960px-Women_in_Science.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 853,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Women_in_Science.jpg/1280px-Women_in_Science.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Women_in_Science.jpg/960px-Women_in_Science.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 853,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Women_in_Science.jpg/1280px-Women_in_Science.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Women_in_Science.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Women_in_Science.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=182669473",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Women in Science",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Two female students wearing lab coats pose during a research session, surrounded by visual materials.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2026-01-29 11:41:55",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Nazekkama&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Nazekkama (page does not exist)\">Nazekkama</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ],
+        "coordinates": [
+          {
+            "lat": 51.091053,
+            "lon": 71.400392,
+            "primary": "",
+            "globe": "earth"
+          }
+        ]
+      },
+      "182669478": {
+        "pageid": 182669478,
+        "ns": 6,
+        "title": "File:Creating sustainability solutions.jpg",
+        "index": 25,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2026-01-29T13:03:10Z",
+            "size": 1269875,
+            "width": 2852,
+            "height": 3699,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Creating_sustainability_solutions.jpg/960px-Creating_sustainability_solutions.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 830,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Creating_sustainability_solutions.jpg/1280px-Creating_sustainability_solutions.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Creating_sustainability_solutions.jpg/960px-Creating_sustainability_solutions.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 830,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Creating_sustainability_solutions.jpg/1280px-Creating_sustainability_solutions.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Creating_sustainability_solutions.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Creating_sustainability_solutions.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=182669478",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Creating sustainability solutions",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "The girl on the photo is observing the plants growth and its effect on soil’s properties.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2026-01-27 17:29:50",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Nazekkama&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Nazekkama (page does not exist)\">Nazekkama</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ],
+        "coordinates": [
+          {
+            "lat": 51.090858,
+            "lon": 71.396461,
+            "primary": "",
+            "globe": "earth"
+          }
+        ]
+      },
+      "182669479": {
+        "pageid": 182669479,
+        "ns": 6,
+        "title": "File:Transferring liquid samples.jpg",
+        "index": 26,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2026-01-29T13:03:11Z",
+            "size": 1594215,
+            "width": 2604,
+            "height": 3659,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Transferring_liquid_samples.jpg/960px-Transferring_liquid_samples.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 899,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Transferring_liquid_samples.jpg/1280px-Transferring_liquid_samples.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Transferring_liquid_samples.jpg/960px-Transferring_liquid_samples.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 899,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Transferring_liquid_samples.jpg/1280px-Transferring_liquid_samples.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Transferring_liquid_samples.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Transferring_liquid_samples.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=182669479",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Transferring liquid samples",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "This image shows a scientist in a laboratory environment, wearing a lab coat and safety glasses, actively engaged in a precise task.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2026-01-27 17:24:29",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Nazekkama&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Nazekkama (page does not exist)\">Nazekkama</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ],
+        "coordinates": [
+          {
+            "lat": 51.091122,
+            "lon": 71.396531,
+            "primary": "",
+            "globe": "earth"
+          }
+        ]
+      },
+      "182669481": {
+        "pageid": 182669481,
+        "ns": 6,
+        "title": "File:Preparing samples for analysis.jpg",
+        "index": 27,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2026-01-29T13:03:12Z",
+            "size": 2023205,
+            "width": 3024,
+            "height": 4032,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Preparing_samples_for_analysis.jpg/960px-Preparing_samples_for_analysis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 853,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Preparing_samples_for_analysis.jpg/1280px-Preparing_samples_for_analysis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Preparing_samples_for_analysis.jpg/960px-Preparing_samples_for_analysis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 853,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Preparing_samples_for_analysis.jpg/1280px-Preparing_samples_for_analysis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/3/35/Preparing_samples_for_analysis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Preparing_samples_for_analysis.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=182669481",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Preparing samples for analysis",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "The picture captures the process of preparing samples for molecular biological research in a laboratory setting",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2026-01-27 17:26:59",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Nazekkama&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Nazekkama (page does not exist)\">Nazekkama</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ],
+        "coordinates": [
+          {
+            "lat": 51.090875,
+            "lon": 71.396819,
+            "primary": "",
+            "globe": "earth"
+          }
+        ]
+      },
+      "182669488": {
+        "pageid": 182669488,
+        "ns": 6,
+        "title": "File:Marie Curie 2026.jpg",
+        "index": 28,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2026-01-29T13:03:16Z",
+            "size": 1186941,
+            "width": 2634,
+            "height": 3887,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Marie_Curie_2026.jpg/960px-Marie_Curie_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 944,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Marie_Curie_2026.jpg/1280px-Marie_Curie_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Marie_Curie_2026.jpg/960px-Marie_Curie_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 944,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Marie_Curie_2026.jpg/1280px-Marie_Curie_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Marie_Curie_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Marie_Curie_2026.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=182669488",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Marie Curie 2026",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "The photo was inspired by photo of famous chemist Marie Curie.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2026-01-27 17:22:15",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Nazekkama&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Nazekkama (page does not exist)\">Nazekkama</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ],
+        "coordinates": [
+          {
+            "lat": 51.090964,
+            "lon": 71.396811,
+            "primary": "",
+            "globe": "earth"
+          }
+        ]
+      },
+      "182669489": {
+        "pageid": 182669489,
+        "ns": 6,
+        "title": "File:Antidot development.jpg",
+        "index": 29,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2026-01-29T13:03:16Z",
+            "size": 950237,
+            "width": 2770,
+            "height": 3569,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Antidot_development.jpg/960px-Antidot_development.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 825,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Antidot_development.jpg/1280px-Antidot_development.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Antidot_development.jpg/960px-Antidot_development.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 825,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Antidot_development.jpg/1280px-Antidot_development.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Antidot_development.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Antidot_development.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=182669489",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Antidot development",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "The scientist, wearing protective gloves and a lab coat, is holding a graduated centrifuge tube containing a bright blue solution.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2026-01-27 17:23:57",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Nazekkama&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Nazekkama (page does not exist)\">Nazekkama</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ],
+        "coordinates": [
+          {
+            "lat": 51.090978,
+            "lon": 71.395783,
+            "primary": "",
+            "globe": "earth"
+          }
+        ]
+      },
+      "182669490": {
+        "pageid": 182669490,
+        "ns": 6,
+        "title": "File:RAs at Nazarbayev University.jpg",
+        "index": 30,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2026-01-29T13:03:16Z",
+            "size": 1847833,
+            "width": 3706,
+            "height": 2813,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/RAs_at_Nazarbayev_University.jpg/960px-RAs_at_Nazarbayev_University.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 486,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/RAs_at_Nazarbayev_University.jpg/1280px-RAs_at_Nazarbayev_University.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/RAs_at_Nazarbayev_University.jpg/960px-RAs_at_Nazarbayev_University.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 486,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/RAs_at_Nazarbayev_University.jpg/1280px-RAs_at_Nazarbayev_University.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/RAs_at_Nazarbayev_University.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:RAs_at_Nazarbayev_University.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=182669490",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "RAs at Nazarbayev University",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "The photo show three research assistants working on their research project in laboratory",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2026-01-27 17:18:44",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Nazekkama&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Nazekkama (page does not exist)\">Nazekkama</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ],
+        "coordinates": [
+          {
+            "lat": 51.090931,
+            "lon": 71.396683,
+            "primary": "",
+            "globe": "earth"
+          }
+        ]
+      },
+      "182669503": {
+        "pageid": 182669503,
+        "ns": 6,
+        "title": "File:Scientific data.jpg",
+        "index": 31,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2026-01-29T13:03:28Z",
+            "size": 1914982,
+            "width": 3024,
+            "height": 4032,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Scientific_data.jpg/960px-Scientific_data.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 853,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Scientific_data.jpg/1280px-Scientific_data.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Scientific_data.jpg/960px-Scientific_data.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 853,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Scientific_data.jpg/1280px-Scientific_data.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Scientific_data.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Scientific_data.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=182669503",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Scientific data",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "The photo contains a girl researcher working in the laboratory in front of a board.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2026-01-27 17:00:29",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Nazekkama&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Nazekkama (page does not exist)\">Nazekkama</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ],
+        "coordinates": [
+          {
+            "lat": 51.091039,
+            "lon": 71.396714,
+            "primary": "",
+            "globe": "earth"
+          }
+        ]
+      },
+      "182669504": {
+        "pageid": 182669504,
+        "ns": 6,
+        "title": "File:People in science 2026.jpg",
+        "index": 32,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2026-01-29T13:03:28Z",
+            "size": 1489183,
+            "width": 2727,
+            "height": 4031,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/People_in_science_2026.jpg/960px-People_in_science_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 946,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/People_in_science_2026.jpg/1280px-People_in_science_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/People_in_science_2026.jpg/960px-People_in_science_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 946,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/People_in_science_2026.jpg/1280px-People_in_science_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/0/00/People_in_science_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:People_in_science_2026.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=182669504",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "People in science 2026",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Two students in lab coats stand in front of a board with sketches, images, and written questions",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2026-01-27 16:55:52",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Nazekkama&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Nazekkama (page does not exist)\">Nazekkama</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ],
+        "coordinates": [
+          {
+            "lat": 51.090881,
+            "lon": 71.396492,
+            "primary": "",
+            "globe": "earth"
+          }
+        ]
+      },
+      "182669505": {
+        "pageid": 182669505,
+        "ns": 6,
+        "title": "File:Through the biology lens.jpg",
+        "index": 33,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2026-01-29T13:03:28Z",
+            "size": 1294828,
+            "width": 2750,
+            "height": 3591,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Through_the_biology_lens.jpg/960px-Through_the_biology_lens.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 836,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Through_the_biology_lens.jpg/1280px-Through_the_biology_lens.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Through_the_biology_lens.jpg/960px-Through_the_biology_lens.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 836,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Through_the_biology_lens.jpg/1280px-Through_the_biology_lens.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Through_the_biology_lens.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Through_the_biology_lens.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=182669505",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Through the biology lens",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "The photo contains a girl and boy working in the laboratory lab.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2026-01-27 17:12:36",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Nazekkama&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Nazekkama (page does not exist)\">Nazekkama</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ],
+        "coordinates": [
+          {
+            "lat": 51.090981,
+            "lon": 71.396989,
+            "primary": "",
+            "globe": "earth"
+          }
+        ]
+      },
+      "182669508": {
+        "pageid": 182669508,
+        "ns": 6,
+        "title": "File:Mixing soil samples for geotechnical testing.jpg",
+        "index": 34,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2026-01-29T13:03:31Z",
+            "size": 3201113,
+            "width": 4284,
+            "height": 5712,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Mixing_soil_samples_for_geotechnical_testing.jpg/960px-Mixing_soil_samples_for_geotechnical_testing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 853,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Mixing_soil_samples_for_geotechnical_testing.jpg/1280px-Mixing_soil_samples_for_geotechnical_testing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Mixing_soil_samples_for_geotechnical_testing.jpg/960px-Mixing_soil_samples_for_geotechnical_testing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 853,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Mixing_soil_samples_for_geotechnical_testing.jpg/1280px-Mixing_soil_samples_for_geotechnical_testing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Mixing_soil_samples_for_geotechnical_testing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Mixing_soil_samples_for_geotechnical_testing.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=182669508",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Mixing soil samples for geotechnical testing",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "The image captures a proud of researchers in a laboratory.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2026-01-27 12:13:23",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Nazekkama&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Nazekkama (page does not exist)\">Nazekkama</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ],
+        "coordinates": [
+          {
+            "lat": 51.091053,
+            "lon": 71.400392,
+            "primary": "",
+            "globe": "earth"
+          }
+        ]
+      },
+      "182669509": {
+        "pageid": 182669509,
+        "ns": 6,
+        "title": "File:RAs with professor at Nazarbayev University.jpg",
+        "index": 35,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2026-01-29T13:03:31Z",
+            "size": 1577446,
+            "width": 2316,
+            "height": 3088,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/RAs_with_professor_at_Nazarbayev_University.jpg/960px-RAs_with_professor_at_Nazarbayev_University.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 853,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/RAs_with_professor_at_Nazarbayev_University.jpg/1280px-RAs_with_professor_at_Nazarbayev_University.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/RAs_with_professor_at_Nazarbayev_University.jpg/960px-RAs_with_professor_at_Nazarbayev_University.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 853,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/RAs_with_professor_at_Nazarbayev_University.jpg/1280px-RAs_with_professor_at_Nazarbayev_University.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/RAs_with_professor_at_Nazarbayev_University.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:RAs_with_professor_at_Nazarbayev_University.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=182669509",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "RAs with professor at Nazarbayev University",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "The photo contains four researchers with their professor.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2026-01-27 11:48:56",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Nazekkama&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Nazekkama (page does not exist)\">Nazekkama</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ],
+        "coordinates": [
+          {
+            "lat": 51.090642,
+            "lon": 71.400122,
+            "primary": "",
+            "globe": "earth"
+          }
+        ]
+      },
+      "182669510": {
+        "pageid": 182669510,
+        "ns": 6,
+        "title": "File:Research group meeting at Nazarbayev University.jpg",
+        "index": 36,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2026-01-29T13:03:31Z",
+            "size": 2823879,
+            "width": 5461,
+            "height": 3987,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Research_group_meeting_at_Nazarbayev_University.jpg/960px-Research_group_meeting_at_Nazarbayev_University.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 467,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Research_group_meeting_at_Nazarbayev_University.jpg/1280px-Research_group_meeting_at_Nazarbayev_University.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Research_group_meeting_at_Nazarbayev_University.jpg/960px-Research_group_meeting_at_Nazarbayev_University.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 467,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Research_group_meeting_at_Nazarbayev_University.jpg/1280px-Research_group_meeting_at_Nazarbayev_University.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Research_group_meeting_at_Nazarbayev_University.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Research_group_meeting_at_Nazarbayev_University.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=182669510",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Research group meeting at Nazarbayev University",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "The photo contains four research assistants working in the lab.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2026-01-27 11:59:08",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Nazekkama&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Nazekkama (page does not exist)\">Nazekkama</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ],
+        "coordinates": [
+          {
+            "lat": 51.090919,
+            "lon": 71.400139,
+            "primary": "",
+            "globe": "earth"
+          }
+        ]
+      },
+      "182669511": {
+        "pageid": 182669511,
+        "ns": 6,
+        "title": "File:Triaxial testing at NU.jpg",
+        "index": 37,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2026-01-29T13:03:35Z",
+            "size": 2137250,
+            "width": 3024,
+            "height": 4032,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Triaxial_testing_at_NU.jpg/960px-Triaxial_testing_at_NU.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 853,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Triaxial_testing_at_NU.jpg/1280px-Triaxial_testing_at_NU.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Triaxial_testing_at_NU.jpg/960px-Triaxial_testing_at_NU.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 853,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Triaxial_testing_at_NU.jpg/1280px-Triaxial_testing_at_NU.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Triaxial_testing_at_NU.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Triaxial_testing_at_NU.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=182669511",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Triaxial testing at NU",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "The photo contains a young researcher in the geotechnical lab.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2026-01-27 11:39:11",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Nazekkama&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Nazekkama (page does not exist)\">Nazekkama</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ],
+        "coordinates": [
+          {
+            "lat": 51.090794,
+            "lon": 71.399711,
+            "primary": "",
+            "globe": "earth"
+          }
+        ]
+      },
+      "182683490": {
+        "pageid": 182683490,
+        "ns": 6,
+        "title": "File:Our uniserse.jpg",
+        "index": 38,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2026-01-29T16:09:30Z",
+            "size": 3557089,
+            "width": 4242,
+            "height": 5587,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Our_uniserse.jpg/960px-Our_uniserse.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 843,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Our_uniserse.jpg/1280px-Our_uniserse.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Our_uniserse.jpg/960px-Our_uniserse.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 843,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Our_uniserse.jpg/1280px-Our_uniserse.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Our_uniserse.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Our_uniserse.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=182683490",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Our uniserse",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "In one world, you are a scientist",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2026-01-27 13:51:37",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Olgatolm124&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Olgatolm124 (page does not exist)\">Olgatolm124</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ],
+        "coordinates": [
+          {
+            "lat": 51.092014,
+            "lon": 71.396972,
+            "primary": "",
+            "globe": "earth"
+          }
+        ]
+      },
+      "182724625": {
+        "pageid": 182724625,
+        "ns": 6,
+        "title": "File:Microflowers of bismuth sulfide.png",
+        "index": 39,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2026-01-30T08:40:30Z",
+            "size": 1452954,
+            "width": 1536,
+            "height": 1094,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Microflowers_of_bismuth_sulfide.png/960px-Microflowers_of_bismuth_sulfide.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 456,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Microflowers_of_bismuth_sulfide.png/1280px-Microflowers_of_bismuth_sulfide.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Microflowers_of_bismuth_sulfide.png/960px-Microflowers_of_bismuth_sulfide.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 456,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Microflowers_of_bismuth_sulfide.png/1280px-Microflowers_of_bismuth_sulfide.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Microflowers_of_bismuth_sulfide.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Microflowers_of_bismuth_sulfide.png",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=182724625",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Microflowers of bismuth sulfide",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Bismuth sulfide microflowers were synthesized via a hydrothermal method in a Teflon-lined autoclave and subsequently characterized using a Helios-5CX scanning electron microscope (SEM).",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2025-09-03",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Timuratabaev&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Timuratabaev (page does not exist)\">Timuratabaev</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/png"
+          }
+        ],
+        "coordinates": [
+          {
+            "lat": 51.09,
+            "lon": 71.39,
+            "primary": "",
+            "globe": "earth"
+          }
+        ]
+      },
+      "182725057": {
+        "pageid": 182725057,
+        "ns": 6,
+        "title": "File:Titanium dioxide thin film with inverse opal structure.tif",
+        "index": 40,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2026-01-30T08:52:01Z",
+            "size": 894587,
+            "width": 1024,
+            "height": 768,
+            "pagecount": 1,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Titanium_dioxide_thin_film_with_inverse_opal_structure.tif/lossy-page1-960px-Titanium_dioxide_thin_film_with_inverse_opal_structure.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 480,
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Titanium_dioxide_thin_film_with_inverse_opal_structure.tif/lossy-page1-960px-Titanium_dioxide_thin_film_with_inverse_opal_structure.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 480
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Titanium_dioxide_thin_film_with_inverse_opal_structure.tif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Titanium_dioxide_thin_film_with_inverse_opal_structure.tif",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=182725057",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Titanium dioxide thin film with inverse opal structure",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Inverse opal structure of titanium dioxide. Ceramic TiO2 thin film with inverse opal structure created with the help of soft polymeric structures and subsequently imaged using a scanning electron microscope",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2023-10-16",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Timuratabaev&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Timuratabaev (page does not exist)\">Timuratabaev</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/tiff"
+          }
+        ],
+        "coordinates": [
+          {
+            "lat": 51.09,
+            "lon": 71.39,
+            "primary": "",
+            "globe": "earth"
+          }
+        ]
+      },
+      "182726395": {
+        "pageid": 182726395,
+        "ns": 6,
+        "title": "File:Sense of Light.jpg",
+        "index": 41,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2026-01-30T09:29:29Z",
+            "size": 745671,
+            "width": 3040,
+            "height": 4037,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Sense_of_Light.jpg/960px-Sense_of_Light.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 850,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Sense_of_Light.jpg/1280px-Sense_of_Light.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Sense_of_Light.jpg/960px-Sense_of_Light.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 850,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Sense_of_Light.jpg/1280px-Sense_of_Light.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Sense_of_Light.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Sense_of_Light.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=182726395",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Sense of Light",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Robotic arm holding a transparent spherical element that is showing fringe patterns due to light polarization.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2022-08-24 18:27:04",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Lightcloude&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Lightcloude (page does not exist)\">Lightcloude</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ],
+        "coordinates": [
+          {
+            "lat": 51.090581,
+            "lon": 71.398375,
+            "primary": "",
+            "globe": "earth"
+          }
+        ]
+      },
+      "182728835": {
+        "pageid": 182728835,
+        "ns": 6,
+        "title": "File:Robot dog.jpg",
+        "index": 42,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2026-01-30T10:52:50Z",
+            "size": 2266047,
+            "width": 3024,
+            "height": 4032,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Robot_dog.jpg/960px-Robot_dog.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 853,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Robot_dog.jpg/1280px-Robot_dog.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Robot_dog.jpg/960px-Robot_dog.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 853,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Robot_dog.jpg/1280px-Robot_dog.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Robot_dog.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Robot_dog.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=182728835",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Robot dog",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Robot is charging.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2026-01-29 13:50:38",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:ZhanatKappassov&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:ZhanatKappassov (page does not exist)\">ZhanatKappassov</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ],
+        "coordinates": [
+          {
+            "lat": 51.091325,
+            "lon": 71.395906,
+            "primary": "",
+            "globe": "earth"
+          }
+        ]
+      },
+      "182735119": {
+        "pageid": 182735119,
+        "ns": 6,
+        "title": "File:Drosophilla brain.jpg",
+        "index": 43,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2026-01-30T13:14:23Z",
+            "size": 576332,
+            "width": 3024,
+            "height": 4032,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Drosophilla_brain.jpg/960px-Drosophilla_brain.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 853,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Drosophilla_brain.jpg/1280px-Drosophilla_brain.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Drosophilla_brain.jpg/960px-Drosophilla_brain.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 853,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Drosophilla_brain.jpg/1280px-Drosophilla_brain.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Drosophilla_brain.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Drosophilla_brain.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=182735119",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Drosophilla brain",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Dissected and aligned Drosophila brains for further treatment with nanoparticles",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2023-10-24 10:40:50",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:A.kairbekova&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:A.kairbekova (page does not exist)\">A.kairbekova</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ],
+        "coordinates": [
+          {
+            "lat": 51.091153,
+            "lon": 71.396675,
+            "primary": "",
+            "globe": "earth"
+          }
+        ]
+      },
+      "182748072": {
+        "pageid": 182748072,
+        "ns": 6,
+        "title": "File:Bacteria planet.jpg",
+        "index": 44,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2026-01-30T18:24:40Z",
+            "size": 4107578,
+            "width": 3024,
+            "height": 4032,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Bacteria_planet.jpg/960px-Bacteria_planet.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 853,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Bacteria_planet.jpg/1280px-Bacteria_planet.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Bacteria_planet.jpg/960px-Bacteria_planet.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 853,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Bacteria_planet.jpg/1280px-Bacteria_planet.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Bacteria_planet.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Bacteria_planet.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=182748072",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Bacteria planet",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Gram test for the mixed bacterial sample, performed during Microbiology laboratory, both gram positive and negative bacteria can be seen. Photo from the light microscope depicting mixed environmental sample of bacteria",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2025-09-17",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Adema.akizhanova&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Adema.akizhanova (page does not exist)\">Adema.akizhanova</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ],
+        "coordinates": [
+          {
+            "lat": 51.091147,
+            "lon": 71.396836,
+            "primary": "",
+            "globe": "earth"
+          }
+        ]
+      },
+      "182748275": {
+        "pageid": 182748275,
+        "ns": 6,
+        "title": "File:AFM Collagen.jpg",
+        "index": 45,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2026-01-30T18:32:07Z",
+            "size": 853434,
+            "width": 2251,
+            "height": 996,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/AFM_Collagen.jpg/960px-AFM_Collagen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 283,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/AFM_Collagen.jpg/1280px-AFM_Collagen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/AFM_Collagen.jpg/960px-AFM_Collagen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 283,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/AFM_Collagen.jpg/1280px-AFM_Collagen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/9/95/AFM_Collagen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:AFM_Collagen.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=182748275",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "AFM Collagen",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Collagen from the rabbits knee under atomic force microscope. Dry sample of the collagen obtained from rabbits knee, slope map image created by AFM",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2026-01-19 18:51:08",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Adema.akizhanova&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Adema.akizhanova (page does not exist)\">Adema.akizhanova</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ],
+        "coordinates": [
+          {
+            "lat": 51.091186,
+            "lon": 71.395981,
+            "primary": "",
+            "globe": "earth"
+          }
+        ]
+      },
+      "182748447": {
+        "pageid": 182748447,
+        "ns": 6,
+        "title": "File:3D Neuroblast.jpg",
+        "index": 46,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2026-01-30T18:40:34Z",
+            "size": 1413351,
+            "width": 1918,
+            "height": 2560,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/3D_Neuroblast.jpg/960px-3D_Neuroblast.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 854,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/3D_Neuroblast.jpg/1280px-3D_Neuroblast.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/3D_Neuroblast.jpg/960px-3D_Neuroblast.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 854,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/3D_Neuroblast.jpg/1280px-3D_Neuroblast.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/0/00/3D_Neuroblast.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:3D_Neuroblast.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=182748447",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "3D Neuroblast",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Drosophila neuroblast cells in 3D obtained by dissecting a third instant larvae and observing under confocal microscope",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2025-04-09 19:52:40",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Adema.akizhanova&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Adema.akizhanova (page does not exist)\">Adema.akizhanova</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ],
+        "coordinates": [
+          {
+            "lat": 51.091083,
+            "lon": 71.397094,
+            "primary": "",
+            "globe": "earth"
+          }
+        ]
+      },
+      "182748469": {
+        "pageid": 182748469,
+        "ns": 6,
+        "title": "File:Drosophila Neuroblast.jpg",
+        "index": 47,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2026-01-30T18:42:26Z",
+            "size": 1594564,
+            "width": 2291,
+            "height": 3058,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Drosophila_Neuroblast.jpg/960px-Drosophila_Neuroblast.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 854,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Drosophila_Neuroblast.jpg/1280px-Drosophila_Neuroblast.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Drosophila_Neuroblast.jpg/960px-Drosophila_Neuroblast.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 854,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Drosophila_Neuroblast.jpg/1280px-Drosophila_Neuroblast.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Drosophila_Neuroblast.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Drosophila_Neuroblast.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=182748469",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Drosophila Neuroblast",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Dividing cells in the Neuroblast of third instant drosophila larvae",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2025-04-02 19:41:30",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Adema.akizhanova&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Adema.akizhanova (page does not exist)\">Adema.akizhanova</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ],
+        "coordinates": [
+          {
+            "lat": 51.091083,
+            "lon": 71.397086,
+            "primary": "",
+            "globe": "earth"
+          }
+        ]
+      },
+      "182748533": {
+        "pageid": 182748533,
+        "ns": 6,
+        "title": "File:White eyed drosophila.jpg",
+        "index": 48,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2026-01-30T18:44:24Z",
+            "size": 3317822,
+            "width": 4284,
+            "height": 5712,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/White_eyed_drosophila.jpg/960px-White_eyed_drosophila.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 853,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/White_eyed_drosophila.jpg/1280px-White_eyed_drosophila.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/White_eyed_drosophila.jpg/960px-White_eyed_drosophila.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 853,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/White_eyed_drosophila.jpg/1280px-White_eyed_drosophila.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/White_eyed_drosophila.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:White_eyed_drosophila.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=182748533",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "White eyed drosophila",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "A mutant strain of Drosophila under a light microscope. Drosophila was captured using CO2 to make them sleep and observed under the microscope to detect phenotype",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2025-03-12 18:58:11",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Adema.akizhanova&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Adema.akizhanova (page does not exist)\">Adema.akizhanova</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ],
+        "coordinates": [
+          {
+            "lat": 51.091081,
+            "lon": 71.396806,
+            "primary": "",
+            "globe": "earth"
+          }
+        ]
+      }
+    }
+  }
+}

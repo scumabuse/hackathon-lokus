@@ -1,0 +1,1631 @@
+{
+  "batchcomplete": "",
+  "continue": {
+    "gcmcontinue": "file|7e494e544552494f52204f462054484520494e53544954555445204f4620544543484e4f4c4f47592c2046524f4d20524f42455254204e2e2044454e4e495320434f4c4c454354494f4e204f462053544552454f53434f5049432056494557532e504e470a494e544552494f52204f462054484520494e53544954555445204f4620544543484e4f4c4f47592c2046524f4d20524f42455254204e2e2044454e4e495320434f4c4c454354494f4e204f462053544552454f53434f5049432056494557532e504e47|7459583",
+    "continue": "gcmcontinue||"
+  },
+  "query": {
+    "pages": {
+      "10396826": {
+        "pageid": 10396826,
+        "ns": 6,
+        "title": "File:1883 ColumbusAve Walker map Boston.png",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2010-05-22T13:56:21Z",
+            "size": 1275030,
+            "width": 800,
+            "height": 709,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/4/4e/1883_ColumbusAve_Walker_map_Boston.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 640,
+            "thumbheight": 567,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/4/4e/1883_ColumbusAve_Walker_map_Boston.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 567
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/1883_ColumbusAve_Walker_map_Boston.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:1883_ColumbusAve_Walker_map_Boston.png",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=10396826",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "1883 ColumbusAve Walker map Boston",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Detail of Walker's 1883 map of Boston, showing Columbus Ave. and vicinity.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1883",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Walker",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/png"
+          }
+        ]
+      },
+      "17817056": {
+        "pageid": 17817056,
+        "ns": 6,
+        "title": "File:1895 CopleySq map Boston byCCPerkins BPL 12471.png",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2011-12-27T15:48:52Z",
+            "size": 1339264,
+            "width": 1058,
+            "height": 739,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/1895_CopleySq_map_Boston_byCCPerkins_BPL_12471.png/960px-1895_CopleySq_map_Boston_byCCPerkins_BPL_12471.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 447,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/7/73/1895_CopleySq_map_Boston_byCCPerkins_BPL_12471.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/1895_CopleySq_map_Boston_byCCPerkins_BPL_12471.png/960px-1895_CopleySq_map_Boston_byCCPerkins_BPL_12471.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 447,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/7/73/1895_CopleySq_map_Boston_byCCPerkins_BPL_12471.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/1895_CopleySq_map_Boston_byCCPerkins_BPL_12471.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:1895_CopleySq_map_Boston_byCCPerkins_BPL_12471.png",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=17817056",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "1895 CopleySq map Boston byCCPerkins BPL 12471",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "<p>Detail of map of Boston, Massachusetts, USA.\n</p><p>Title: Plan of Boston proper, showing changes in street and wharf lines, 1795 to 1895\n</p><p>Author: Perkins, Charles Carroll\n</p><p>Publisher: Geo. H. Walker &amp; Co., Boston\n</p>\nDate: 1895",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1895",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Charles Carroll Perkins",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/png"
+          }
+        ]
+      },
+      "17818245": {
+        "pageid": 17818245,
+        "ns": 6,
+        "title": "File:1896 CopleySq Boston map byStadly BPL 12479 detail.png",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2011-12-27T17:30:20Z",
+            "size": 1577179,
+            "width": 1065,
+            "height": 739,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/1896_CopleySq_Boston_map_byStadly_BPL_12479_detail.png/960px-1896_CopleySq_Boston_map_byStadly_BPL_12479_detail.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 444,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/6/6a/1896_CopleySq_Boston_map_byStadly_BPL_12479_detail.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/1896_CopleySq_Boston_map_byStadly_BPL_12479_detail.png/960px-1896_CopleySq_Boston_map_byStadly_BPL_12479_detail.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 444,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/6/6a/1896_CopleySq_Boston_map_byStadly_BPL_12479_detail.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/1896_CopleySq_Boston_map_byStadly_BPL_12479_detail.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:1896_CopleySq_Boston_map_byStadly_BPL_12479_detail.png",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=17818245",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "1896 CopleySq Boston map byStadly BPL 12479 detail",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "<p>Detail of map of Boston, Massachusetts, USA, showing Grundmann Studios, Normal Art School, Prince School, and other buildings.\n</p><p>Title: Map of the central business district of Boston\n</p><p>Publisher: Geo. W. Stadly &amp; Co.\n</p>\nDate: 1896",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1896",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Geo. W. Stadly &amp; Co.",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/png"
+          }
+        ]
+      },
+      "16004654": {
+        "pageid": 16004654,
+        "ns": 6,
+        "title": "File:Classroom, Institute of Technology, Boston (Boston Public Library).jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2011-08-05T15:42:21Z",
+            "size": 269763,
+            "width": 1500,
+            "height": 750,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Classroom%2C_Institute_of_Technology%2C_Boston_%28Boston_Public_Library%29.jpg/960px-Classroom%2C_Institute_of_Technology%2C_Boston_%28Boston_Public_Library%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 320,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Classroom%2C_Institute_of_Technology%2C_Boston_%28Boston_Public_Library%29.jpg/1280px-Classroom%2C_Institute_of_Technology%2C_Boston_%28Boston_Public_Library%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Classroom%2C_Institute_of_Technology%2C_Boston_%28Boston_Public_Library%29.jpg/960px-Classroom%2C_Institute_of_Technology%2C_Boston_%28Boston_Public_Library%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 320,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Classroom%2C_Institute_of_Technology%2C_Boston_%28Boston_Public_Library%29.jpg/1280px-Classroom%2C_Institute_of_Technology%2C_Boston_%28Boston_Public_Library%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/3/35/Classroom%2C_Institute_of_Technology%2C_Boston_%28Boston_Public_Library%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Classroom,_Institute_of_Technology,_Boston_(Boston_Public_Library).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=16004654",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Classroom, Institute of Technology, Boston (Boston Public Library)",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "<b>File name: </b>06_11_000065\n<p><b>Title: </b>Classroom, Institute of Technology, Boston \n</p><p><b>Alternative title: </b>\n</p><p><b>Creator/Contributor: </b>\n</p><p><b>Created/Published: </b> \n</p><p><b>Date issued: </b>1850-1929 (approximate)\n</p><p><b>Date created: </b>\n</p><p><b>Physical description: </b>1 photographic print on stereo card : stereograph\n</p><p><b>Genre: </b>Stereographs\n</p><p><b>Subjects: </b>Universities &amp; colleges\n</p><p><b>Notes: </b>Title from handwritten text on verso.\n</p><p><b>Series: </b>\n</p><p><b>Location: </b>Boston Public Library, Print Department\n</p><p><b>Rights: </b>Rights status not evaluated\n</p><p><br>\nFlickr data on 2011-08-05:\n</p>\n<ul><li>Camera: Epson Exp10000XL10000</li>\n<li>Tags: bpl, boston public library, public domain, stereograph, stereoscopic, dc:identifier=06_11_000065</li>\n<li>License: CC BY 2.0</li>\n<li>User: Boston Public Library BPL</li></ul>",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2007-10-29 14:56:08",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/24029425@N06\">BPL</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "62596858": {
+        "pageid": 62596858,
+        "ns": 6,
+        "title": "File:Colleges and Universities - Massachusetts Institute of Technology - Military members of academic board, U.S.S.M.A., Massachusetts Institute of Technology, Boston, Massachusetts - NARA - 26426991.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2017-09-20T13:23:57Z",
+            "size": 15250612,
+            "width": 8204,
+            "height": 5414,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Colleges_and_Universities_-_Massachusetts_Institute_of_Technology_-_Military_members_of_academic_board%2C_U.S.S.M.A.%2C_Massachusetts_Institute_of_Technology%2C_Boston%2C_Massachusetts_-_NARA_-_26426991.jpg/960px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 422,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Colleges_and_Universities_-_Massachusetts_Institute_of_Technology_-_Military_members_of_academic_board%2C_U.S.S.M.A.%2C_Massachusetts_Institute_of_Technology%2C_Boston%2C_Massachusetts_-_NARA_-_26426991.jpg/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Colleges_and_Universities_-_Massachusetts_Institute_of_Technology_-_Military_members_of_academic_board%2C_U.S.S.M.A.%2C_Massachusetts_Institute_of_Technology%2C_Boston%2C_Massachusetts_-_NARA_-_26426991.jpg/960px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 422,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Colleges_and_Universities_-_Massachusetts_Institute_of_Technology_-_Military_members_of_academic_board%2C_U.S.S.M.A.%2C_Massachusetts_Institute_of_Technology%2C_Boston%2C_Massachusetts_-_NARA_-_26426991.jpg/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Colleges_and_Universities_-_Massachusetts_Institute_of_Technology_-_Military_members_of_academic_board%2C_U.S.S.M.A.%2C_Massachusetts_Institute_of_Technology%2C_Boston%2C_Massachusetts_-_NARA_-_26426991.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Colleges_and_Universities_-_Massachusetts_Institute_of_Technology_-_Military_members_of_academic_board,_U.S.S.M.A.,_Massachusetts_Institute_of_Technology,_Boston,_Massachusetts_-_NARA_-_26426991.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=62596858",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "<div class=\"fn\">\n<i>Colleges and Universities - Massachusetts Institute of Technology - Military members of academic board, U.S.S.M.A., Massachusetts Institute of Technology, Boston, Massachusetts</i></div>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<div class=\"fn value\">\nUnknown author<span style=\"display: none;\">Unknown author</span> or not provided</div>",
+                "source": "commons-desc-page"
+              },
+              "ImageDescription": {
+                "value": "<div class=\"description\">\n<ul><li><b>Scope and content:</b>  Date Taken: 4/25/1918</li></ul></div>",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "Taken on 25 April 1918",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "16004707": {
+        "pageid": 16004707,
+        "ns": 6,
+        "title": "File:Drawing room, Institute of Technology (Boston Public Library).jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2011-08-05T15:47:49Z",
+            "size": 266118,
+            "width": 1500,
+            "height": 754,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Drawing_room%2C_Institute_of_Technology_%28Boston_Public_Library%29.jpg/960px-Drawing_room%2C_Institute_of_Technology_%28Boston_Public_Library%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 322,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Drawing_room%2C_Institute_of_Technology_%28Boston_Public_Library%29.jpg/1280px-Drawing_room%2C_Institute_of_Technology_%28Boston_Public_Library%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Drawing_room%2C_Institute_of_Technology_%28Boston_Public_Library%29.jpg/960px-Drawing_room%2C_Institute_of_Technology_%28Boston_Public_Library%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 322,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Drawing_room%2C_Institute_of_Technology_%28Boston_Public_Library%29.jpg/1280px-Drawing_room%2C_Institute_of_Technology_%28Boston_Public_Library%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Drawing_room%2C_Institute_of_Technology_%28Boston_Public_Library%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Drawing_room,_Institute_of_Technology_(Boston_Public_Library).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=16004707",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Drawing room, Institute of Technology (Boston Public Library)",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "<b>File name: </b>06_11_000067\n<p><b>Title: </b>Drawing room, Institute of Technology \n</p><p><b>Alternative title: </b>\n</p><p><b>Creator/Contributor: </b>Allen, E. L. (Edward L.) (photographer)\n</p><p><b>Created/Published: </b> \n</p><p><b>Date issued: </b>\n</p><p><b>Date created: </b>1860-1890 (approximate)\n</p><p><b>Physical description: </b>1 photographic print on stereo card : stereograph\n</p><p><b>Genre: </b>Stereographs\n</p><p><b>Subjects: </b>Universities &amp; colleges\n</p><p><b>Notes: </b>Title from handwritten text on verso.; Class 72\n</p><p><b>Series: </b>\n</p><p><b>Location: </b>Boston Public Library, Print Department\n</p><p><b>Rights: </b>No known restrictions\n</p><p><br>\nFlickr data on 2011-08-05:\n</p>\n<ul><li>Camera: Epson Exp10000XL10000</li>\n<li>Tags: bpl, boston public library, public domain, stereograph, stereoscopic, dc:identifier=06_11_000067</li>\n<li>License: CC BY 2.0</li>\n<li>User: Boston Public Library BPL</li></ul>",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2007-10-29 14:56:17",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/24029425@N06\">BPL</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "153559682": {
+        "pageid": 153559682,
+        "ns": 6,
+        "title": "File:Katherine Moore Dexter McCormick in laboratory, circa 1890s.png",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2024-10-05T09:31:23Z",
+            "size": 5996749,
+            "width": 2582,
+            "height": 1598,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Katherine_Moore_Dexter_McCormick_in_laboratory%2C_circa_1890s.png/960px-Katherine_Moore_Dexter_McCormick_in_laboratory%2C_circa_1890s.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 396,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Katherine_Moore_Dexter_McCormick_in_laboratory%2C_circa_1890s.png/1280px-Katherine_Moore_Dexter_McCormick_in_laboratory%2C_circa_1890s.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Katherine_Moore_Dexter_McCormick_in_laboratory%2C_circa_1890s.png/960px-Katherine_Moore_Dexter_McCormick_in_laboratory%2C_circa_1890s.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 396,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Katherine_Moore_Dexter_McCormick_in_laboratory%2C_circa_1890s.png/1280px-Katherine_Moore_Dexter_McCormick_in_laboratory%2C_circa_1890s.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Katherine_Moore_Dexter_McCormick_in_laboratory%2C_circa_1890s.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Katherine_Moore_Dexter_McCormick_in_laboratory,_circa_1890s.png",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=153559682",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Katherine Moore Dexter McCormick in laboratory, circa 1890s",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Katherine Moore Dexter McCormick in a chemistry laboratory class on the Boston campus of the Massachusetts Institute of Technology, circa 1890s. As a woman student, she was required to wear a hat in the lab, a policy she later successfully petitioned to eliminate. Photograph was reproduced in the Tech Review (Dec. 1963), p.17",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "circa 1890-1900",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Unknown",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/png"
+          }
+        ]
+      },
+      "73377998": {
+        "pageid": 73377998,
+        "ns": 6,
+        "title": "File:MIT Boston 19th c byEdward L Allen BPL 2351553844 (cropped).jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2018-10-04T14:50:35Z",
+            "size": 169458,
+            "width": 642,
+            "height": 680,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/5/52/MIT_Boston_19th_c_byEdward_L_Allen_BPL_2351553844_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 640,
+            "thumbheight": 678,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/5/52/MIT_Boston_19th_c_byEdward_L_Allen_BPL_2351553844_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 678
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/MIT_Boston_19th_c_byEdward_L_Allen_BPL_2351553844_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:MIT_Boston_19th_c_byEdward_L_Allen_BPL_2351553844_(cropped).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=73377998",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "MIT Boston 19th c byEdward L Allen BPL 2351553844 (cropped)",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "<p><b>File name: </b>06_11_000068\n</p><p><b>Title: </b>Drawing room, Institute of Technology \n</p><p><b>Alternative title: </b>\n</p><p><b>Creator/Contributor: </b>Allen, E. L. (Edward L.) (photographer)\n</p><p><b>Created/Published: </b> \n</p><p><b>Date issued: </b>\n</p><p><b>Date created: </b>1860-1890 (approximate)\n</p><p><b>Physical description: </b>1 photographic print on stereo card : stereograph\n</p><p><b>Genre: </b>Stereographs\n</p><p><b>Subjects: </b>Universities &amp; colleges\n</p><p><b>Notes: </b>Title from handwritten text on verso.; Class 71\n</p><p><b>Series: </b>\n</p><p><b>Location: </b>Boston Public Library, Print Department\n</p>\n<b>Rights: </b>No known restrictions",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2007-10-29 14:56",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/24029425@N06\">BPL</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "11738675": {
+        "pageid": 11738675,
+        "ns": 6,
+        "title": "File:MIT Boston 19th c byEdward L Allen BPL 2351553844.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2010-10-09T13:49:03Z",
+            "size": 276343,
+            "width": 1500,
+            "height": 757,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/MIT_Boston_19th_c_byEdward_L_Allen_BPL_2351553844.jpg/960px-MIT_Boston_19th_c_byEdward_L_Allen_BPL_2351553844.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 323,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/MIT_Boston_19th_c_byEdward_L_Allen_BPL_2351553844.jpg/1280px-MIT_Boston_19th_c_byEdward_L_Allen_BPL_2351553844.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/MIT_Boston_19th_c_byEdward_L_Allen_BPL_2351553844.jpg/960px-MIT_Boston_19th_c_byEdward_L_Allen_BPL_2351553844.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 323,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/MIT_Boston_19th_c_byEdward_L_Allen_BPL_2351553844.jpg/1280px-MIT_Boston_19th_c_byEdward_L_Allen_BPL_2351553844.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/MIT_Boston_19th_c_byEdward_L_Allen_BPL_2351553844.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:MIT_Boston_19th_c_byEdward_L_Allen_BPL_2351553844.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=11738675",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "MIT Boston 19th c byEdward L Allen BPL 2351553844",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "<p><b>File name: </b>06_11_000068\n</p><p><b>Title: </b>Drawing room, Institute of Technology \n</p><p><b>Alternative title: </b>\n</p><p><b>Creator/Contributor: </b>Allen, E. L. (Edward L.) (photographer)\n</p><p><b>Created/Published: </b> \n</p><p><b>Date issued: </b>\n</p><p><b>Date created: </b>1860-1890 (approximate)\n</p><p><b>Physical description: </b>1 photographic print on stereo card : stereograph\n</p><p><b>Genre: </b>Stereographs\n</p><p><b>Subjects: </b>Universities &amp; colleges\n</p><p><b>Notes: </b>Title from handwritten text on verso.; Class 71\n</p><p><b>Series: </b>\n</p><p><b>Location: </b>Boston Public Library, Print Department\n</p>\n<b>Rights: </b>No known restrictions",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2007-10-29 14:56",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/24029425@N06\">BPL</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "163242537": {
+        "pageid": 163242537,
+        "ns": 6,
+        "title": "File:MIT Comparative Anatomy Lab Boston campus 1905 cropped.png",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2025-04-06T13:42:38Z",
+            "size": 4022469,
+            "width": 2432,
+            "height": 1737,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/MIT_Comparative_Anatomy_Lab_Boston_campus_1905_cropped.png/960px-MIT_Comparative_Anatomy_Lab_Boston_campus_1905_cropped.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 457,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/MIT_Comparative_Anatomy_Lab_Boston_campus_1905_cropped.png/1280px-MIT_Comparative_Anatomy_Lab_Boston_campus_1905_cropped.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/MIT_Comparative_Anatomy_Lab_Boston_campus_1905_cropped.png/960px-MIT_Comparative_Anatomy_Lab_Boston_campus_1905_cropped.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 457,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/MIT_Comparative_Anatomy_Lab_Boston_campus_1905_cropped.png/1280px-MIT_Comparative_Anatomy_Lab_Boston_campus_1905_cropped.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/MIT_Comparative_Anatomy_Lab_Boston_campus_1905_cropped.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:MIT_Comparative_Anatomy_Lab_Boston_campus_1905_cropped.png",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=163242537",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "MIT Comparative Anatomy Lab Boston campus 1905 cropped",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Students conducting investigations in bacteriology at the MIT former Boston campus. Photo from the Comparative Anatomy Lab, Room 23, Pierce building",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1905",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Unknown author<span style=\"display: none;\">Unknown author</span>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/png"
+          }
+        ]
+      },
+      "163242539": {
+        "pageid": 163242539,
+        "ns": 6,
+        "title": "File:MIT Comparative Anatomy Lab Boston campus 1905 original.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2025-04-06T13:42:41Z",
+            "size": 1654849,
+            "width": 3000,
+            "height": 2373,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/MIT_Comparative_Anatomy_Lab_Boston_campus_1905_original.jpg/960px-MIT_Comparative_Anatomy_Lab_Boston_campus_1905_original.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 506,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/MIT_Comparative_Anatomy_Lab_Boston_campus_1905_original.jpg/1280px-MIT_Comparative_Anatomy_Lab_Boston_campus_1905_original.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/MIT_Comparative_Anatomy_Lab_Boston_campus_1905_original.jpg/960px-MIT_Comparative_Anatomy_Lab_Boston_campus_1905_original.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 506,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/MIT_Comparative_Anatomy_Lab_Boston_campus_1905_original.jpg/1280px-MIT_Comparative_Anatomy_Lab_Boston_campus_1905_original.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/MIT_Comparative_Anatomy_Lab_Boston_campus_1905_original.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:MIT_Comparative_Anatomy_Lab_Boston_campus_1905_original.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=163242539",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "MIT Comparative Anatomy Lab Boston campus 1905 original",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Students conducting investigations in bacteriology at the MIT former Boston campus. Photo from the Comparative Anatomy Lab, Room 23, Pierce building",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1905",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Unknown author<span style=\"display: none;\">Unknown author</span>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "163241502": {
+        "pageid": 163241502,
+        "ns": 6,
+        "title": "File:MIT dynamo room Boston campus c1895 cropped.png",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2025-04-06T13:24:58Z",
+            "size": 6349947,
+            "width": 2513,
+            "height": 1885,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/MIT_dynamo_room_Boston_campus_c1895_cropped.png/960px-MIT_dynamo_room_Boston_campus_c1895_cropped.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 480,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/MIT_dynamo_room_Boston_campus_c1895_cropped.png/1280px-MIT_dynamo_room_Boston_campus_c1895_cropped.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/MIT_dynamo_room_Boston_campus_c1895_cropped.png/960px-MIT_dynamo_room_Boston_campus_c1895_cropped.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 480,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/MIT_dynamo_room_Boston_campus_c1895_cropped.png/1280px-MIT_dynamo_room_Boston_campus_c1895_cropped.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/MIT_dynamo_room_Boston_campus_c1895_cropped.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:MIT_dynamo_room_Boston_campus_c1895_cropped.png",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=163241502",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "MIT dynamo room Boston campus c1895 cropped",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Students conducting electrical tests in the dynamo room of  Electrical Engineering Lab in Lowell Building, MIT Boston Campus, c. 1890s. The belt-driven DC dynamo at left feeds a resistive load and measurement bench at right, where resistance boxes and a galvanometer are used to characterize the machine's output.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "circa 1890-1900",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Unknown author<span style=\"display: none;\">Unknown author</span>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/png"
+          }
+        ]
+      },
+      "163241500": {
+        "pageid": 163241500,
+        "ns": 6,
+        "title": "File:MIT dynamo room Boston campus c1895 original.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2025-04-06T13:24:57Z",
+            "size": 1591613,
+            "width": 3000,
+            "height": 2347,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/MIT_dynamo_room_Boston_campus_c1895_original.jpg/960px-MIT_dynamo_room_Boston_campus_c1895_original.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 501,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/MIT_dynamo_room_Boston_campus_c1895_original.jpg/1280px-MIT_dynamo_room_Boston_campus_c1895_original.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/MIT_dynamo_room_Boston_campus_c1895_original.jpg/960px-MIT_dynamo_room_Boston_campus_c1895_original.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 501,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/MIT_dynamo_room_Boston_campus_c1895_original.jpg/1280px-MIT_dynamo_room_Boston_campus_c1895_original.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/MIT_dynamo_room_Boston_campus_c1895_original.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:MIT_dynamo_room_Boston_campus_c1895_original.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=163241500",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "MIT dynamo room Boston campus c1895 original",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Dynamo room of  Electrical Engineering Lab in Lowell Building, MIT Boston Campus, c. 1890s",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "circa 1890-1900",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Unknown author<span style=\"display: none;\">Unknown author</span>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "16003275": {
+        "pageid": 16003275,
+        "ns": 6,
+        "title": "File:MIT Industrial Chemistry Lab.gif",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2011-08-05T12:38:59Z",
+            "size": 218322,
+            "width": 660,
+            "height": 329,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/e/e5/MIT_Industrial_Chemistry_Lab.gif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 640,
+            "thumbheight": 319,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/e/e5/MIT_Industrial_Chemistry_Lab.gif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 319
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/MIT_Industrial_Chemistry_Lab.gif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:MIT_Industrial_Chemistry_Lab.gif",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=16003275",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "MIT Industrial Chemistry Lab",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Students at a industrial chemistry laboratory at the Massachusetts Institute of Technology.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1893",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Unknown author<span style=\"display: none;\">Unknown author</span>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/gif"
+          }
+        ]
+      },
+      "163243086": {
+        "pageid": 163243086,
+        "ns": 6,
+        "title": "File:MIT milling room Boston campus cropped.png",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2025-04-06T14:06:40Z",
+            "size": 5846380,
+            "width": 2893,
+            "height": 2314,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/MIT_milling_room_Boston_campus_cropped.png/960px-MIT_milling_room_Boston_campus_cropped.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 512,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/MIT_milling_room_Boston_campus_cropped.png/1280px-MIT_milling_room_Boston_campus_cropped.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/MIT_milling_room_Boston_campus_cropped.png/960px-MIT_milling_room_Boston_campus_cropped.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 512,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/MIT_milling_room_Boston_campus_cropped.png/1280px-MIT_milling_room_Boston_campus_cropped.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/MIT_milling_room_Boston_campus_cropped.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:MIT_milling_room_Boston_campus_cropped.png",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=163243086",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "MIT milling room Boston campus cropped",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "MIT students using a slime table (also known as a \"shaking table\") for concentrating ores of copper and lead at the Boston campus of the Massachusetts Institute of Technology. Taken in the basement of the Rogers Building (Building 2) in Boston.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "before 1916<div style=\"display: none;\">date QS:P,+1916-00-00T00:00:00Z/7,P1326,+1916-00-00T00:00:00Z/9</div>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Unknown author<span style=\"display: none;\">Unknown author</span>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/png"
+          }
+        ]
+      },
+      "163243087": {
+        "pageid": 163243087,
+        "ns": 6,
+        "title": "File:MIT milling room Boston campus original.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2025-04-06T14:06:41Z",
+            "size": 1609101,
+            "width": 3000,
+            "height": 2449,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/MIT_milling_room_Boston_campus_original.jpg/960px-MIT_milling_room_Boston_campus_original.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 522,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/MIT_milling_room_Boston_campus_original.jpg/1280px-MIT_milling_room_Boston_campus_original.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/MIT_milling_room_Boston_campus_original.jpg/960px-MIT_milling_room_Boston_campus_original.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 522,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/MIT_milling_room_Boston_campus_original.jpg/1280px-MIT_milling_room_Boston_campus_original.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/MIT_milling_room_Boston_campus_original.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:MIT_milling_room_Boston_campus_original.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=163243087",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "MIT milling room Boston campus original",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "MIT students using a slime table (also known as a \"shaking table\") for concentrating ores of copper and lead at the Boston campus of the Massachusetts Institute of Technology. Taken in the basement of the Rogers Building (Building 2) in Boston.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "before 1916<div style=\"display: none;\">date QS:P,+1916-00-00T00:00:00Z/7,P1326,+1916-00-00T00:00:00Z/9</div>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Unknown author<span style=\"display: none;\">Unknown author</span>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "62606911": {
+        "pageid": 62606911,
+        "ns": 6,
+        "title": "File:Motor Vehicles - Tanks - American - American built tank \"America\" designed by Prof. E.F. Miller, of the Massachusetts Institute of Technology - NARA - 45508567.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2017-09-20T19:44:33Z",
+            "size": 20278048,
+            "width": 9180,
+            "height": 6120,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Motor_Vehicles_-_Tanks_-_American_-_American_built_tank_%22America%22_designed_by_Prof._E.F._Miller%2C_of_the_Massachusetts_Institute_of_Technology_-_NARA_-_45508567.jpg/960px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 427,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Motor_Vehicles_-_Tanks_-_American_-_American_built_tank_%22America%22_designed_by_Prof._E.F._Miller%2C_of_the_Massachusetts_Institute_of_Technology_-_NARA_-_45508567.jpg/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Motor_Vehicles_-_Tanks_-_American_-_American_built_tank_%22America%22_designed_by_Prof._E.F._Miller%2C_of_the_Massachusetts_Institute_of_Technology_-_NARA_-_45508567.jpg/960px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 427,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Motor_Vehicles_-_Tanks_-_American_-_American_built_tank_%22America%22_designed_by_Prof._E.F._Miller%2C_of_the_Massachusetts_Institute_of_Technology_-_NARA_-_45508567.jpg/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Motor_Vehicles_-_Tanks_-_American_-_American_built_tank_%22America%22_designed_by_Prof._E.F._Miller%2C_of_the_Massachusetts_Institute_of_Technology_-_NARA_-_45508567.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Motor_Vehicles_-_Tanks_-_American_-_American_built_tank_%22America%22_designed_by_Prof._E.F._Miller,_of_the_Massachusetts_Institute_of_Technology_-_NARA_-_45508567.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=62606911",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "<div class=\"fn\">\n<i>Motor Vehicles - Tanks - American - American built tank \"America\" designed by Prof. E.F. Miller, of the Massachusetts Institute of Technology</i></div>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<div class=\"fn value\">\nBoston Photo News Co.</div>",
+                "source": "commons-desc-page"
+              },
+              "ImageDescription": {
+                "value": "<div class=\"description\">\n<ul><li><b>Scope and content:</b>  Date Taken: 1918</li></ul>\nPhotographer: Boston Photo News Co.</div>",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "Taken in 1918",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "49507035": {
+        "pageid": 49507035,
+        "ns": 6,
+        "title": "File:Physical lecture room, Institute of Technology, designed and directed by Mr. S. P. Ruggles (NYPL b11707562-G90F309 050F).tiff",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2016-06-16T18:55:00Z",
+            "size": 15752406,
+            "width": 3072,
+            "height": 1709,
+            "pagecount": 1,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Physical_lecture_room%2C_Institute_of_Technology%2C_designed_and_directed_by_Mr._S._P._Ruggles_%28NYPL_b11707562-G90F309_050F%29.tiff/lossy-page1-960px-Physical_lecture_room%2C_Institute_of_Technology%2C_designed_and_directed_by_Mr._S._P._Ruggles_%28NYPL_b11707562-G90F309_050F%29.tiff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 356,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Physical_lecture_room%2C_Institute_of_Technology%2C_designed_and_directed_by_Mr._S._P._Ruggles_%28NYPL_b11707562-G90F309_050F%29.tiff/lossy-page1-1280px-Physical_lecture_room%2C_Institute_of_Technology%2C_designed_and_directed_by_Mr._S._P._Ruggles_%28NYPL_b11707562-G90F309_050F%29.tiff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Physical_lecture_room%2C_Institute_of_Technology%2C_designed_and_directed_by_Mr._S._P._Ruggles_%28NYPL_b11707562-G90F309_050F%29.tiff/lossy-page1-960px-Physical_lecture_room%2C_Institute_of_Technology%2C_designed_and_directed_by_Mr._S._P._Ruggles_%28NYPL_b11707562-G90F309_050F%29.tiff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 356,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Physical_lecture_room%2C_Institute_of_Technology%2C_designed_and_directed_by_Mr._S._P._Ruggles_%28NYPL_b11707562-G90F309_050F%29.tiff/lossy-page1-1280px-Physical_lecture_room%2C_Institute_of_Technology%2C_designed_and_directed_by_Mr._S._P._Ruggles_%28NYPL_b11707562-G90F309_050F%29.tiff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Physical_lecture_room%2C_Institute_of_Technology%2C_designed_and_directed_by_Mr._S._P._Ruggles_%28NYPL_b11707562-G90F309_050F%29.tiff?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Physical_lecture_room,_Institute_of_Technology,_designed_and_directed_by_Mr._S._P._Ruggles_(NYPL_b11707562-G90F309_050F).tiff",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=49507035",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Physical lecture room, Institute of Technology, designed and directed by Mr. S. P. Ruggles (NYPL b11707562-G90F309 050F)",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "* by John P. Heywood.",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Scan by NYPL",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/tiff"
+          }
+        ]
+      },
+      "49514799": {
+        "pageid": 49514799,
+        "ns": 6,
+        "title": "File:Institute of Technology, Interior, corner Boylston & Berkley St (NYPL b11707589-G90F370 020F).tiff",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2016-06-17T04:02:53Z",
+            "size": 15927526,
+            "width": 3072,
+            "height": 1728,
+            "pagecount": 1,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Institute_of_Technology%2C_Interior%2C_corner_Boylston_%26_Berkley_St_%28NYPL_b11707589-G90F370_020F%29.tiff/lossy-page1-960px-Institute_of_Technology%2C_Interior%2C_corner_Boylston_%26_Berkley_St_%28NYPL_b11707589-G90F370_020F%29.tiff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 360,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Institute_of_Technology%2C_Interior%2C_corner_Boylston_%26_Berkley_St_%28NYPL_b11707589-G90F370_020F%29.tiff/lossy-page1-1280px-Institute_of_Technology%2C_Interior%2C_corner_Boylston_%26_Berkley_St_%28NYPL_b11707589-G90F370_020F%29.tiff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Institute_of_Technology%2C_Interior%2C_corner_Boylston_%26_Berkley_St_%28NYPL_b11707589-G90F370_020F%29.tiff/lossy-page1-960px-Institute_of_Technology%2C_Interior%2C_corner_Boylston_%26_Berkley_St_%28NYPL_b11707589-G90F370_020F%29.tiff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 360,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Institute_of_Technology%2C_Interior%2C_corner_Boylston_%26_Berkley_St_%28NYPL_b11707589-G90F370_020F%29.tiff/lossy-page1-1280px-Institute_of_Technology%2C_Interior%2C_corner_Boylston_%26_Berkley_St_%28NYPL_b11707589-G90F370_020F%29.tiff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Institute_of_Technology%2C_Interior%2C_corner_Boylston_%26_Berkley_St_%28NYPL_b11707589-G90F370_020F%29.tiff?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Institute_of_Technology,_Interior,_corner_Boylston_%26_Berkley_St_(NYPL_b11707589-G90F370_020F).tiff",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=49514799",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Institute of Technology, Interior, corner Boylston & Berkley St (NYPL b11707589-G90F370 020F)",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Institute of Technology, Interior, corner Boylston &amp; Berkley St.",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Scan by NYPL",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/tiff"
+          }
+        ]
+      },
+      "15771204": {
+        "pageid": 15771204,
+        "ns": 6,
+        "title": "File:PSM V57 D273 One of the chemical laboratories.png",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2011-07-12T03:22:54Z",
+            "size": 625012,
+            "width": 1636,
+            "height": 1306,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/PSM_V57_D273_One_of_the_chemical_laboratories.png/960px-PSM_V57_D273_One_of_the_chemical_laboratories.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 511,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/PSM_V57_D273_One_of_the_chemical_laboratories.png/1280px-PSM_V57_D273_One_of_the_chemical_laboratories.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/PSM_V57_D273_One_of_the_chemical_laboratories.png/960px-PSM_V57_D273_One_of_the_chemical_laboratories.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 511,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/PSM_V57_D273_One_of_the_chemical_laboratories.png/1280px-PSM_V57_D273_One_of_the_chemical_laboratories.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/PSM_V57_D273_One_of_the_chemical_laboratories.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:PSM_V57_D273_One_of_the_chemical_laboratories.png",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=15771204",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "PSM V57 D273 One of the chemical laboratories",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "One of the chemical laboratories",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1900",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Unknown author<span style=\"display: none;\">Unknown author</span>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/png"
+          }
+        ]
+      },
+      "15771206": {
+        "pageid": 15771206,
+        "ns": 6,
+        "title": "File:PSM V57 D275 Part of the electrical engineering laboratory.png",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2011-07-12T03:22:56Z",
+            "size": 504511,
+            "width": 1632,
+            "height": 1128,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/PSM_V57_D275_Part_of_the_electrical_engineering_laboratory.png/960px-PSM_V57_D275_Part_of_the_electrical_engineering_laboratory.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 442,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/PSM_V57_D275_Part_of_the_electrical_engineering_laboratory.png/1280px-PSM_V57_D275_Part_of_the_electrical_engineering_laboratory.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/PSM_V57_D275_Part_of_the_electrical_engineering_laboratory.png/960px-PSM_V57_D275_Part_of_the_electrical_engineering_laboratory.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 442,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/PSM_V57_D275_Part_of_the_electrical_engineering_laboratory.png/1280px-PSM_V57_D275_Part_of_the_electrical_engineering_laboratory.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/PSM_V57_D275_Part_of_the_electrical_engineering_laboratory.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:PSM_V57_D275_Part_of_the_electrical_engineering_laboratory.png",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=15771206",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "PSM V57 D275 Part of the electrical engineering laboratory",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Part of the electrical engineering laboratory",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1900",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Unknown author<span style=\"display: none;\">Unknown author</span>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/png"
+          }
+        ]
+      },
+      "15771207": {
+        "pageid": 15771207,
+        "ns": 6,
+        "title": "File:PSM V57 D277 Smelting furnace in john cummings mining and metallurgy laboratory.png",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2011-07-12T03:22:57Z",
+            "size": 533144,
+            "width": 1254,
+            "height": 1596,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/PSM_V57_D277_Smelting_furnace_in_john_cummings_mining_and_metallurgy_laboratory.png/960px-PSM_V57_D277_Smelting_furnace_in_john_cummings_mining_and_metallurgy_laboratory.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 815,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/6/62/PSM_V57_D277_Smelting_furnace_in_john_cummings_mining_and_metallurgy_laboratory.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/PSM_V57_D277_Smelting_furnace_in_john_cummings_mining_and_metallurgy_laboratory.png/960px-PSM_V57_D277_Smelting_furnace_in_john_cummings_mining_and_metallurgy_laboratory.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 815,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/6/62/PSM_V57_D277_Smelting_furnace_in_john_cummings_mining_and_metallurgy_laboratory.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/6/62/PSM_V57_D277_Smelting_furnace_in_john_cummings_mining_and_metallurgy_laboratory.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:PSM_V57_D277_Smelting_furnace_in_john_cummings_mining_and_metallurgy_laboratory.png",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=15771207",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "PSM V57 D277 Smelting furnace in john cummings mining and metallurgy laboratory",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Smelting furnace in John Cummings Mining and Metallurgy laboratory",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1900",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Unknown author<span style=\"display: none;\">Unknown author</span>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/png"
+          }
+        ]
+      },
+      "15771205": {
+        "pageid": 15771205,
+        "ns": 6,
+        "title": "File:PSM V57 D278 Three stamp mill in the mining laboratory.png",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2011-07-12T03:22:55Z",
+            "size": 621102,
+            "width": 1246,
+            "height": 1641,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/PSM_V57_D278_Three_stamp_mill_in_the_mining_laboratory.png/960px-PSM_V57_D278_Three_stamp_mill_in_the_mining_laboratory.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 843,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/5/5d/PSM_V57_D278_Three_stamp_mill_in_the_mining_laboratory.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/PSM_V57_D278_Three_stamp_mill_in_the_mining_laboratory.png/960px-PSM_V57_D278_Three_stamp_mill_in_the_mining_laboratory.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 843,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/5/5d/PSM_V57_D278_Three_stamp_mill_in_the_mining_laboratory.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/PSM_V57_D278_Three_stamp_mill_in_the_mining_laboratory.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:PSM_V57_D278_Three_stamp_mill_in_the_mining_laboratory.png",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=15771205",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "PSM V57 D278 Three stamp mill in the mining laboratory",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Three stamp mill in the mining laboratory",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1900",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Unknown author<span style=\"display: none;\">Unknown author</span>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/png"
+          }
+        ]
+      },
+      "15771209": {
+        "pageid": 15771209,
+        "ns": 6,
+        "title": "File:PSM V57 D280 Applied mechanics laboratory stress testing machine.png",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2011-07-12T03:22:59Z",
+            "size": 618067,
+            "width": 1651,
+            "height": 1298,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/PSM_V57_D280_Applied_mechanics_laboratory_stress_testing_machine.png/960px-PSM_V57_D280_Applied_mechanics_laboratory_stress_testing_machine.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 503,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/PSM_V57_D280_Applied_mechanics_laboratory_stress_testing_machine.png/1280px-PSM_V57_D280_Applied_mechanics_laboratory_stress_testing_machine.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/PSM_V57_D280_Applied_mechanics_laboratory_stress_testing_machine.png/960px-PSM_V57_D280_Applied_mechanics_laboratory_stress_testing_machine.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 503,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/PSM_V57_D280_Applied_mechanics_laboratory_stress_testing_machine.png/1280px-PSM_V57_D280_Applied_mechanics_laboratory_stress_testing_machine.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/5/58/PSM_V57_D280_Applied_mechanics_laboratory_stress_testing_machine.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:PSM_V57_D280_Applied_mechanics_laboratory_stress_testing_machine.png",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=15771209",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "PSM V57 D280 Applied mechanics laboratory stress testing machine",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Applied mechanics laboratory stress testing machine",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1900",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Unknown author<span style=\"display: none;\">Unknown author</span>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/png"
+          }
+        ]
+      },
+      "26770646": {
+        "pageid": 26770646,
+        "ns": 6,
+        "title": "File:PSM V57 D281 Beam strength testing in the mit applied mechanics laboratory.png",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2013-06-20T08:43:13Z",
+            "size": 815974,
+            "width": 1626,
+            "height": 1213,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/PSM_V57_D281_Beam_strength_testing_in_the_mit_applied_mechanics_laboratory.png/960px-PSM_V57_D281_Beam_strength_testing_in_the_mit_applied_mechanics_laboratory.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 477,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/PSM_V57_D281_Beam_strength_testing_in_the_mit_applied_mechanics_laboratory.png/1280px-PSM_V57_D281_Beam_strength_testing_in_the_mit_applied_mechanics_laboratory.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/PSM_V57_D281_Beam_strength_testing_in_the_mit_applied_mechanics_laboratory.png/960px-PSM_V57_D281_Beam_strength_testing_in_the_mit_applied_mechanics_laboratory.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 477,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/PSM_V57_D281_Beam_strength_testing_in_the_mit_applied_mechanics_laboratory.png/1280px-PSM_V57_D281_Beam_strength_testing_in_the_mit_applied_mechanics_laboratory.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/5/58/PSM_V57_D281_Beam_strength_testing_in_the_mit_applied_mechanics_laboratory.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:PSM_V57_D281_Beam_strength_testing_in_the_mit_applied_mechanics_laboratory.png",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=26770646",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "PSM V57 D281 Beam strength testing in the mit applied mechanics laboratory",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Beam strength testing in the mit applied mechanics laboratory",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1900",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Unknown author<span style=\"display: none;\">Unknown author</span>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/png"
+          }
+        ]
+      },
+      "15771210": {
+        "pageid": 15771210,
+        "ns": 6,
+        "title": "File:PSM V57 D282 Forge shop.png",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2011-07-12T03:23:00Z",
+            "size": 596547,
+            "width": 1675,
+            "height": 1319,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/PSM_V57_D282_Forge_shop.png/960px-PSM_V57_D282_Forge_shop.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 504,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/PSM_V57_D282_Forge_shop.png/1280px-PSM_V57_D282_Forge_shop.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/PSM_V57_D282_Forge_shop.png/960px-PSM_V57_D282_Forge_shop.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 504,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/PSM_V57_D282_Forge_shop.png/1280px-PSM_V57_D282_Forge_shop.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/PSM_V57_D282_Forge_shop.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:PSM_V57_D282_Forge_shop.png",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=15771210",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "PSM V57 D282 Forge shop",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Forge shop",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1900",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Unknown author<span style=\"display: none;\">Unknown author</span>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/png"
+          }
+        ]
+      },
+      "16438641": {
+        "pageid": 16438641,
+        "ns": 6,
+        "title": "File:PSM V63 D480 Proposed expansion plan of mit 1903.png",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2011-09-11T19:18:06Z",
+            "size": 247920,
+            "width": 1718,
+            "height": 1123,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/PSM_V63_D480_Proposed_expansion_plan_of_mit_1903.png/960px-PSM_V63_D480_Proposed_expansion_plan_of_mit_1903.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 418,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/PSM_V63_D480_Proposed_expansion_plan_of_mit_1903.png/1280px-PSM_V63_D480_Proposed_expansion_plan_of_mit_1903.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/PSM_V63_D480_Proposed_expansion_plan_of_mit_1903.png/960px-PSM_V63_D480_Proposed_expansion_plan_of_mit_1903.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 418,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/PSM_V63_D480_Proposed_expansion_plan_of_mit_1903.png/1280px-PSM_V63_D480_Proposed_expansion_plan_of_mit_1903.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/2/25/PSM_V63_D480_Proposed_expansion_plan_of_mit_1903.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:PSM_V63_D480_Proposed_expansion_plan_of_mit_1903.png",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=16438641",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "PSM V63 D480 Proposed expansion plan of mit 1903",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Proposed expansion plan of MIT 1903",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1903",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Unknown author<span style=\"display: none;\">Unknown author</span>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/png"
+          }
+        ]
+      },
+      "36576232": {
+        "pageid": 36576232,
+        "ns": 6,
+        "title": "File:The chemical laboratory at Massachusetts Institute of Techno Wellcome V0025598.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2014-11-03T04:33:41Z",
+            "size": 4484854,
+            "width": 3252,
+            "height": 2185,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/The_chemical_laboratory_at_Massachusetts_Institute_of_Techno_Wellcome_V0025598.jpg/960px-The_chemical_laboratory_at_Massachusetts_Institute_of_Techno_Wellcome_V0025598.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 430,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/The_chemical_laboratory_at_Massachusetts_Institute_of_Techno_Wellcome_V0025598.jpg/1280px-The_chemical_laboratory_at_Massachusetts_Institute_of_Techno_Wellcome_V0025598.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/The_chemical_laboratory_at_Massachusetts_Institute_of_Techno_Wellcome_V0025598.jpg/960px-The_chemical_laboratory_at_Massachusetts_Institute_of_Techno_Wellcome_V0025598.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 430,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/The_chemical_laboratory_at_Massachusetts_Institute_of_Techno_Wellcome_V0025598.jpg/1280px-The_chemical_laboratory_at_Massachusetts_Institute_of_Techno_Wellcome_V0025598.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/4/41/The_chemical_laboratory_at_Massachusetts_Institute_of_Techno_Wellcome_V0025598.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:The_chemical_laboratory_at_Massachusetts_Institute_of_Techno_Wellcome_V0025598.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=36576232",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "<div class=\"fn\">\nThe chemical laboratory at Massachusetts Institute of Techno</div>",
+                "source": "commons-desc-page"
+              },
+              "ImageDescription": {
+                "value": "<div class=\"description\">\n<p>The chemical laboratory at Massachusetts Institute of Technology, Boston: women and men at class. Wood engraving, c. 1880.\n</p>\n<p>Iconographic Collections</p>\nKeywords: Massachusetts Institute of Technology</div>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "83898740": {
+        "pageid": 83898740,
+        "ns": 6,
+        "title": "File:US Army officers, from- Colleges and Universities - Massachusetts Institute of Technology - Military members of academic board, U.S.S.M.A., Massachusetts Institute of Technology, Boston, Massachusetts - NARA - 26426991 (cropped).jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2019-11-12T15:29:26Z",
+            "size": 2659112,
+            "width": 2138,
+            "height": 2672,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/US_Army_officers%2C_from-_Colleges_and_Universities_-_Massachusetts_Institute_of_Technology_-_Military_members_of_academic_board%2C_U.S.S.M.A.%2C_Massachusetts_Institute_of_Technology%2C_Boston%2C_Massachusetts_-_NARA_-_26426991_%28cropped%29.jpg/960px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 800,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/US_Army_officers%2C_from-_Colleges_and_Universities_-_Massachusetts_Institute_of_Technology_-_Military_members_of_academic_board%2C_U.S.S.M.A.%2C_Massachusetts_Institute_of_Technology%2C_Boston%2C_Massachusetts_-_NARA_-_26426991_%28cropped%29.jpg/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/US_Army_officers%2C_from-_Colleges_and_Universities_-_Massachusetts_Institute_of_Technology_-_Military_members_of_academic_board%2C_U.S.S.M.A.%2C_Massachusetts_Institute_of_Technology%2C_Boston%2C_Massachusetts_-_NARA_-_26426991_%28cropped%29.jpg/960px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 800,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/US_Army_officers%2C_from-_Colleges_and_Universities_-_Massachusetts_Institute_of_Technology_-_Military_members_of_academic_board%2C_U.S.S.M.A.%2C_Massachusetts_Institute_of_Technology%2C_Boston%2C_Massachusetts_-_NARA_-_26426991_%28cropped%29.jpg/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/US_Army_officers%2C_from-_Colleges_and_Universities_-_Massachusetts_Institute_of_Technology_-_Military_members_of_academic_board%2C_U.S.S.M.A.%2C_Massachusetts_Institute_of_Technology%2C_Boston%2C_Massachusetts_-_NARA_-_26426991_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:US_Army_officers,_from-_Colleges_and_Universities_-_Massachusetts_Institute_of_Technology_-_Military_members_of_academic_board,_U.S.S.M.A.,_Massachusetts_Institute_of_Technology,_Boston,_Massachusetts_-_NARA_-_26426991_(cropped).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=83898740",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "<div class=\"fn\">\n<i>Colleges and Universities - Massachusetts Institute of Technology - Military members of academic board, U.S.S.M.A., Massachusetts Institute of Technology, Boston, Massachusetts</i></div>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<div class=\"fn value\">\nUnknown author<span style=\"display: none;\">Unknown author</span> or not provided</div>",
+                "source": "commons-desc-page"
+              },
+              "ImageDescription": {
+                "value": "<div class=\"description\">\n<ul><li><b>Scope and content:</b>  Date Taken: 4/25/1918</li></ul></div>",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "Taken on 25 April 1918",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "7459584": {
+        "pageid": 7459584,
+        "ns": 6,
+        "title": "File:Interior of the Institute of Technology, from Robert N. Dennis collection of stereoscopic views.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2009-08-03T02:00:10Z",
+            "size": 1472933,
+            "width": 2737,
+            "height": 1401,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Interior_of_the_Institute_of_Technology%2C_from_Robert_N._Dennis_collection_of_stereoscopic_views.jpg/960px-Interior_of_the_Institute_of_Technology%2C_from_Robert_N._Dennis_collection_of_stereoscopic_views.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 328,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Interior_of_the_Institute_of_Technology%2C_from_Robert_N._Dennis_collection_of_stereoscopic_views.jpg/1280px-Interior_of_the_Institute_of_Technology%2C_from_Robert_N._Dennis_collection_of_stereoscopic_views.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Interior_of_the_Institute_of_Technology%2C_from_Robert_N._Dennis_collection_of_stereoscopic_views.jpg/960px-Interior_of_the_Institute_of_Technology%2C_from_Robert_N._Dennis_collection_of_stereoscopic_views.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 328,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Interior_of_the_Institute_of_Technology%2C_from_Robert_N._Dennis_collection_of_stereoscopic_views.jpg/1280px-Interior_of_the_Institute_of_Technology%2C_from_Robert_N._Dennis_collection_of_stereoscopic_views.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Interior_of_the_Institute_of_Technology%2C_from_Robert_N._Dennis_collection_of_stereoscopic_views.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Interior_of_the_Institute_of_Technology,_from_Robert_N._Dennis_collection_of_stereoscopic_views.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=7459584",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "<div class=\"fn\">\n<i>Interior of the Institute of Technology.</i><b><br>Alternate Title:</b>  Descriptive series, Boston and neighborhood.</div>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<div class=\"fn value\">\nUnknown artist<span style=\"display: none;\">Unknown artist</span></div>",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "<p>Coverage: 1859?-1885?.\nSource Imprint: 1859?-1885?.\n</p>\nDigital item published 7-18-2005; updated 2-13-2009.",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      }
+    }
+  }
+}

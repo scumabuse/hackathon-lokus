@@ -1,0 +1,65 @@
+{
+  "continue": {
+    "iistart": "2025-06-23T23:48:08Z",
+    "continue": "||"
+  },
+  "query": {
+    "pages": {
+      "168394775": {
+        "pageid": 168394775,
+        "ns": 6,
+        "title": "File:MIT 2023 red logo.svg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2026-01-13T20:04:10Z",
+            "size": 751,
+            "width": 449,
+            "height": 252,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/MIT_2023_red_logo.svg/960px-MIT_2023_red_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 359,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/MIT_2023_red_logo.svg/1280px-MIT_2023_red_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/MIT_2023_red_logo.svg/960px-MIT_2023_red_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 359,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/MIT_2023_red_logo.svg/1280px-MIT_2023_red_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/MIT_2023_red_logo.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:MIT_2023_red_logo.svg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=168394775",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "MIT 2023 red logo",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Logo of the Massachusetts Institute of Technology, introduced in 2003 with color revisions circa 2023",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "Designed in 2002 , with color revisions in circa 2023<div style=\"display: none;\">date QS:P,+2023-00-00T00:00:00Z/9,P1480,Q5727902</div> (<a rel=\"nofollow\" class=\"external text\" href=\"https://brand.mit.edu/faq\">1</a>)",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"https://en.wikipedia.org/wiki/Matthew_Carter\" class=\"extiw\" title=\"w:Matthew Carter\">Matthew Carter</a> and others, owned by Massachusetts Institute of Technology",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/svg+xml"
+          }
+        ]
+      }
+    }
+  }
+}

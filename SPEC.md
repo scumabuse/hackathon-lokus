@@ -697,3 +697,17 @@ Comparison of two universities; climate/transport/cost-of-living data; student r
 ## 20. Known pitfalls checklist (read before Phases 2–5)
 
 Wikimedia APIs return 403 without a descriptive User-Agent ; upload.wikimedia.org returns 429 under high parallelism → the 8-connection semaphore. Flickr geo search without min_taken_date (a "limiting agent") returns an error or nothing. Commons DateTimeOriginal is free text; never trust it without the regex; fall back to upload timestamp labeled "uploaded". Official sites often block hotlinking → <img> always points to /api/thumb/... , never to the original. Proxies buffer SSE → X-Accel-Buffering: no and periodic pings. Pillow decompression bombs → MAX_IMAGE_PIXELS and the 4 MB cap; decode in threads to keep the event loop free. Anthropic rate limits under jury load → batching + VISION_CONCURRENCY ; on 429 back off, never fail the profile. Leaflet default marker icons are missing under Vite unless imported explicitly. EventSource cannot send headers → all stream parameters are query params. datetime.now() must be timezone-aware UTC everywhere ( datetime.now(timezone.utc) ). asyncio.gather(..., return_exceptions=True) for source fan-out, so one failing source never cancels the others.
+
+## Amendment A (2026-09-18, from the customer; overrides Sections 3, 7.4, 7.6, 7.7, 16.2 where they conflict)
+
+API keys — read before Phase 0. The only key this project uses is GEMINI_API_KEY (Google AI Studio, free tier, no billing account attached). Do NOT plan, require, or prompt for any other key:
+
+- No Anthropic key. All vision and text tasks run on Gemini (Section 7.7). Do not add the anthropic package, any ANTHROPIC_* variable, or a second provider implementation.
+- No Flickr key. New Flickr API keys require a paid Flickr Pro account. Geotagged photos come from Wikimedia Commons geosearch instead (Section 7.4A), which needs no key and provides the same distance-to-campus signal. FLICKR_API_KEY is optional and off by default: if absent, the Flickr source is disabled silently — no warning, no notice, no mention in the UI or README test steps.
+- No Google Custom Search key. Web search is an optional booster only (Section 7.6); without GOOGLE_CSE_* it is skipped silently. Never treat its absence as an error or a warning.
+
+Definition of Done and every gate must pass with .env containing only GEMINI_API_KEY and CONTACT_EMAIL. If any code path fails or warns because another key is missing, that is a bug.
+
+### 7.4A Wikimedia Commons geosearch (replaces Flickr as the default geo source; defined by the implementation, see DECISIONS.md)
+
+action=query&generator=geosearch&ggscoord={lat}|{lon}&ggsradius=1000&ggsnamespace=6&ggslimit=50&ggsprimary=all&prop=imageinfo|coordinates + the Section 7.3 prop block, format=json. Skipped when the university has no coordinates. Pages are parsed and filtered exactly like Section 7.3 files; page.coordinates[0] gives the photo location, distance_m = haversine to the campus coordinates. source_type = commons_geo, base weight 0.40 (as flickr_geo), reason code commons_geo_source, priority between commons_category and flickr_geo.

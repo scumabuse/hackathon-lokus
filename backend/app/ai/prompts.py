@@ -1,4 +1,4 @@
-"""All prompt texts sent to the Anthropic API live in this module (SPEC Sections 7.8, 9).
+"""All prompt texts sent to the Gemini API live in this module (SPEC Sections 7.8, 9).
 
 Phase 1 ships only the spelling-normalization prompt (Section 7.8.b). Phase 3 adds the vision
 system prompt, the per-batch header/footer texts and the description prompt (Sections 7.8.a, 9)

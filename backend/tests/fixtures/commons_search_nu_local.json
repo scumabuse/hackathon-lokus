@@ -1,0 +1,2187 @@
+{
+  "batchcomplete": "",
+  "continue": {
+    "gsroffset": 40,
+    "continue": "gsroffset||"
+  },
+  "query": {
+    "pages": {
+      "106427136": {
+        "pageid": 106427136,
+        "ns": 6,
+        "title": "File:(Albi) Etude de nu. Femme assise sur un divan - Toulouse-Lautrec - 1882 - MTL.78.jpg",
+        "index": 29,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2021-06-09T16:32:30Z",
+            "size": 35368212,
+            "width": 4052,
+            "height": 4885,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/%28Albi%29_Etude_de_nu._Femme_assise_sur_un_divan_-_Toulouse-Lautrec_-_1882_-_MTL.78.jpg/960px-%28Albi%29_Etude_de_nu._Femme_assise_sur_un_divan_-_Toulouse-Lautrec_-_1882_-_MTL.78.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 772,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/%28Albi%29_Etude_de_nu._Femme_assise_sur_un_divan_-_Toulouse-Lautrec_-_1882_-_MTL.78.jpg/1280px-%28Albi%29_Etude_de_nu._Femme_assise_sur_un_divan_-_Toulouse-Lautrec_-_1882_-_MTL.78.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/%28Albi%29_Etude_de_nu._Femme_assise_sur_un_divan_-_Toulouse-Lautrec_-_1882_-_MTL.78.jpg/960px-%28Albi%29_Etude_de_nu._Femme_assise_sur_un_divan_-_Toulouse-Lautrec_-_1882_-_MTL.78.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 772,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/%28Albi%29_Etude_de_nu._Femme_assise_sur_un_divan_-_Toulouse-Lautrec_-_1882_-_MTL.78.jpg/1280px-%28Albi%29_Etude_de_nu._Femme_assise_sur_un_divan_-_Toulouse-Lautrec_-_1882_-_MTL.78.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/%28Albi%29_Etude_de_nu._Femme_assise_sur_un_divan_-_Toulouse-Lautrec_-_1882_-_MTL.78.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:(Albi)_Etude_de_nu._Femme_assise_sur_un_divan_-_Toulouse-Lautrec_-_1882_-_MTL.78.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=106427136",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "(Albi) Etude de nu. Femme assise sur un divan - Toulouse-Lautrec - 1882 - MTL.78",
+                "source": "mediawiki-metadata"
+              },
+              "DateTimeOriginal": {
+                "value": "Taken on 21 May 2021",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Archaeodontosaurus\" title=\"User:Archaeodontosaurus\">Didier Descouens</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "107544772": {
+        "pageid": 107544772,
+        "ns": 6,
+        "title": "File:(Albi) Femme rousse nu-tête 1891 Toulouse-Lautrec - MTL.139.jpg",
+        "index": 21,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2021-07-14T13:40:34Z",
+            "size": 27380666,
+            "width": 3154,
+            "height": 4358,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/%28Albi%29_Femme_rousse_nu-t%C3%AAte_1891_Toulouse-Lautrec_-_MTL.139.jpg/960px-%28Albi%29_Femme_rousse_nu-t%C3%AAte_1891_Toulouse-Lautrec_-_MTL.139.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 884,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/%28Albi%29_Femme_rousse_nu-t%C3%AAte_1891_Toulouse-Lautrec_-_MTL.139.jpg/1280px-%28Albi%29_Femme_rousse_nu-t%C3%AAte_1891_Toulouse-Lautrec_-_MTL.139.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/%28Albi%29_Femme_rousse_nu-t%C3%AAte_1891_Toulouse-Lautrec_-_MTL.139.jpg/960px-%28Albi%29_Femme_rousse_nu-t%C3%AAte_1891_Toulouse-Lautrec_-_MTL.139.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 884,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/%28Albi%29_Femme_rousse_nu-t%C3%AAte_1891_Toulouse-Lautrec_-_MTL.139.jpg/1280px-%28Albi%29_Femme_rousse_nu-t%C3%AAte_1891_Toulouse-Lautrec_-_MTL.139.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/1/12/%28Albi%29_Femme_rousse_nu-t%C3%AAte_1891_Toulouse-Lautrec_-_MTL.139.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:(Albi)_Femme_rousse_nu-t%C3%AAte_1891_Toulouse-Lautrec_-_MTL.139.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=107544772",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "(Albi) Femme rousse nu-tête 1891 Toulouse-Lautrec - MTL.139",
+                "source": "mediawiki-metadata"
+              },
+              "DateTimeOriginal": {
+                "value": "Taken on 21 May 2021",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Archaeodontosaurus\" title=\"User:Archaeodontosaurus\">Didier Descouens</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "108313996": {
+        "pageid": 108313996,
+        "ns": 6,
+        "title": "File:(Albi) Nu - Fernand Cormon - Joconde000PE018396.jpg",
+        "index": 25,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2021-08-10T06:27:38Z",
+            "size": 40953182,
+            "width": 4501,
+            "height": 6451,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/%28Albi%29_Nu_-_Fernand_Cormon_-_Joconde000PE018396.jpg/960px-%28Albi%29_Nu_-_Fernand_Cormon_-_Joconde000PE018396.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 917,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/%28Albi%29_Nu_-_Fernand_Cormon_-_Joconde000PE018396.jpg/1280px-%28Albi%29_Nu_-_Fernand_Cormon_-_Joconde000PE018396.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/%28Albi%29_Nu_-_Fernand_Cormon_-_Joconde000PE018396.jpg/960px-%28Albi%29_Nu_-_Fernand_Cormon_-_Joconde000PE018396.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 917,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/%28Albi%29_Nu_-_Fernand_Cormon_-_Joconde000PE018396.jpg/1280px-%28Albi%29_Nu_-_Fernand_Cormon_-_Joconde000PE018396.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/%28Albi%29_Nu_-_Fernand_Cormon_-_Joconde000PE018396.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:(Albi)_Nu_-_Fernand_Cormon_-_Joconde000PE018396.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=108313996",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "(Albi) Nu - Fernand Cormon - Joconde000PE018396",
+                "source": "mediawiki-metadata"
+              },
+              "DateTimeOriginal": {
+                "value": "Taken on 21 May 2021",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Archaeodontosaurus\" title=\"User:Archaeodontosaurus\">Didier Descouens</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "110524588": {
+        "pageid": 110524588,
+        "ns": 6,
+        "title": "File:(Albi) Nu assis sur un canapé - 1916 - Suzanne Valadon HsT.jpg",
+        "index": 19,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2021-09-28T17:03:07Z",
+            "size": 32162831,
+            "width": 4180,
+            "height": 5531,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/%28Albi%29_Nu_assis_sur_un_canap%C3%A9_-_1916_-_Suzanne_Valadon_HsT.jpg/960px-%28Albi%29_Nu_assis_sur_un_canap%C3%A9_-_1916_-_Suzanne_Valadon_HsT.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 847,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/%28Albi%29_Nu_assis_sur_un_canap%C3%A9_-_1916_-_Suzanne_Valadon_HsT.jpg/1280px-%28Albi%29_Nu_assis_sur_un_canap%C3%A9_-_1916_-_Suzanne_Valadon_HsT.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/%28Albi%29_Nu_assis_sur_un_canap%C3%A9_-_1916_-_Suzanne_Valadon_HsT.jpg/960px-%28Albi%29_Nu_assis_sur_un_canap%C3%A9_-_1916_-_Suzanne_Valadon_HsT.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 847,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/%28Albi%29_Nu_assis_sur_un_canap%C3%A9_-_1916_-_Suzanne_Valadon_HsT.jpg/1280px-%28Albi%29_Nu_assis_sur_un_canap%C3%A9_-_1916_-_Suzanne_Valadon_HsT.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/1/11/%28Albi%29_Nu_assis_sur_un_canap%C3%A9_-_1916_-_Suzanne_Valadon_HsT.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:(Albi)_Nu_assis_sur_un_canap%C3%A9_-_1916_-_Suzanne_Valadon_HsT.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=110524588",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "(Albi) Nu assis sur un canapé - 1916 - Suzanne Valadon HsT",
+                "source": "mediawiki-metadata"
+              },
+              "DateTimeOriginal": {
+                "value": "Taken on 4 August 2021",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Archaeodontosaurus\" title=\"User:Archaeodontosaurus\">Didier Descouens</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "110328532": {
+        "pageid": 110328532,
+        "ns": 6,
+        "title": "File:(Albi) Nu sortant du bain ~1904 - Suzanne Valadon - Sanguine sur papier.jpg",
+        "index": 20,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2021-09-22T19:48:00Z",
+            "size": 20278414,
+            "width": 4414,
+            "height": 5252,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/%28Albi%29_Nu_sortant_du_bain_~1904_-_Suzanne_Valadon_-_Sanguine_sur_papier.jpg/960px-%28Albi%29_Nu_sortant_du_bain_~1904_-_Suzanne_Valadon_-_Sanguine_sur_papier.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 762,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/%28Albi%29_Nu_sortant_du_bain_~1904_-_Suzanne_Valadon_-_Sanguine_sur_papier.jpg/1280px-%28Albi%29_Nu_sortant_du_bain_~1904_-_Suzanne_Valadon_-_Sanguine_sur_papier.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/%28Albi%29_Nu_sortant_du_bain_~1904_-_Suzanne_Valadon_-_Sanguine_sur_papier.jpg/960px-%28Albi%29_Nu_sortant_du_bain_~1904_-_Suzanne_Valadon_-_Sanguine_sur_papier.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 762,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/%28Albi%29_Nu_sortant_du_bain_~1904_-_Suzanne_Valadon_-_Sanguine_sur_papier.jpg/1280px-%28Albi%29_Nu_sortant_du_bain_~1904_-_Suzanne_Valadon_-_Sanguine_sur_papier.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/%28Albi%29_Nu_sortant_du_bain_~1904_-_Suzanne_Valadon_-_Sanguine_sur_papier.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:(Albi)_Nu_sortant_du_bain_~1904_-_Suzanne_Valadon_-_Sanguine_sur_papier.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=110328532",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "(Albi) Nu sortant du bain ~1904 - Suzanne Valadon - Sanguine sur papier",
+                "source": "mediawiki-metadata"
+              },
+              "DateTimeOriginal": {
+                "value": "Taken on 4 August 2021",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Archaeodontosaurus\" title=\"User:Archaeodontosaurus\">Didier Descouens</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "127007729": {
+        "pageid": 127007729,
+        "ns": 6,
+        "title": "File:(Barcelona) Nu Femení - Ramon Casas - Museu Nacional d'Art de Catalunya.jpg",
+        "index": 17,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2022-12-25T17:48:02Z",
+            "size": 31085056,
+            "width": 5833,
+            "height": 4346,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/%28Barcelona%29_Nu_Femen%C3%AD_-_Ramon_Casas_-_Museu_Nacional_d%27Art_de_Catalunya.jpg/960px-%28Barcelona%29_Nu_Femen%C3%AD_-_Ramon_Casas_-_Museu_Nacional_d%27Art_de_Catalunya.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 477,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/%28Barcelona%29_Nu_Femen%C3%AD_-_Ramon_Casas_-_Museu_Nacional_d%27Art_de_Catalunya.jpg/1280px-%28Barcelona%29_Nu_Femen%C3%AD_-_Ramon_Casas_-_Museu_Nacional_d%27Art_de_Catalunya.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/%28Barcelona%29_Nu_Femen%C3%AD_-_Ramon_Casas_-_Museu_Nacional_d%27Art_de_Catalunya.jpg/960px-%28Barcelona%29_Nu_Femen%C3%AD_-_Ramon_Casas_-_Museu_Nacional_d%27Art_de_Catalunya.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 477,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/%28Barcelona%29_Nu_Femen%C3%AD_-_Ramon_Casas_-_Museu_Nacional_d%27Art_de_Catalunya.jpg/1280px-%28Barcelona%29_Nu_Femen%C3%AD_-_Ramon_Casas_-_Museu_Nacional_d%27Art_de_Catalunya.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/%28Barcelona%29_Nu_Femen%C3%AD_-_Ramon_Casas_-_Museu_Nacional_d%27Art_de_Catalunya.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:(Barcelona)_Nu_Femen%C3%AD_-_Ramon_Casas_-_Museu_Nacional_d%27Art_de_Catalunya.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=127007729",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "(Barcelona) Nu Femení - Ramon Casas - Museu Nacional d'Art de Catalunya",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Female Nude (1894). Oil on canvas, 59.5 x 79.0 cm (23.4 x 31.1 in). Museu Nacional d'Art de Catalunya, Barcelona <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"//commons.wikimedia.org/wiki/File:(Barcelona)_Nu_Femen%C3%AD_-_Ramon_Casas_-_Museu_Nacional_d%27Art_de_Catalunya.jpg#ooui-php-4\" title=\"Edit this at Structured Data on Commons\"><img alt=\"Edit this at Structured Data on Commons\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "Taken on 23 August 2022",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Archaeodontosaurus\" title=\"User:Archaeodontosaurus\">Didier Descouens</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "158558162": {
+        "pageid": 158558162,
+        "ns": 6,
+        "title": "File:(Barcelona) Nu assis au châle tapis - Suzanne Valadon.jpg",
+        "index": 34,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2025-01-26T10:44:23Z",
+            "size": 29676186,
+            "width": 4134,
+            "height": 5712,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/%28Barcelona%29_Nu_assis_au_ch%C3%A2le_tapis_-_Suzanne_Valadon.jpg/960px-%28Barcelona%29_Nu_assis_au_ch%C3%A2le_tapis_-_Suzanne_Valadon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 884,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/%28Barcelona%29_Nu_assis_au_ch%C3%A2le_tapis_-_Suzanne_Valadon.jpg/1280px-%28Barcelona%29_Nu_assis_au_ch%C3%A2le_tapis_-_Suzanne_Valadon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/%28Barcelona%29_Nu_assis_au_ch%C3%A2le_tapis_-_Suzanne_Valadon.jpg/960px-%28Barcelona%29_Nu_assis_au_ch%C3%A2le_tapis_-_Suzanne_Valadon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 884,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/%28Barcelona%29_Nu_assis_au_ch%C3%A2le_tapis_-_Suzanne_Valadon.jpg/1280px-%28Barcelona%29_Nu_assis_au_ch%C3%A2le_tapis_-_Suzanne_Valadon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/%28Barcelona%29_Nu_assis_au_ch%C3%A2le_tapis_-_Suzanne_Valadon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:(Barcelona)_Nu_assis_au_ch%C3%A2le_tapis_-_Suzanne_Valadon.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=158558162",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "(Barcelona) Nu assis au châle tapis - Suzanne Valadon",
+                "source": "mediawiki-metadata"
+              },
+              "DateTimeOriginal": {
+                "value": "Taken on 1 August 2024",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Archaeodontosaurus\" title=\"User:Archaeodontosaurus\">Didier Descouens</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "158809926": {
+        "pageid": 158809926,
+        "ns": 6,
+        "title": "File:(Barcelona) Nu au miroir 1909 - Suzanne Valadon.jpg",
+        "index": 33,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2025-01-30T18:22:21Z",
+            "size": 16390749,
+            "width": 3866,
+            "height": 4855,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/%28Barcelona%29_Nu_au_miroir_1909_-_Suzanne_Valadon.jpg/960px-%28Barcelona%29_Nu_au_miroir_1909_-_Suzanne_Valadon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 804,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/%28Barcelona%29_Nu_au_miroir_1909_-_Suzanne_Valadon.jpg/1280px-%28Barcelona%29_Nu_au_miroir_1909_-_Suzanne_Valadon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/%28Barcelona%29_Nu_au_miroir_1909_-_Suzanne_Valadon.jpg/960px-%28Barcelona%29_Nu_au_miroir_1909_-_Suzanne_Valadon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 804,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/%28Barcelona%29_Nu_au_miroir_1909_-_Suzanne_Valadon.jpg/1280px-%28Barcelona%29_Nu_au_miroir_1909_-_Suzanne_Valadon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/%28Barcelona%29_Nu_au_miroir_1909_-_Suzanne_Valadon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:(Barcelona)_Nu_au_miroir_1909_-_Suzanne_Valadon.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=158809926",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "(Barcelona) Nu au miroir 1909 - Suzanne Valadon",
+                "source": "mediawiki-metadata"
+              },
+              "DateTimeOriginal": {
+                "value": "Taken on 1 August 2024",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Archaeodontosaurus\" title=\"User:Archaeodontosaurus\">Didier Descouens</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "151999477": {
+        "pageid": 151999477,
+        "ns": 6,
+        "title": "File:(Barcelona) Nu d'home jove - Pablo Gargallo - Museu Nacional d'Art de Catalunya.jpg",
+        "index": 39,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2024-08-30T16:16:24Z",
+            "size": 38950039,
+            "width": 8382,
+            "height": 14738,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/%28Barcelona%29_Nu_d%27home_jove_-_Pablo_Gargallo_-_Museu_Nacional_d%27Art_de_Catalunya.jpg/960px-%28Barcelona%29_Nu_d%27home_jove_-_Pablo_Gargallo_-_Museu_Nacional_d%27Art_de_Catalunya.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 1125,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/%28Barcelona%29_Nu_d%27home_jove_-_Pablo_Gargallo_-_Museu_Nacional_d%27Art_de_Catalunya.jpg/1280px-%28Barcelona%29_Nu_d%27home_jove_-_Pablo_Gargallo_-_Museu_Nacional_d%27Art_de_Catalunya.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/%28Barcelona%29_Nu_d%27home_jove_-_Pablo_Gargallo_-_Museu_Nacional_d%27Art_de_Catalunya.jpg/960px-%28Barcelona%29_Nu_d%27home_jove_-_Pablo_Gargallo_-_Museu_Nacional_d%27Art_de_Catalunya.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 1125,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/%28Barcelona%29_Nu_d%27home_jove_-_Pablo_Gargallo_-_Museu_Nacional_d%27Art_de_Catalunya.jpg/1280px-%28Barcelona%29_Nu_d%27home_jove_-_Pablo_Gargallo_-_Museu_Nacional_d%27Art_de_Catalunya.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/%28Barcelona%29_Nu_d%27home_jove_-_Pablo_Gargallo_-_Museu_Nacional_d%27Art_de_Catalunya.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:(Barcelona)_Nu_d%27home_jove_-_Pablo_Gargallo_-_Museu_Nacional_d%27Art_de_Catalunya.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=151999477",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "(Barcelona) Nu d'home jove - Pablo Gargallo - Museu Nacional d'Art de Catalunya",
+                "source": "mediawiki-metadata"
+              },
+              "DateTimeOriginal": {
+                "value": "Taken on 8 August 2023",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Archaeodontosaurus\" title=\"User:Archaeodontosaurus\">Didier Descouens</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "149933823": {
+        "pageid": 149933823,
+        "ns": 6,
+        "title": "File:(Venice) Pierre Bonnard - Nu au miroir - Museo d'arte moderna.jpg",
+        "index": 16,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2024-07-02T17:38:52Z",
+            "size": 22361871,
+            "width": 4293,
+            "height": 6360,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/%28Venice%29_Pierre_Bonnard_-_Nu_au_miroir_-_Museo_d%27arte_moderna.jpg/960px-%28Venice%29_Pierre_Bonnard_-_Nu_au_miroir_-_Museo_d%27arte_moderna.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 948,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/%28Venice%29_Pierre_Bonnard_-_Nu_au_miroir_-_Museo_d%27arte_moderna.jpg/1280px-%28Venice%29_Pierre_Bonnard_-_Nu_au_miroir_-_Museo_d%27arte_moderna.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/%28Venice%29_Pierre_Bonnard_-_Nu_au_miroir_-_Museo_d%27arte_moderna.jpg/960px-%28Venice%29_Pierre_Bonnard_-_Nu_au_miroir_-_Museo_d%27arte_moderna.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 948,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/%28Venice%29_Pierre_Bonnard_-_Nu_au_miroir_-_Museo_d%27arte_moderna.jpg/1280px-%28Venice%29_Pierre_Bonnard_-_Nu_au_miroir_-_Museo_d%27arte_moderna.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/7/77/%28Venice%29_Pierre_Bonnard_-_Nu_au_miroir_-_Museo_d%27arte_moderna.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:(Venice)_Pierre_Bonnard_-_Nu_au_miroir_-_Museo_d%27arte_moderna.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=149933823",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "(Venice) Pierre Bonnard - Nu au miroir - Museo d'arte moderna",
+                "source": "mediawiki-metadata"
+              },
+              "DateTimeOriginal": {
+                "value": "Taken on 7 May 2024",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Archaeodontosaurus\" title=\"User:Archaeodontosaurus\">Didier Descouens</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "25160526": {
+        "pageid": 25160526,
+        "ns": 6,
+        "title": "File:Coq Cou nu FR 2013.jpg",
+        "index": 26,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2013-03-17T17:56:50Z",
+            "size": 11073206,
+            "width": 2383,
+            "height": 3240,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Coq_Cou_nu_FR_2013.jpg/960px-Coq_Cou_nu_FR_2013.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 870,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Coq_Cou_nu_FR_2013.jpg/1280px-Coq_Cou_nu_FR_2013.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Coq_Cou_nu_FR_2013.jpg/960px-Coq_Cou_nu_FR_2013.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 870,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Coq_Cou_nu_FR_2013.jpg/1280px-Coq_Cou_nu_FR_2013.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Coq_Cou_nu_FR_2013.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Coq_Cou_nu_FR_2013.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=25160526",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Coq Cou nu FR 2013",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Naked neck rooster (<i>Gallus gallus domesticus</i>) and a hen, in their natural environment, Charente, France.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2013-03-15 16:21:45",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<p><a href=\"//commons.wikimedia.org/wiki/User:JLPC\" title=\"User:JLPC\">JLPC</a>\n</p>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "88055909": {
+        "pageid": 88055909,
+        "ns": 6,
+        "title": "File:Musée Ingres-Bourdelle - Nu à la console - Paul Jourdy MI.80.1.1.jpg",
+        "index": 22,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2020-03-14T11:45:24Z",
+            "size": 15841985,
+            "width": 4132,
+            "height": 7366,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Mus%C3%A9e_Ingres-Bourdelle_-_Nu_%C3%A0_la_console_-_Paul_Jourdy_MI.80.1.1.jpg/960px-Mus%C3%A9e_Ingres-Bourdelle_-_Nu_%C3%A0_la_console_-_Paul_Jourdy_MI.80.1.1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 1141,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Mus%C3%A9e_Ingres-Bourdelle_-_Nu_%C3%A0_la_console_-_Paul_Jourdy_MI.80.1.1.jpg/1280px-Mus%C3%A9e_Ingres-Bourdelle_-_Nu_%C3%A0_la_console_-_Paul_Jourdy_MI.80.1.1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Mus%C3%A9e_Ingres-Bourdelle_-_Nu_%C3%A0_la_console_-_Paul_Jourdy_MI.80.1.1.jpg/960px-Mus%C3%A9e_Ingres-Bourdelle_-_Nu_%C3%A0_la_console_-_Paul_Jourdy_MI.80.1.1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 1141,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Mus%C3%A9e_Ingres-Bourdelle_-_Nu_%C3%A0_la_console_-_Paul_Jourdy_MI.80.1.1.jpg/1280px-Mus%C3%A9e_Ingres-Bourdelle_-_Nu_%C3%A0_la_console_-_Paul_Jourdy_MI.80.1.1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Mus%C3%A9e_Ingres-Bourdelle_-_Nu_%C3%A0_la_console_-_Paul_Jourdy_MI.80.1.1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_Ingres-Bourdelle_-_Nu_%C3%A0_la_console_-_Paul_Jourdy_MI.80.1.1.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=88055909",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Musée Ingres-Bourdelle - Nu à la console - Paul Jourdy MI.80.1.1",
+                "source": "mediawiki-metadata"
+              },
+              "DateTimeOriginal": {
+                "value": "Taken on 1 February 2020",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Archaeodontosaurus\" title=\"User:Archaeodontosaurus\">Didier Descouens</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "72864065": {
+        "pageid": 72864065,
+        "ns": 6,
+        "title": "File:NU - Abdullah Afifuddin.jpg",
+        "index": 30,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2018-09-19T09:55:36Z",
+            "size": 23215,
+            "width": 200,
+            "height": 266,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/8/89/NU_-_Abdullah_Afifuddin.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 640,
+            "thumbheight": 851,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/8/89/NU_-_Abdullah_Afifuddin.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 851
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/8/89/NU_-_Abdullah_Afifuddin.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:NU_-_Abdullah_Afifuddin.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=72864065",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "NU - Abdullah Afifuddin",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Abdullah Afifuddin, a member of the <a href=\"https://en.wikipedia.org/wiki/Constitutional_Assembly_of_Indonesia\" class=\"extiw\" title=\"en:Constitutional Assembly of Indonesia\">Constitutional Assembly of Indonesia</a> from <a href=\"https://en.wikipedia.org/wiki/Nahdlatul_Ulama\" class=\"extiw\" title=\"en:Nahdlatul Ulama\">Nahdlatul Ulama</a> representing <a href=\"https://en.wikipedia.org/wiki/North_Sumatra\" class=\"extiw\" title=\"en:North Sumatra\">North Sumatra</a>.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1956",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<i>Sekretariat Konstituante</i> (Secretariat of the Constitutional Assembly)",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "72864992": {
+        "pageid": 72864992,
+        "ns": 6,
+        "title": "File:NU - Ismail Dachlan Djuru Alam.jpg",
+        "index": 35,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2018-09-19T10:38:58Z",
+            "size": 22873,
+            "width": 200,
+            "height": 266,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/a/a5/NU_-_Ismail_Dachlan_Djuru_Alam.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 640,
+            "thumbheight": 851,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/a/a5/NU_-_Ismail_Dachlan_Djuru_Alam.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 851
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/NU_-_Ismail_Dachlan_Djuru_Alam.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:NU_-_Ismail_Dachlan_Djuru_Alam.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=72864992",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "NU - Ismail Dachlan Djuru Alam",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Ismail Dachlan Djuru Alam, a member of the <a href=\"https://en.wikipedia.org/wiki/Constitutional_Assembly_of_Indonesia\" class=\"extiw\" title=\"en:Constitutional Assembly of Indonesia\">Constitutional Assembly of Indonesia</a> from <a href=\"https://en.wikipedia.org/wiki/Nahdlatul_Ulama\" class=\"extiw\" title=\"en:Nahdlatul Ulama\">Nahdlatul Ulama</a> representing <a href=\"https://en.wikipedia.org/wiki/South_Sumatra\" class=\"extiw\" title=\"en:South Sumatra\">South Sumatra</a>.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1956",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<i>Sekretariat Konstituante</i> (Secretariat of the Constitutional Assembly)",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "72864998": {
+        "pageid": 72864998,
+        "ns": 6,
+        "title": "File:NU - Muhamad Sjadjari.jpg",
+        "index": 31,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2018-09-19T10:39:05Z",
+            "size": 19760,
+            "width": 200,
+            "height": 267,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/d/d7/NU_-_Muhamad_Sjadjari.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 640,
+            "thumbheight": 854,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/d/d7/NU_-_Muhamad_Sjadjari.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 854
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/NU_-_Muhamad_Sjadjari.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:NU_-_Muhamad_Sjadjari.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=72864998",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "NU - Muhamad Sjadjari",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Muhamad Sjadjari, a member of the <a href=\"https://en.wikipedia.org/wiki/Constitutional_Assembly_of_Indonesia\" class=\"extiw\" title=\"en:Constitutional Assembly of Indonesia\">Constitutional Assembly of Indonesia</a> from <a href=\"https://en.wikipedia.org/wiki/Nahdlatul_Ulama\" class=\"extiw\" title=\"en:Nahdlatul Ulama\">NU</a> representing <a href=\"https://en.wikipedia.org/wiki/South_Sumatra\" class=\"extiw\" title=\"en:South Sumatra\">South Sumatra</a>.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1956",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<i>Sekretariat Konstituante</i> (Secretariat of the Constitutional Assembly)",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "72865188": {
+        "pageid": 72865188,
+        "ns": 6,
+        "title": "File:NU - Sjarkawi.jpg",
+        "index": 23,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2018-09-19T10:47:24Z",
+            "size": 22502,
+            "width": 200,
+            "height": 266,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/0/03/NU_-_Sjarkawi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 640,
+            "thumbheight": 851,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/0/03/NU_-_Sjarkawi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 851
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/NU_-_Sjarkawi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:NU_-_Sjarkawi.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=72865188",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "NU - Sjarkawi",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Sjarkawi, a member of the <a href=\"https://en.wikipedia.org/wiki/Constitutional_Assembly_of_Indonesia\" class=\"extiw\" title=\"en:Constitutional Assembly of Indonesia\">Constitutional Assembly of Indonesia</a> from <a href=\"https://en.wikipedia.org/wiki/Nahdlatul_Ulama\" class=\"extiw\" title=\"en:Nahdlatul Ulama\">Nahdlatul Ulama</a> representing <a href=\"https://en.wikipedia.org/wiki/West_Sumatra\" class=\"extiw\" title=\"en:West Sumatra\">West Sumatra</a>.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1956",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<i>Sekretariat Konstituante</i> (Secretariat of the Constitutional Assembly)",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "46196311": {
+        "pageid": 46196311,
+        "ns": 6,
+        "title": "File:Nazarbaev University.jpg",
+        "index": 24,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2016-01-07T16:23:27Z",
+            "size": 2543185,
+            "width": 5472,
+            "height": 3648,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Nazarbaev_University.jpg/960px-Nazarbaev_University.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 427,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Nazarbaev_University.jpg/1280px-Nazarbaev_University.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Nazarbaev_University.jpg/960px-Nazarbaev_University.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 427,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Nazarbaev_University.jpg/1280px-Nazarbaev_University.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Nazarbaev_University.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Nazarbaev_University.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=46196311",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Nazarbaev University",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Nazarbaev University laboratory Nur-Sultan Kazakhstan",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2015-07-20 11:53:52",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:MaratKurakov&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:MaratKurakov (page does not exist)\">MaratKurakov</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "34513796": {
+        "pageid": 34513796,
+        "ns": 6,
+        "title": "File:Nazarbaev University Astana.JPG",
+        "index": 14,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2014-08-04T17:20:42Z",
+            "size": 4382612,
+            "width": 3648,
+            "height": 2736,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Nazarbaev_University_Astana.JPG/960px-Nazarbaev_University_Astana.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 480,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Nazarbaev_University_Astana.JPG/1280px-Nazarbaev_University_Astana.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Nazarbaev_University_Astana.JPG/960px-Nazarbaev_University_Astana.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 480,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Nazarbaev_University_Astana.JPG/1280px-Nazarbaev_University_Astana.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Nazarbaev_University_Astana.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Nazarbaev_University_Astana.JPG",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=34513796",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Nazarbaev University Astana",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Nazarbaev University Nur-Sultan",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2014-06-09 09:59:12",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:%D0%9A%D0%BE%D0%BD%D0%B4%D1%83%D0%BA%D1%82%D0%BE%D1%80-%D0%BA%D0%BE%D0%BD%D1%82%D1%80%D0%BE%D0%BB%D1%91%D1%80\" title=\"User:Кондуктор-контролёр\">Кондуктор-контролёр</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "67258501": {
+        "pageid": 67258501,
+        "ns": 6,
+        "title": "File:Nazarbayev University, School of Engineering.jpg",
+        "index": 2,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2018-03-11T21:15:23Z",
+            "size": 1045175,
+            "width": 4618,
+            "height": 3464,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Nazarbayev_University%2C_School_of_Engineering.jpg/960px-Nazarbayev_University%2C_School_of_Engineering.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 480,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Nazarbayev_University%2C_School_of_Engineering.jpg/1280px-Nazarbayev_University%2C_School_of_Engineering.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Nazarbayev_University%2C_School_of_Engineering.jpg/960px-Nazarbayev_University%2C_School_of_Engineering.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 480,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Nazarbayev_University%2C_School_of_Engineering.jpg/1280px-Nazarbayev_University%2C_School_of_Engineering.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Nazarbayev_University%2C_School_of_Engineering.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Nazarbayev_University,_School_of_Engineering.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=67258501",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Nazarbayev University, School of Engineering",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Nazarbayev University, School of Engineering, entrance to the block. Nur-Sultan, Kazakhstan",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "11 March 2018 (according to <span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Exif\" class=\"extiw\" title=\"en:Exif\">Exif</a></span> data)",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Dinononozavr1&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Dinononozavr1 (page does not exist)\">Dinononozavr1</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "67257347": {
+        "pageid": 67257347,
+        "ns": 6,
+        "title": "File:Nazarbayev University, School of Humanities and Social Sciences.jpg",
+        "index": 4,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2018-03-11T20:29:35Z",
+            "size": 1827815,
+            "width": 4359,
+            "height": 3452,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Nazarbayev_University%2C_School_of_Humanities_and_Social_Sciences.jpg/960px-Nazarbayev_University%2C_School_of_Humanities_and_Social_Sciences.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 507,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Nazarbayev_University%2C_School_of_Humanities_and_Social_Sciences.jpg/1280px-Nazarbayev_University%2C_School_of_Humanities_and_Social_Sciences.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Nazarbayev_University%2C_School_of_Humanities_and_Social_Sciences.jpg/960px-Nazarbayev_University%2C_School_of_Humanities_and_Social_Sciences.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 507,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Nazarbayev_University%2C_School_of_Humanities_and_Social_Sciences.jpg/1280px-Nazarbayev_University%2C_School_of_Humanities_and_Social_Sciences.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Nazarbayev_University%2C_School_of_Humanities_and_Social_Sciences.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Nazarbayev_University,_School_of_Humanities_and_Social_Sciences.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=67257347",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Nazarbayev University, School of Humanities and Social Sciences",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Nazarbayev University, School of Humanities and Social Sciences, entrance to the block. Nur-Sultan, Kazakhstan",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "11 March 2018 (according to <span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Exif\" class=\"extiw\" title=\"en:Exif\">Exif</a></span> data)",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Dinononozavr1&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Dinononozavr1 (page does not exist)\">Dinononozavr1</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "67257583": {
+        "pageid": 67257583,
+        "ns": 6,
+        "title": "File:Nazarbayev University, School of Science and Technology.jpg",
+        "index": 3,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2018-03-11T20:39:08Z",
+            "size": 1480730,
+            "width": 4252,
+            "height": 2926,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Nazarbayev_University%2C_School_of_Science_and_Technology.jpg/960px-Nazarbayev_University%2C_School_of_Science_and_Technology.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 440,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Nazarbayev_University%2C_School_of_Science_and_Technology.jpg/1280px-Nazarbayev_University%2C_School_of_Science_and_Technology.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Nazarbayev_University%2C_School_of_Science_and_Technology.jpg/960px-Nazarbayev_University%2C_School_of_Science_and_Technology.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 440,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Nazarbayev_University%2C_School_of_Science_and_Technology.jpg/1280px-Nazarbayev_University%2C_School_of_Science_and_Technology.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Nazarbayev_University%2C_School_of_Science_and_Technology.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Nazarbayev_University,_School_of_Science_and_Technology.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=67257583",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Nazarbayev University, School of Science and Technology",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Nazarbayev University, School of Science and Technology, entance to the block. Nur-Sultan, Kazakhstan",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "11 March 2018 (according to <span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Exif\" class=\"extiw\" title=\"en:Exif\">Exif</a></span> data)",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Dinononozavr1&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Dinononozavr1 (page does not exist)\">Dinononozavr1</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "67259965": {
+        "pageid": 67259965,
+        "ns": 6,
+        "title": "File:Nazarbayev University 2.jpg",
+        "index": 1,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2018-03-11T22:26:54Z",
+            "size": 2608813,
+            "width": 5145,
+            "height": 2992,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Nazarbayev_University_2.jpg/960px-Nazarbayev_University_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 372,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Nazarbayev_University_2.jpg/1280px-Nazarbayev_University_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Nazarbayev_University_2.jpg/960px-Nazarbayev_University_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 372,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Nazarbayev_University_2.jpg/1280px-Nazarbayev_University_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/2/24/Nazarbayev_University_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Nazarbayev_University_2.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=67259965",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Nazarbayev University 2",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Nazarbayev University, main atrium. Astana, Kazakhstan",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "11 March 2018 (according to <span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Exif\" class=\"extiw\" title=\"en:Exif\">Exif</a></span> data)",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Dinononozavr1&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Dinononozavr1 (page does not exist)\">Dinononozavr1</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "36804843": {
+        "pageid": 36804843,
+        "ns": 6,
+        "title": "File:Nu drapé voile bleu cropped R. Demachy ca 1907-15.jpg",
+        "index": 18,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2014-11-16T13:48:01Z",
+            "size": 3360228,
+            "width": 1561,
+            "height": 2285,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Nu_drap%C3%A9_voile_bleu_cropped_R._Demachy_ca_1907-15.jpg/960px-Nu_drap%C3%A9_voile_bleu_cropped_R._Demachy_ca_1907-15.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 937,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Nu_drap%C3%A9_voile_bleu_cropped_R._Demachy_ca_1907-15.jpg/1280px-Nu_drap%C3%A9_voile_bleu_cropped_R._Demachy_ca_1907-15.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Nu_drap%C3%A9_voile_bleu_cropped_R._Demachy_ca_1907-15.jpg/960px-Nu_drap%C3%A9_voile_bleu_cropped_R._Demachy_ca_1907-15.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 937,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Nu_drap%C3%A9_voile_bleu_cropped_R._Demachy_ca_1907-15.jpg/1280px-Nu_drap%C3%A9_voile_bleu_cropped_R._Demachy_ca_1907-15.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/3/30/Nu_drap%C3%A9_voile_bleu_cropped_R._Demachy_ca_1907-15.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Nu_drap%C3%A9_voile_bleu_cropped_R._Demachy_ca_1907-15.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=36804843",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Nu drapé voile bleu cropped R. Demachy ca 1907-15",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "\"Female nude draped in a blue veil\" by Robert Demachy (1859-1936). Autochrome.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "between 1907 and 1915<div style=\"display: none;\">date QS:P,+1950-00-00T00:00:00Z/7,P1319,+1907-00-00T00:00:00Z/9,P1326,+1915-00-00T00:00:00Z/9</div>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Robert_Demachy\" class=\"extiw\" title=\"w:en:Robert Demachy\"><span title=\"French photographer (1859-1936)\">Robert Demachy</span></a></bdi>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "182669490": {
+        "pageid": 182669490,
+        "ns": 6,
+        "title": "File:RAs at Nazarbayev University.jpg",
+        "index": 15,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2026-01-29T13:03:16Z",
+            "size": 1847833,
+            "width": 3706,
+            "height": 2813,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/RAs_at_Nazarbayev_University.jpg/960px-RAs_at_Nazarbayev_University.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 486,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/RAs_at_Nazarbayev_University.jpg/1280px-RAs_at_Nazarbayev_University.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/RAs_at_Nazarbayev_University.jpg/960px-RAs_at_Nazarbayev_University.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 486,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/RAs_at_Nazarbayev_University.jpg/1280px-RAs_at_Nazarbayev_University.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/RAs_at_Nazarbayev_University.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:RAs_at_Nazarbayev_University.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=182669490",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "RAs at Nazarbayev University",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "The photo show three research assistants working on their research project in laboratory",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2026-01-27 17:18:44",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Nazekkama&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Nazekkama (page does not exist)\">Nazekkama</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "182669509": {
+        "pageid": 182669509,
+        "ns": 6,
+        "title": "File:RAs with professor at Nazarbayev University.jpg",
+        "index": 38,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2026-01-29T13:03:31Z",
+            "size": 1577446,
+            "width": 2316,
+            "height": 3088,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/RAs_with_professor_at_Nazarbayev_University.jpg/960px-RAs_with_professor_at_Nazarbayev_University.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 853,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/RAs_with_professor_at_Nazarbayev_University.jpg/1280px-RAs_with_professor_at_Nazarbayev_University.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/RAs_with_professor_at_Nazarbayev_University.jpg/960px-RAs_with_professor_at_Nazarbayev_University.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 853,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/RAs_with_professor_at_Nazarbayev_University.jpg/1280px-RAs_with_professor_at_Nazarbayev_University.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/RAs_with_professor_at_Nazarbayev_University.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:RAs_with_professor_at_Nazarbayev_University.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=182669509",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "RAs with professor at Nazarbayev University",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "The photo contains four researchers with their professor.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2026-01-27 11:48:56",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Nazekkama&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Nazekkama (page does not exist)\">Nazekkama</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "45916427": {
+        "pageid": 45916427,
+        "ns": 6,
+        "title": "File:Renewable Energy Laboratory at Nazarbayev University.JPG",
+        "index": 5,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2015-12-27T17:43:35Z",
+            "size": 5157969,
+            "width": 5472,
+            "height": 3648,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Renewable_Energy_Laboratory_at_Nazarbayev_University.JPG/960px-Renewable_Energy_Laboratory_at_Nazarbayev_University.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 427,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Renewable_Energy_Laboratory_at_Nazarbayev_University.JPG/1280px-Renewable_Energy_Laboratory_at_Nazarbayev_University.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Renewable_Energy_Laboratory_at_Nazarbayev_University.JPG/960px-Renewable_Energy_Laboratory_at_Nazarbayev_University.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 427,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Renewable_Energy_Laboratory_at_Nazarbayev_University.JPG/1280px-Renewable_Energy_Laboratory_at_Nazarbayev_University.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/9/92/Renewable_Energy_Laboratory_at_Nazarbayev_University.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Renewable_Energy_Laboratory_at_Nazarbayev_University.JPG",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=45916427",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Renewable Energy Laboratory at Nazarbayev University",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Renewable Energy Laboratory at Nazarbayev University",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2015-02-04 13:41:42",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:BibMak&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:BibMak (page does not exist)\">BibMak</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "182726251": {
+        "pageid": 182726251,
+        "ns": 6,
+        "title": "File:Science from the young age.jpg",
+        "index": 28,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2026-01-30T09:22:07Z",
+            "size": 3552465,
+            "width": 4196,
+            "height": 2801,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Science_from_the_young_age.jpg/960px-Science_from_the_young_age.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 427,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Science_from_the_young_age.jpg/1280px-Science_from_the_young_age.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Science_from_the_young_age.jpg/960px-Science_from_the_young_age.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 427,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Science_from_the_young_age.jpg/1280px-Science_from_the_young_age.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Science_from_the_young_age.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Science_from_the_young_age.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=182726251",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Science from the young age",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Science is not only for people with higher education or a luggage of knowledge. It is for everyone, even children. This picture has a beautiful meaning behind it: a little girl comes from a family of chemists. Her parents, aunts, and older sister all have been studying chemistry. She had this interest in her blood and when she got a chance to try this magical science - she way beyond happy.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2025-09-27 11:27:25",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Fati_K06&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Fati K06 (page does not exist)\">Fati K06</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "143887062": {
+        "pageid": 143887062,
+        "ns": 6,
+        "title": "File:Sitelen seli kiwen - nu 1.png",
+        "index": 36,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2024-01-12T23:02:21Z",
+            "size": 786,
+            "width": 168,
+            "height": 256,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/3/34/Sitelen_seli_kiwen_-_nu_1.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 640,
+            "thumbheight": 975,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/3/34/Sitelen_seli_kiwen_-_nu_1.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 975
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/3/34/Sitelen_seli_kiwen_-_nu_1.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Sitelen_seli_kiwen_-_nu_1.png",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=143887062",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Sitelen seli kiwen - nu 1",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "The glyph for \"nu\" in the <i>sitelen pona</i> writing system, as featured in the <i>sitelen seli kiwen</i> font.",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Rebecca Bettencourt (jan Lepeka)",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/png"
+          }
+        ]
+      },
+      "72030780": {
+        "pageid": 72030780,
+        "ns": 6,
+        "title": "File:The Prime Minister, Shri Narendra Modi signing the visitors' book at the Nazarbayev University, in Astana, Kazakhstan on July 07, 2015.jpg",
+        "index": 6,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2018-08-26T10:30:13Z",
+            "size": 504877,
+            "width": 2200,
+            "height": 1546,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/The_Prime_Minister%2C_Shri_Narendra_Modi_signing_the_visitors%27_book_at_the_Nazarbayev_University%2C_in_Astana%2C_Kazakhstan_on_July_07%2C_2015.jpg/960px-The_Prime_Minister%2C_Shri_Narendra_Modi_signing_the_visitors%27_book_at_the_Nazarbayev_University%2C_in_Astana%2C_Kazakhstan_on_July_07%2C_2015.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 450,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/The_Prime_Minister%2C_Shri_Narendra_Modi_signing_the_visitors%27_book_at_the_Nazarbayev_University%2C_in_Astana%2C_Kazakhstan_on_July_07%2C_2015.jpg/1280px-The_Prime_Minister%2C_Shri_Narendra_Modi_signing_the_visitors%27_book_at_the_Nazarbayev_University%2C_in_Astana%2C_Kazakhstan_on_July_07%2C_2015.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/The_Prime_Minister%2C_Shri_Narendra_Modi_signing_the_visitors%27_book_at_the_Nazarbayev_University%2C_in_Astana%2C_Kazakhstan_on_July_07%2C_2015.jpg/960px-The_Prime_Minister%2C_Shri_Narendra_Modi_signing_the_visitors%27_book_at_the_Nazarbayev_University%2C_in_Astana%2C_Kazakhstan_on_July_07%2C_2015.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 450,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/The_Prime_Minister%2C_Shri_Narendra_Modi_signing_the_visitors%27_book_at_the_Nazarbayev_University%2C_in_Astana%2C_Kazakhstan_on_July_07%2C_2015.jpg/1280px-The_Prime_Minister%2C_Shri_Narendra_Modi_signing_the_visitors%27_book_at_the_Nazarbayev_University%2C_in_Astana%2C_Kazakhstan_on_July_07%2C_2015.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/The_Prime_Minister%2C_Shri_Narendra_Modi_signing_the_visitors%27_book_at_the_Nazarbayev_University%2C_in_Astana%2C_Kazakhstan_on_July_07%2C_2015.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:The_Prime_Minister,_Shri_Narendra_Modi_signing_the_visitors%27_book_at_the_Nazarbayev_University,_in_Astana,_Kazakhstan_on_July_07,_2015.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=72030780",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "The Prime Minister, Shri Narendra Modi signing the visitors' book at the Nazarbayev University, in Astana, Kazakhstan on July 07, 2015",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "The Prime Minister, Shri Narendra Modi signing the visitors' book at the Nazarbayev University, in Astana, Kazakhstan on July 07, 2015.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2015-07-07 16:50:42",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Prime_Minister%27s_Office_(India)\" class=\"extiw\" title=\"w:en:Prime Minister's Office (India)\"><span title=\"Office of the Prime Minister of India\">Prime Minister's Office</span></a>\n</bdi>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "GODL-India",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "151652093": {
+        "pageid": 151652093,
+        "ns": 6,
+        "title": "File:Visit by Catherine Ashton, Vice-President of the EC, to Kazakhstan (P022219000701-125990).jpg",
+        "index": 40,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2024-08-20T19:56:06Z",
+            "size": 1861942,
+            "width": 3455,
+            "height": 2317,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Visit_by_Catherine_Ashton%2C_Vice-President_of_the_EC%2C_to_Kazakhstan_%28P022219000701-125990%29.jpg/960px-Visit_by_Catherine_Ashton%2C_Vice-President_of_the_EC%2C_to_Kazakhstan_%28P022219000701-125990%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 429,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Visit_by_Catherine_Ashton%2C_Vice-President_of_the_EC%2C_to_Kazakhstan_%28P022219000701-125990%29.jpg/1280px-Visit_by_Catherine_Ashton%2C_Vice-President_of_the_EC%2C_to_Kazakhstan_%28P022219000701-125990%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Visit_by_Catherine_Ashton%2C_Vice-President_of_the_EC%2C_to_Kazakhstan_%28P022219000701-125990%29.jpg/960px-Visit_by_Catherine_Ashton%2C_Vice-President_of_the_EC%2C_to_Kazakhstan_%28P022219000701-125990%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 429,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Visit_by_Catherine_Ashton%2C_Vice-President_of_the_EC%2C_to_Kazakhstan_%28P022219000701-125990%29.jpg/1280px-Visit_by_Catherine_Ashton%2C_Vice-President_of_the_EC%2C_to_Kazakhstan_%28P022219000701-125990%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/6/69/Visit_by_Catherine_Ashton%2C_Vice-President_of_the_EC%2C_to_Kazakhstan_%28P022219000701-125990%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Visit_by_Catherine_Ashton,_Vice-President_of_the_EC,_to_Kazakhstan_(P022219000701-125990).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=151652093",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Visit by Catherine Ashton, Vice-President of the EC, to Kazakhstan (P022219000701-125990)",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Catherine Ashton, High Representative of the Union for Foreign Affairs and Security Policy and Vice-President of the EC, went to Astana where she met with Nursultan Nazarbayev, President of Kazakhstan. The Vice-President also made a speech at the Nazarbayev University.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2012-11-30",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Stanislav Filippov / European Union",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "34714902": {
+        "pageid": 34714902,
+        "ns": 6,
+        "title": "File:Visita a la Universidad de Nazarbayev (14387777940).jpg",
+        "index": 9,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2014-08-13T18:13:02Z",
+            "size": 3262919,
+            "width": 3160,
+            "height": 2107,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Visita_a_la_Universidad_de_Nazarbayev_%2814387777940%29.jpg/960px-Visita_a_la_Universidad_de_Nazarbayev_%2814387777940%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 427,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Visita_a_la_Universidad_de_Nazarbayev_%2814387777940%29.jpg/1280px-Visita_a_la_Universidad_de_Nazarbayev_%2814387777940%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Visita_a_la_Universidad_de_Nazarbayev_%2814387777940%29.jpg/960px-Visita_a_la_Universidad_de_Nazarbayev_%2814387777940%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 427,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Visita_a_la_Universidad_de_Nazarbayev_%2814387777940%29.jpg/1280px-Visita_a_la_Universidad_de_Nazarbayev_%2814387777940%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Visita_a_la_Universidad_de_Nazarbayev_%2814387777940%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Visita_a_la_Universidad_de_Nazarbayev_(14387777940).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=34714902",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Visita a la Universidad de Nazarbayev (14387777940)",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "<p>Nur-Sultan (Kazajistán), 04 jul 2014.- Canciller Ricardo Patiño visitó la Universidad de Nazarbayev, realizó un recorrido y mantuvo una reunión con la Directora Aliya Kaimoldinova.\n</p>\nFoto: David G Silvers - Cancillería Ecuador",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2014-07-04 03:00",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/10021639@N05\">Cancillería del Ecuador</a> from Ecuador",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "34714900": {
+        "pageid": 34714900,
+        "ns": 6,
+        "title": "File:Visita a la Universidad de Nazarbayev (14387778860).jpg",
+        "index": 10,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2014-08-13T18:12:59Z",
+            "size": 11233854,
+            "width": 5616,
+            "height": 3744,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Visita_a_la_Universidad_de_Nazarbayev_%2814387778860%29.jpg/960px-Visita_a_la_Universidad_de_Nazarbayev_%2814387778860%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 427,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Visita_a_la_Universidad_de_Nazarbayev_%2814387778860%29.jpg/1280px-Visita_a_la_Universidad_de_Nazarbayev_%2814387778860%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Visita_a_la_Universidad_de_Nazarbayev_%2814387778860%29.jpg/960px-Visita_a_la_Universidad_de_Nazarbayev_%2814387778860%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 427,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Visita_a_la_Universidad_de_Nazarbayev_%2814387778860%29.jpg/1280px-Visita_a_la_Universidad_de_Nazarbayev_%2814387778860%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Visita_a_la_Universidad_de_Nazarbayev_%2814387778860%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Visita_a_la_Universidad_de_Nazarbayev_(14387778860).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=34714900",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Visita a la Universidad de Nazarbayev (14387778860)",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "<p>Nur-Sultan (Kazajistán), 04 jul 2014.- Canciller Ricardo Patiño visitó la Universidad de Nazarbayev, realizó un recorrido y mantuvo una reunión con la Directora Aliya Kaimoldinova.\n</p>\nFoto: David G Silvers - Cancillería Ecuador",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2014-07-04 03:02",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/10021639@N05\">Cancillería del Ecuador</a> from Ecuador",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "34714910": {
+        "pageid": 34714910,
+        "ns": 6,
+        "title": "File:Visita a la Universidad de Nazarbayev (14551368446).jpg",
+        "index": 11,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2014-08-13T18:13:16Z",
+            "size": 13015194,
+            "width": 5472,
+            "height": 3648,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Visita_a_la_Universidad_de_Nazarbayev_%2814551368446%29.jpg/960px-Visita_a_la_Universidad_de_Nazarbayev_%2814551368446%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 427,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Visita_a_la_Universidad_de_Nazarbayev_%2814551368446%29.jpg/1280px-Visita_a_la_Universidad_de_Nazarbayev_%2814551368446%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Visita_a_la_Universidad_de_Nazarbayev_%2814551368446%29.jpg/960px-Visita_a_la_Universidad_de_Nazarbayev_%2814551368446%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 427,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Visita_a_la_Universidad_de_Nazarbayev_%2814551368446%29.jpg/1280px-Visita_a_la_Universidad_de_Nazarbayev_%2814551368446%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Visita_a_la_Universidad_de_Nazarbayev_%2814551368446%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Visita_a_la_Universidad_de_Nazarbayev_(14551368446).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=34714910",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Visita a la Universidad de Nazarbayev (14551368446)",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "<p>Nur-Sultan (Kazajistán), 04 jul 2014.- Canciller Ricardo Patiño visitó la Universidad de Nazarbayev, realizó un recorrido y mantuvo una reunión con la Directora Aliya Kaimoldinova.\n</p>\nFoto: David G Silvers - Cancillería Ecuador",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2014-07-04 03:09",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/10021639@N05\">Cancillería del Ecuador</a> from Ecuador",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "34714911": {
+        "pageid": 34714911,
+        "ns": 6,
+        "title": "File:Visita a la Universidad de Nazarbayev (14571087451).jpg",
+        "index": 7,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2014-08-13T18:13:19Z",
+            "size": 11440231,
+            "width": 4654,
+            "height": 3103,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Visita_a_la_Universidad_de_Nazarbayev_%2814571087451%29.jpg/960px-Visita_a_la_Universidad_de_Nazarbayev_%2814571087451%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 427,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Visita_a_la_Universidad_de_Nazarbayev_%2814571087451%29.jpg/1280px-Visita_a_la_Universidad_de_Nazarbayev_%2814571087451%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Visita_a_la_Universidad_de_Nazarbayev_%2814571087451%29.jpg/960px-Visita_a_la_Universidad_de_Nazarbayev_%2814571087451%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 427,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Visita_a_la_Universidad_de_Nazarbayev_%2814571087451%29.jpg/1280px-Visita_a_la_Universidad_de_Nazarbayev_%2814571087451%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Visita_a_la_Universidad_de_Nazarbayev_%2814571087451%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Visita_a_la_Universidad_de_Nazarbayev_(14571087451).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=34714911",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Visita a la Universidad de Nazarbayev (14571087451)",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "<p>Nur-Sultan (Kazajistán), 04 jul 2014.- Canciller Ricardo Patiño visitó la Universidad de Nazarbayev, realizó un recorrido y mantuvo una reunión con la Directora Aliya Kaimoldinova.\n</p>\nFoto: David G Silvers - Cancillería Ecuador",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2014-07-04 03:04",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/10021639@N05\">Cancillería del Ecuador</a> from Ecuador",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "34714907": {
+        "pageid": 34714907,
+        "ns": 6,
+        "title": "File:Visita a la Universidad de Nazarbayev (14571088221).jpg",
+        "index": 8,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2014-08-13T18:13:07Z",
+            "size": 11909311,
+            "width": 5616,
+            "height": 3744,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Visita_a_la_Universidad_de_Nazarbayev_%2814571088221%29.jpg/960px-Visita_a_la_Universidad_de_Nazarbayev_%2814571088221%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 427,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Visita_a_la_Universidad_de_Nazarbayev_%2814571088221%29.jpg/1280px-Visita_a_la_Universidad_de_Nazarbayev_%2814571088221%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Visita_a_la_Universidad_de_Nazarbayev_%2814571088221%29.jpg/960px-Visita_a_la_Universidad_de_Nazarbayev_%2814571088221%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 427,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Visita_a_la_Universidad_de_Nazarbayev_%2814571088221%29.jpg/1280px-Visita_a_la_Universidad_de_Nazarbayev_%2814571088221%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Visita_a_la_Universidad_de_Nazarbayev_%2814571088221%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Visita_a_la_Universidad_de_Nazarbayev_(14571088221).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=34714907",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Visita a la Universidad de Nazarbayev (14571088221)",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "<p>Nur-Sultan (Kazajistán), 04 jul 2014.- Canciller Ricardo Patiño visitó la Universidad de Nazarbayev, realizó un recorrido y mantuvo una reunión con la Directora Aliya Kaimoldinova.\n</p>\nFoto: David G Silvers - Cancillería Ecuador",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2014-07-04 03:02",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/10021639@N05\">Cancillería del Ecuador</a> from Ecuador",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "34714908": {
+        "pageid": 34714908,
+        "ns": 6,
+        "title": "File:Visita a la Universidad de Nazarbayev (14574456465).jpg",
+        "index": 12,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2014-08-13T18:13:07Z",
+            "size": 12360139,
+            "width": 5616,
+            "height": 3744,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Visita_a_la_Universidad_de_Nazarbayev_%2814574456465%29.jpg/960px-Visita_a_la_Universidad_de_Nazarbayev_%2814574456465%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 427,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Visita_a_la_Universidad_de_Nazarbayev_%2814574456465%29.jpg/1280px-Visita_a_la_Universidad_de_Nazarbayev_%2814574456465%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Visita_a_la_Universidad_de_Nazarbayev_%2814574456465%29.jpg/960px-Visita_a_la_Universidad_de_Nazarbayev_%2814574456465%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 427,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Visita_a_la_Universidad_de_Nazarbayev_%2814574456465%29.jpg/1280px-Visita_a_la_Universidad_de_Nazarbayev_%2814574456465%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Visita_a_la_Universidad_de_Nazarbayev_%2814574456465%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Visita_a_la_Universidad_de_Nazarbayev_(14574456465).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=34714908",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Visita a la Universidad de Nazarbayev (14574456465)",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "<p>Nur-Sultan (Kazajistán), 04 jul 2014.- Canciller Ricardo Patiño visitó la Universidad de Nazarbayev, realizó un recorrido y mantuvo una reunión con la Directora Aliya Kaimoldinova.\n</p>\nFoto: David G Silvers - Cancillería Ecuador",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2014-07-04 03:07",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/10021639@N05\">Cancillería del Ecuador</a> from Ecuador",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "40293537": {
+        "pageid": 40293537,
+        "ns": 6,
+        "title": "File:Voormalige bunker, nu uitzichtpunt. Locatie, Noarderleech 04.jpg",
+        "index": 32,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2015-05-18T16:57:49Z",
+            "size": 10001464,
+            "width": 5184,
+            "height": 2895,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Voormalige_bunker%2C_nu_uitzichtpunt._Locatie%2C_Noarderleech_04.jpg/960px-Voormalige_bunker%2C_nu_uitzichtpunt._Locatie%2C_Noarderleech_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 357,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Voormalige_bunker%2C_nu_uitzichtpunt._Locatie%2C_Noarderleech_04.jpg/1280px-Voormalige_bunker%2C_nu_uitzichtpunt._Locatie%2C_Noarderleech_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Voormalige_bunker%2C_nu_uitzichtpunt._Locatie%2C_Noarderleech_04.jpg/960px-Voormalige_bunker%2C_nu_uitzichtpunt._Locatie%2C_Noarderleech_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 357,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Voormalige_bunker%2C_nu_uitzichtpunt._Locatie%2C_Noarderleech_04.jpg/1280px-Voormalige_bunker%2C_nu_uitzichtpunt._Locatie%2C_Noarderleech_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Voormalige_bunker%2C_nu_uitzichtpunt._Locatie%2C_Noarderleech_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Voormalige_bunker,_nu_uitzichtpunt._Locatie,_Noarderleech_04.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=40293537",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Voormalige bunker, nu uitzichtpunt. Locatie, Noarderleech 04",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Former bunker, now viewpoint. Location, Noarderleech.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2015-05-17 15:07:35",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Famberhorst\" title=\"User:Famberhorst\">Dominicus Johannes Bergsma</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "179869077": {
+        "pageid": 179869077,
+        "ns": 6,
+        "title": "File:Zhanibek Arynov.jpg",
+        "index": 13,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2025-12-13T21:56:45Z",
+            "size": 420223,
+            "width": 1385,
+            "height": 1901,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Zhanibek_Arynov.jpg/960px-Zhanibek_Arynov.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 878,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Zhanibek_Arynov.jpg/1280px-Zhanibek_Arynov.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Zhanibek_Arynov.jpg/960px-Zhanibek_Arynov.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 878,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Zhanibek_Arynov.jpg/1280px-Zhanibek_Arynov.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/1/17/Zhanibek_Arynov.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Zhanibek_Arynov.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=179869077",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Zhanibek Arynov",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Zhanibek Arynov",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2025-12-09 10:11:03",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Elekes_Andor\" title=\"User:Elekes Andor\">Elekes Andor</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "179869079": {
+        "pageid": 179869079,
+        "ns": 6,
+        "title": "File:Zhanibek Arynov in 2025.jpg",
+        "index": 27,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2025-12-13T21:56:46Z",
+            "size": 1848361,
+            "width": 2523,
+            "height": 4096,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Zhanibek_Arynov_in_2025.jpg/960px-Zhanibek_Arynov_in_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 1039,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Zhanibek_Arynov_in_2025.jpg/1280px-Zhanibek_Arynov_in_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Zhanibek_Arynov_in_2025.jpg/960px-Zhanibek_Arynov_in_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 1039,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Zhanibek_Arynov_in_2025.jpg/1280px-Zhanibek_Arynov_in_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Zhanibek_Arynov_in_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Zhanibek_Arynov_in_2025.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=179869079",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Zhanibek Arynov in 2025",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Zhanibek Arynov",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2025-12-09 10:09:19",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Elekes_Andor\" title=\"User:Elekes Andor\">Elekes Andor</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "20265197": {
+        "pageid": 20265197,
+        "ns": 6,
+        "title": "File:Назарбаев Университеті.JPG",
+        "index": 37,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2012-07-14T18:24:25Z",
+            "size": 2582784,
+            "width": 4000,
+            "height": 3000,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/%D0%9D%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%B0%D0%B5%D0%B2_%D0%A3%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82%D1%96.JPG/960px-%D0%9D%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%B0%D0%B5%D0%B2_%D0%A3%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82%D1%96.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 480,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/%D0%9D%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%B0%D0%B5%D0%B2_%D0%A3%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82%D1%96.JPG/1280px-%D0%9D%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%B0%D0%B5%D0%B2_%D0%A3%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82%D1%96.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/%D0%9D%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%B0%D0%B5%D0%B2_%D0%A3%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82%D1%96.JPG/960px-%D0%9D%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%B0%D0%B5%D0%B2_%D0%A3%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82%D1%96.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 480,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/%D0%9D%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%B0%D0%B5%D0%B2_%D0%A3%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82%D1%96.JPG/1280px-%D0%9D%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%B0%D0%B5%D0%B2_%D0%A3%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82%D1%96.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/%D0%9D%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%B0%D0%B5%D0%B2_%D0%A3%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82%D1%96.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:%D0%9D%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%B0%D0%B5%D0%B2_%D0%A3%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82%D1%96.JPG",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=20265197",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Назарбаев Университеті",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Назарбаев Университетінің бас ғимараты",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2011-05-12",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Qarakesek&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Qarakesek (page does not exist)\">Qarakesek</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      }
+    }
+  }
+}

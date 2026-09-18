@@ -23,7 +23,7 @@ def setup_logging(level: str = "INFO") -> None:
         root.addHandler(handler)
         _CONFIGURED = True
     root.setLevel(numeric)
-    for noisy in ("httpx", "httpcore", "anthropic", "urllib3", "PIL"):
+    for noisy in ("httpx", "httpcore", "google_genai", "google.genai", "urllib3", "PIL"):
         logging.getLogger(noisy).setLevel(logging.WARNING)
 
 

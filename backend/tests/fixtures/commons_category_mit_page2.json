@@ -1,0 +1,1603 @@
+{
+  "batchcomplete": "",
+  "query": {
+    "pages": {
+      "25915303": {
+        "pageid": 25915303,
+        "ns": 6,
+        "title": "File:MIT TX-0 computer Philco surface-barrier transistors.JPG",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2013-05-05T14:26:15Z",
+            "size": 164230,
+            "width": 700,
+            "height": 412,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/c/cc/MIT_TX-0_computer_Philco_surface-barrier_transistors.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 640,
+            "thumbheight": 377,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/c/cc/MIT_TX-0_computer_Philco_surface-barrier_transistors.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 377
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/MIT_TX-0_computer_Philco_surface-barrier_transistors.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:MIT_TX-0_computer_Philco_surface-barrier_transistors.JPG",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=25915303",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "MIT TX-0 computer Philco surface-barrier transistors",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "The MIT TX-0 Transistorized computer used 3600 Philco surface-barrier transistors in its circuitry. These transistors were encapsulated in plug-in vacuum tubes, which made it easier for testing, evaluation, and replacement.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2013-05-05 09:05:38",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Historianbuff&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Historianbuff (page does not exist)\">Historianbuff</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "3287039": {
+        "pageid": 3287039,
+        "ns": 6,
+        "title": "File:MIT's robots.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2007-12-27T19:18:08Z",
+            "size": 826883,
+            "width": 1600,
+            "height": 1200,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/MIT%27s_robots.jpg/960px-MIT%27s_robots.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 480,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/MIT%27s_robots.jpg/1280px-MIT%27s_robots.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/MIT%27s_robots.jpg/960px-MIT%27s_robots.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 480,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/MIT%27s_robots.jpg/1280px-MIT%27s_robots.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/MIT%27s_robots.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:MIT%27s_robots.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=3287039",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "MIT's robots",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Really cool robots that you can piece together yourself. Emerging technologies pavilion at SIGGRAPH in Boston. August 2006.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2006-08-03 12:49",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/62223880@N00\">Ville Miettinen</a> from Helsinki, Finland",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "66558791": {
+        "pageid": 66558791,
+        "ns": 6,
+        "title": "File:MIT-Programmable-Droplets-01 0.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2018-02-18T14:46:25Z",
+            "size": 183384,
+            "width": 639,
+            "height": 426,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/b/b8/MIT-Programmable-Droplets-01_0.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 640,
+            "thumbheight": 427,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/b/b8/MIT-Programmable-Droplets-01_0.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 427
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/MIT-Programmable-Droplets-01_0.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:MIT-Programmable-Droplets-01_0.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=66558791",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "MIT-Programmable-Droplets-01 0",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "محققین دانشگاه ام آی تی یک محیط را توسط میدان الکتریکی برای حرکت قطرات فراهم کردند.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2018-01-19",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Jimmy Day",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "66733758": {
+        "pageid": 66733758,
+        "ns": 6,
+        "title": "File:MIT-Programmable-Droplets-02.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2018-02-23T14:56:18Z",
+            "size": 175057,
+            "width": 639,
+            "height": 426,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/d/d3/MIT-Programmable-Droplets-02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 640,
+            "thumbheight": 427,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/d/d3/MIT-Programmable-Droplets-02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 427
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/MIT-Programmable-Droplets-02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:MIT-Programmable-Droplets-02.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=66733758",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "MIT-Programmable-Droplets-02",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "طرز قرارگیری ریزسیال ها",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2018-01-18",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Udayan Umapathi",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "103609469": {
+        "pageid": 103609469,
+        "ns": 6,
+        "title": "File:MIT-TALK-ITB.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2021-04-14T04:22:19Z",
+            "size": 151044,
+            "width": 1280,
+            "height": 906,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/MIT-TALK-ITB.jpg/960px-MIT-TALK-ITB.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 453,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/d/d9/MIT-TALK-ITB.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/MIT-TALK-ITB.jpg/960px-MIT-TALK-ITB.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 453,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/d/d9/MIT-TALK-ITB.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/MIT-TALK-ITB.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:MIT-TALK-ITB.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=103609469",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "MIT-TALK-ITB",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "MIT sharing session on research culture organized by LPPM Institut Teknologi Bandung on 5th of April 2021. Speakers: Prof. Bruce Tidor, Prof. Michael Sipser, Prof. Yang-Shao Horn, and Prof. Munther Dahleh.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2021-04-05",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Dasaptaerwin\" title=\"User:Dasaptaerwin\">Dasaptaerwin</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "114832792": {
+        "pageid": 114832792,
+        "ns": 6,
+        "title": "File:MIThenge3.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2022-01-30T22:36:16Z",
+            "size": 410758,
+            "width": 2963,
+            "height": 3190,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/MIThenge3.jpg/960px-MIThenge3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 689,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/MIThenge3.jpg/1280px-MIThenge3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/MIThenge3.jpg/960px-MIThenge3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 689,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/MIThenge3.jpg/1280px-MIThenge3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/MIThenge3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:MIThenge3.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=114832792",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "MIThenge3",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Taken from the stairs at the back of the building 8 at MIT",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2022-01-30 16:49:19",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:AI_coolTIM\" title=\"User:AI coolTIM\">AI coolTIM</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "88751629": {
+        "pageid": 88751629,
+        "ns": 6,
+        "title": "File:MITstem new best Logo.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2020-03-30T03:15:23Z",
+            "size": 1126671,
+            "width": 4000,
+            "height": 2333,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/MITstem_new_best_Logo.jpg/960px-MITstem_new_best_Logo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 373,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/MITstem_new_best_Logo.jpg/1280px-MITstem_new_best_Logo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/MITstem_new_best_Logo.jpg/960px-MITstem_new_best_Logo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 373,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/MITstem_new_best_Logo.jpg/1280px-MITstem_new_best_Logo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/MITstem_new_best_Logo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:MITstem_new_best_Logo.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=88751629",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "MITstem new best Logo",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Logo for the <a href=\"https://en.wikipedia.org/wiki/Massachusetts_Institute_of_Technology\" class=\"extiw\" title=\"w:Massachusetts Institute of Technology\">Massachusetts Institute of Technology</a> Science, Technology, Engineering and Mathematics courses.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2020-03-30",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:MITSTEM&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:MITSTEM (page does not exist)\">MITSTEM</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "182815761": {
+        "pageid": 182815761,
+        "ns": 6,
+        "title": "File:Molecular Beam Epitaxy System.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2026-01-31T16:01:56Z",
+            "size": 5832586,
+            "width": 3167,
+            "height": 1600,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Molecular_Beam_Epitaxy_System.jpg/960px-Molecular_Beam_Epitaxy_System.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 323,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Molecular_Beam_Epitaxy_System.jpg/1280px-Molecular_Beam_Epitaxy_System.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Molecular_Beam_Epitaxy_System.jpg/960px-Molecular_Beam_Epitaxy_System.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 323,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Molecular_Beam_Epitaxy_System.jpg/1280px-Molecular_Beam_Epitaxy_System.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Molecular_Beam_Epitaxy_System.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Molecular_Beam_Epitaxy_System.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=182815761",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Molecular Beam Epitaxy System",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Molecular Beam Epitaxy System, photograph taken in building 38 of MIT on 26 September 2016 by Sampson Wilcox",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2019-08-29 07:27:59",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:SJMW1987\" title=\"User:SJMW1987\">SJMW1987</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "61214195": {
+        "pageid": 61214195,
+        "ns": 6,
+        "title": "File:Monsanto Plastics Home of the Future, Disneyland, 1958 (15364290924).jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2017-07-20T18:21:18Z",
+            "size": 8674526,
+            "width": 5692,
+            "height": 3936,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Monsanto_Plastics_Home_of_the_Future%2C_Disneyland%2C_1958_%2815364290924%29.jpg/960px-Monsanto_Plastics_Home_of_the_Future%2C_Disneyland%2C_1958_%2815364290924%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 443,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Monsanto_Plastics_Home_of_the_Future%2C_Disneyland%2C_1958_%2815364290924%29.jpg/1280px-Monsanto_Plastics_Home_of_the_Future%2C_Disneyland%2C_1958_%2815364290924%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Monsanto_Plastics_Home_of_the_Future%2C_Disneyland%2C_1958_%2815364290924%29.jpg/960px-Monsanto_Plastics_Home_of_the_Future%2C_Disneyland%2C_1958_%2815364290924%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 443,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Monsanto_Plastics_Home_of_the_Future%2C_Disneyland%2C_1958_%2815364290924%29.jpg/1280px-Monsanto_Plastics_Home_of_the_Future%2C_Disneyland%2C_1958_%2815364290924%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Monsanto_Plastics_Home_of_the_Future%2C_Disneyland%2C_1958_%2815364290924%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Monsanto_Plastics_Home_of_the_Future,_Disneyland,_1958_(15364290924).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=61214195",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Monsanto Plastics Home of the Future, Disneyland, 1958 (15364290924)",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "<p>There are no known copyright restrictions on this image. All future uses of this photo should include the courtesy line, \"Photo courtesy Orange County Archives.\"\n</p><p>Comments are welcome after reading our <a rel=\"nofollow\" class=\"external text\" href=\"http://egov.ocgov.com/ocgov/CommentPolicy\">Comment Policy</a>.\n</p>\nFrom the Linda Peach Warner Collection. Acc#2014-57",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2014-12-08 09:12",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/30346812@N07\">Orange County Archives</a> from Orange County, California, United States of America",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "56665": {
+        "pageid": 56665,
+        "ns": 6,
+        "title": "File:Monteverdi - cruda amarilli.ogg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2005-02-10T08:29:51Z",
+            "size": 2717810,
+            "width": 0,
+            "height": 0,
+            "duration": 153.57387755102042,
+            "thumburl": "https://commons.wikimedia.org/w/resources/assets/file-type-icons/fileicon-ogg.png",
+            "thumbwidth": 640,
+            "thumbheight": 640,
+            "thumbattribs": [],
+            "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Monteverdi_-_cruda_amarilli.ogg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Monteverdi_-_cruda_amarilli.ogg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=56665",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Monteverdi - cruda amarilli",
+                "source": "mediawiki-metadata"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "application/ogg"
+          }
+        ]
+      },
+      "56909": {
+        "pageid": 56909,
+        "ns": 6,
+        "title": "File:Monteverdi - non si levav'ancor.ogg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2005-02-10T16:56:00Z",
+            "size": 4601501,
+            "width": 0,
+            "height": 0,
+            "duration": 255.26857142857142,
+            "thumburl": "https://commons.wikimedia.org/w/resources/assets/file-type-icons/fileicon-ogg.png",
+            "thumbwidth": 640,
+            "thumbheight": 640,
+            "thumbattribs": [],
+            "url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Monteverdi_-_non_si_levav%27ancor.ogg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Monteverdi_-_non_si_levav%27ancor.ogg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=56909",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Monteverdi - non si levav'ancor",
+                "source": "mediawiki-metadata"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "application/ogg"
+          }
+        ]
+      },
+      "56567": {
+        "pageid": 56567,
+        "ns": 6,
+        "title": "File:Monteverdi-cor mio mentre vi miro.ogg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2005-02-10T02:43:18Z",
+            "size": 2129626,
+            "width": 0,
+            "height": 0,
+            "duration": 122.67102040816326,
+            "thumburl": "https://commons.wikimedia.org/w/resources/assets/file-type-icons/fileicon-ogg.png",
+            "thumbwidth": 640,
+            "thumbheight": 640,
+            "thumbattribs": [],
+            "url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Monteverdi-cor_mio_mentre_vi_miro.ogg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Monteverdi-cor_mio_mentre_vi_miro.ogg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=56567",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Monteverdi-cor mio mentre vi miro",
+                "source": "mediawiki-metadata"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "application/ogg"
+          }
+        ]
+      },
+      "81846203": {
+        "pageid": 81846203,
+        "ns": 6,
+        "title": "File:Mr. Toad’s Toadworld Picture.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2019-09-03T16:00:08Z",
+            "size": 122239,
+            "width": 448,
+            "height": 615,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/4/44/Mr._Toad%E2%80%99s_Toadworld_Picture.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 640,
+            "thumbheight": 879,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/4/44/Mr._Toad%E2%80%99s_Toadworld_Picture.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 879
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Mr._Toad%E2%80%99s_Toadworld_Picture.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Mr._Toad%E2%80%99s_Toadworld_Picture.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=81846203",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Mr. Toad’s Toadworld Picture",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "It’s a sprite from the game playable on Scratch.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2019-06-11",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Chukoloco08&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Chukoloco08 (page does not exist)\">Chukoloco08</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "151424495": {
+        "pageid": 151424495,
+        "ns": 6,
+        "title": "File:MSc in Geology and Geophysics from MIT.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2024-08-12T19:18:29Z",
+            "size": 289929,
+            "width": 1077,
+            "height": 831,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/MSc_in_Geology_and_Geophysics_from_MIT.jpg/960px-MSc_in_Geology_and_Geophysics_from_MIT.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 494,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/f/f7/MSc_in_Geology_and_Geophysics_from_MIT.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/MSc_in_Geology_and_Geophysics_from_MIT.jpg/960px-MSc_in_Geology_and_Geophysics_from_MIT.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 494,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/f/f7/MSc_in_Geology_and_Geophysics_from_MIT.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/MSc_in_Geology_and_Geophysics_from_MIT.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:MSc_in_Geology_and_Geophysics_from_MIT.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=151424495",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "MSc in Geology and Geophysics from MIT",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "MSc in Geology and Geophysics from MIT awarded to Verónica C. I. Gómez de Posadas",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2024-08-12",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Calimecita\" title=\"User:Calimecita\">Calimecita</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "87066676": {
+        "pageid": 87066676,
+        "ns": 6,
+        "title": "File:Ow-1989-mit-recruitment.png",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2020-02-15T06:25:58Z",
+            "size": 60328,
+            "width": 326,
+            "height": 503,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/9/90/Ow-1989-mit-recruitment.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 640,
+            "thumbheight": 987,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/9/90/Ow-1989-mit-recruitment.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 987
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Ow-1989-mit-recruitment.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Ow-1989-mit-recruitment.png",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=87066676",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Ow-1989-mit-recruitment",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "A 1989 recruitment flyer for Oliver Wyman published in The Tech, MIT's campus newspaper",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1989-10-17",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Massachusetts Institute of Technology",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/png"
+          }
+        ]
+      },
+      "51873611": {
+        "pageid": 51873611,
+        "ns": 6,
+        "title": "File:P102309PS-0163 (4053029070).jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2016-09-29T09:18:57Z",
+            "size": 939251,
+            "width": 4096,
+            "height": 2731,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/P102309PS-0163_%284053029070%29.jpg/960px-P102309PS-0163_%284053029070%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 427,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/P102309PS-0163_%284053029070%29.jpg/1280px-P102309PS-0163_%284053029070%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/P102309PS-0163_%284053029070%29.jpg/960px-P102309PS-0163_%284053029070%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 427,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/P102309PS-0163_%284053029070%29.jpg/1280px-P102309PS-0163_%284053029070%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/P102309PS-0163_%284053029070%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:P102309PS-0163_(4053029070).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=51873611",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "P102309PS-0163 (4053029070)",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "President Barack Obama, with Professor Vladimir Bulovic, tours an alternative energy research laboratory at Massachusetts Institute of Technology in Cambridge, Mass., Oct. 23, 2009.  (Official White House Photo by Pete Souza)",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2009-10-23 12:26",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/35591378@N03\">The White House</a> from Washington, DC",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "5499168": {
+        "pageid": 5499168,
+        "ns": 6,
+        "title": "File:Pi day.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2008-12-14T13:58:06Z",
+            "size": 551393,
+            "width": 2048,
+            "height": 1536,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Pi_day.jpg/960px-Pi_day.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 480,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Pi_day.jpg/1280px-Pi_day.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Pi_day.jpg/960px-Pi_day.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 480,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Pi_day.jpg/1280px-Pi_day.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/b/be/Pi_day.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Pi_day.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=5499168",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Pi day",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Pies for a \"Pi Day\" celebration at the Massachusetts Institute of Technology",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "22 July 2007 (original upload date)",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"https://en.wikipedia.org/wiki/User:Maryilang\" class=\"extiw\" title=\"wikipedia:User:Maryilang\">Maryilang</a> at <a href=\"https://en.wikipedia.org/wiki/\" class=\"extiw\" title=\"wikipedia:\">English Wikipedia</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "27708969": {
+        "pageid": 27708969,
+        "ns": 6,
+        "title": "File:Pierre Samuel du Pont MIT Bachelor of Science degree in Chemistry - Heritage Exhibit - Longwood Gardens - DSC00934.JPG",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2013-08-14T10:05:33Z",
+            "size": 3162857,
+            "width": 4633,
+            "height": 3491,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Pierre_Samuel_du_Pont_MIT_Bachelor_of_Science_degree_in_Chemistry_-_Heritage_Exhibit_-_Longwood_Gardens_-_DSC00934.JPG/960px-Pierre_Samuel_du_Pont_MIT_Bachelor_of_Science_degree_in_Chemistry_-_Heritage_Exhibit_-_Longwood_Gardens_-_DSC00934.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 482,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Pierre_Samuel_du_Pont_MIT_Bachelor_of_Science_degree_in_Chemistry_-_Heritage_Exhibit_-_Longwood_Gardens_-_DSC00934.JPG/1280px-Pierre_Samuel_du_Pont_MIT_Bachelor_of_Science_degree_in_Chemistry_-_Heritage_Exhibit_-_Longwood_Gardens_-_DSC00934.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Pierre_Samuel_du_Pont_MIT_Bachelor_of_Science_degree_in_Chemistry_-_Heritage_Exhibit_-_Longwood_Gardens_-_DSC00934.JPG/960px-Pierre_Samuel_du_Pont_MIT_Bachelor_of_Science_degree_in_Chemistry_-_Heritage_Exhibit_-_Longwood_Gardens_-_DSC00934.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 482,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Pierre_Samuel_du_Pont_MIT_Bachelor_of_Science_degree_in_Chemistry_-_Heritage_Exhibit_-_Longwood_Gardens_-_DSC00934.JPG/1280px-Pierre_Samuel_du_Pont_MIT_Bachelor_of_Science_degree_in_Chemistry_-_Heritage_Exhibit_-_Longwood_Gardens_-_DSC00934.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Pierre_Samuel_du_Pont_MIT_Bachelor_of_Science_degree_in_Chemistry_-_Heritage_Exhibit_-_Longwood_Gardens_-_DSC00934.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Pierre_Samuel_du_Pont_MIT_Bachelor_of_Science_degree_in_Chemistry_-_Heritage_Exhibit_-_Longwood_Gardens_-_DSC00934.JPG",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=27708969",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Pierre Samuel du Pont MIT Bachelor of Science degree in Chemistry - Heritage Exhibit - Longwood Gardens - DSC00934",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Pierre Samuel du Pont MIT Bachelor of Science degree in Chemistry- Heritage Exhibit - Longwood Gardens, 1001 Longwood Rd, Kennett Square, Pennsylvania, USA.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2013-05-07 13:02:46",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Daderot\" title=\"User:Daderot\">Daderot</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "184862336": {
+        "pageid": 184862336,
+        "ns": 6,
+        "title": "File:Professor Jacob White.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2026-02-23T18:26:31Z",
+            "size": 41304461,
+            "width": 8256,
+            "height": 5504,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Professor_Jacob_White.jpg/960px-Professor_Jacob_White.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 427,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Professor_Jacob_White.jpg/1280px-Professor_Jacob_White.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Professor_Jacob_White.jpg/960px-Professor_Jacob_White.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 427,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Professor_Jacob_White.jpg/1280px-Professor_Jacob_White.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Professor_Jacob_White.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Professor_Jacob_White.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=184862336",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Professor Jacob White",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Photograph of Professor Jacob White taken by Research Laboratory of Electronics media staff, Sampson Wilcox, 2019",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2019-03-01",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:SJMW1987\" title=\"User:SJMW1987\">SJMW1987</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "182883522": {
+        "pageid": 182883522,
+        "ns": 6,
+        "title": "File:Professor Jeff Grossman teaching MIT class 3.091.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2026-02-01T12:38:19Z",
+            "size": 804715,
+            "width": 2560,
+            "height": 1753,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Professor_Jeff_Grossman_teaching_MIT_class_3.091.jpg/960px-Professor_Jeff_Grossman_teaching_MIT_class_3.091.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 438,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Professor_Jeff_Grossman_teaching_MIT_class_3.091.jpg/1280px-Professor_Jeff_Grossman_teaching_MIT_class_3.091.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Professor_Jeff_Grossman_teaching_MIT_class_3.091.jpg/960px-Professor_Jeff_Grossman_teaching_MIT_class_3.091.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 438,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Professor_Jeff_Grossman_teaching_MIT_class_3.091.jpg/1280px-Professor_Jeff_Grossman_teaching_MIT_class_3.091.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Professor_Jeff_Grossman_teaching_MIT_class_3.091.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Professor_Jeff_Grossman_teaching_MIT_class_3.091.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=182883522",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Professor Jeff Grossman teaching MIT class 3.091",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Professor Jeff Grossman teaching MIT class 3.091, photograph taken on 26 September 2026 in MIT Building 10-250",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2016-09-26",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:SJMW1987\" title=\"User:SJMW1987\">SJMW1987</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "15771212": {
+        "pageid": 15771212,
+        "ns": 6,
+        "title": "File:PSM V57 D286 Hydraulic surveying of the essex canal in lowell mass.png",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2011-07-12T03:23:02Z",
+            "size": 553663,
+            "width": 1659,
+            "height": 1258,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/PSM_V57_D286_Hydraulic_surveying_of_the_essex_canal_in_lowell_mass.png/960px-PSM_V57_D286_Hydraulic_surveying_of_the_essex_canal_in_lowell_mass.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 485,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/PSM_V57_D286_Hydraulic_surveying_of_the_essex_canal_in_lowell_mass.png/1280px-PSM_V57_D286_Hydraulic_surveying_of_the_essex_canal_in_lowell_mass.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/PSM_V57_D286_Hydraulic_surveying_of_the_essex_canal_in_lowell_mass.png/960px-PSM_V57_D286_Hydraulic_surveying_of_the_essex_canal_in_lowell_mass.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 485,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/PSM_V57_D286_Hydraulic_surveying_of_the_essex_canal_in_lowell_mass.png/1280px-PSM_V57_D286_Hydraulic_surveying_of_the_essex_canal_in_lowell_mass.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/PSM_V57_D286_Hydraulic_surveying_of_the_essex_canal_in_lowell_mass.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:PSM_V57_D286_Hydraulic_surveying_of_the_essex_canal_in_lowell_mass.png",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=15771212",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "PSM V57 D286 Hydraulic surveying of the essex canal in lowell mass",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Hydraulic surveying of the Essex canal in Lowell Mass",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1900",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Unknown author<span style=\"display: none;\">Unknown author</span>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/png"
+          }
+        ]
+      },
+      "16459747": {
+        "pageid": 16459747,
+        "ns": 6,
+        "title": "File:QADAS.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2011-09-12T22:47:23Z",
+            "size": 255874,
+            "width": 450,
+            "height": 680,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/4/48/QADAS.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 640,
+            "thumbheight": 967,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/4/48/QADAS.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 967
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/QADAS.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:QADAS.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=16459747",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "QADAS",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "The Quick and Dirty Animation System developed at the Architecture Machine Group in 1979 in conjunction with the Aspen Movie Map project. This figure shows the texture-mapping feature.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1979-06-01",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Walter.bender&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Walter.bender (page does not exist)\">Walter.bender</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "36691012": {
+        "pageid": 36691012,
+        "ns": 6,
+        "title": "File:QSL W1MX (9419869989).jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2014-11-09T11:49:44Z",
+            "size": 241121,
+            "width": 1024,
+            "height": 607,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/QSL_W1MX_%289419869989%29.jpg/960px-QSL_W1MX_%289419869989%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 379,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/b/b6/QSL_W1MX_%289419869989%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/QSL_W1MX_%289419869989%29.jpg/960px-QSL_W1MX_%289419869989%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 379,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/b/b6/QSL_W1MX_%289419869989%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/QSL_W1MX_%289419869989%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:QSL_W1MX_(9419869989).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=36691012",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "QSL W1MX (9419869989)",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "QSL W1MX",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2013-08-02 04:39",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/98773380@N05\">b316728</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "55044228": {
+        "pageid": 55044228,
+        "ns": 6,
+        "title": "File:Robot origami iperminiaturizzato, 2015 (robotics laboratory, csail, MIT).jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2017-01-15T19:15:28Z",
+            "size": 209878,
+            "width": 484,
+            "height": 416,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Robot_origami_iperminiaturizzato%2C_2015_%28robotics_laboratory%2C_csail%2C_MIT%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 640,
+            "thumbheight": 550,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Robot_origami_iperminiaturizzato%2C_2015_%28robotics_laboratory%2C_csail%2C_MIT%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 550
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Robot_origami_iperminiaturizzato%2C_2015_%28robotics_laboratory%2C_csail%2C_MIT%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Robot_origami_iperminiaturizzato,_2015_(robotics_laboratory,_csail,_MIT).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=55044228",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Robot origami iperminiaturizzato, 2015 (robotics laboratory, csail, MIT)",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Neo Preistoria exhibition (Milan 2016)",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2016-07-14 16:32:28",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Sailko\" title=\"User:Sailko\">Sailko</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "115994136": {
+        "pageid": 115994136,
+        "ns": 6,
+        "title": "File:St. Anthony Hall Tau (M.I.T.) Chapter House and St. Anthony Club of Boston, 1906.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2022-03-11T19:54:01Z",
+            "size": 350311,
+            "width": 563,
+            "height": 751,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/5/52/St._Anthony_Hall_Tau_%28M.I.T.%29_Chapter_House_and_St._Anthony_Club_of_Boston%2C_1906.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 640,
+            "thumbheight": 854,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/5/52/St._Anthony_Hall_Tau_%28M.I.T.%29_Chapter_House_and_St._Anthony_Club_of_Boston%2C_1906.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 854
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/St._Anthony_Hall_Tau_%28M.I.T.%29_Chapter_House_and_St._Anthony_Club_of_Boston%2C_1906.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:St._Anthony_Hall_Tau_(M.I.T.)_Chapter_House_and_St._Anthony_Club_of_Boston,_1906.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=115994136",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "St. Anthony Hall Tau (M.I.T.) Chapter House and St. Anthony Club of Boston, 1906",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "This image is from \"Catalog of the members of the fraternity of Delta Psi,\"1906. The first Fraternity of Delta Psi (St Anthony Hall) Tau chapter house was designed by J.P. Fuller and built circa 1834–37 in the Greek Revival style. The Tau Chapter is at M.I.T. The chapter house  was located within at 6 Louisburg Square in Boston's Beacon Hill neighborhood. The building was also home to the St. Anthony Club of Boston. This address also the origin of the nickname for the Tau chapter—the Number Six Club",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1906-01-01",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Fraternity of Delta Psi (St. Anthony Hall)",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "122399657": {
+        "pageid": 122399657,
+        "ns": 6,
+        "title": "File:St. Anthony Hall, MIT and St. Anthony Club of Boston, 6 Louisburg Square, 1912.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2022-08-27T15:50:36Z",
+            "size": 530109,
+            "width": 752,
+            "height": 1046,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/2/21/St._Anthony_Hall%2C_MIT_and_St._Anthony_Club_of_Boston%2C_6_Louisburg_Square%2C_1912.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 640,
+            "thumbheight": 890,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/2/21/St._Anthony_Hall%2C_MIT_and_St._Anthony_Club_of_Boston%2C_6_Louisburg_Square%2C_1912.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 890
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/St._Anthony_Hall%2C_MIT_and_St._Anthony_Club_of_Boston%2C_6_Louisburg_Square%2C_1912.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:St._Anthony_Hall,_MIT_and_St._Anthony_Club_of_Boston,_6_Louisburg_Square,_1912.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=122399657",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "St. Anthony Hall, MIT and St. Anthony Club of Boston, 6 Louisburg Square, 1912",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Photograph from Catalogue of the members of the fraternity of Delta Psi - 1912. <a rel=\"nofollow\" class=\"external free\" href=\"https://www.familysearch.org/library/books/records/item/386855-catalogue-of-the-members-of-the-fraternity-of-delta-psi-1912?offset=\">https://www.familysearch.org/library/books/records/item/386855-catalogue-of-the-members-of-the-fraternity-of-delta-psi-1912?offset=</a>",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1912-01-01",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Fraternity of Delta Psi",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "93637037": {
+        "pageid": 93637037,
+        "ns": 6,
+        "title": "File:Technology women (IA technologywomen00mass).pdf",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2020-08-28T22:21:17Z",
+            "size": 2160230,
+            "width": 954,
+            "height": 1595,
+            "pagecount": 46,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Technology_women_%28IA_technologywomen00mass%29.pdf/page1-500px-Technology_women_%28IA_technologywomen00mass%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 1070,
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Technology_women_%28IA_technologywomen00mass%29.pdf/page1-500px-Technology_women_%28IA_technologywomen00mass%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 1070
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/8/85/Technology_women_%28IA_technologywomen00mass%29.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Technology_women_(IA_technologywomen00mass).pdf",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=93637037",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "<div class=\"fn\">\nTechnology women</div>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<div class=\"fn value\">\nMassachusetts institute of technology. Women's association. [from old catalog]</div>",
+                "source": "commons-desc-page"
+              },
+              "ImageDescription": {
+                "value": "<div class=\"description\">\nSubjects:</div>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "application/pdf"
+          }
+        ]
+      },
+      "23708955": {
+        "pageid": 23708955,
+        "ns": 6,
+        "title": "File:Tetoentradamit.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2013-01-09T03:58:37Z",
+            "size": 1949815,
+            "width": 2592,
+            "height": 1944,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Tetoentradamit.jpg/960px-Tetoentradamit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 480,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Tetoentradamit.jpg/1280px-Tetoentradamit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Tetoentradamit.jpg/960px-Tetoentradamit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 480,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Tetoentradamit.jpg/1280px-Tetoentradamit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Tetoentradamit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Tetoentradamit.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=23708955",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Tetoentradamit",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Teto no prédio de entrada do MIT.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2012-12-25",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Andrevruas\" title=\"User:Andrevruas\">Andrevruas</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "34175192": {
+        "pageid": 34175192,
+        "ns": 6,
+        "title": "File:Using Open Data and Stories to Broaden Crowd Content.pdf",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2014-07-23T20:46:57Z",
+            "size": 20759571,
+            "width": 4000,
+            "height": 2250,
+            "pagecount": 65,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Using_Open_Data_and_Stories_to_Broaden_Crowd_Content.pdf/page1-960px-Using_Open_Data_and_Stories_to_Broaden_Crowd_Content.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 360,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Using_Open_Data_and_Stories_to_Broaden_Crowd_Content.pdf/page1-1280px-Using_Open_Data_and_Stories_to_Broaden_Crowd_Content.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Using_Open_Data_and_Stories_to_Broaden_Crowd_Content.pdf/page1-960px-Using_Open_Data_and_Stories_to_Broaden_Crowd_Content.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 360,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Using_Open_Data_and_Stories_to_Broaden_Crowd_Content.pdf/page1-1280px-Using_Open_Data_and_Stories_to_Broaden_Crowd_Content.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Using_Open_Data_and_Stories_to_Broaden_Crowd_Content.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Using_Open_Data_and_Stories_to_Broaden_Crowd_Content.pdf",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=34175192",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Using Open Data and Stories to Broaden Crowd Content",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Slides from a talk by J. Nathan Matias to the Wikimedia Analytics / Research Data / Showcase on July 16, 2014. These slides show an overview of the work of the Center for Civic Media, describe two projects in crowdsourced content creation (NewsPad and Eventful), and then describe a series of projects that use data to provide transparency on gender disparities in content and support broader diversity in crowd-created resources like Wikipedia.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2014-07-16",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Rubberpaw\" title=\"User:Rubberpaw\">J. Nathan Matias</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "application/pdf"
+          }
+        ]
+      },
+      "15512358": {
+        "pageid": 15512358,
+        "ns": 6,
+        "title": "File:Vc1.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2011-06-14T19:10:41Z",
+            "size": 57240,
+            "width": 595,
+            "height": 312,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/6/60/Vc1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 640,
+            "thumbheight": 336,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/6/60/Vc1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 336
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Vc1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Vc1.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=15512358",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Vc1",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Visualizing Cultures",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2011-06-14",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Araboy2011&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Araboy2011 (page does not exist)\">Araboy2011</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "179190875": {
+        "pageid": 179190875,
+        "ns": 6,
+        "title": "File:Vortrag-von-Max-Tegmark-Massachusetts-Institute-of-Technology-1.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2025-11-30T12:40:41Z",
+            "size": 979381,
+            "width": 1944,
+            "height": 2592,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Vortrag-von-Max-Tegmark-Massachusetts-Institute-of-Technology-1.jpg/960px-Vortrag-von-Max-Tegmark-Massachusetts-Institute-of-Technology-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 853,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Vortrag-von-Max-Tegmark-Massachusetts-Institute-of-Technology-1.jpg/1280px-Vortrag-von-Max-Tegmark-Massachusetts-Institute-of-Technology-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Vortrag-von-Max-Tegmark-Massachusetts-Institute-of-Technology-1.jpg/960px-Vortrag-von-Max-Tegmark-Massachusetts-Institute-of-Technology-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 853,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Vortrag-von-Max-Tegmark-Massachusetts-Institute-of-Technology-1.jpg/1280px-Vortrag-von-Max-Tegmark-Massachusetts-Institute-of-Technology-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/5/54/Vortrag-von-Max-Tegmark-Massachusetts-Institute-of-Technology-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Vortrag-von-Max-Tegmark-Massachusetts-Institute-of-Technology-1.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=179190875",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Vortrag-von-Max-Tegmark-Massachusetts-Institute-of-Technology-1",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Vortrag von Max Tegmark, Massachusetts Institute of Technology im April 2014",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2014-04-07",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Kristof_Magnusson\" title=\"User:Kristof Magnusson\">Kristof Magnusson</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      }
+    }
+  }
+}

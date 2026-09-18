@@ -8,10 +8,10 @@ from pathlib import Path
 from pydantic import ValidationInfo, field_validator
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
-DEFAULT_VISION_MODEL = "claude-haiku-4-5-20251001"
+DEFAULT_VISION_MODEL = "gemini-3.5-flash-lite"
 
 _OPTIONAL_STR_FIELDS = (
-    "anthropic_api_key",
+    "gemini_api_key",
     "text_model",
     "flickr_api_key",
     "google_cse_key",
@@ -30,7 +30,7 @@ class Settings(BaseSettings):
         extra="ignore",
     )
 
-    anthropic_api_key: str | None = None
+    gemini_api_key: str | None = None
     vision_model: str = DEFAULT_VISION_MODEL
     text_model: str | None = None  # None -> same as vision_model
     flickr_api_key: str | None = None
@@ -85,7 +85,7 @@ class Settings(BaseSettings):
 
     @property
     def vision_enabled(self) -> bool:
-        return bool(self.anthropic_api_key)
+        return bool(self.gemini_api_key)
 
 
 @lru_cache(maxsize=1)

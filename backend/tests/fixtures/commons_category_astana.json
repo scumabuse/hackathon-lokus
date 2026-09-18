@@ -1,0 +1,1624 @@
+{
+  "batchcomplete": "",
+  "continue": {
+    "gcmcontinue": "file|424549542052414348454c2053594e41474f4755452c20415354414e412e4a5047|169486874",
+    "continue": "gcmcontinue||"
+  },
+  "query": {
+    "pages": {
+      "98935772": {
+        "pageid": 98935772,
+        "ns": 6,
+        "title": "File:220510 Astana 2010.JPG",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2021-01-17T14:18:58Z",
+            "size": 80017,
+            "width": 1024,
+            "height": 768,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/220510_Astana_2010.JPG/960px-220510_Astana_2010.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 480,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/d/d0/220510_Astana_2010.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/220510_Astana_2010.JPG/960px-220510_Astana_2010.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 480,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/d/d0/220510_Astana_2010.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/220510_Astana_2010.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:220510_Astana_2010.JPG",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=98935772",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "220510 Astana 2010",
+                "source": "mediawiki-metadata"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:TejaGl%C3%BCcksb%C3%A4r&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:TejaGlücksbär (page does not exist)\">TejaGlücksbär</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "171905996": {
+        "pageid": 171905996,
+        "ns": 6,
+        "title": "File:Almaty District Astana.2025.png",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2025-08-07T19:02:51Z",
+            "size": 898317,
+            "width": 1000,
+            "height": 1226,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Almaty_District_Astana.2025.png/960px-Almaty_District_Astana.2025.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 785,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Almaty_District_Astana.2025.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Almaty_District_Astana.2025.png/960px-Almaty_District_Astana.2025.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 785,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Almaty_District_Astana.2025.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Almaty_District_Astana.2025.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Almaty_District_Astana.2025.png",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=171905996",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Almaty District Astana.2025",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Almaty District",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2025-08-08",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Ermakhan06&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Ermakhan06 (page does not exist)\">Ermakhan06</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/png"
+          }
+        ]
+      },
+      "173895516": {
+        "pageid": 173895516,
+        "ns": 6,
+        "title": "File:Appreciation Letter 1 After Depositing of Iftakhar Ahmad Qadri Books to Astana Quds Razavi Mashhad Iran 1380 Iran Date Authorize to Upload.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2025-08-29T11:47:10Z",
+            "size": 263478,
+            "width": 1162,
+            "height": 1600,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Appreciation_Letter_1_After_Depositing_of_Iftakhar_Ahmad_Qadri_Books_to_Astana_Quds_Razavi_Mashhad_Iran_1380_Iran_Date_Authorize_to_Upload.jpg/960px-Appreciation_Letter_1_After_Depositing_of_Iftakhar_Ahmad_Qadri_Books_to_Astana_Quds_Razavi_Mashhad_Iran_1380_Iran_Date_Authorize_to_Upload.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 881,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Appreciation_Letter_1_After_Depositing_of_Iftakhar_Ahmad_Qadri_Books_to_Astana_Quds_Razavi_Mashhad_Iran_1380_Iran_Date_Authorize_to_Upload.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Appreciation_Letter_1_After_Depositing_of_Iftakhar_Ahmad_Qadri_Books_to_Astana_Quds_Razavi_Mashhad_Iran_1380_Iran_Date_Authorize_to_Upload.jpg/960px-Appreciation_Letter_1_After_Depositing_of_Iftakhar_Ahmad_Qadri_Books_to_Astana_Quds_Razavi_Mashhad_Iran_1380_Iran_Date_Authorize_to_Upload.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 881,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Appreciation_Letter_1_After_Depositing_of_Iftakhar_Ahmad_Qadri_Books_to_Astana_Quds_Razavi_Mashhad_Iran_1380_Iran_Date_Authorize_to_Upload.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Appreciation_Letter_1_After_Depositing_of_Iftakhar_Ahmad_Qadri_Books_to_Astana_Quds_Razavi_Mashhad_Iran_1380_Iran_Date_Authorize_to_Upload.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Appreciation_Letter_1_After_Depositing_of_Iftakhar_Ahmad_Qadri_Books_to_Astana_Quds_Razavi_Mashhad_Iran_1380_Iran_Date_Authorize_to_Upload.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=173895516",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Appreciation Letter 1 After Depositing of Iftakhar Ahmad Qadri Books to Astana Quds Razavi Mashhad Iran 1380 Iran Date Authorize to Upload",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "افتخار احمد قادری کی کتب مشہد کی عظیم لائبریری",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1380/01/08 Irani Date",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Iftakhar_Ahmad_Qadri\" title=\"User:Iftakhar Ahmad Qadri\">Iftakhar Ahmad Qadri</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "173895541": {
+        "pageid": 173895541,
+        "ns": 6,
+        "title": "File:Appreciation Letter 10 After Depositing of Iftakhar Ahmad Qadri Books to Astana Quds Razavi Mashhad Iran 1403 Iran Date Authorize to Upload.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2025-08-29T11:47:23Z",
+            "size": 331934,
+            "width": 1162,
+            "height": 1600,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Appreciation_Letter_10_After_Depositing_of_Iftakhar_Ahmad_Qadri_Books_to_Astana_Quds_Razavi_Mashhad_Iran_1403_Iran_Date_Authorize_to_Upload.jpg/960px-Appreciation_Letter_10_After_Depositing_of_Iftakhar_Ahmad_Qadri_Books_to_Astana_Quds_Razavi_Mashhad_Iran_1403_Iran_Date_Authorize_to_Upload.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 881,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Appreciation_Letter_10_After_Depositing_of_Iftakhar_Ahmad_Qadri_Books_to_Astana_Quds_Razavi_Mashhad_Iran_1403_Iran_Date_Authorize_to_Upload.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Appreciation_Letter_10_After_Depositing_of_Iftakhar_Ahmad_Qadri_Books_to_Astana_Quds_Razavi_Mashhad_Iran_1403_Iran_Date_Authorize_to_Upload.jpg/960px-Appreciation_Letter_10_After_Depositing_of_Iftakhar_Ahmad_Qadri_Books_to_Astana_Quds_Razavi_Mashhad_Iran_1403_Iran_Date_Authorize_to_Upload.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 881,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Appreciation_Letter_10_After_Depositing_of_Iftakhar_Ahmad_Qadri_Books_to_Astana_Quds_Razavi_Mashhad_Iran_1403_Iran_Date_Authorize_to_Upload.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Appreciation_Letter_10_After_Depositing_of_Iftakhar_Ahmad_Qadri_Books_to_Astana_Quds_Razavi_Mashhad_Iran_1403_Iran_Date_Authorize_to_Upload.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Appreciation_Letter_10_After_Depositing_of_Iftakhar_Ahmad_Qadri_Books_to_Astana_Quds_Razavi_Mashhad_Iran_1403_Iran_Date_Authorize_to_Upload.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=173895541",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Appreciation Letter 10 After Depositing of Iftakhar Ahmad Qadri Books to Astana Quds Razavi Mashhad Iran 1403 Iran Date Authorize to Upload",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Iftakhar Ahmad Qadri books in Digital Library Mashhad Iran",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1403/07/24",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Iftakhar_Ahmad_Qadri\" title=\"User:Iftakhar Ahmad Qadri\">Iftakhar Ahmad Qadri</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "173895542": {
+        "pageid": 173895542,
+        "ns": 6,
+        "title": "File:Appreciation Letter 11;After Depositing of Iftakhar Ahmad Qadri Books to Astana Quds Razavi Mashhad Iran 1403 Iran Date Authorize to Upload.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2025-08-29T11:47:24Z",
+            "size": 332781,
+            "width": 1162,
+            "height": 1600,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Appreciation_Letter_11%3BAfter_Depositing_of_Iftakhar_Ahmad_Qadri_Books_to_Astana_Quds_Razavi_Mashhad_Iran_1403_Iran_Date_Authorize_to_Upload.jpg/960px-Appreciation_Letter_11%3BAfter_Depositing_of_Iftakhar_Ahmad_Qadri_Books_to_Astana_Quds_Razavi_Mashhad_Iran_1403_Iran_Date_Authorize_to_Upload.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 881,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Appreciation_Letter_11%3BAfter_Depositing_of_Iftakhar_Ahmad_Qadri_Books_to_Astana_Quds_Razavi_Mashhad_Iran_1403_Iran_Date_Authorize_to_Upload.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Appreciation_Letter_11%3BAfter_Depositing_of_Iftakhar_Ahmad_Qadri_Books_to_Astana_Quds_Razavi_Mashhad_Iran_1403_Iran_Date_Authorize_to_Upload.jpg/960px-Appreciation_Letter_11%3BAfter_Depositing_of_Iftakhar_Ahmad_Qadri_Books_to_Astana_Quds_Razavi_Mashhad_Iran_1403_Iran_Date_Authorize_to_Upload.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 881,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Appreciation_Letter_11%3BAfter_Depositing_of_Iftakhar_Ahmad_Qadri_Books_to_Astana_Quds_Razavi_Mashhad_Iran_1403_Iran_Date_Authorize_to_Upload.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Appreciation_Letter_11%3BAfter_Depositing_of_Iftakhar_Ahmad_Qadri_Books_to_Astana_Quds_Razavi_Mashhad_Iran_1403_Iran_Date_Authorize_to_Upload.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Appreciation_Letter_11;After_Depositing_of_Iftakhar_Ahmad_Qadri_Books_to_Astana_Quds_Razavi_Mashhad_Iran_1403_Iran_Date_Authorize_to_Upload.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=173895542",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Appreciation Letter 11;After Depositing of Iftakhar Ahmad Qadri Books to Astana Quds Razavi Mashhad Iran 1403 Iran Date Authorize to Upload",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "افتخار احمد قادری کی کتب مشہد لائبریری میں",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1403/07/24",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Iftakhar_Ahmad_Qadri\" title=\"User:Iftakhar Ahmad Qadri\">Iftakhar Ahmad Qadri</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "173895517": {
+        "pageid": 173895517,
+        "ns": 6,
+        "title": "File:Appreciation Letter 2 After Depositing of Iftakhar Ahmad Qadri Books to Astana Quds Razavi Mashhad Iran 1397 Iran Date Authorize to Upload.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2025-08-29T11:47:10Z",
+            "size": 331980,
+            "width": 1162,
+            "height": 1600,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Appreciation_Letter_2_After_Depositing_of_Iftakhar_Ahmad_Qadri_Books_to_Astana_Quds_Razavi_Mashhad_Iran_1397_Iran_Date_Authorize_to_Upload.jpg/960px-Appreciation_Letter_2_After_Depositing_of_Iftakhar_Ahmad_Qadri_Books_to_Astana_Quds_Razavi_Mashhad_Iran_1397_Iran_Date_Authorize_to_Upload.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 881,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Appreciation_Letter_2_After_Depositing_of_Iftakhar_Ahmad_Qadri_Books_to_Astana_Quds_Razavi_Mashhad_Iran_1397_Iran_Date_Authorize_to_Upload.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Appreciation_Letter_2_After_Depositing_of_Iftakhar_Ahmad_Qadri_Books_to_Astana_Quds_Razavi_Mashhad_Iran_1397_Iran_Date_Authorize_to_Upload.jpg/960px-Appreciation_Letter_2_After_Depositing_of_Iftakhar_Ahmad_Qadri_Books_to_Astana_Quds_Razavi_Mashhad_Iran_1397_Iran_Date_Authorize_to_Upload.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 881,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Appreciation_Letter_2_After_Depositing_of_Iftakhar_Ahmad_Qadri_Books_to_Astana_Quds_Razavi_Mashhad_Iran_1397_Iran_Date_Authorize_to_Upload.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Appreciation_Letter_2_After_Depositing_of_Iftakhar_Ahmad_Qadri_Books_to_Astana_Quds_Razavi_Mashhad_Iran_1397_Iran_Date_Authorize_to_Upload.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Appreciation_Letter_2_After_Depositing_of_Iftakhar_Ahmad_Qadri_Books_to_Astana_Quds_Razavi_Mashhad_Iran_1397_Iran_Date_Authorize_to_Upload.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=173895517",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Appreciation Letter 2 After Depositing of Iftakhar Ahmad Qadri Books to Astana Quds Razavi Mashhad Iran 1397 Iran Date Authorize to Upload",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "مصنف سفرنامہ نگار افتخار قادری کی کتب مشہد میں",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1397/09/21 Irani Date",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Iftakhar_Ahmad_Qadri\" title=\"User:Iftakhar Ahmad Qadri\">Iftakhar Ahmad Qadri</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "173895518": {
+        "pageid": 173895518,
+        "ns": 6,
+        "title": "File:Appreciation Letter 3 After Depositing of Iftakhar Ahmad Qadri Books to Astana Quds Razavi Mashhad Iran 1397 Iran Date Authorize to Upload.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2025-08-29T11:47:11Z",
+            "size": 336721,
+            "width": 1162,
+            "height": 1600,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Appreciation_Letter_3_After_Depositing_of_Iftakhar_Ahmad_Qadri_Books_to_Astana_Quds_Razavi_Mashhad_Iran_1397_Iran_Date_Authorize_to_Upload.jpg/960px-Appreciation_Letter_3_After_Depositing_of_Iftakhar_Ahmad_Qadri_Books_to_Astana_Quds_Razavi_Mashhad_Iran_1397_Iran_Date_Authorize_to_Upload.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 881,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/9/91/Appreciation_Letter_3_After_Depositing_of_Iftakhar_Ahmad_Qadri_Books_to_Astana_Quds_Razavi_Mashhad_Iran_1397_Iran_Date_Authorize_to_Upload.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Appreciation_Letter_3_After_Depositing_of_Iftakhar_Ahmad_Qadri_Books_to_Astana_Quds_Razavi_Mashhad_Iran_1397_Iran_Date_Authorize_to_Upload.jpg/960px-Appreciation_Letter_3_After_Depositing_of_Iftakhar_Ahmad_Qadri_Books_to_Astana_Quds_Razavi_Mashhad_Iran_1397_Iran_Date_Authorize_to_Upload.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 881,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/9/91/Appreciation_Letter_3_After_Depositing_of_Iftakhar_Ahmad_Qadri_Books_to_Astana_Quds_Razavi_Mashhad_Iran_1397_Iran_Date_Authorize_to_Upload.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Appreciation_Letter_3_After_Depositing_of_Iftakhar_Ahmad_Qadri_Books_to_Astana_Quds_Razavi_Mashhad_Iran_1397_Iran_Date_Authorize_to_Upload.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Appreciation_Letter_3_After_Depositing_of_Iftakhar_Ahmad_Qadri_Books_to_Astana_Quds_Razavi_Mashhad_Iran_1397_Iran_Date_Authorize_to_Upload.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=173895518",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Appreciation Letter 3 After Depositing of Iftakhar Ahmad Qadri Books to Astana Quds Razavi Mashhad Iran 1397 Iran Date Authorize to Upload",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Books of Iftakhar Qadri in Central Library Iran",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1397/12/27",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Iftakhar_Ahmad_Qadri\" title=\"User:Iftakhar Ahmad Qadri\">Iftakhar Ahmad Qadri</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "173895523": {
+        "pageid": 173895523,
+        "ns": 6,
+        "title": "File:Appreciation Letter 4 After Depositing of Iftakhar Ahmad Qadri Books to Astana Quds Razavi Mashhad Iran 1398 Iran Date Authorize to Upload.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2025-08-29T11:47:14Z",
+            "size": 294806,
+            "width": 1162,
+            "height": 1600,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Appreciation_Letter_4_After_Depositing_of_Iftakhar_Ahmad_Qadri_Books_to_Astana_Quds_Razavi_Mashhad_Iran_1398_Iran_Date_Authorize_to_Upload.jpg/960px-Appreciation_Letter_4_After_Depositing_of_Iftakhar_Ahmad_Qadri_Books_to_Astana_Quds_Razavi_Mashhad_Iran_1398_Iran_Date_Authorize_to_Upload.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 881,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Appreciation_Letter_4_After_Depositing_of_Iftakhar_Ahmad_Qadri_Books_to_Astana_Quds_Razavi_Mashhad_Iran_1398_Iran_Date_Authorize_to_Upload.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Appreciation_Letter_4_After_Depositing_of_Iftakhar_Ahmad_Qadri_Books_to_Astana_Quds_Razavi_Mashhad_Iran_1398_Iran_Date_Authorize_to_Upload.jpg/960px-Appreciation_Letter_4_After_Depositing_of_Iftakhar_Ahmad_Qadri_Books_to_Astana_Quds_Razavi_Mashhad_Iran_1398_Iran_Date_Authorize_to_Upload.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 881,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Appreciation_Letter_4_After_Depositing_of_Iftakhar_Ahmad_Qadri_Books_to_Astana_Quds_Razavi_Mashhad_Iran_1398_Iran_Date_Authorize_to_Upload.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Appreciation_Letter_4_After_Depositing_of_Iftakhar_Ahmad_Qadri_Books_to_Astana_Quds_Razavi_Mashhad_Iran_1398_Iran_Date_Authorize_to_Upload.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Appreciation_Letter_4_After_Depositing_of_Iftakhar_Ahmad_Qadri_Books_to_Astana_Quds_Razavi_Mashhad_Iran_1398_Iran_Date_Authorize_to_Upload.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=173895523",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Appreciation Letter 4 After Depositing of Iftakhar Ahmad Qadri Books to Astana Quds Razavi Mashhad Iran 1398 Iran Date Authorize to Upload",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Books of Iftakhar Ahmad Qadri in Mashhad",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1398/10/02",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Iftakhar_Ahmad_Qadri\" title=\"User:Iftakhar Ahmad Qadri\">Iftakhar Ahmad Qadri</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "173895524": {
+        "pageid": 173895524,
+        "ns": 6,
+        "title": "File:Appreciation Letter 5 After Depositing of Iftakhar Ahmad Qadri Books to Astana Quds Razavi Mashhad Iran 1398 Iran Date Authorize to Upload.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2025-08-29T11:47:15Z",
+            "size": 310825,
+            "width": 1162,
+            "height": 1600,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Appreciation_Letter_5_After_Depositing_of_Iftakhar_Ahmad_Qadri_Books_to_Astana_Quds_Razavi_Mashhad_Iran_1398_Iran_Date_Authorize_to_Upload.jpg/960px-Appreciation_Letter_5_After_Depositing_of_Iftakhar_Ahmad_Qadri_Books_to_Astana_Quds_Razavi_Mashhad_Iran_1398_Iran_Date_Authorize_to_Upload.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 881,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Appreciation_Letter_5_After_Depositing_of_Iftakhar_Ahmad_Qadri_Books_to_Astana_Quds_Razavi_Mashhad_Iran_1398_Iran_Date_Authorize_to_Upload.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Appreciation_Letter_5_After_Depositing_of_Iftakhar_Ahmad_Qadri_Books_to_Astana_Quds_Razavi_Mashhad_Iran_1398_Iran_Date_Authorize_to_Upload.jpg/960px-Appreciation_Letter_5_After_Depositing_of_Iftakhar_Ahmad_Qadri_Books_to_Astana_Quds_Razavi_Mashhad_Iran_1398_Iran_Date_Authorize_to_Upload.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 881,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Appreciation_Letter_5_After_Depositing_of_Iftakhar_Ahmad_Qadri_Books_to_Astana_Quds_Razavi_Mashhad_Iran_1398_Iran_Date_Authorize_to_Upload.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Appreciation_Letter_5_After_Depositing_of_Iftakhar_Ahmad_Qadri_Books_to_Astana_Quds_Razavi_Mashhad_Iran_1398_Iran_Date_Authorize_to_Upload.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Appreciation_Letter_5_After_Depositing_of_Iftakhar_Ahmad_Qadri_Books_to_Astana_Quds_Razavi_Mashhad_Iran_1398_Iran_Date_Authorize_to_Upload.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=173895524",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Appreciation Letter 5 After Depositing of Iftakhar Ahmad Qadri Books to Astana Quds Razavi Mashhad Iran 1398 Iran Date Authorize to Upload",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Books of Iftakhar Qadri in Imam Ali Raza library",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1398/10/04",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Iftakhar_Ahmad_Qadri\" title=\"User:Iftakhar Ahmad Qadri\">Iftakhar Ahmad Qadri</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "173895525": {
+        "pageid": 173895525,
+        "ns": 6,
+        "title": "File:Appreciation Letter 6 After Depositing of Iftakhar Ahmad Qadri Books to Astana Quds Razavi Mashhad Iran 1398 Iran Date Authorize to Upload.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2025-08-29T11:47:15Z",
+            "size": 308546,
+            "width": 1162,
+            "height": 1600,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Appreciation_Letter_6_After_Depositing_of_Iftakhar_Ahmad_Qadri_Books_to_Astana_Quds_Razavi_Mashhad_Iran_1398_Iran_Date_Authorize_to_Upload.jpg/960px-Appreciation_Letter_6_After_Depositing_of_Iftakhar_Ahmad_Qadri_Books_to_Astana_Quds_Razavi_Mashhad_Iran_1398_Iran_Date_Authorize_to_Upload.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 881,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Appreciation_Letter_6_After_Depositing_of_Iftakhar_Ahmad_Qadri_Books_to_Astana_Quds_Razavi_Mashhad_Iran_1398_Iran_Date_Authorize_to_Upload.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Appreciation_Letter_6_After_Depositing_of_Iftakhar_Ahmad_Qadri_Books_to_Astana_Quds_Razavi_Mashhad_Iran_1398_Iran_Date_Authorize_to_Upload.jpg/960px-Appreciation_Letter_6_After_Depositing_of_Iftakhar_Ahmad_Qadri_Books_to_Astana_Quds_Razavi_Mashhad_Iran_1398_Iran_Date_Authorize_to_Upload.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 881,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Appreciation_Letter_6_After_Depositing_of_Iftakhar_Ahmad_Qadri_Books_to_Astana_Quds_Razavi_Mashhad_Iran_1398_Iran_Date_Authorize_to_Upload.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Appreciation_Letter_6_After_Depositing_of_Iftakhar_Ahmad_Qadri_Books_to_Astana_Quds_Razavi_Mashhad_Iran_1398_Iran_Date_Authorize_to_Upload.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Appreciation_Letter_6_After_Depositing_of_Iftakhar_Ahmad_Qadri_Books_to_Astana_Quds_Razavi_Mashhad_Iran_1398_Iran_Date_Authorize_to_Upload.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=173895525",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Appreciation Letter 6 After Depositing of Iftakhar Ahmad Qadri Books to Astana Quds Razavi Mashhad Iran 1398 Iran Date Authorize to Upload",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Iftakhar Qadri Soft Books in Library of Imam Reza",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1398/10/16",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Iftakhar_Ahmad_Qadri\" title=\"User:Iftakhar Ahmad Qadri\">Iftakhar Ahmad Qadri</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "173895535": {
+        "pageid": 173895535,
+        "ns": 6,
+        "title": "File:Appreciation Letter 7 After Depositing of Iftakhar Ahmad Qadri Books to Astana Quds Razavi Mashhad Iran 1401Iran Date Authorize to Upload.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2025-08-29T11:47:18Z",
+            "size": 479630,
+            "width": 1162,
+            "height": 1600,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Appreciation_Letter_7_After_Depositing_of_Iftakhar_Ahmad_Qadri_Books_to_Astana_Quds_Razavi_Mashhad_Iran_1401Iran_Date_Authorize_to_Upload.jpg/960px-Appreciation_Letter_7_After_Depositing_of_Iftakhar_Ahmad_Qadri_Books_to_Astana_Quds_Razavi_Mashhad_Iran_1401Iran_Date_Authorize_to_Upload.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 881,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Appreciation_Letter_7_After_Depositing_of_Iftakhar_Ahmad_Qadri_Books_to_Astana_Quds_Razavi_Mashhad_Iran_1401Iran_Date_Authorize_to_Upload.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Appreciation_Letter_7_After_Depositing_of_Iftakhar_Ahmad_Qadri_Books_to_Astana_Quds_Razavi_Mashhad_Iran_1401Iran_Date_Authorize_to_Upload.jpg/960px-Appreciation_Letter_7_After_Depositing_of_Iftakhar_Ahmad_Qadri_Books_to_Astana_Quds_Razavi_Mashhad_Iran_1401Iran_Date_Authorize_to_Upload.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 881,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Appreciation_Letter_7_After_Depositing_of_Iftakhar_Ahmad_Qadri_Books_to_Astana_Quds_Razavi_Mashhad_Iran_1401Iran_Date_Authorize_to_Upload.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Appreciation_Letter_7_After_Depositing_of_Iftakhar_Ahmad_Qadri_Books_to_Astana_Quds_Razavi_Mashhad_Iran_1401Iran_Date_Authorize_to_Upload.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Appreciation_Letter_7_After_Depositing_of_Iftakhar_Ahmad_Qadri_Books_to_Astana_Quds_Razavi_Mashhad_Iran_1401Iran_Date_Authorize_to_Upload.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=173895535",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Appreciation Letter 7 After Depositing of Iftakhar Ahmad Qadri Books to Astana Quds Razavi Mashhad Iran 1401Iran Date Authorize to Upload",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Iftakhar Qadri Books regd in Imam Ali Raza library Mashhad Iran",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1401/01/31",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Iftakhar_Ahmad_Qadri\" title=\"User:Iftakhar Ahmad Qadri\">Iftakhar Ahmad Qadri</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "173895537": {
+        "pageid": 173895537,
+        "ns": 6,
+        "title": "File:Appreciation Letter 8 After Depositing of Iftakhar Ahmad Qadri Books to Astana Quds Razavi Mashhad Iran 1401 Iran Date Authorize to Upload.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2025-08-29T11:47:19Z",
+            "size": 316368,
+            "width": 1162,
+            "height": 1600,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Appreciation_Letter_8_After_Depositing_of_Iftakhar_Ahmad_Qadri_Books_to_Astana_Quds_Razavi_Mashhad_Iran_1401_Iran_Date_Authorize_to_Upload.jpg/960px-Appreciation_Letter_8_After_Depositing_of_Iftakhar_Ahmad_Qadri_Books_to_Astana_Quds_Razavi_Mashhad_Iran_1401_Iran_Date_Authorize_to_Upload.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 881,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Appreciation_Letter_8_After_Depositing_of_Iftakhar_Ahmad_Qadri_Books_to_Astana_Quds_Razavi_Mashhad_Iran_1401_Iran_Date_Authorize_to_Upload.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Appreciation_Letter_8_After_Depositing_of_Iftakhar_Ahmad_Qadri_Books_to_Astana_Quds_Razavi_Mashhad_Iran_1401_Iran_Date_Authorize_to_Upload.jpg/960px-Appreciation_Letter_8_After_Depositing_of_Iftakhar_Ahmad_Qadri_Books_to_Astana_Quds_Razavi_Mashhad_Iran_1401_Iran_Date_Authorize_to_Upload.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 881,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Appreciation_Letter_8_After_Depositing_of_Iftakhar_Ahmad_Qadri_Books_to_Astana_Quds_Razavi_Mashhad_Iran_1401_Iran_Date_Authorize_to_Upload.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Appreciation_Letter_8_After_Depositing_of_Iftakhar_Ahmad_Qadri_Books_to_Astana_Quds_Razavi_Mashhad_Iran_1401_Iran_Date_Authorize_to_Upload.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Appreciation_Letter_8_After_Depositing_of_Iftakhar_Ahmad_Qadri_Books_to_Astana_Quds_Razavi_Mashhad_Iran_1401_Iran_Date_Authorize_to_Upload.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=173895537",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Appreciation Letter 8 After Depositing of Iftakhar Ahmad Qadri Books to Astana Quds Razavi Mashhad Iran 1401 Iran Date Authorize to Upload",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Iftakhar Qadri books in Astane Quds Razavi Great Library Mashhad Iran",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1401/02/22",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Iftakhar_Ahmad_Qadri\" title=\"User:Iftakhar Ahmad Qadri\">Iftakhar Ahmad Qadri</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "173895539": {
+        "pageid": 173895539,
+        "ns": 6,
+        "title": "File:Appreciation Letter 9 After Depositing of Iftakhar Ahmad Qadri Books to Astana Quds Razavi Mashhad Iran 1403 Iran Date Authorize to Upload.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2025-08-29T11:47:20Z",
+            "size": 321608,
+            "width": 1162,
+            "height": 1600,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Appreciation_Letter_9_After_Depositing_of_Iftakhar_Ahmad_Qadri_Books_to_Astana_Quds_Razavi_Mashhad_Iran_1403_Iran_Date_Authorize_to_Upload.jpg/960px-Appreciation_Letter_9_After_Depositing_of_Iftakhar_Ahmad_Qadri_Books_to_Astana_Quds_Razavi_Mashhad_Iran_1403_Iran_Date_Authorize_to_Upload.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 881,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/7/72/Appreciation_Letter_9_After_Depositing_of_Iftakhar_Ahmad_Qadri_Books_to_Astana_Quds_Razavi_Mashhad_Iran_1403_Iran_Date_Authorize_to_Upload.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Appreciation_Letter_9_After_Depositing_of_Iftakhar_Ahmad_Qadri_Books_to_Astana_Quds_Razavi_Mashhad_Iran_1403_Iran_Date_Authorize_to_Upload.jpg/960px-Appreciation_Letter_9_After_Depositing_of_Iftakhar_Ahmad_Qadri_Books_to_Astana_Quds_Razavi_Mashhad_Iran_1403_Iran_Date_Authorize_to_Upload.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 881,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/7/72/Appreciation_Letter_9_After_Depositing_of_Iftakhar_Ahmad_Qadri_Books_to_Astana_Quds_Razavi_Mashhad_Iran_1403_Iran_Date_Authorize_to_Upload.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/7/72/Appreciation_Letter_9_After_Depositing_of_Iftakhar_Ahmad_Qadri_Books_to_Astana_Quds_Razavi_Mashhad_Iran_1403_Iran_Date_Authorize_to_Upload.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Appreciation_Letter_9_After_Depositing_of_Iftakhar_Ahmad_Qadri_Books_to_Astana_Quds_Razavi_Mashhad_Iran_1403_Iran_Date_Authorize_to_Upload.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=173895539",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Appreciation Letter 9 After Depositing of Iftakhar Ahmad Qadri Books to Astana Quds Razavi Mashhad Iran 1403 Iran Date Authorize to Upload",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Books of Iftakhar Ahmad Qadri Registerd in Astane Quds Razavi Library Mashhad Iran",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1403/07/24",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Iftakhar_Ahmad_Qadri\" title=\"User:Iftakhar Ahmad Qadri\">Iftakhar Ahmad Qadri</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "173803245": {
+        "pageid": 173803245,
+        "ns": 6,
+        "title": "File:Appreciation Letter from Director Library Astana Masuma Qum upon receiving Three Books of Author Iftakhar Ahmad Qadri Copyright Owner Authorize to Upload.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2025-08-28T12:46:19Z",
+            "size": 198046,
+            "width": 1162,
+            "height": 1600,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Appreciation_Letter_from_Director_Library_Astana_Masuma_Qum_upon_receiving_Three_Books_of_Author_Iftakhar_Ahmad_Qadri_Copyright_Owner_Authorize_to_Upload.jpg/960px-Appreciation_Letter_from_Director_Library_Astana_Masuma_Qum_upon_receiving_Three_Books_of_Author_Iftakhar_Ahmad_Qadri_Copyright_Owner_Authorize_to_Upload.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 881,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/5/55/Appreciation_Letter_from_Director_Library_Astana_Masuma_Qum_upon_receiving_Three_Books_of_Author_Iftakhar_Ahmad_Qadri_Copyright_Owner_Authorize_to_Upload.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Appreciation_Letter_from_Director_Library_Astana_Masuma_Qum_upon_receiving_Three_Books_of_Author_Iftakhar_Ahmad_Qadri_Copyright_Owner_Authorize_to_Upload.jpg/960px-Appreciation_Letter_from_Director_Library_Astana_Masuma_Qum_upon_receiving_Three_Books_of_Author_Iftakhar_Ahmad_Qadri_Copyright_Owner_Authorize_to_Upload.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 881,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/5/55/Appreciation_Letter_from_Director_Library_Astana_Masuma_Qum_upon_receiving_Three_Books_of_Author_Iftakhar_Ahmad_Qadri_Copyright_Owner_Authorize_to_Upload.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Appreciation_Letter_from_Director_Library_Astana_Masuma_Qum_upon_receiving_Three_Books_of_Author_Iftakhar_Ahmad_Qadri_Copyright_Owner_Authorize_to_Upload.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Appreciation_Letter_from_Director_Library_Astana_Masuma_Qum_upon_receiving_Three_Books_of_Author_Iftakhar_Ahmad_Qadri_Copyright_Owner_Authorize_to_Upload.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=173803245",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Appreciation Letter from Director Library Astana Masuma Qum upon receiving Three Books of Author Iftakhar Ahmad Qadri Copyright Owner Authorize to Upload",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "آستانہ معصومہ قم کی لائبریری کی طرف سے شکریہ",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1397",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Iftakhar_Ahmad_Qadri\" title=\"User:Iftakhar Ahmad Qadri\">Iftakhar Ahmad Qadri</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "86387060": {
+        "pageid": 86387060,
+        "ns": 6,
+        "title": "File:LL-Q150 (fra)-WikiLucas00-Astana.wav",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2020-01-28T16:08:27Z",
+            "size": 109356,
+            "width": 0,
+            "height": 0,
+            "duration": 1.1386666666666667,
+            "thumburl": "https://commons.wikimedia.org/w/resources/assets/file-type-icons/fileicon-ogg.png",
+            "thumbwidth": 640,
+            "thumbheight": 640,
+            "thumbattribs": [],
+            "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/LL-Q150_%28fra%29-WikiLucas00-Astana.wav?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:LL-Q150_(fra)-WikiLucas00-Astana.wav",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=86387060",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "LL-Q150 (fra)-WikiLucas00-Astana",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Audio pronunciation file from the <b><a href=\"//lingualibre.org/wiki/\" class=\"extiw\" title=\"lingualibre:\">Lingua Libre</a></b> <span typeof=\"mw:File\"><a href=\"https://lingualibre.org\" rel=\"nofollow\"><img alt=\"Lingua Libre\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Lingualibre-logo-no-text.svg/40px-Lingualibre-logo-no-text.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"22\" height=\"22\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Lingualibre-logo-no-text.svg/60px-Lingualibre-logo-no-text.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"185\" data-file-height=\"185\"></a></span> project.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2020-01-28",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<ul><li>Speaker: <a href=\"//lingualibre.org/wiki/Q102123\" class=\"extiw\" title=\"lingualibre:Q102123\">WikiLucas00</a></li>\n<li>Recorder: <a href=\"//commons.wikimedia.org/wiki/User:WikiLucas00\" title=\"User:WikiLucas00\">WikiLucas00</a></li></ul>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "audio/wav"
+          }
+        ]
+      },
+      "175144363": {
+        "pageid": 175144363,
+        "ns": 6,
+        "title": "File:Astana Baba Mausoleum.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2025-09-16T15:26:32Z",
+            "size": 479516,
+            "width": 2048,
+            "height": 1536,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Astana_Baba_Mausoleum.jpg/960px-Astana_Baba_Mausoleum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 480,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Astana_Baba_Mausoleum.jpg/1280px-Astana_Baba_Mausoleum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Astana_Baba_Mausoleum.jpg/960px-Astana_Baba_Mausoleum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 480,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Astana_Baba_Mausoleum.jpg/1280px-Astana_Baba_Mausoleum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Astana_Baba_Mausoleum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Astana_Baba_Mausoleum.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=175144363",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Astana Baba Mausoleum",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Astana Baba Mausoleum",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2025-09-14",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Pavel Novik",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "171880794": {
+        "pageid": 171880794,
+        "ns": 6,
+        "title": "File:Astana City (Kazakhstan), Saraishyk District 2025.png",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2025-08-07T13:38:57Z",
+            "size": 901224,
+            "width": 1000,
+            "height": 1226,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Astana_City_%28Kazakhstan%29%2C_Saraishyk_District_2025.png/960px-Astana_City_%28Kazakhstan%29%2C_Saraishyk_District_2025.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 785,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Astana_City_%28Kazakhstan%29%2C_Saraishyk_District_2025.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Astana_City_%28Kazakhstan%29%2C_Saraishyk_District_2025.png/960px-Astana_City_%28Kazakhstan%29%2C_Saraishyk_District_2025.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 785,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Astana_City_%28Kazakhstan%29%2C_Saraishyk_District_2025.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Astana_City_%28Kazakhstan%29%2C_Saraishyk_District_2025.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Astana_City_(Kazakhstan),_Saraishyk_District_2025.png",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=171880794",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Astana City (Kazakhstan), Saraishyk District 2025",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "6th District of Astana",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2025-08-07",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Ermakhan06&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Ermakhan06 (page does not exist)\">Ermakhan06</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/png"
+          }
+        ]
+      },
+      "174963775": {
+        "pageid": 174963775,
+        "ns": 6,
+        "title": "File:Astana City (Kazakhstan), Saryarka District 2025.png",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2025-09-13T08:52:58Z",
+            "size": 356709,
+            "width": 2469,
+            "height": 3028,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Astana_City_%28Kazakhstan%29%2C_Saryarka_District_2025.png/960px-Astana_City_%28Kazakhstan%29%2C_Saryarka_District_2025.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 785,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Astana_City_%28Kazakhstan%29%2C_Saryarka_District_2025.png/1280px-Astana_City_%28Kazakhstan%29%2C_Saryarka_District_2025.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Astana_City_%28Kazakhstan%29%2C_Saryarka_District_2025.png/960px-Astana_City_%28Kazakhstan%29%2C_Saryarka_District_2025.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 785,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Astana_City_%28Kazakhstan%29%2C_Saryarka_District_2025.png/1280px-Astana_City_%28Kazakhstan%29%2C_Saryarka_District_2025.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Astana_City_%28Kazakhstan%29%2C_Saryarka_District_2025.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Astana_City_(Kazakhstan),_Saryarka_District_2025.png",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=174963775",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Astana City (Kazakhstan), Saryarka District 2025",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Astana City (Kazakhstan), Saryarka District 2025",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2025-09-13",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Bogomolov.PL\" title=\"User:Bogomolov.PL\">Bogomolov.PL</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/png"
+          }
+        ]
+      },
+      "140334080": {
+        "pageid": 140334080,
+        "ns": 6,
+        "title": "File:Astana City Mäslihat 2023.svg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2023-11-07T18:29:40Z",
+            "size": 3129,
+            "width": 360,
+            "height": 185,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Astana_City_M%C3%A4slihat_2023.svg/960px-Astana_City_M%C3%A4slihat_2023.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 329,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Astana_City_M%C3%A4slihat_2023.svg/1280px-Astana_City_M%C3%A4slihat_2023.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Astana_City_M%C3%A4slihat_2023.svg/960px-Astana_City_M%C3%A4slihat_2023.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 329,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Astana_City_M%C3%A4slihat_2023.svg/1280px-Astana_City_M%C3%A4slihat_2023.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Astana_City_M%C3%A4slihat_2023.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Astana_City_M%C3%A4slihat_2023.svg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=140334080",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Astana City Mäslihat 2023",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Composition of Astana City Mäslihat, 2023\n<div class=\"legend\" style=\"direction:ltr;line-height:23px;\"><div class=\"legend-content\" style=\"display:inline-block;vertical-align:top;box-sizing:border-box;width:34px;height:23px;overflow:hidden;font-size:15px;border:thin solid #333;background:#37B5AF;color:#202122;text-align:center;\"> </div> Amanat: 12 seats</div> <div class=\"legend\" style=\"direction:ltr;line-height:23px;\"><div class=\"legend-content\" style=\"display:inline-block;vertical-align:top;box-sizing:border-box;width:34px;height:23px;overflow:hidden;font-size:15px;border:thin solid #333;background:#EE0535;color:#202122;text-align:center;\"> </div> People's Party: 1 seat</div> <div class=\"legend\" style=\"direction:ltr;line-height:23px;\"><div class=\"legend-content\" style=\"display:inline-block;vertical-align:top;box-sizing:border-box;width:34px;height:23px;overflow:hidden;font-size:15px;border:thin solid #333;background:#124E9B;color:#202122;text-align:center;\"> </div> Aq Jol: 3 seats</div> <div class=\"legend\" style=\"direction:ltr;line-height:23px;\"><div class=\"legend-content\" style=\"display:inline-block;vertical-align:top;box-sizing:border-box;width:34px;height:23px;overflow:hidden;font-size:15px;border:thin solid #333;background:#426F39;color:#202122;text-align:center;\"> </div> Baytaq: 1 seat</div> <div class=\"legend\" style=\"direction:ltr;line-height:23px;\"><div class=\"legend-content\" style=\"display:inline-block;vertical-align:top;box-sizing:border-box;width:34px;height:23px;overflow:hidden;font-size:15px;border:thin solid #333;background:#CDCDCD;color:#202122;text-align:center;\"> </div> Single-mandate seats: 17 seats</div>",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2023-11-07",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Malik_Nursultan_B\" class=\"mw-redirect\" title=\"User:Malik Nursultan B\">User:Malik Nursultan B</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/svg+xml"
+          }
+        ]
+      },
+      "195043050": {
+        "pageid": 195043050,
+        "ns": 6,
+        "title": "File:Astana Esil view.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2026-07-03T08:32:03Z",
+            "size": 8414192,
+            "width": 6000,
+            "height": 4000,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Astana_Esil_view.jpg/960px-Astana_Esil_view.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 427,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Astana_Esil_view.jpg/1280px-Astana_Esil_view.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Astana_Esil_view.jpg/960px-Astana_Esil_view.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 427,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Astana_Esil_view.jpg/1280px-Astana_Esil_view.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/3/34/Astana_Esil_view.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Astana_Esil_view.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=195043050",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Astana Esil view",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "View on Left side of Astana from the Esil riverbank",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2026-07-02 12:32:06",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Dauren_Nabijan&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Dauren Nabijan (page does not exist)\">Dauren Nabijan</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "148219996": {
+        "pageid": 148219996,
+        "ns": 6,
+        "title": "File:Astana Executives.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2024-05-10T07:09:43Z",
+            "size": 764083,
+            "width": 2048,
+            "height": 1804,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Astana_Executives.jpg/960px-Astana_Executives.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 564,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Astana_Executives.jpg/1280px-Astana_Executives.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Astana_Executives.jpg/960px-Astana_Executives.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 564,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Astana_Executives.jpg/1280px-Astana_Executives.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Astana_Executives.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Astana_Executives.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=148219996",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Astana Executives",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Astana HUB Visit",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2024-05-10",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Tandem_gen&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Tandem gen (page does not exist)\">Tandem gen</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "157263740": {
+        "pageid": 157263740,
+        "ns": 6,
+        "title": "File:ASTANA FORUM ROEE.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2024-12-29T14:57:03Z",
+            "size": 499908,
+            "width": 1536,
+            "height": 2048,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/ASTANA_FORUM_ROEE.jpg/960px-ASTANA_FORUM_ROEE.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 853,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/ASTANA_FORUM_ROEE.jpg/1280px-ASTANA_FORUM_ROEE.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/ASTANA_FORUM_ROEE.jpg/960px-ASTANA_FORUM_ROEE.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 853,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/ASTANA_FORUM_ROEE.jpg/1280px-ASTANA_FORUM_ROEE.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/6/63/ASTANA_FORUM_ROEE.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:ASTANA_FORUM_ROEE.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=157263740",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "ASTANA FORUM ROEE",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "ASTANA FORUM ROEE",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2023-06-11",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Isrkaz&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Isrkaz (page does not exist)\">Isrkaz</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "174611371": {
+        "pageid": 174611371,
+        "ns": 6,
+        "title": "File:Astana Saraishyk District.png",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2025-09-07T16:57:21Z",
+            "size": 356365,
+            "width": 2469,
+            "height": 3028,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Astana_Saraishyk_District.png/960px-Astana_Saraishyk_District.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 785,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Astana_Saraishyk_District.png/1280px-Astana_Saraishyk_District.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Astana_Saraishyk_District.png/960px-Astana_Saraishyk_District.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 785,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Astana_Saraishyk_District.png/1280px-Astana_Saraishyk_District.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Astana_Saraishyk_District.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Astana_Saraishyk_District.png",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=174611371",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Astana Saraishyk District",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Saraishyk District, Astana",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2025-09-07",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:T%C3%B3astyTwo&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:TóastyTwo (page does not exist)\">TóastyTwo</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/png"
+          }
+        ]
+      },
+      "134786820": {
+        "pageid": 134786820,
+        "ns": 6,
+        "title": "File:Astana vokzal mozaic.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2023-07-22T17:20:48Z",
+            "size": 3383434,
+            "width": 3120,
+            "height": 4160,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Astana_vokzal_mozaic.jpg/960px-Astana_vokzal_mozaic.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 853,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Astana_vokzal_mozaic.jpg/1280px-Astana_vokzal_mozaic.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Astana_vokzal_mozaic.jpg/960px-Astana_vokzal_mozaic.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 853,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Astana_vokzal_mozaic.jpg/1280px-Astana_vokzal_mozaic.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/1/17/Astana_vokzal_mozaic.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Astana_vokzal_mozaic.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=134786820",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Astana vokzal mozaic",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Mozaic panno on the railway station building in Astana",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2023-07-08 16:59:11",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:%D0%95%D1%80%D0%B4%D0%B5%D0%BD_%D0%9A%D0%B0%D1%80%D1%81%D1%8B%D0%B1%D0%B5%D0%BA%D0%BE%D0%B2\" title=\"User:Ерден Карсыбеков\">Ерден Карсыбеков</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "134786690": {
+        "pageid": 134786690,
+        "ns": 6,
+        "title": "File:Astana vokzal mozaica.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2023-07-22T17:17:49Z",
+            "size": 3086280,
+            "width": 3120,
+            "height": 4160,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Astana_vokzal_mozaica.jpg/960px-Astana_vokzal_mozaica.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 853,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Astana_vokzal_mozaica.jpg/1280px-Astana_vokzal_mozaica.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Astana_vokzal_mozaica.jpg/960px-Astana_vokzal_mozaica.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 853,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Astana_vokzal_mozaica.jpg/1280px-Astana_vokzal_mozaica.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Astana_vokzal_mozaica.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Astana_vokzal_mozaica.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=134786690",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Astana vokzal mozaica",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Mozaic panno on the railway station building in Astana",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2023-07-08 16:57:34",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:%D0%95%D1%80%D0%B4%D0%B5%D0%BD_%D0%9A%D0%B0%D1%80%D1%81%D1%8B%D0%B1%D0%B5%D0%BA%D0%BE%D0%B2\" title=\"User:Ерден Карсыбеков\">Ерден Карсыбеков</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "155251817": {
+        "pageid": 155251817,
+        "ns": 6,
+        "title": "File:Astana, Kazakhstan.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2007-11-24T16:55:12Z",
+            "size": 233759,
+            "width": 768,
+            "height": 511,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Astana%2C_Kazakhstan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 640,
+            "thumbheight": 426,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Astana%2C_Kazakhstan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 426
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Astana%2C_Kazakhstan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Astana,_Kazakhstan.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=155251817",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Astana, Kazakhstan",
+                "source": "mediawiki-metadata"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "4296508": {
+        "pageid": 4296508,
+        "ns": 6,
+        "title": "File:Astana10-1k-rev.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2008-06-29T17:25:25Z",
+            "size": 63473,
+            "width": 454,
+            "height": 454,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Astana10-1k-rev.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 640,
+            "thumbheight": 640,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Astana10-1k-rev.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 640
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Astana10-1k-rev.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Astana10-1k-rev.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=4296508",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Astana10-1k-rev",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Памятная монета Республики Казахстан «10 лет Астане» - Серебро 5000 тенге - реверс",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2008",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"http://www.nationalbank.kz\">Национальный банк Республики Казахстан</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "116685699": {
+        "pageid": 116685699,
+        "ns": 6,
+        "title": "File:Astana123456789.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2022-04-05T15:43:47Z",
+            "size": 392692,
+            "width": 2068,
+            "height": 1164,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Astana123456789.jpg/960px-Astana123456789.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 360,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Astana123456789.jpg/1280px-Astana123456789.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Astana123456789.jpg/960px-Astana123456789.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 360,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Astana123456789.jpg/1280px-Astana123456789.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Astana123456789.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Astana123456789.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=116685699",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Astana123456789",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Astana123456789",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2022-04-05",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Akerke01&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Akerke01 (page does not exist)\">Akerke01</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "192447028": {
+        "pageid": 192447028,
+        "ns": 6,
+        "title": "File:Baiterek monument at night.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2026-05-20T02:43:39Z",
+            "size": 46730,
+            "width": 1080,
+            "height": 1080,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Baiterek_monument_at_night.jpg/960px-Baiterek_monument_at_night.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 640,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Baiterek_monument_at_night.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Baiterek_monument_at_night.jpg/960px-Baiterek_monument_at_night.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 640,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Baiterek_monument_at_night.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Baiterek_monument_at_night.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Baiterek_monument_at_night.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=192447028",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Baiterek monument at night",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Baiterek monument at night in Astana",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2024-07-25",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Dauren_Nabijan&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Dauren Nabijan (page does not exist)\">Dauren Nabijan</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "169486873": {
+        "pageid": 169486873,
+        "ns": 6,
+        "title": "File:Baiterek.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2025-07-08T18:43:10Z",
+            "size": 3372262,
+            "width": 3024,
+            "height": 4032,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Baiterek.jpg/960px-Baiterek.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 853,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Baiterek.jpg/1280px-Baiterek.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Baiterek.jpg/960px-Baiterek.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 853,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Baiterek.jpg/1280px-Baiterek.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/7/72/Baiterek.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Baiterek.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=169486873",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Baiterek",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Baiterek monument, Astana, Kazakhstan",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2025-07-08",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:%D7%90%D7%9E%D7%A8_%D7%9E%D7%A8&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:אמר מר (page does not exist)\">אמר מר</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      }
+    }
+  }
+}

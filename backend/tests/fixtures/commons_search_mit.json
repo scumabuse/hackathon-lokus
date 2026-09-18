@@ -1,0 +1,2216 @@
+{
+  "batchcomplete": "",
+  "continue": {
+    "gsroffset": 40,
+    "continue": "gsroffset||"
+  },
+  "query": {
+    "pages": {
+      "179609469": {
+        "pageid": 179609469,
+        "ns": 6,
+        "title": "File:2014-04-01-MIT-Stratton-Student-Center-Massachusetts-Institute-of-Technology.jpg",
+        "index": 32,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2025-12-08T16:36:20Z",
+            "size": 746606,
+            "width": 2200,
+            "height": 1499,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/2014-04-01-MIT-Stratton-Student-Center-Massachusetts-Institute-of-Technology.jpg/960px-2014-04-01-MIT-Stratton-Student-Center-Massachusetts-Institute-of-Technology.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 436,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/2014-04-01-MIT-Stratton-Student-Center-Massachusetts-Institute-of-Technology.jpg/1280px-2014-04-01-MIT-Stratton-Student-Center-Massachusetts-Institute-of-Technology.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/2014-04-01-MIT-Stratton-Student-Center-Massachusetts-Institute-of-Technology.jpg/960px-2014-04-01-MIT-Stratton-Student-Center-Massachusetts-Institute-of-Technology.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 436,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/2014-04-01-MIT-Stratton-Student-Center-Massachusetts-Institute-of-Technology.jpg/1280px-2014-04-01-MIT-Stratton-Student-Center-Massachusetts-Institute-of-Technology.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/2014-04-01-MIT-Stratton-Student-Center-Massachusetts-Institute-of-Technology.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:2014-04-01-MIT-Stratton-Student-Center-Massachusetts-Institute-of-Technology.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=179609469",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "2014-04-01-MIT-Stratton-Student-Center-Massachusetts-Institute-of-Technology",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Stratton Student Center, Massachusetts Institute of Technology, Cambridge, Massachusetts, Foto 2014",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2014-04-01",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Gunnar_Klack\" title=\"User:Gunnar Klack\">Gunnar Klack</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "179609468": {
+        "pageid": 179609468,
+        "ns": 6,
+        "title": "File:2014-04-02-MIT-Stratton-Student-Center-Massachusetts-Institute-of-Technology.jpg",
+        "index": 33,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2025-12-08T16:36:20Z",
+            "size": 709048,
+            "width": 2200,
+            "height": 1674,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/2014-04-02-MIT-Stratton-Student-Center-Massachusetts-Institute-of-Technology.jpg/960px-2014-04-02-MIT-Stratton-Student-Center-Massachusetts-Institute-of-Technology.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 487,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/2014-04-02-MIT-Stratton-Student-Center-Massachusetts-Institute-of-Technology.jpg/1280px-2014-04-02-MIT-Stratton-Student-Center-Massachusetts-Institute-of-Technology.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/2014-04-02-MIT-Stratton-Student-Center-Massachusetts-Institute-of-Technology.jpg/960px-2014-04-02-MIT-Stratton-Student-Center-Massachusetts-Institute-of-Technology.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 487,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/2014-04-02-MIT-Stratton-Student-Center-Massachusetts-Institute-of-Technology.jpg/1280px-2014-04-02-MIT-Stratton-Student-Center-Massachusetts-Institute-of-Technology.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/0/00/2014-04-02-MIT-Stratton-Student-Center-Massachusetts-Institute-of-Technology.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:2014-04-02-MIT-Stratton-Student-Center-Massachusetts-Institute-of-Technology.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=179609468",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "2014-04-02-MIT-Stratton-Student-Center-Massachusetts-Institute-of-Technology",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Stratton Student Center, Massachusetts Institute of Technology, Cambridge, Massachusetts, Foto 2014",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2014-04-02",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Gunnar_Klack\" title=\"User:Gunnar Klack\">Gunnar Klack</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "179678779": {
+        "pageid": 179678779,
+        "ns": 6,
+        "title": "File:2014-04-09-MIT-Building-14-Massachusetts-Institute-of-Technology.jpg",
+        "index": 29,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2025-12-10T15:03:19Z",
+            "size": 820662,
+            "width": 2250,
+            "height": 1410,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/2014-04-09-MIT-Building-14-Massachusetts-Institute-of-Technology.jpg/960px-2014-04-09-MIT-Building-14-Massachusetts-Institute-of-Technology.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 401,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/2014-04-09-MIT-Building-14-Massachusetts-Institute-of-Technology.jpg/1280px-2014-04-09-MIT-Building-14-Massachusetts-Institute-of-Technology.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/2014-04-09-MIT-Building-14-Massachusetts-Institute-of-Technology.jpg/960px-2014-04-09-MIT-Building-14-Massachusetts-Institute-of-Technology.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 401,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/2014-04-09-MIT-Building-14-Massachusetts-Institute-of-Technology.jpg/1280px-2014-04-09-MIT-Building-14-Massachusetts-Institute-of-Technology.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/2014-04-09-MIT-Building-14-Massachusetts-Institute-of-Technology.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:2014-04-09-MIT-Building-14-Massachusetts-Institute-of-Technology.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=179678779",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "2014-04-09-MIT-Building-14-Massachusetts-Institute-of-Technology",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Hayden Memorial Library (MIT Building 14), Massachusetts Institute of Technology, Memorial Drive, Cambridge, Massachusetts, Foto 2014",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2014-04-09",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Gunnar_Klack\" title=\"User:Gunnar Klack\">Gunnar Klack</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "179190881": {
+        "pageid": 179190881,
+        "ns": 6,
+        "title": "File:Great-Dome-Barker-Library-Massachusetts-Institute-of-Technology.jpg",
+        "index": 30,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2025-11-30T12:40:46Z",
+            "size": 354428,
+            "width": 1500,
+            "height": 1125,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Great-Dome-Barker-Library-Massachusetts-Institute-of-Technology.jpg/960px-Great-Dome-Barker-Library-Massachusetts-Institute-of-Technology.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 480,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Great-Dome-Barker-Library-Massachusetts-Institute-of-Technology.jpg/1280px-Great-Dome-Barker-Library-Massachusetts-Institute-of-Technology.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Great-Dome-Barker-Library-Massachusetts-Institute-of-Technology.jpg/960px-Great-Dome-Barker-Library-Massachusetts-Institute-of-Technology.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 480,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Great-Dome-Barker-Library-Massachusetts-Institute-of-Technology.jpg/1280px-Great-Dome-Barker-Library-Massachusetts-Institute-of-Technology.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Great-Dome-Barker-Library-Massachusetts-Institute-of-Technology.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Great-Dome-Barker-Library-Massachusetts-Institute-of-Technology.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=179190881",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Great-Dome-Barker-Library-Massachusetts-Institute-of-Technology",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Great Dome, Barker Library, Massachusetts Institute of Technology im April 2014",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2014-04-07",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Kristof_Magnusson\" title=\"User:Kristof Magnusson\">Kristof Magnusson</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "81973287": {
+        "pageid": 81973287,
+        "ns": 6,
+        "title": "File:Great Dome, Massachusetts Institute of Technology, Aug 2019.jpg",
+        "index": 1,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2019-09-08T13:02:30Z",
+            "size": 42830558,
+            "width": 12075,
+            "height": 5511,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Great_Dome%2C_Massachusetts_Institute_of_Technology%2C_Aug_2019.jpg/960px-Great_Dome%2C_Massachusetts_Institute_of_Technology%2C_Aug_2019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 292,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Great_Dome%2C_Massachusetts_Institute_of_Technology%2C_Aug_2019.jpg/1280px-Great_Dome%2C_Massachusetts_Institute_of_Technology%2C_Aug_2019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Great_Dome%2C_Massachusetts_Institute_of_Technology%2C_Aug_2019.jpg/960px-Great_Dome%2C_Massachusetts_Institute_of_Technology%2C_Aug_2019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 292,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Great_Dome%2C_Massachusetts_Institute_of_Technology%2C_Aug_2019.jpg/1280px-Great_Dome%2C_Massachusetts_Institute_of_Technology%2C_Aug_2019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Great_Dome%2C_Massachusetts_Institute_of_Technology%2C_Aug_2019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Great_Dome,_Massachusetts_Institute_of_Technology,_Aug_2019.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=81973287",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Great Dome, Massachusetts Institute of Technology, Aug 2019",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "​Great Dome, Massachusetts Institute of Technology in August 2019",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2019-08-30 16:01:50",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Mys_721tx\" title=\"User:Mys 721tx\">Mys 721tx</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "182270054": {
+        "pageid": 182270054,
+        "ns": 6,
+        "title": "File:Hayden Library, MIT, Cambridge, Massachusetts-taken on January 15, 2026.jpg",
+        "index": 35,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2026-01-23T05:30:29Z",
+            "size": 3665205,
+            "width": 4000,
+            "height": 3000,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Hayden_Library%2C_MIT%2C_Cambridge%2C_Massachusetts-taken_on_January_15%2C_2026.jpg/960px-Hayden_Library%2C_MIT%2C_Cambridge%2C_Massachusetts-taken_on_January_15%2C_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 480,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Hayden_Library%2C_MIT%2C_Cambridge%2C_Massachusetts-taken_on_January_15%2C_2026.jpg/1280px-Hayden_Library%2C_MIT%2C_Cambridge%2C_Massachusetts-taken_on_January_15%2C_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Hayden_Library%2C_MIT%2C_Cambridge%2C_Massachusetts-taken_on_January_15%2C_2026.jpg/960px-Hayden_Library%2C_MIT%2C_Cambridge%2C_Massachusetts-taken_on_January_15%2C_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 480,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Hayden_Library%2C_MIT%2C_Cambridge%2C_Massachusetts-taken_on_January_15%2C_2026.jpg/1280px-Hayden_Library%2C_MIT%2C_Cambridge%2C_Massachusetts-taken_on_January_15%2C_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Hayden_Library%2C_MIT%2C_Cambridge%2C_Massachusetts-taken_on_January_15%2C_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Hayden_Library,_MIT,_Cambridge,_Massachusetts-taken_on_January_15,_2026.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=182270054",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Hayden Library, MIT, Cambridge, Massachusetts-taken on January 15, 2026",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "2026 photograph of the Hayden Library, a part of the Massachusetts Institute of Technology.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2026-01-15 15:41:35",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Abzeronow\" title=\"User:Abzeronow\">Abzeronow</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "62447143": {
+        "pageid": 62447143,
+        "ns": 6,
+        "title": "File:Kuppelbau im MIT.jpg",
+        "index": 31,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2017-09-23T13:21:33Z",
+            "size": 12079848,
+            "width": 5340,
+            "height": 3608,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Kuppelbau_im_MIT.jpg/960px-Kuppelbau_im_MIT.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 432,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Kuppelbau_im_MIT.jpg/1280px-Kuppelbau_im_MIT.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Kuppelbau_im_MIT.jpg/960px-Kuppelbau_im_MIT.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 432,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Kuppelbau_im_MIT.jpg/1280px-Kuppelbau_im_MIT.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/8/81/Kuppelbau_im_MIT.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Kuppelbau_im_MIT.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=62447143",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Kuppelbau im MIT",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Great Dome at the <a href=\"https://en.wikipedia.org/wiki/Massachusetts_Institute_of_Technology\" class=\"extiw\" title=\"en:Massachusetts Institute of Technology\"> Massachusetts Institute of Technology</a>",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2017-08-09 20:00:14",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:A,Ocram\" title=\"User:A,Ocram\">Marco Almbauer</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "129433415": {
+        "pageid": 129433415,
+        "ns": 6,
+        "title": "File:Li Fu Lee at the Massachusetts Institute of Technology's radio experiment station, 1925.jpg",
+        "index": 10,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2023-03-09T15:11:39Z",
+            "size": 909343,
+            "width": 1558,
+            "height": 1792,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Li_Fu_Lee_at_the_Massachusetts_Institute_of_Technology%27s_radio_experiment_station%2C_1925.jpg/960px-Li_Fu_Lee_at_the_Massachusetts_Institute_of_Technology%27s_radio_experiment_station%2C_1925.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 736,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Li_Fu_Lee_at_the_Massachusetts_Institute_of_Technology%27s_radio_experiment_station%2C_1925.jpg/1280px-Li_Fu_Lee_at_the_Massachusetts_Institute_of_Technology%27s_radio_experiment_station%2C_1925.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Li_Fu_Lee_at_the_Massachusetts_Institute_of_Technology%27s_radio_experiment_station%2C_1925.jpg/960px-Li_Fu_Lee_at_the_Massachusetts_Institute_of_Technology%27s_radio_experiment_station%2C_1925.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 736,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Li_Fu_Lee_at_the_Massachusetts_Institute_of_Technology%27s_radio_experiment_station%2C_1925.jpg/1280px-Li_Fu_Lee_at_the_Massachusetts_Institute_of_Technology%27s_radio_experiment_station%2C_1925.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/5/54/Li_Fu_Lee_at_the_Massachusetts_Institute_of_Technology%27s_radio_experiment_station%2C_1925.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Li_Fu_Lee_at_the_Massachusetts_Institute_of_Technology%27s_radio_experiment_station,_1925.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=129433415",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Li Fu Lee at the Massachusetts Institute of Technology's radio experiment station, 1925",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Li Fu Lee at the Massachusetts Institute of Technology's radio experiment station, 1925<sup id=\"cite_ref-1\" class=\"reference\"><a href=\"#cite_note-1\"><span class=\"cite-bracket\">[</span>1<span class=\"cite-bracket\">]</span></a></sup>",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "Published October 20, 1925",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Underwood &amp; Underwood",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "129480374": {
+        "pageid": 129480374,
+        "ns": 6,
+        "title": "File:Li Fu Lee at the Massachusetts Institute of Technology's radio experiment station, 1925 (MIT Museum).jpg",
+        "index": 20,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2023-03-10T18:07:26Z",
+            "size": 2074417,
+            "width": 3000,
+            "height": 3761,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Li_Fu_Lee_at_the_Massachusetts_Institute_of_Technology%27s_radio_experiment_station%2C_1925_%28MIT_Museum%29.jpg/960px-Li_Fu_Lee_at_the_Massachusetts_Institute_of_Technology%27s_radio_experiment_station%2C_1925_%28MIT_Museum%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 802,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Li_Fu_Lee_at_the_Massachusetts_Institute_of_Technology%27s_radio_experiment_station%2C_1925_%28MIT_Museum%29.jpg/1280px-Li_Fu_Lee_at_the_Massachusetts_Institute_of_Technology%27s_radio_experiment_station%2C_1925_%28MIT_Museum%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Li_Fu_Lee_at_the_Massachusetts_Institute_of_Technology%27s_radio_experiment_station%2C_1925_%28MIT_Museum%29.jpg/960px-Li_Fu_Lee_at_the_Massachusetts_Institute_of_Technology%27s_radio_experiment_station%2C_1925_%28MIT_Museum%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 802,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Li_Fu_Lee_at_the_Massachusetts_Institute_of_Technology%27s_radio_experiment_station%2C_1925_%28MIT_Museum%29.jpg/1280px-Li_Fu_Lee_at_the_Massachusetts_Institute_of_Technology%27s_radio_experiment_station%2C_1925_%28MIT_Museum%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Li_Fu_Lee_at_the_Massachusetts_Institute_of_Technology%27s_radio_experiment_station%2C_1925_%28MIT_Museum%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Li_Fu_Lee_at_the_Massachusetts_Institute_of_Technology%27s_radio_experiment_station,_1925_(MIT_Museum).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=129480374",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Li Fu Lee at the Massachusetts Institute of Technology's radio experiment station, 1925 (MIT Museum)",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Li Fu Lee at the Massachusetts Institute of Technology's radio experiment station, 1925<sup id=\"cite_ref-1\" class=\"reference\"><a href=\"#cite_note-1\"><span class=\"cite-bracket\">[</span>1<span class=\"cite-bracket\">]</span></a></sup> (MIT Museum)",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1925",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Underwood &amp; Underwood",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "129491157": {
+        "pageid": 129491157,
+        "ns": 6,
+        "title": "File:Li Fu Lee at the Massachusetts Institute of Technology's radio experiment station, 1925 (MIT Museum) - Restoration.jpg",
+        "index": 2,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2023-04-04T00:08:19Z",
+            "size": 4556622,
+            "width": 2687,
+            "height": 3401,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Li_Fu_Lee_at_the_Massachusetts_Institute_of_Technology%27s_radio_experiment_station%2C_1925_%28MIT_Museum%29_-_Restoration.jpg/960px-Li_Fu_Lee_at_the_Massachusetts_Institute_of_Technology%27s_radio_experiment_station%2C_1925_%28MIT_Museum%29_-_Restoration.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 810,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Li_Fu_Lee_at_the_Massachusetts_Institute_of_Technology%27s_radio_experiment_station%2C_1925_%28MIT_Museum%29_-_Restoration.jpg/1280px-Li_Fu_Lee_at_the_Massachusetts_Institute_of_Technology%27s_radio_experiment_station%2C_1925_%28MIT_Museum%29_-_Restoration.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Li_Fu_Lee_at_the_Massachusetts_Institute_of_Technology%27s_radio_experiment_station%2C_1925_%28MIT_Museum%29_-_Restoration.jpg/960px-Li_Fu_Lee_at_the_Massachusetts_Institute_of_Technology%27s_radio_experiment_station%2C_1925_%28MIT_Museum%29_-_Restoration.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 810,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Li_Fu_Lee_at_the_Massachusetts_Institute_of_Technology%27s_radio_experiment_station%2C_1925_%28MIT_Museum%29_-_Restoration.jpg/1280px-Li_Fu_Lee_at_the_Massachusetts_Institute_of_Technology%27s_radio_experiment_station%2C_1925_%28MIT_Museum%29_-_Restoration.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Li_Fu_Lee_at_the_Massachusetts_Institute_of_Technology%27s_radio_experiment_station%2C_1925_%28MIT_Museum%29_-_Restoration.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Li_Fu_Lee_at_the_Massachusetts_Institute_of_Technology%27s_radio_experiment_station,_1925_(MIT_Museum)_-_Restoration.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=129491157",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Li Fu Lee at the Massachusetts Institute of Technology's radio experiment station, 1925 (MIT Museum) - Restoration",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Li Fu Lee at the Massachusetts Institute of Technology's radio experiment station, 1925<sup id=\"cite_ref-1\" class=\"reference\"><a href=\"#cite_note-1\"><span class=\"cite-bracket\">[</span>1<span class=\"cite-bracket\">]</span></a></sup> (MIT Museum)",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1925",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/User:Adam_Cuerden\" class=\"extiw\" title=\"en:User:Adam Cuerden\">Adam Cuerden</a></bdi>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "179190877": {
+        "pageid": 179190877,
+        "ns": 6,
+        "title": "File:MIT-Building-10-Maclaurin-Buildings-Massachusetts-Institute-of-Technology.jpg",
+        "index": 21,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2025-11-30T12:40:41Z",
+            "size": 1378945,
+            "width": 2592,
+            "height": 1944,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/MIT-Building-10-Maclaurin-Buildings-Massachusetts-Institute-of-Technology.jpg/960px-MIT-Building-10-Maclaurin-Buildings-Massachusetts-Institute-of-Technology.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 480,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/MIT-Building-10-Maclaurin-Buildings-Massachusetts-Institute-of-Technology.jpg/1280px-MIT-Building-10-Maclaurin-Buildings-Massachusetts-Institute-of-Technology.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/MIT-Building-10-Maclaurin-Buildings-Massachusetts-Institute-of-Technology.jpg/960px-MIT-Building-10-Maclaurin-Buildings-Massachusetts-Institute-of-Technology.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 480,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/MIT-Building-10-Maclaurin-Buildings-Massachusetts-Institute-of-Technology.jpg/1280px-MIT-Building-10-Maclaurin-Buildings-Massachusetts-Institute-of-Technology.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/MIT-Building-10-Maclaurin-Buildings-Massachusetts-Institute-of-Technology.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:MIT-Building-10-Maclaurin-Buildings-Massachusetts-Institute-of-Technology.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=179190877",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "MIT-Building-10-Maclaurin-Buildings-Massachusetts-Institute-of-Technology",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Massachusetts Institute of Technology, Maclaurin Buildings, MIT Building 10, im April 2014",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2014-04-07",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Kristof_Magnusson\" title=\"User:Kristof Magnusson\">Kristof Magnusson</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "179190869": {
+        "pageid": 179190869,
+        "ns": 6,
+        "title": "File:MIT-Building-14-Massachusetts-Institute-of-Technology.jpg",
+        "index": 14,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2025-11-30T12:40:38Z",
+            "size": 680193,
+            "width": 1478,
+            "height": 2000,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/MIT-Building-14-Massachusetts-Institute-of-Technology.jpg/960px-MIT-Building-14-Massachusetts-Institute-of-Technology.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 866,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/MIT-Building-14-Massachusetts-Institute-of-Technology.jpg/1280px-MIT-Building-14-Massachusetts-Institute-of-Technology.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/MIT-Building-14-Massachusetts-Institute-of-Technology.jpg/960px-MIT-Building-14-Massachusetts-Institute-of-Technology.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 866,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/MIT-Building-14-Massachusetts-Institute-of-Technology.jpg/1280px-MIT-Building-14-Massachusetts-Institute-of-Technology.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/MIT-Building-14-Massachusetts-Institute-of-Technology.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:MIT-Building-14-Massachusetts-Institute-of-Technology.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=179190869",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "MIT-Building-14-Massachusetts-Institute-of-Technology",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Massachusetts Institute of Technology, Building 14, MIT Global Languages im April 2014",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2014-04-07",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Kristof_Magnusson\" title=\"User:Kristof Magnusson\">Kristof Magnusson</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "103609469": {
+        "pageid": 103609469,
+        "ns": 6,
+        "title": "File:MIT-TALK-ITB.jpg",
+        "index": 38,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2021-04-14T04:22:19Z",
+            "size": 151044,
+            "width": 1280,
+            "height": 906,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/MIT-TALK-ITB.jpg/960px-MIT-TALK-ITB.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 453,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/d/d9/MIT-TALK-ITB.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/MIT-TALK-ITB.jpg/960px-MIT-TALK-ITB.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 453,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/d/d9/MIT-TALK-ITB.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/MIT-TALK-ITB.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:MIT-TALK-ITB.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=103609469",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "MIT-TALK-ITB",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "MIT sharing session on research culture organized by LPPM Institut Teknologi Bandung on 5th of April 2021. Speakers: Prof. Bruce Tidor, Prof. Michael Sipser, Prof. Yang-Shao Horn, and Prof. Munther Dahleh.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2021-04-05",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Dasaptaerwin\" title=\"User:Dasaptaerwin\">Dasaptaerwin</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "168394775": {
+        "pageid": 168394775,
+        "ns": 6,
+        "title": "File:MIT 2023 red logo.svg",
+        "index": 19,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2026-01-13T20:04:10Z",
+            "size": 751,
+            "width": 449,
+            "height": 252,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/MIT_2023_red_logo.svg/960px-MIT_2023_red_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 359,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/MIT_2023_red_logo.svg/1280px-MIT_2023_red_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/MIT_2023_red_logo.svg/960px-MIT_2023_red_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 359,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/MIT_2023_red_logo.svg/1280px-MIT_2023_red_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/MIT_2023_red_logo.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:MIT_2023_red_logo.svg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=168394775",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "MIT 2023 red logo",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Logo of the Massachusetts Institute of Technology, introduced in 2003 with color revisions circa 2023",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "Designed in 2002 , with color revisions in circa 2023<div style=\"display: none;\">date QS:P,+2023-00-00T00:00:00Z/9,P1480,Q5727902</div> (<a rel=\"nofollow\" class=\"external text\" href=\"https://brand.mit.edu/faq\">1</a>)",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"https://en.wikipedia.org/wiki/Matthew_Carter\" class=\"extiw\" title=\"w:Matthew Carter\">Matthew Carter</a> and others, owned by Massachusetts Institute of Technology",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/svg+xml"
+          }
+        ]
+      },
+      "100997898": {
+        "pageid": 100997898,
+        "ns": 6,
+        "title": "File:MIT punched card.agr.jpg",
+        "index": 37,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2021-03-04T14:16:33Z",
+            "size": 189437,
+            "width": 526,
+            "height": 237,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/c/c0/MIT_punched_card.agr.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 640,
+            "thumbheight": 288,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/c/c0/MIT_punched_card.agr.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 288
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/MIT_punched_card.agr.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:MIT_punched_card.agr.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=100997898",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "MIT punched card.agr",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Punched card with older MIT logo",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "circa 1969<div style=\"display: none;\">date QS:P,+1969-00-00T00:00:00Z/9,P1480,Q5727902</div>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:ArnoldReinhold\" title=\"User:ArnoldReinhold\">ArnoldReinhold</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "179190235": {
+        "pageid": 179190235,
+        "ns": 6,
+        "title": "File:Massachusetts-Institute-Technology-poster-talk-Gunnar-Klack.jpg",
+        "index": 6,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2025-11-30T12:27:21Z",
+            "size": 665909,
+            "width": 1346,
+            "height": 1865,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Massachusetts-Institute-Technology-poster-talk-Gunnar-Klack.jpg/960px-Massachusetts-Institute-Technology-poster-talk-Gunnar-Klack.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 887,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Massachusetts-Institute-Technology-poster-talk-Gunnar-Klack.jpg/1280px-Massachusetts-Institute-Technology-poster-talk-Gunnar-Klack.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Massachusetts-Institute-Technology-poster-talk-Gunnar-Klack.jpg/960px-Massachusetts-Institute-Technology-poster-talk-Gunnar-Klack.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 887,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Massachusetts-Institute-Technology-poster-talk-Gunnar-Klack.jpg/1280px-Massachusetts-Institute-Technology-poster-talk-Gunnar-Klack.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Massachusetts-Institute-Technology-poster-talk-Gunnar-Klack.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Massachusetts-Institute-Technology-poster-talk-Gunnar-Klack.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=179190235",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Massachusetts-Institute-Technology-poster-talk-Gunnar-Klack",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Massachusetts Institute of Technology Plakat. Massachusetts Institute of Technology Plakat. Das Foto von der Berliner Mauer auf dem Plakat stammt von Tom Godber auf Flickr. Es wurde damals auf Flickr mit Creative-Commons-Lizenz hochgeladen. Heute ist das Originalbild nicht mehr online.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2014-04-07",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Kristof_Magnusson\" title=\"User:Kristof Magnusson\">Kristof Magnusson</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "179190871": {
+        "pageid": 179190871,
+        "ns": 6,
+        "title": "File:Massachusetts-Institute-of-Technology-MIT-Chapel.jpg",
+        "index": 9,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2025-11-30T12:40:38Z",
+            "size": 655776,
+            "width": 2000,
+            "height": 1500,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Massachusetts-Institute-of-Technology-MIT-Chapel.jpg/960px-Massachusetts-Institute-of-Technology-MIT-Chapel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 480,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Massachusetts-Institute-of-Technology-MIT-Chapel.jpg/1280px-Massachusetts-Institute-of-Technology-MIT-Chapel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Massachusetts-Institute-of-Technology-MIT-Chapel.jpg/960px-Massachusetts-Institute-of-Technology-MIT-Chapel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 480,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Massachusetts-Institute-of-Technology-MIT-Chapel.jpg/1280px-Massachusetts-Institute-of-Technology-MIT-Chapel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Massachusetts-Institute-of-Technology-MIT-Chapel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Massachusetts-Institute-of-Technology-MIT-Chapel.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=179190871",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Massachusetts-Institute-of-Technology-MIT-Chapel",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Massachusetts Institute of Technology, MIT Chapel, April 2014",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2014-04-07",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Kristof_Magnusson\" title=\"User:Kristof Magnusson\">Kristof Magnusson</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "179191264": {
+        "pageid": 179191264,
+        "ns": 6,
+        "title": "File:Massachusetts-Institute-of-Technology-MIT-Global-Languages-department-of-un-american-studies-Becher.jpg",
+        "index": 15,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2025-11-30T12:47:26Z",
+            "size": 715052,
+            "width": 2592,
+            "height": 1944,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Massachusetts-Institute-of-Technology-MIT-Global-Languages-department-of-un-american-studies-Becher.jpg/960px-Massachusetts-Institute-of-Technology-MIT-Global-Languages-department-of-un-american-studies-Becher.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 480,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Massachusetts-Institute-of-Technology-MIT-Global-Languages-department-of-un-american-studies-Becher.jpg/1280px-Massachusetts-Institute-of-Technology-MIT-Global-Languages-department-of-un-american-studies-Becher.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Massachusetts-Institute-of-Technology-MIT-Global-Languages-department-of-un-american-studies-Becher.jpg/960px-Massachusetts-Institute-of-Technology-MIT-Global-Languages-department-of-un-american-studies-Becher.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 480,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Massachusetts-Institute-of-Technology-MIT-Global-Languages-department-of-un-american-studies-Becher.jpg/1280px-Massachusetts-Institute-of-Technology-MIT-Global-Languages-department-of-un-american-studies-Becher.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Massachusetts-Institute-of-Technology-MIT-Global-Languages-department-of-un-american-studies-Becher.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Massachusetts-Institute-of-Technology-MIT-Global-Languages-department-of-un-american-studies-Becher.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=179191264",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Massachusetts-Institute-of-Technology-MIT-Global-Languages-department-of-un-american-studies-Becher",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Becher, Massachusetts Institute of Technology, MIT Global Languages",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2014-04-05",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Kristof_Magnusson\" title=\"User:Kristof Magnusson\">Kristof Magnusson</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "179190883": {
+        "pageid": 179190883,
+        "ns": 6,
+        "title": "File:Massachusetts-Institute-of-Technology-NOT-ART.jpg",
+        "index": 11,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2025-11-30T12:40:47Z",
+            "size": 1166623,
+            "width": 2592,
+            "height": 1944,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Massachusetts-Institute-of-Technology-NOT-ART.jpg/960px-Massachusetts-Institute-of-Technology-NOT-ART.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 480,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Massachusetts-Institute-of-Technology-NOT-ART.jpg/1280px-Massachusetts-Institute-of-Technology-NOT-ART.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Massachusetts-Institute-of-Technology-NOT-ART.jpg/960px-Massachusetts-Institute-of-Technology-NOT-ART.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 480,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Massachusetts-Institute-of-Technology-NOT-ART.jpg/1280px-Massachusetts-Institute-of-Technology-NOT-ART.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Massachusetts-Institute-of-Technology-NOT-ART.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Massachusetts-Institute-of-Technology-NOT-ART.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=179190883",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Massachusetts-Institute-of-Technology-NOT-ART",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Massachusetts Institute of Technology im April 2014",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2014-04-07",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Kristof_Magnusson\" title=\"User:Kristof Magnusson\">Kristof Magnusson</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "109672481": {
+        "pageid": 109672481,
+        "ns": 6,
+        "title": "File:Massachusetts Institute of Technology, Boston, Mass.jpg",
+        "index": 36,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2021-09-04T10:23:07Z",
+            "size": 2214909,
+            "width": 3333,
+            "height": 2154,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Massachusetts_Institute_of_Technology%2C_Boston%2C_Mass.jpg/960px-Massachusetts_Institute_of_Technology%2C_Boston%2C_Mass.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 414,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Massachusetts_Institute_of_Technology%2C_Boston%2C_Mass.jpg/1280px-Massachusetts_Institute_of_Technology%2C_Boston%2C_Mass.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Massachusetts_Institute_of_Technology%2C_Boston%2C_Mass.jpg/960px-Massachusetts_Institute_of_Technology%2C_Boston%2C_Mass.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 414,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Massachusetts_Institute_of_Technology%2C_Boston%2C_Mass.jpg/1280px-Massachusetts_Institute_of_Technology%2C_Boston%2C_Mass.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Massachusetts_Institute_of_Technology%2C_Boston%2C_Mass.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Massachusetts_Institute_of_Technology,_Boston,_Mass.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=109672481",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Massachusetts Institute of Technology, Boston, Mass",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Massachusetts Institute of Technology, Boston, Mass.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "ca. 1930–1945",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Tichnor Brothers",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "46122501": {
+        "pageid": 46122501,
+        "ns": 6,
+        "title": "File:Massachusetts Institute of Technology, Boston, Mass (64460).jpg",
+        "index": 39,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2016-01-05T02:47:21Z",
+            "size": 3511331,
+            "width": 3333,
+            "height": 2154,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Massachusetts_Institute_of_Technology%2C_Boston%2C_Mass_%2864460%29.jpg/960px-Massachusetts_Institute_of_Technology%2C_Boston%2C_Mass_%2864460%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 414,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Massachusetts_Institute_of_Technology%2C_Boston%2C_Mass_%2864460%29.jpg/1280px-Massachusetts_Institute_of_Technology%2C_Boston%2C_Mass_%2864460%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Massachusetts_Institute_of_Technology%2C_Boston%2C_Mass_%2864460%29.jpg/960px-Massachusetts_Institute_of_Technology%2C_Boston%2C_Mass_%2864460%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 414,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Massachusetts_Institute_of_Technology%2C_Boston%2C_Mass_%2864460%29.jpg/1280px-Massachusetts_Institute_of_Technology%2C_Boston%2C_Mass_%2864460%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/0/07/Massachusetts_Institute_of_Technology%2C_Boston%2C_Mass_%2864460%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Massachusetts_Institute_of_Technology,_Boston,_Mass_(64460).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=46122501",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Massachusetts Institute of Technology, Boston, Mass (64460)",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "<b>Title:</b> <i>Massachusetts Institute of Technology, Boston, Mass.</i>\n<dl><dd><b>Description:</b> The Massachusetts Institute of Technology, M. I. T., located across the Harvard Bridge from Boston, is the most famous of all technical colleges in the world. From the ranks of its alumni have come the leaders of Science, Architecture and Invention.</dd>\n<dd><b>Subjects:</b> Universities &amp; colleges; Massachusetts Institute of Technology</dd>\n<dd><b>Places:</b> Massachusetts &gt; Middlesex (county) &gt; Cambridge &gt; Massachusetts Institute of Technology; Massachusetts &gt; Suffolk (county) &gt; Boston</dd>\n<dd><b>Notes:</b> Title from item.</dd>\n<dd><b>Extent:</b> 1 print (postcard) : linen texture, color ; 3 1/2 x 5 1/2 in.</dd>\n<dd><b>Accession #:</b> 06_10_000069</dd></dl>",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "between circa 1930 and circa 1945<div style=\"display: none;\">date QS:P,+1950-00-00T00:00:00Z/7,P1319,+1930-00-00T00:00:00Z/9,P1326,+1945-00-00T00:00:00Z/9,P1480,Q5727902</div>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Tichnor Bros. Inc., Boston, Mass.",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "24266723": {
+        "pageid": 24266723,
+        "ns": 6,
+        "title": "File:Massachusetts Institute of Technology (7200951446).jpg",
+        "index": 18,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2013-01-27T15:58:58Z",
+            "size": 265696,
+            "width": 1600,
+            "height": 1222,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Massachusetts_Institute_of_Technology_%287200951446%29.jpg/960px-Massachusetts_Institute_of_Technology_%287200951446%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 489,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Massachusetts_Institute_of_Technology_%287200951446%29.jpg/1280px-Massachusetts_Institute_of_Technology_%287200951446%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Massachusetts_Institute_of_Technology_%287200951446%29.jpg/960px-Massachusetts_Institute_of_Technology_%287200951446%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 489,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Massachusetts_Institute_of_Technology_%287200951446%29.jpg/1280px-Massachusetts_Institute_of_Technology_%287200951446%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Massachusetts_Institute_of_Technology_%287200951446%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Massachusetts_Institute_of_Technology_(7200951446).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=24266723",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Massachusetts Institute of Technology (7200951446)",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Sign for the Mechanical Engineering Department at MIT",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2012-05-04 15:15",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/56619626@N05\">InSapphoWeTrust</a> from Los Angeles, California, USA",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "67006903": {
+        "pageid": 67006903,
+        "ns": 6,
+        "title": "File:Massachusetts Institute of Technology (NBY 9507).jpg",
+        "index": 16,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2018-03-03T12:17:17Z",
+            "size": 85327,
+            "width": 828,
+            "height": 524,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Massachusetts_Institute_of_Technology_%28NBY_9507%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 640,
+            "thumbheight": 405,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Massachusetts_Institute_of_Technology_%28NBY_9507%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 405
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Massachusetts_Institute_of_Technology_%28NBY_9507%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Massachusetts_Institute_of_Technology_(NBY_9507).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=67006903",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Massachusetts Institute of Technology (NBY 9507)",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Massachusetts Institute of Technology",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "Unknown date",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Unknown author<span style=\"display: none;\">Unknown author</span>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "160496778": {
+        "pageid": 160496778,
+        "ns": 6,
+        "title": "File:Massachusetts Institute of Technology Lincoln Laboratory to Collaborate with IMCOM-Pacific on Summer 2021 Institute (6366388).jpg",
+        "index": 24,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2025-02-24T19:17:20Z",
+            "size": 671524,
+            "width": 2020,
+            "height": 1264,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Massachusetts_Institute_of_Technology_Lincoln_Laboratory_to_Collaborate_with_IMCOM-Pacific_on_Summer_2021_Institute_%286366388%29.jpg/960px-Massachusetts_Institute_of_Technology_Lincoln_Laboratory_to_Collaborate_with_IMCOM-Pacific_on_Summer_2021_Institute_%286366388%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 400,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Massachusetts_Institute_of_Technology_Lincoln_Laboratory_to_Collaborate_with_IMCOM-Pacific_on_Summer_2021_Institute_%286366388%29.jpg/1280px-Massachusetts_Institute_of_Technology_Lincoln_Laboratory_to_Collaborate_with_IMCOM-Pacific_on_Summer_2021_Institute_%286366388%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Massachusetts_Institute_of_Technology_Lincoln_Laboratory_to_Collaborate_with_IMCOM-Pacific_on_Summer_2021_Institute_%286366388%29.jpg/960px-Massachusetts_Institute_of_Technology_Lincoln_Laboratory_to_Collaborate_with_IMCOM-Pacific_on_Summer_2021_Institute_%286366388%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 400,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Massachusetts_Institute_of_Technology_Lincoln_Laboratory_to_Collaborate_with_IMCOM-Pacific_on_Summer_2021_Institute_%286366388%29.jpg/1280px-Massachusetts_Institute_of_Technology_Lincoln_Laboratory_to_Collaborate_with_IMCOM-Pacific_on_Summer_2021_Institute_%286366388%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Massachusetts_Institute_of_Technology_Lincoln_Laboratory_to_Collaborate_with_IMCOM-Pacific_on_Summer_2021_Institute_%286366388%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Massachusetts_Institute_of_Technology_Lincoln_Laboratory_to_Collaborate_with_IMCOM-Pacific_on_Summer_2021_Institute_(6366388).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=160496778",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Massachusetts Institute of Technology Lincoln Laboratory to Collaborate with IMCOM-Pacific on Summer 2021 Institute (6366388)",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Julia Sholar, left, a Massachusetts Institute of Technology Lincoln Laboratory Beaver Works Summer Institute program participant, shares her team project with parents and friends during the BWSI poster session, Aug. 2, 2020, on U.S. Army Garrison-Kwajalein Atoll. (U.S. Army photo by Jessica Dambruch)",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "Taken on 2 August 2020",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "U.S. Army photo by <a rel=\"nofollow\" class=\"external text\" href=\"https://www.dvidshub.net/portfolio/1654160\">Jessica Dambruch</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "160496790": {
+        "pageid": 160496790,
+        "ns": 6,
+        "title": "File:Massachusetts Institute of Technology Lincoln Laboratory to Collaborate with IMCOM-Pacific on Summer 2021 Institute (6366390).jpg",
+        "index": 26,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2025-02-24T19:17:28Z",
+            "size": 1012339,
+            "width": 1916,
+            "height": 1308,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Massachusetts_Institute_of_Technology_Lincoln_Laboratory_to_Collaborate_with_IMCOM-Pacific_on_Summer_2021_Institute_%286366390%29.jpg/960px-Massachusetts_Institute_of_Technology_Lincoln_Laboratory_to_Collaborate_with_IMCOM-Pacific_on_Summer_2021_Institute_%286366390%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 437,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Massachusetts_Institute_of_Technology_Lincoln_Laboratory_to_Collaborate_with_IMCOM-Pacific_on_Summer_2021_Institute_%286366390%29.jpg/1280px-Massachusetts_Institute_of_Technology_Lincoln_Laboratory_to_Collaborate_with_IMCOM-Pacific_on_Summer_2021_Institute_%286366390%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Massachusetts_Institute_of_Technology_Lincoln_Laboratory_to_Collaborate_with_IMCOM-Pacific_on_Summer_2021_Institute_%286366390%29.jpg/960px-Massachusetts_Institute_of_Technology_Lincoln_Laboratory_to_Collaborate_with_IMCOM-Pacific_on_Summer_2021_Institute_%286366390%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 437,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Massachusetts_Institute_of_Technology_Lincoln_Laboratory_to_Collaborate_with_IMCOM-Pacific_on_Summer_2021_Institute_%286366390%29.jpg/1280px-Massachusetts_Institute_of_Technology_Lincoln_Laboratory_to_Collaborate_with_IMCOM-Pacific_on_Summer_2021_Institute_%286366390%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Massachusetts_Institute_of_Technology_Lincoln_Laboratory_to_Collaborate_with_IMCOM-Pacific_on_Summer_2021_Institute_%286366390%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Massachusetts_Institute_of_Technology_Lincoln_Laboratory_to_Collaborate_with_IMCOM-Pacific_on_Summer_2021_Institute_(6366390).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=160496790",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Massachusetts Institute of Technology Lincoln Laboratory to Collaborate with IMCOM-Pacific on Summer 2021 Institute (6366390)",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Scott Hill, left, and Carrie Aljure, center, check out a game with assistance from Massachusetts Institute of Technology Lincoln Laboratory Beaver Works Summer Institute program attendee Crimson Stambaugh, Aug. 2, 2020, on U.S. Army Garrison-Kwajalein Atoll. (U.S. Army photo by Jessica Dambruch)",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "Taken on 2 August 2020",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "U.S. Army photo by <a rel=\"nofollow\" class=\"external text\" href=\"https://www.dvidshub.net/portfolio/1654160\">Jessica Dambruch</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "73864774": {
+        "pageid": 73864774,
+        "ns": 6,
+        "title": "File:Massachusetts Institute of Technology Military Science bookplate.png",
+        "index": 23,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2018-10-25T15:13:25Z",
+            "size": 33267,
+            "width": 352,
+            "height": 418,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/5/53/Massachusetts_Institute_of_Technology_Military_Science_bookplate.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 640,
+            "thumbheight": 760,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/5/53/Massachusetts_Institute_of_Technology_Military_Science_bookplate.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 760
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/5/53/Massachusetts_Institute_of_Technology_Military_Science_bookplate.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Massachusetts_Institute_of_Technology_Military_Science_bookplate.png",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=73864774",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Massachusetts Institute of Technology Military Science bookplate",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "\"Bookplate of the Department of Military Science, showing a modified form of the seal of the institute.\"",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1915-01-01",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Harry Parker Ward",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/png"
+          }
+        ]
+      },
+      "73865025": {
+        "pageid": 73865025,
+        "ns": 6,
+        "title": "File:Massachusetts Institute of Technology Technology Club bookplate.png",
+        "index": 13,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2018-10-25T15:31:39Z",
+            "size": 80367,
+            "width": 480,
+            "height": 321,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/8/81/Massachusetts_Institute_of_Technology_Technology_Club_bookplate.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 640,
+            "thumbheight": 428,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/8/81/Massachusetts_Institute_of_Technology_Technology_Club_bookplate.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 428
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/8/81/Massachusetts_Institute_of_Technology_Technology_Club_bookplate.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Massachusetts_Institute_of_Technology_Technology_Club_bookplate.png",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=73865025",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Massachusetts Institute of Technology Technology Club bookplate",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "This bookplate \"is taken from the seal of the Institute, but in a modified form which was never officially adopted.  The supporters of the altar of learning are taking a rest from their official position, and are seen at their ease in the Morris chairs which form a delightful feature of the club.\"",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1915-01-01",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Harry Parker Ward",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/png"
+          }
+        ]
+      },
+      "73864862": {
+        "pageid": 73864862,
+        "ns": 6,
+        "title": "File:Massachusetts Institute of Technology Walker Library bookplate.png",
+        "index": 22,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2018-10-25T15:20:16Z",
+            "size": 68967,
+            "width": 321,
+            "height": 431,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Massachusetts_Institute_of_Technology_Walker_Library_bookplate.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 640,
+            "thumbheight": 859,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Massachusetts_Institute_of_Technology_Walker_Library_bookplate.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 859
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Massachusetts_Institute_of_Technology_Walker_Library_bookplate.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Massachusetts_Institute_of_Technology_Walker_Library_bookplate.png",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=73864862",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Massachusetts Institute of Technology Walker Library bookplate",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "These books on economics \"belonged to the late General Francis A. Walker, who was president of MIT from 1881 until his death in 1897.\"",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1915-01-01",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Harry Parker Ward",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/png"
+          }
+        ]
+      },
+      "180685918": {
+        "pageid": 180685918,
+        "ns": 6,
+        "title": "File:Massachusetts Institute of Technology at the End of World War II 6922654.jpg",
+        "index": 34,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2025-12-26T04:24:08Z",
+            "size": 588262,
+            "width": 1280,
+            "height": 552,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Massachusetts_Institute_of_Technology_at_the_End_of_World_War_II_6922654.jpg/960px-Massachusetts_Institute_of_Technology_at_the_End_of_World_War_II_6922654.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 276,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Massachusetts_Institute_of_Technology_at_the_End_of_World_War_II_6922654.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Massachusetts_Institute_of_Technology_at_the_End_of_World_War_II_6922654.jpg/960px-Massachusetts_Institute_of_Technology_at_the_End_of_World_War_II_6922654.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 276,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Massachusetts_Institute_of_Technology_at_the_End_of_World_War_II_6922654.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Massachusetts_Institute_of_Technology_at_the_End_of_World_War_II_6922654.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Massachusetts_Institute_of_Technology_at_the_End_of_World_War_II_6922654.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=180685918",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Massachusetts Institute of Technology at the End of World War II 6922654",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Aerial view of Radiation Laboratory facilities at the Massachusetts Institute of Technology, including the Roof Lab (Building 6), Building 24, Building 22, and Building 20 (far right).",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "circa July 1945",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Unknown author<span style=\"display: none;\">Unknown author</span>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "154614907": {
+        "pageid": 154614907,
+        "ns": 6,
+        "title": "File:Massachusetts Institute of Technology campus aerial 1921 US Army.jpg",
+        "index": 5,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2024-10-30T02:52:44Z",
+            "size": 5094253,
+            "width": 3274,
+            "height": 2518,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Massachusetts_Institute_of_Technology_campus_aerial_1921_US_Army.jpg/960px-Massachusetts_Institute_of_Technology_campus_aerial_1921_US_Army.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 492,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Massachusetts_Institute_of_Technology_campus_aerial_1921_US_Army.jpg/1280px-Massachusetts_Institute_of_Technology_campus_aerial_1921_US_Army.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Massachusetts_Institute_of_Technology_campus_aerial_1921_US_Army.jpg/960px-Massachusetts_Institute_of_Technology_campus_aerial_1921_US_Army.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 492,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Massachusetts_Institute_of_Technology_campus_aerial_1921_US_Army.jpg/1280px-Massachusetts_Institute_of_Technology_campus_aerial_1921_US_Army.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Massachusetts_Institute_of_Technology_campus_aerial_1921_US_Army.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Massachusetts_Institute_of_Technology_campus_aerial_1921_US_Army.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=154614907",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Massachusetts Institute of Technology campus aerial 1921 US Army",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Aerial view of the Massachusetts Institute of Technology (MIT), facing north.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "August-November 1921",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Captain A.W. Stevens, U.S. Army Air Service",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "154573942": {
+        "pageid": 154573942,
+        "ns": 6,
+        "title": "File:Massachusetts Institute of Technology campus aerial War Department 1925.jpg",
+        "index": 4,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2024-10-29T12:54:18Z",
+            "size": 6144080,
+            "width": 3501,
+            "height": 2590,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Massachusetts_Institute_of_Technology_campus_aerial_War_Department_1925.jpg/960px-Massachusetts_Institute_of_Technology_campus_aerial_War_Department_1925.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 473,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Massachusetts_Institute_of_Technology_campus_aerial_War_Department_1925.jpg/1280px-Massachusetts_Institute_of_Technology_campus_aerial_War_Department_1925.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Massachusetts_Institute_of_Technology_campus_aerial_War_Department_1925.jpg/960px-Massachusetts_Institute_of_Technology_campus_aerial_War_Department_1925.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 473,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Massachusetts_Institute_of_Technology_campus_aerial_War_Department_1925.jpg/1280px-Massachusetts_Institute_of_Technology_campus_aerial_War_Department_1925.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/7/77/Massachusetts_Institute_of_Technology_campus_aerial_War_Department_1925.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Massachusetts_Institute_of_Technology_campus_aerial_War_Department_1925.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=154573942",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Massachusetts Institute of Technology campus aerial War Department 1925",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Aerial photograph of the campus of the Massachusetts Institute of Technology, taken by the United States Department of War. Facing north, the Main Group and Great Dome are in the center of the image. At center right are E18 and E19, completed in 1920. At middle left are buildings of MIT's Military Aeronautics program, now demolished. In the background is the industrial district of Cambridge, now known as Kendall Square.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1925-07-23",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "War Department. Army Air Forces, via National Archives and Records Administration",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "154646161": {
+        "pageid": 154646161,
+        "ns": 6,
+        "title": "File:Massachusetts Institute of Technology campus aerial all buildings 1921 US Army.jpg",
+        "index": 3,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2024-10-30T13:58:29Z",
+            "size": 5946898,
+            "width": 3270,
+            "height": 2527,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Massachusetts_Institute_of_Technology_campus_aerial_all_buildings_1921_US_Army.jpg/960px-Massachusetts_Institute_of_Technology_campus_aerial_all_buildings_1921_US_Army.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 495,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Massachusetts_Institute_of_Technology_campus_aerial_all_buildings_1921_US_Army.jpg/1280px-Massachusetts_Institute_of_Technology_campus_aerial_all_buildings_1921_US_Army.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Massachusetts_Institute_of_Technology_campus_aerial_all_buildings_1921_US_Army.jpg/960px-Massachusetts_Institute_of_Technology_campus_aerial_all_buildings_1921_US_Army.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 495,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Massachusetts_Institute_of_Technology_campus_aerial_all_buildings_1921_US_Army.jpg/1280px-Massachusetts_Institute_of_Technology_campus_aerial_all_buildings_1921_US_Army.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Massachusetts_Institute_of_Technology_campus_aerial_all_buildings_1921_US_Army.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Massachusetts_Institute_of_Technology_campus_aerial_all_buildings_1921_US_Army.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=154646161",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Massachusetts Institute of Technology campus aerial all buildings 1921 US Army",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Aerial view of Massachusetts Institute of Technology campus, facing north. From left to right on the Memorial Drive parkway are the Main Group, Walker Memorial, Gray House, and Senior House. Visible behind the Main Group are the MIT aeronautics buildings, power house, and foundry. At upper left are industrial buildings on the Broad Canal.  Original caption: \"Showing Massachusetts Institute of Technology, showing all buildings and grounds. Taken by Capt. Stevens during Survey of White Mountains. 1921\"",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "August–November 1921",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Captain A. W. Stevens, US Army Air Service",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "163190762": {
+        "pageid": 163190762,
+        "ns": 6,
+        "title": "File:Massachusetts Institute of Technology campus aerial all buildings 1921 US Army cropped.png",
+        "index": 8,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2025-04-05T02:28:25Z",
+            "size": 5690863,
+            "width": 2676,
+            "height": 1911,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Massachusetts_Institute_of_Technology_campus_aerial_all_buildings_1921_US_Army_cropped.png/960px-Massachusetts_Institute_of_Technology_campus_aerial_all_buildings_1921_US_Army_cropped.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 457,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Massachusetts_Institute_of_Technology_campus_aerial_all_buildings_1921_US_Army_cropped.png/1280px-Massachusetts_Institute_of_Technology_campus_aerial_all_buildings_1921_US_Army_cropped.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Massachusetts_Institute_of_Technology_campus_aerial_all_buildings_1921_US_Army_cropped.png/960px-Massachusetts_Institute_of_Technology_campus_aerial_all_buildings_1921_US_Army_cropped.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 457,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Massachusetts_Institute_of_Technology_campus_aerial_all_buildings_1921_US_Army_cropped.png/1280px-Massachusetts_Institute_of_Technology_campus_aerial_all_buildings_1921_US_Army_cropped.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Massachusetts_Institute_of_Technology_campus_aerial_all_buildings_1921_US_Army_cropped.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Massachusetts_Institute_of_Technology_campus_aerial_all_buildings_1921_US_Army_cropped.png",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=163190762",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Massachusetts Institute of Technology campus aerial all buildings 1921 US Army cropped",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Aerial view of Massachusetts Institute of Technology campus, facing north. From left to right on the Memorial Drive parkway are the Main Group, Walker Memorial, Gray House, and Senior House. Visible behind the Main Group are the MIT aeronautics buildings, power house, and foundry. At upper left are industrial buildings on the Broad Canal.  Original caption: \"Showing Massachusetts Institute of Technology, showing all buildings and grounds. Taken by Capt. Stevens during Survey of White Mountains. 1921\"",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "August–November 1921",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Captain A. W. Stevens, US Army Air Service",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/png"
+          }
+        ]
+      },
+      "10419322": {
+        "pageid": 10419322,
+        "ns": 6,
+        "title": "File:Massachusetts Institute of Technology logo.svg",
+        "index": 28,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2010-05-24T19:21:00Z",
+            "size": 11083,
+            "width": 1022,
+            "height": 768,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Massachusetts_Institute_of_Technology_logo.svg/960px-Massachusetts_Institute_of_Technology_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 481,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Massachusetts_Institute_of_Technology_logo.svg/1280px-Massachusetts_Institute_of_Technology_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Massachusetts_Institute_of_Technology_logo.svg/960px-Massachusetts_Institute_of_Technology_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 481,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Massachusetts_Institute_of_Technology_logo.svg/1280px-Massachusetts_Institute_of_Technology_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/6/61/Massachusetts_Institute_of_Technology_logo.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Massachusetts_Institute_of_Technology_logo.svg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=10419322",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Massachusetts Institute of Technology logo",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "logo of the <a href=\"https://en.wikipedia.org/wiki/Massachusetts_Institute_of_Technology\" class=\"extiw\" title=\"w:Massachusetts Institute of Technology\">Massachusetts Institute of Technology</a> (MIT)",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Unknown author<span style=\"display: none;\">Unknown author</span>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/svg+xml"
+          }
+        ]
+      },
+      "93356184": {
+        "pageid": 93356184,
+        "ns": 6,
+        "title": "File:Massachusetts institute of technology (IA massachusettsins01mass).pdf",
+        "index": 27,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2020-08-21T03:43:44Z",
+            "size": 908724,
+            "width": 1208,
+            "height": 1983,
+            "pagecount": 24,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Massachusetts_institute_of_technology_%28IA_massachusettsins01mass%29.pdf/page1-960px-Massachusetts_institute_of_technology_%28IA_massachusettsins01mass%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 1051,
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Massachusetts_institute_of_technology_%28IA_massachusettsins01mass%29.pdf/page1-960px-Massachusetts_institute_of_technology_%28IA_massachusettsins01mass%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 1051
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Massachusetts_institute_of_technology_%28IA_massachusettsins01mass%29.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Massachusetts_institute_of_technology_(IA_massachusettsins01mass).pdf",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=93356184",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "<div class=\"fn\">\nMassachusetts institute of technology</div>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<div class=\"fn value\">\nMassachusetts institute of technology. Society of arts</div>",
+                "source": "commons-desc-page"
+              },
+              "ImageDescription": {
+                "value": "<div class=\"description\">\nSubjects:</div>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "application/pdf"
+          }
+        ]
+      },
+      "150936690": {
+        "pageid": 150936690,
+        "ns": 6,
+        "title": "File:Newton's Apple Tree, Massachusetts Institute of Technology.jpg",
+        "index": 40,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2024-07-28T16:23:42Z",
+            "size": 5205617,
+            "width": 2400,
+            "height": 3600,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Newton%27s_Apple_Tree%2C_Massachusetts_Institute_of_Technology.jpg/960px-Newton%27s_Apple_Tree%2C_Massachusetts_Institute_of_Technology.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 960,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Newton%27s_Apple_Tree%2C_Massachusetts_Institute_of_Technology.jpg/1280px-Newton%27s_Apple_Tree%2C_Massachusetts_Institute_of_Technology.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Newton%27s_Apple_Tree%2C_Massachusetts_Institute_of_Technology.jpg/960px-Newton%27s_Apple_Tree%2C_Massachusetts_Institute_of_Technology.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 960,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Newton%27s_Apple_Tree%2C_Massachusetts_Institute_of_Technology.jpg/1280px-Newton%27s_Apple_Tree%2C_Massachusetts_Institute_of_Technology.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Newton%27s_Apple_Tree%2C_Massachusetts_Institute_of_Technology.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Newton%27s_Apple_Tree,_Massachusetts_Institute_of_Technology.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=150936690",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Newton's Apple Tree, Massachusetts Institute of Technology",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Newton's Apple Tree, in the President's Garden at the Massachusetts Institute of Technology",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2024-07-27 18:42:20",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Kzirkel\" title=\"User:Kzirkel\">Kenneth C. Zirkel</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "53677586": {
+        "pageid": 53677586,
+        "ns": 6,
+        "title": "File:Photogravure views of the Mass. Institute of Technology.jpg",
+        "index": 25,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2016-12-01T04:27:04Z",
+            "size": 117621,
+            "width": 815,
+            "height": 1256,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Photogravure_views_of_the_Mass._Institute_of_Technology.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 640,
+            "thumbheight": 986,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Photogravure_views_of_the_Mass._Institute_of_Technology.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 986
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Photogravure_views_of_the_Mass._Institute_of_Technology.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Photogravure_views_of_the_Mass._Institute_of_Technology.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=53677586",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Photogravure views of the Mass. Institute of Technology",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Images of the exterior and main hall of the Rogers Building, Massachusetts Institute of Technology, William G. Preston, architect",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1889-01-01",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Photogravure views of the Mass. Institute of Technology, published by Henry Lewis Johnson, Boston Photogravure Co.",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "179190880": {
+        "pageid": 179190880,
+        "ns": 6,
+        "title": "File:Stata-Center-MIT-Building-32-Massachusetts-Institute-of-Technology.jpg",
+        "index": 17,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2025-11-30T12:40:44Z",
+            "size": 792396,
+            "width": 2000,
+            "height": 1612,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Stata-Center-MIT-Building-32-Massachusetts-Institute-of-Technology.jpg/960px-Stata-Center-MIT-Building-32-Massachusetts-Institute-of-Technology.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 516,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Stata-Center-MIT-Building-32-Massachusetts-Institute-of-Technology.jpg/1280px-Stata-Center-MIT-Building-32-Massachusetts-Institute-of-Technology.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Stata-Center-MIT-Building-32-Massachusetts-Institute-of-Technology.jpg/960px-Stata-Center-MIT-Building-32-Massachusetts-Institute-of-Technology.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 516,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Stata-Center-MIT-Building-32-Massachusetts-Institute-of-Technology.jpg/1280px-Stata-Center-MIT-Building-32-Massachusetts-Institute-of-Technology.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Stata-Center-MIT-Building-32-Massachusetts-Institute-of-Technology.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Stata-Center-MIT-Building-32-Massachusetts-Institute-of-Technology.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=179190880",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Stata-Center-MIT-Building-32-Massachusetts-Institute-of-Technology",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Stata Center, MIT Building 32, Massachusetts Institute of Technology im April 2014",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2014-04-07",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Kristof_Magnusson\" title=\"User:Kristof Magnusson\">Kristof Magnusson</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "179190875": {
+        "pageid": 179190875,
+        "ns": 6,
+        "title": "File:Vortrag-von-Max-Tegmark-Massachusetts-Institute-of-Technology-1.jpg",
+        "index": 7,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2025-11-30T12:40:41Z",
+            "size": 979381,
+            "width": 1944,
+            "height": 2592,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Vortrag-von-Max-Tegmark-Massachusetts-Institute-of-Technology-1.jpg/960px-Vortrag-von-Max-Tegmark-Massachusetts-Institute-of-Technology-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 853,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Vortrag-von-Max-Tegmark-Massachusetts-Institute-of-Technology-1.jpg/1280px-Vortrag-von-Max-Tegmark-Massachusetts-Institute-of-Technology-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Vortrag-von-Max-Tegmark-Massachusetts-Institute-of-Technology-1.jpg/960px-Vortrag-von-Max-Tegmark-Massachusetts-Institute-of-Technology-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 853,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Vortrag-von-Max-Tegmark-Massachusetts-Institute-of-Technology-1.jpg/1280px-Vortrag-von-Max-Tegmark-Massachusetts-Institute-of-Technology-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/5/54/Vortrag-von-Max-Tegmark-Massachusetts-Institute-of-Technology-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Vortrag-von-Max-Tegmark-Massachusetts-Institute-of-Technology-1.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=179190875",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Vortrag-von-Max-Tegmark-Massachusetts-Institute-of-Technology-1",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Vortrag von Max Tegmark, Massachusetts Institute of Technology im April 2014",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2014-04-07",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Kristof_Magnusson\" title=\"User:Kristof Magnusson\">Kristof Magnusson</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      "179190884": {
+        "pageid": 179190884,
+        "ns": 6,
+        "title": "File:Wright-Brothers-Wind-Tunnel-Massachusetts-Institute-of-Technology-April-2014.jpg",
+        "index": 12,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2025-11-30T12:40:47Z",
+            "size": 993677,
+            "width": 2592,
+            "height": 1944,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Wright-Brothers-Wind-Tunnel-Massachusetts-Institute-of-Technology-April-2014.jpg/960px-Wright-Brothers-Wind-Tunnel-Massachusetts-Institute-of-Technology-April-2014.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 480,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Wright-Brothers-Wind-Tunnel-Massachusetts-Institute-of-Technology-April-2014.jpg/1280px-Wright-Brothers-Wind-Tunnel-Massachusetts-Institute-of-Technology-April-2014.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Wright-Brothers-Wind-Tunnel-Massachusetts-Institute-of-Technology-April-2014.jpg/960px-Wright-Brothers-Wind-Tunnel-Massachusetts-Institute-of-Technology-April-2014.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 480,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Wright-Brothers-Wind-Tunnel-Massachusetts-Institute-of-Technology-April-2014.jpg/1280px-Wright-Brothers-Wind-Tunnel-Massachusetts-Institute-of-Technology-April-2014.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Wright-Brothers-Wind-Tunnel-Massachusetts-Institute-of-Technology-April-2014.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Wright-Brothers-Wind-Tunnel-Massachusetts-Institute-of-Technology-April-2014.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=179190884",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Wright-Brothers-Wind-Tunnel-Massachusetts-Institute-of-Technology-April-2014",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Wright Brothers Wind Tunnel, Massachusetts Institute of Technology im April 2014",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2014-04-07",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Kristof_Magnusson\" title=\"User:Kristof Magnusson\">Kristof Magnusson</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      }
+    }
+  }
+}

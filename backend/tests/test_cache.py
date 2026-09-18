@@ -162,7 +162,7 @@ async def test_corrupted_path_never_raises(tmp_path: Path) -> None:
 
 
 async def test_lifespan_wires_ai_and_cache(tmp_path: Path) -> None:
-    settings = Settings(anthropic_api_key=None, flickr_api_key=None, cache_dir=tmp_path)
+    settings = Settings(gemini_api_key=None, flickr_api_key=None, cache_dir=tmp_path)
     app = create_app(settings)
     async with app.router.lifespan_context(app):
         assert isinstance(app.state.ai, AIClient)
@@ -177,7 +177,7 @@ async def test_app_starts_with_unwritable_cache_dir(tmp_path: Path) -> None:
     """CACHE_DIR under a regular file: no thumbs dir, no sqlite -- the app still serves."""
     blocker = tmp_path / "blocker"
     blocker.write_text("not a directory", encoding="utf-8")
-    settings = Settings(anthropic_api_key=None, flickr_api_key=None, cache_dir=blocker / "cache")
+    settings = Settings(gemini_api_key=None, flickr_api_key=None, cache_dir=blocker / "cache")
     app = create_app(settings)
     async with app.router.lifespan_context(app):
         assert not settings.thumbs_dir.exists()

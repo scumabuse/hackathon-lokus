@@ -402,7 +402,7 @@ async def test_search_rejects_blank_or_padded_queries(client: AsyncClient, raw: 
 async def test_search_endpoint_through_the_app(
     load_fixture: Callable[[str], Any], tmp_path: Path
 ) -> None:
-    settings = Settings(anthropic_api_key=None, flickr_api_key=None, cache_dir=tmp_path)
+    settings = Settings(gemini_api_key=None, flickr_api_key=None, cache_dir=tmp_path)
     app = create_app(settings)
     web = FakeWeb(
         load_fixture, searches={"Nazarbayev University": "wikidata_search_nazarbayev_en.json"}

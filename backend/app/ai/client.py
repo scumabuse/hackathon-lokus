@@ -1,22 +1,25 @@
-"""Anthropic client wrapper: startup check, retry policy, text calls, JSON recovery.
+"""Gemini client wrapper: startup check, retry policy, text / vision calls, JSON recovery.
 
-SPEC Sections 7.7, 7.8 and 9 ("Parsing"). One ``AsyncAnthropic`` per process, created only when
-``ANTHROPIC_API_KEY`` is set. Every request goes through one tenacity policy: 2 retries with
-exponential backoff (1 -> 4 s) on 429, connection errors / timeouts and 5xx; never on other 4xx.
-The SDK's built-in retries are disabled so that this policy is the only one.
+SPEC Sections 7.7, 7.8 and 9 ("Parsing"), as amended by the customer: the only AI provider is
+Gemini (``GEMINI_API_KEY``, Google AI Studio) through the official ``google-genai`` SDK. One
+``genai.Client`` per process, created only when the key is set. Every request goes through one
+tenacity policy: 2 retries with exponential backoff (1 -> 4 s) on 429, connection errors /
+timeouts and 5xx; never on other 4xx. The SDK's built-in retries are disabled so that this policy
+is the only one.
 """
 
 from __future__ import annotations
 
+import asyncio
 import json
 import logging
 import re
 import time
 from typing import Any
 
-import anthropic
-from anthropic import AsyncAnthropic
-from anthropic.types import Message
+import httpx
+from google import genai
+from google.genai import errors, types
 from tenacity import AsyncRetrying, retry_if_exception, stop_after_attempt, wait_exponential
 
 from app.config import Settings
@@ -25,12 +28,16 @@ log = logging.getLogger("app.ai")
 
 MAX_ATTEMPTS = 3  # 1 call + 2 retries (SPEC Section 9)
 RETRY_WAIT = wait_exponential(multiplier=1.0, min=1.0, max=4.0)  # 1 s, then 2 s (capped at 4 s)
-DEFAULT_TIMEOUT_S = 30.0  # the SDK default is 600 s; no call may outlive the 30 s budget
+DEFAULT_TIMEOUT_S = 30.0  # no call may outlive the 30 s budget
 STARTUP_CHECK_TIMEOUT_S = 10.0
 STARTUP_CHECK_PROMPT = "Reply with the single word OK."
+RETRYABLE_STATUS = frozenset({408, 429, 500, 502, 503, 504})
+JSON_MIME = "application/json"
 
 _FENCE_OPEN = re.compile(r"^```[A-Za-z0-9_-]*[ \t]*\r?\n?")
 _FENCE_CLOSE = re.compile(r"\r?\n?[ \t]*```\s*$")
+
+ContentsType = str | list[types.Content] | types.Content
 
 
 class AIUnavailableError(RuntimeError):
@@ -38,12 +45,11 @@ class AIUnavailableError(RuntimeError):
 
 
 def is_retryable(exc: BaseException) -> bool:
-    """Retry on 429, connection errors / timeouts and 5xx; never on any other 4xx."""
-    if isinstance(exc, (anthropic.RateLimitError, anthropic.APIConnectionError)):
-        return True
-    if isinstance(exc, anthropic.APIStatusError):
-        return exc.status_code >= 500
-    return False
+    """Retry on 429 / 5xx / timeouts / connection errors; never on any other 4xx."""
+    if isinstance(exc, errors.APIError):
+        code = exc.code or 0
+        return code in RETRYABLE_STATUS or code >= 500
+    return isinstance(exc, (httpx.TransportError, TimeoutError))
 
 
 def _retrying() -> AsyncRetrying:
@@ -60,12 +66,25 @@ def _elapsed_ms(started: float) -> int:
 
 
 def _status_suffix(exc: BaseException) -> str:
-    return f"({exc.status_code})" if isinstance(exc, anthropic.APIStatusError) else ""
+    return f"({exc.code})" if isinstance(exc, errors.APIError) else ""
 
 
-def message_text(message: Message) -> str:
-    """Section 9 parsing: the concatenated text blocks of a response."""
-    return "".join(block.text for block in message.content if block.type == "text")
+def message_text(response: types.GenerateContentResponse) -> str:
+    """Section 9 parsing: the concatenated text parts of the first candidate ("" when none)."""
+    try:
+        text = response.text
+    except (ValueError, AttributeError):
+        text = None
+    return text or ""
+
+
+def finish_reason(response: types.GenerateContentResponse) -> str | None:
+    """The first candidate's finish reason as a plain string (``"STOP"``, ``"MAX_TOKENS"``...)."""
+    candidates = response.candidates or []
+    if not candidates or candidates[0].finish_reason is None:
+        return None
+    reason = candidates[0].finish_reason
+    return reason.value if isinstance(reason, types.FinishReason) else str(reason)
 
 
 def strip_code_fences(text: str) -> str:
@@ -97,17 +116,49 @@ def parse_json_text(text: str) -> Any:
     raise ValueError("model output contains no valid JSON")
 
 
+def thinking_config(model: str) -> types.ThinkingConfig:
+    """Minimal reasoning: classification and short descriptions need speed, not deliberation.
+
+    Gemini 2.5 models take a token budget (0 = off); Gemini 3.x models take a level.
+    """
+    if "2.5" in model:
+        return types.ThinkingConfig(thinking_budget=0)
+    return types.ThinkingConfig(thinking_level=types.ThinkingLevel.MINIMAL)
+
+
+def text_part(text: str) -> types.Part:
+    return types.Part.from_text(text=text)
+
+
+def image_part(data: bytes, mime_type: str = "image/jpeg") -> types.Part:
+    """Inline image block (Section 7.7: JPEG, long side <= 512 px)."""
+    return types.Part.from_bytes(data=data, mime_type=mime_type)
+
+
+def user_content(parts: list[types.Part]) -> types.Content:
+    return types.Content(role="user", parts=parts)
+
+
 class AIClient:
-    """Thin wrapper over ``AsyncAnthropic`` with the shared retry policy and an availability flag."""
+    """Thin wrapper over ``genai.Client`` with the shared retry policy and an availability flag."""
 
     def __init__(self, settings: Settings) -> None:
         self._settings = settings
-        self._client: AsyncAnthropic | None = None
+        self._client: genai.Client | None = None
+        self._no_thinking_models: set[str] = set()
         self.available: bool = False
-        if settings.anthropic_api_key:
-            # max_retries=0: the SDK's own retries would stack on top of the tenacity policy
-            self._client = AsyncAnthropic(api_key=settings.anthropic_api_key, max_retries=0)
+        self.unavailable_reason: str | None = "GEMINI_API_KEY is not set"
+        if settings.gemini_api_key:
+            # retry_options.attempts=1: the SDK's own retries would stack on the tenacity policy
+            self._client = genai.Client(
+                api_key=settings.gemini_api_key,
+                http_options=types.HttpOptions(
+                    timeout=int(DEFAULT_TIMEOUT_S * 1000),
+                    retry_options=types.HttpRetryOptions(attempts=1),
+                ),
+            )
             self.available = True
+            self.unavailable_reason = None
 
     @property
     def configured(self) -> bool:
@@ -123,66 +174,139 @@ class AIClient:
         return self._settings.effective_text_model
 
     async def startup_check(self) -> bool:
-        """One tiny text call (max_tokens=5). Failure disables AI features but never raises."""
+        """One tiny text call (max 5 output tokens). Failure disables AI features, never raises."""
         if self._client is None:
-            log.info("ANTHROPIC_API_KEY not set: vision classification and AI description are off")
+            log.info("GEMINI_API_KEY not set: vision classification and AI description are off")
             self.available = False
             return False
         self.available = True
+        self.unavailable_reason = None
         try:
-            message = await self.create_message(
+            response = await self.generate(
+                contents=STARTUP_CHECK_PROMPT,
                 model=self.text_model,
-                max_tokens=5,
-                temperature=0.0,
-                messages=[{"role": "user", "content": STARTUP_CHECK_PROMPT}],
+                max_output_tokens=5,
                 timeout=STARTUP_CHECK_TIMEOUT_S,
+                minimal_thinking=False,
             )
-        except Exception:
+        except Exception as exc:
             self.available = False
+            self.unavailable_reason = f"startup check failed: {type(exc).__name__}"
             log.warning(
-                "!!! ANTHROPIC STARTUP CHECK FAILED (model=%s): vision classification and AI "
+                "!!! GEMINI STARTUP CHECK FAILED (model=%s): vision classification and AI "
                 "description are DISABLED; the app keeps serving without them !!!",
                 self.text_model,
                 exc_info=True,
             )
             return False
         log.info(
-            "anthropic startup check ok: model=%s reply=%r",
+            "gemini startup check ok: model=%s reply=%r",
             self.text_model,
-            message_text(message)[:40],
+            message_text(response)[:40],
         )
         return True
 
-    async def create_message(self, **kwargs: Any) -> Message:
-        """``messages.create`` with the retry policy (Phase 3 vision batches call this directly).
+    def _config(
+        self,
+        *,
+        model: str,
+        system: str | None,
+        temperature: float,
+        max_output_tokens: int,
+        json_mode: bool,
+        timeout: float,
+        minimal_thinking: bool,
+    ) -> types.GenerateContentConfig:
+        thinking = (
+            thinking_config(model)
+            if minimal_thinking and model not in self._no_thinking_models
+            else None
+        )
+        return types.GenerateContentConfig(
+            system_instruction=system,
+            temperature=temperature,
+            max_output_tokens=max_output_tokens,
+            response_mime_type=JSON_MIME if json_mode else None,
+            thinking_config=thinking,
+            http_options=types.HttpOptions(timeout=int(timeout * 1000)),
+        )
 
-        A missing ``timeout`` defaults to DEFAULT_TIMEOUT_S. Raises AIUnavailableError when the
-        client is off, otherwise the SDK exception once the retries are exhausted.
+    async def generate(
+        self,
+        *,
+        contents: ContentsType,
+        model: str | None = None,
+        system: str | None = None,
+        temperature: float = 0.0,
+        max_output_tokens: int,
+        json_mode: bool = False,
+        timeout: float | None = None,
+        minimal_thinking: bool = True,
+    ) -> types.GenerateContentResponse:
+        """``generate_content`` with the retry policy (vision batches and text tasks use this).
+
+        Raises AIUnavailableError when the client is off, otherwise the SDK / transport
+        exception once the retries are exhausted.
         """
         if self._client is None or not self.available:
-            raise AIUnavailableError("Anthropic API unavailable: no key or startup check failed")
-        kwargs.setdefault("timeout", DEFAULT_TIMEOUT_S)
-        model = str(kwargs.get("model", "?"))
+            raise AIUnavailableError(f"Gemini API unavailable: {self.unavailable_reason}")
+        model_name = model or self.text_model
+        request_timeout = DEFAULT_TIMEOUT_S if timeout is None else timeout
         client = self._client
         async for attempt in _retrying():
             with attempt:
+                config = self._config(
+                    model=model_name,
+                    system=system,
+                    temperature=temperature,
+                    max_output_tokens=max_output_tokens,
+                    json_mode=json_mode,
+                    timeout=request_timeout,
+                    minimal_thinking=minimal_thinking,
+                )
                 started = time.monotonic()
                 try:
-                    message = await client.messages.create(**kwargs)
-                except anthropic.AnthropicError as exc:
+                    response = await asyncio.wait_for(
+                        client.aio.models.generate_content(
+                            model=model_name, contents=contents, config=config
+                        ),
+                        timeout=request_timeout + 1.0,
+                    )
+                except errors.ClientError as exc:
+                    if self._thinking_rejected(exc, model_name, config):
+                        # the model does not accept this thinking config: retry once without it
+                        self._no_thinking_models.add(model_name)
+                        raise errors.ServerError(503, {"error": {"message": str(exc)}}) from exc
                     log.info(
-                        "anthropic messages.create model=%s -> %s%s %dms",
-                        model,
+                        "gemini generate model=%s -> %s%s %dms",
+                        model_name,
                         type(exc).__name__,
                         _status_suffix(exc),
                         _elapsed_ms(started),
                     )
                     raise
-                log.info(
-                    "anthropic messages.create model=%s -> ok %dms", model, _elapsed_ms(started)
-                )
-                return message
+                except (errors.APIError, httpx.HTTPError, TimeoutError) as exc:
+                    log.info(
+                        "gemini generate model=%s -> %s%s %dms",
+                        model_name,
+                        type(exc).__name__,
+                        _status_suffix(exc),
+                        _elapsed_ms(started),
+                    )
+                    raise
+                log.info("gemini generate model=%s -> ok %dms", model_name, _elapsed_ms(started))
+                return response
         raise RuntimeError("unreachable")  # pragma: no cover
+
+    @staticmethod
+    def _thinking_rejected(
+        exc: errors.ClientError, model: str, config: types.GenerateContentConfig
+    ) -> bool:
+        return (
+            exc.code == 400
+            and config.thinking_config is not None
+            and "thinking" in str(exc).lower()
+        )
 
     async def complete_text(
         self,
@@ -193,20 +317,28 @@ class AIClient:
         model: str | None = None,
         system: str | None = None,
         timeout: float | None = None,
+        json_mode: bool = False,
     ) -> str:
-        """Single-turn text completion; returns the joined text blocks."""
-        kwargs: dict[str, Any] = {
-            "model": model or self.text_model,
-            "max_tokens": max_tokens,
-            "temperature": temperature,
-            "messages": [{"role": "user", "content": prompt}],
-            "timeout": DEFAULT_TIMEOUT_S if timeout is None else timeout,
-        }
-        if system is not None:
-            kwargs["system"] = system
-        return message_text(await self.create_message(**kwargs))
+        """Single-turn text completion; returns the joined text parts."""
+        response = await self.generate(
+            contents=prompt,
+            model=model or self.text_model,
+            system=system,
+            temperature=temperature,
+            max_output_tokens=max_tokens,
+            json_mode=json_mode,
+            timeout=timeout,
+        )
+        return message_text(response)
 
     async def aclose(self) -> None:
-        """Release the SDK's HTTP client (lifespan shutdown)."""
-        if self._client is not None:
-            await self._client.close()
+        """Release the SDK's HTTP clients (lifespan shutdown)."""
+        if self._client is None:
+            return
+        closer = getattr(self._client.aio, "aclose", None)
+        if closer is None:
+            return
+        try:
+            await closer()
+        except Exception:  # pragma: no cover - shutdown must never fail
+            log.debug("gemini client close failed", exc_info=True)
