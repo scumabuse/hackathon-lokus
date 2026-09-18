@@ -1,13 +1,14 @@
 """Profile pipeline: Stages A-I of SPEC Section 6 as an async event generator.
 
-``run_pipeline`` yields ``PipelineEvent`` objects in the Section 12 order (header, warnings,
-photos chunks, description, stats, done); ``build_profile`` consumes them into a ``Profile`` for
-the blocking endpoint. Only the resolve stage may raise (``ProfileNotFound`` -> 404,
-``ResolverUnavailableError`` -> 503); after the header is emitted every failure becomes a warning.
+``run_pipeline`` yields ``PipelineEvent`` objects (header, warnings, photos chunks, description,
+stats, done); ``build_profile`` consumes them into a ``Profile`` for the blocking endpoint. Only
+the resolve stage may raise (``ProfileNotFound`` -> 404, ``ResolverUnavailableError`` -> 503);
+after the header is emitted every failure becomes a warning.
 
-Vision (Stage F) and the description (Stage H) are plugged in by Phase 3 through
-``classify_batch`` / ``describe_campus``; the cached path, deadline monitor and concurrency guard
-are Phase 6.
+Stage F (vision) runs ``VISION_CONCURRENCY`` batches in flight and emits a photos chunk as each
+batch is scored; the deadline monitor refuses to start a batch when fewer than 4 s remain and
+scores the rest without vision (``vision_timeout``). Stage H (description) runs in parallel with
+F. The cached path and the concurrency guard are Phase 6.
 """
 
 from __future__ import annotations
@@ -23,6 +24,8 @@ from typing import Any
 import httpx
 from pydantic import BaseModel
 
+from app.ai import describe as describe_mod
+from app.ai import vision
 from app.ai.client import AIClient
 from app.cache import Cache
 from app.config import Settings
@@ -41,6 +44,7 @@ from app.processing.dedup import dedupe
 from app.processing.download import download_candidates, fetch_logo_hashes
 from app.processing.textmatch import name_terms
 from app.resolver.wikidata import ResolvedEntity, ResolverUnavailableError, resolve_university
+from app.resolver.wikipedia import WikiSummary, rest_summary
 from app.scoring import VisionInfo, score_candidate
 from app.selection import (
     HIDDEN_CAP,
@@ -58,6 +62,9 @@ log = logging.getLogger("app.pipeline")
 STAGE_A_TIMEOUT_S = 5.0  # Section 6: resolve hard limit
 SOURCE_TIMEOUT_S = 8.0  # Section 6: per source
 DOWNLOAD_STAGE_TIMEOUT_S = 8.0  # Section 6: download stage
+VISION_BATCH_TIMEOUT_S = 20.0  # Section 6/9: per batch
+VISION_MIN_REMAINING_S = 4.0  # Section 6 deadline monitor: do not start a batch below this
+DESCRIBE_TIMEOUT_S = 12.0  # Section 6: describe hard limit
 CITY_CANDIDATE_CAP = 20  # Section 6.1
 TIMING_KEYS = ("resolve", "collect", "download", "dedup", "vision", "describe", "total")
 
@@ -156,45 +163,21 @@ def normalize_candidates(
     )
 
 
-# ----------------------------------------------------------------------------- Stage F hooks
-
-
-def unavailable_vision(reason: str | None = None) -> VisionInfo:
-    """Every image gets this when the model is off (Section 10 hard rule: at most ``likely``)."""
-    return VisionInfo(available=False, reason=reason)
-
-
-async def classify_batch(
-    deps: PipelineDeps,
-    images: list[ProcessedImage],
-    header: UniversityHeader,
-    *,
-    target: str = "university",
-) -> list[VisionInfo]:
-    """Phase 3 plugs the real Section 9 classifier in here; Phase 2 marks everything unavailable."""
-    return [unavailable_vision(deps.ai.unavailable_reason) for _ in images]
-
-
-async def describe_campus(deps: PipelineDeps, resolved: ResolvedEntity) -> Description | None:
-    """Phase 3 plugs the Section 7.8(a) description in here."""
-    return None
-
-
 # ----------------------------------------------------------------------------- Stage G
 
 
-def build_photo(image: ProcessedImage, vision: VisionInfo | None, names: list[str]) -> Photo:
+def build_photo(image: ProcessedImage, info: VisionInfo, names: list[str]) -> Photo:
     """One scored ``Photo`` (Section 5) from a processed image and its vision verdict."""
     candidate = image.candidate
-    if vision is not None and vision.usable and vision.category is not None:
-        category, category_source = vision.category, "vision"
+    if info.usable and info.category is not None:
+        category, category_source = info.category, "vision"
         extra_reasons: list[ReasonCode] = []
     else:
         category, category_source = heuristic_category(candidate)
         extra_reasons = [ReasonCode.category_heuristic]
     if candidate.source_type is SourceType.city_commons:
         category = Category.city
-    score = score_candidate(candidate, names=names, vision=vision)
+    score = score_candidate(candidate, names=names, vision=info)
     return Photo(
         id=image.photo_id,
         thumb_url=f"/api/thumb/{image.photo_id}.jpg",
@@ -216,8 +199,8 @@ def build_photo(image: ProcessedImage, vision: VisionInfo | None, names: list[st
         reasons=[*score.reasons, *extra_reasons],
         geo=candidate.geo,
         distance_m=candidate.distance_m,
-        visible_text=vision.visible_text if vision is not None and vision.usable else None,
-        vision_reason=vision.reason if vision is not None and vision.usable else None,
+        visible_text=info.visible_text if info.usable else None,
+        vision_reason=info.reason if info.usable else None,
     )
 
 
@@ -246,7 +229,117 @@ class _RunningSelection:
         return True
 
 
-# ----------------------------------------------------------------------------- the run
+# ----------------------------------------------------------------------------- Stage F
+
+
+@dataclass(slots=True)
+class _Batch:
+    index: int
+    target: str
+    images: list[ProcessedImage]
+
+
+@dataclass(slots=True)
+class _BatchResult:
+    batch: _Batch
+    infos: list[VisionInfo]
+    skipped: bool = False  # deadline monitor refused to start it
+    parsed_first_attempt: bool | None = None
+    error: str | None = None
+
+
+def _batches(images: list[ProcessedImage], size: int, *, start: int, target: str) -> list[_Batch]:
+    ordered = sorted(images, key=lambda im: source_rank(im.candidate.source_type))
+    size = max(1, size)
+    return [
+        _Batch(index=start + i, target=target, images=ordered[pos : pos + size])
+        for i, pos in enumerate(range(0, len(ordered), size))
+    ]
+
+
+async def _run_batch(
+    deps: PipelineDeps,
+    batch: _Batch,
+    header: UniversityHeader,
+    *,
+    semaphore: asyncio.Semaphore,
+    deadline: float,
+) -> _BatchResult:
+    async with semaphore:
+        remaining = deadline - time.monotonic()
+        if remaining < VISION_MIN_REMAINING_S:
+            return _BatchResult(
+                batch=batch,
+                infos=[VisionInfo(available=True, timed_out=True) for _ in batch.images],
+                skipped=True,
+            )
+        timeout = min(VISION_BATCH_TIMEOUT_S, max(1.0, remaining - 1.0))
+        outcome = await vision.classify_batch(
+            deps.ai, batch.images, header, target=batch.target, timeout=timeout
+        )
+        return _BatchResult(
+            batch=batch,
+            infos=outcome.infos,
+            parsed_first_attempt=outcome.parsed_first_attempt,
+            error=outcome.error,
+        )
+
+
+# ----------------------------------------------------------------------------- helpers
+
+
+async def _fetch_summaries(client: httpx.AsyncClient, resolved: ResolvedEntity) -> list[WikiSummary]:
+    """Section 7.2: en + ru REST summaries in parallel (4 s each); failures are just absent."""
+    titles = [(lang, resolved.wiki_titles.get(lang)) for lang in ("en", "ru")]
+    tasks = [rest_summary(client, lang, title) for lang, title in titles if title]
+    if not tasks:
+        return []
+    outcomes = await asyncio.gather(*tasks, return_exceptions=True)
+    return [o for o in outcomes if isinstance(o, WikiSummary)]
+
+
+async def _logo_hashes(
+    client: httpx.AsyncClient, logo_filename: str | None
+) -> tuple[str, str] | None:
+    """Download the P154 logo (via its Commons imageinfo) and hash it; ``None`` when absent/failed."""
+    if not logo_filename:
+        return None
+    try:
+        info = await commons.fetch_file_info(client, logo_filename)
+    except Exception:  # a logo problem must never affect the profile
+        log.debug("logo info failed", exc_info=True)
+        return None
+    if not info:
+        return None
+    url = info.get("thumburl") or info.get("url")
+    if not isinstance(url, str) or not url:
+        return None
+    return await fetch_logo_hashes(client, url)
+
+
+async def _run_source(source: Any, ctx: SourceContext) -> SourceResult:
+    return await asyncio.wait_for(source.fetch(ctx), SOURCE_TIMEOUT_S)
+
+
+async def _describe(
+    deps: PipelineDeps, resolved: ResolvedEntity, summaries_task: asyncio.Task[list[WikiSummary]]
+) -> Description:
+    header = resolved.header
+    summaries = await summaries_task
+    inputs = describe_mod.DescriptionInputs(
+        name=header.name,
+        local_name=header.local_name,
+        city=header.city.name if header.city else None,
+        country=header.country,
+        summaries=summaries,
+    )
+    try:
+        return await asyncio.wait_for(
+            describe_mod.describe_campus(deps.ai, inputs), DESCRIBE_TIMEOUT_S
+        )
+    except TimeoutError:
+        log.warning("H describe timed out after %.0fs; using the fallback text", DESCRIBE_TIMEOUT_S)
+        return describe_mod.fallback_description(inputs)
 
 
 @dataclass(slots=True)
@@ -269,14 +362,7 @@ class _Run:
         return _ms(self.started)
 
 
-async def _run_source(source: Any, ctx: SourceContext) -> SourceResult:
-    return await asyncio.wait_for(source.fetch(ctx), SOURCE_TIMEOUT_S)
-
-
-def _batches(images: list[ProcessedImage], size: int) -> list[list[ProcessedImage]]:
-    ordered = sorted(images, key=lambda im: source_rank(im.candidate.source_type))
-    size = max(1, size)
-    return [ordered[i : i + size] for i in range(0, len(ordered), size)]
+# ----------------------------------------------------------------------------- the run
 
 
 async def run_pipeline(
@@ -305,13 +391,15 @@ async def run_pipeline(
     header = resolved.header
     yield PipelineEvent("header", _dump(header))
     log.info("A resolve %s -> %s in %dms", qid, header.name, run.timings["resolve"])
+    summaries_task = asyncio.create_task(_fetch_summaries(deps.http, resolved))
     if header.coords is None:
         yield run.warn(WarningCode.no_coordinates)
     if header.commons_category is None:
         yield run.warn(WarningCode.no_commons_category)
     if header.official_website is None:
         yield run.warn(WarningCode.no_official_site)
-    if not deps.ai.available:
+    vision_off = not deps.ai.available
+    if vision_off:
         yield run.warn(WarningCode.vision_unavailable, deps.ai.unavailable_reason)
 
     # ---- B. collect
@@ -376,38 +464,82 @@ async def run_pipeline(
     run.timings["dedup"] = _ms(stage)
     irrelevant_removed = deduped.logo_removed
 
-    # ---- F + G. vision per batch, score, emit
+    # ---- H starts now and runs in parallel with F
+    stage_describe = time.monotonic()
+    describe_task = asyncio.create_task(_describe(deps, resolved, summaries_task))
+
+    # ---- F + G. vision per batch (concurrent, deadline-monitored), score, emit
     stage = time.monotonic()
     names = name_terms(header.name, header.local_name, header.aliases)
     admitted = _RunningSelection()
     emitted: list[Photo] = []
-    batch_index = 0
     university_images = [
         im for im in deduped.kept if im.candidate.source_type is not SourceType.city_commons
     ]
     city_images = [im for im in deduped.kept if im.candidate.source_type is SourceType.city_commons]
-    for target, group in (("university", university_images), ("city", city_images)):
-        for batch in _batches(group, settings.vision_batch_size):
-            infos = await classify_batch(deps, batch, header, target=target)
-            chunk: list[Photo] = []
-            for image, info in zip(batch, infos, strict=True):
-                photo = build_photo(image, info, names)
-                if admitted.admit(photo):
-                    chunk.append(photo)
-            if chunk:
-                emitted.extend(chunk)
-                yield PipelineEvent(
-                    "photos", {"batch": batch_index, "photos": [_dump(p) for p in chunk]}
-                )
-                batch_index += 1
+    batches = _batches(university_images, settings.vision_batch_size, start=0, target="university")
+    batches += _batches(
+        city_images, settings.vision_batch_size, start=len(batches), target="city"
+    )
+    semaphore = asyncio.Semaphore(max(1, settings.vision_concurrency))
+    tasks = [
+        asyncio.create_task(
+            _run_batch(deps, batch, header, semaphore=semaphore, deadline=run.deadline)
+        )
+        for batch in batches
+    ]
+    total_images = len(deduped.kept)
+    unclassified = 0
+    batches_done = batches_first_ok = batches_failed = 0
+    chunk_index = 0
+    for finished in asyncio.as_completed(tasks):
+        result = await finished
+        batches_done += 1
+        if result.skipped:
+            unclassified += len(result.batch.images)
+        elif result.parsed_first_attempt:
+            batches_first_ok += 1
+        if result.error and not result.skipped:
+            batches_failed += 1
+        chunk: list[Photo] = []
+        for image, raw_info in zip(result.batch.images, result.infos, strict=True):
+            info, keep = vision.apply_post_processing(image, raw_info)
+            if not keep:
+                irrelevant_removed += 1
+                continue
+            photo = build_photo(image, info, names)
+            if admitted.admit(photo):
+                chunk.append(photo)
+        if chunk:
+            emitted.extend(chunk)
+            yield PipelineEvent("photos", {"batch": chunk_index, "photos": [_dump(p) for p in chunk]})
+            chunk_index += 1
     run.timings["vision"] = _ms(stage)
+    if batches:
+        log.info(
+            "F vision: %d batches, %d parsed on the first attempt, %d failed, %d images skipped "
+            "by the deadline monitor, %dms",
+            len(batches),
+            batches_first_ok,
+            batches_failed,
+            unclassified,
+            run.timings["vision"],
+        )
+    if unclassified:
+        yield run.warn(
+            WarningCode.time_budget_exceeded,
+            f"vision: {unclassified} of {total_images} images not classified",
+        )
+    if batches and not vision_off and batches_failed == batches_done - (
+        1 if unclassified and batches_failed < batches_done else 0
+    ) and batches_first_ok == 0 and batches_failed:
+        # the model answered nothing usable for the whole run
+        yield run.warn(WarningCode.vision_unavailable, "vision model failed for every batch")
 
-    # ---- H. describe
-    stage = time.monotonic()
-    description = await describe_campus(deps, resolved)
-    run.timings["describe"] = _ms(stage)
-    if description is not None:
-        yield PipelineEvent("description", _dump(description))
+    # ---- H. describe (started before F)
+    description = await describe_task
+    run.timings["describe"] = _ms(stage_describe)
+    yield PipelineEvent("description", _dump(description))
 
     # ---- I. finalize
     selection = finalize_selection(emitted)
@@ -450,25 +582,6 @@ async def run_pipeline(
         total_ms,
     )
     yield PipelineEvent("done", {"total_ms": total_ms, "cached": False})
-
-
-async def _logo_hashes(
-    client: httpx.AsyncClient, logo_filename: str | None
-) -> tuple[str, str] | None:
-    """Download the P154 logo (via its Commons imageinfo) and hash it; ``None`` when absent/failed."""
-    if not logo_filename:
-        return None
-    try:
-        info = await commons.fetch_file_info(client, logo_filename)
-    except Exception:  # a logo problem must never affect the profile
-        log.debug("logo info failed", exc_info=True)
-        return None
-    if not info:
-        return None
-    url = info.get("thumburl") or info.get("url")
-    if not isinstance(url, str) or not url:
-        return None
-    return await fetch_logo_hashes(client, url)
 
 
 async def build_profile(deps: PipelineDeps, qid: str, *, refresh: bool = False) -> Profile:
