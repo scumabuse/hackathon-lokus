@@ -461,14 +461,25 @@ def test_is_wikimedia_upload(url: str, expected: bool) -> None:
     assert is_wikimedia_upload(url) is expected
 
 
-async def test_wikimedia_semaphore_is_one_per_loop_with_8_slots() -> None:
+async def test_wikimedia_semaphore_is_one_per_loop_and_host_with_8_slots() -> None:
     semaphore = wikimedia_semaphore()
     assert wikimedia_semaphore() is semaphore
+    assert wikimedia_semaphore("upload.wikimedia.org") is semaphore
+    assert wikimedia_semaphore("cdn.upload.wikimedia.org") is semaphore  # subdomains fold in
+    assert wikimedia_semaphore("thumb.wikimedia.org") is not semaphore  # a separate service
     assert semaphore._value == WIKIMEDIA_CONCURRENCY
 
 
-async def test_wikimedia_hosts_share_the_8_slot_limit(
-    client: httpx.AsyncClient, tmp_path: Path
+@pytest.mark.parametrize(
+    ("upload_count", "thumb_count", "expected_peak"),
+    [(12, 0, 8), (0, 12, 8), (6, 6, 12)],  # 8 slots per Wikimedia host, not shared
+)
+async def test_each_wikimedia_host_has_its_own_8_slot_limit(
+    client: httpx.AsyncClient,
+    tmp_path: Path,
+    upload_count: int,
+    thumb_count: int,
+    expected_peak: int,
 ) -> None:
     data = image_bytes(400, 300)
     in_flight = 0
@@ -482,15 +493,15 @@ async def test_wikimedia_hosts_share_the_8_slot_limit(
         in_flight -= 1
         return httpx.Response(200, content=data, headers=JPEG_HEADERS)
 
-    urls = [f"https://upload.wikimedia.org/wikipedia/commons/{i}.jpg" for i in range(6)]
-    urls += [f"https://thumb.wikimedia.org/{i}.jpg?utm_source=x" for i in range(6)]
+    urls = [f"https://upload.wikimedia.org/wikipedia/commons/{i}.jpg" for i in range(upload_count)]
+    urls += [f"https://thumb.wikimedia.org/{i}.jpg?utm_source=x" for i in range(thumb_count)]
     with respx.mock() as router:
         router.get(url__regex=r"https://(upload|thumb)\.wikimedia\.org/.*").mock(side_effect=serve)
         result = await download_candidates(
             client, [candidate(u) for u in urls], thumbs_dir=tmp_path, concurrency=16
         )
     assert len(result.images) == 12
-    assert peak == WIKIMEDIA_CONCURRENCY
+    assert peak == expected_peak
 
 
 async def test_global_concurrency_limit_applies_to_other_hosts(

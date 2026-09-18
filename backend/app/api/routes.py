@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import json
+import logging
 import re
 from collections.abc import AsyncGenerator
 from datetime import UTC, datetime
@@ -17,6 +18,8 @@ from app.pipeline import PipelineDeps, ProfileNotFound, build_profile, run_pipel
 from app.resolver.search import search_universities
 from app.resolver.wikidata import ResolverUnavailableError
 from app.version import app_version
+
+log = logging.getLogger("app.api")
 
 router = APIRouter()
 
@@ -122,7 +125,10 @@ async def profile_stream(
     async def _event_generator() -> AsyncGenerator[dict[str, Any], None]:
         try:
             async for event in run_pipeline(deps, qid, refresh=bool(refresh)):
-                yield {"event": event.name, "data": json.dumps(event.data, ensure_ascii=False, default=str)}
+                yield {
+                    "event": event.name,
+                    "data": json.dumps(event.data, ensure_ascii=False, default=str),
+                }
         except ProfileNotFound:
             yield {
                 "event": "error",
@@ -133,11 +139,11 @@ async def profile_stream(
         except ResolverUnavailableError as exc:
             yield {
                 "event": "error",
-                "data": json.dumps(
-                    {"code": "resolver_unavailable", "message": str(exc)}
-                ),
+                "data": json.dumps({"code": "resolver_unavailable", "message": str(exc)}),
             }
         except Exception as exc:
+            # never silent: the stream ends with an error event AND the traceback is logged
+            log.warning("profile stream for %s crashed: %s", qid, exc, exc_info=True)
             yield {
                 "event": "error",
                 "data": json.dumps({"code": "internal_error", "message": str(exc)}),

@@ -9,7 +9,7 @@ from __future__ import annotations
 
 import logging
 
-from app.ai.client import AIClient, AIUnavailableError, parse_json_text
+from app.ai.client import AIClient, parse_json_text
 from app.ai.prompts import DESCRIPTION_PROMPT
 from app.models import Description, SourceLink
 from app.resolver.wikipedia import WikiSummary
@@ -77,9 +77,7 @@ def _extract_for_lang(summaries: list[WikiSummary], lang: str) -> tuple[str | No
     return None, None
 
 
-def _basis(
-    has_en: bool, has_ru: bool, has_site: bool
-) -> str:
+def _basis(has_en: bool, has_ru: bool, has_site: bool) -> str:
     if (has_en or has_ru) and has_site:
         return "wikipedia_and_site"
     if has_en or has_ru:
@@ -154,7 +152,7 @@ async def describe_campus(ai: AIClient, inputs: DescriptionInputs) -> Descriptio
         )
         raw = parse_json_text(response_text)
         if not isinstance(raw, dict):
-            raise ValueError("model did not return a JSON object")
+            raise TypeError("model did not return a JSON object")
         text_ru = str(raw.get("text_ru") or "").strip()
         text_en = str(raw.get("text_en") or "").strip()
         raw_basis = str(raw.get("basis") or basis)
@@ -165,8 +163,13 @@ async def describe_campus(ai: AIClient, inputs: DescriptionInputs) -> Descriptio
         if not text_ru or not text_en:
             raise ValueError("empty description from model")
         return Description(text_ru=text_ru, text_en=text_en, sources=sources, basis=raw_basis)  # type: ignore[arg-type]
-    except (AIUnavailableError, Exception) as exc:
-        log.warning("describe_campus failed (%s); using fallback", type(exc).__name__)
+    except Exception as exc:
+        log.warning(
+            "describe_campus failed (%s: %s); using the Wikipedia fallback text",
+            type(exc).__name__,
+            exc,
+            exc_info=True,
+        )
         return fallback_description(inputs)
 
 

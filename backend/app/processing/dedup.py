@@ -150,3 +150,25 @@ def dedupe(
         len(best_by_root),
     )
     return result
+
+
+def drop_duplicates_of(
+    images: list[ProcessedImage], *, against: list[ProcessedImage]
+) -> tuple[list[ProcessedImage], int]:
+    """Drop images that duplicate any image in ``against`` (sha1 equal or pHash distance <= 12).
+
+    Used for the second download wave: representatives already emitted keep precedence.
+    Returns ``(kept, dropped)``.
+    """
+    reference = [(other, parse_phash(other.phash)) for other in against]
+    kept: list[ProcessedImage] = []
+    dropped = 0
+    for image in images:
+        image_hash = parse_phash(image.phash)
+        if any(
+            _same_group(image, image_hash, other, other_hash) for other, other_hash in reference
+        ):
+            dropped += 1
+            continue
+        kept.append(image)
+    return kept, dropped

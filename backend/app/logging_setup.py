@@ -25,6 +25,8 @@ def setup_logging(level: str = "INFO") -> None:
     root.setLevel(numeric)
     for noisy in ("httpx", "httpcore", "google_genai", "google.genai", "urllib3", "PIL"):
         logging.getLogger(noisy).setLevel(logging.WARNING)
+    # the SDK warns about "automatic function calling" on every plain generate_content call
+    logging.getLogger("google_genai.models").setLevel(logging.ERROR)
 
 
 def log_external_call(

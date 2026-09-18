@@ -22,6 +22,7 @@ from __future__ import annotations
 
 import asyncio
 import base64
+import collections
 import contextlib
 import hashlib
 import logging
@@ -67,9 +68,9 @@ _COMMONS_FILE_PATH_RE = re.compile(
 )
 SERVICE = "image"
 
-_wikimedia_semaphores: weakref.WeakKeyDictionary[asyncio.AbstractEventLoop, asyncio.Semaphore] = (
-    weakref.WeakKeyDictionary()
-)
+_wikimedia_semaphores: weakref.WeakKeyDictionary[
+    asyncio.AbstractEventLoop, dict[str, asyncio.Semaphore]
+] = weakref.WeakKeyDictionary()
 
 
 @dataclass(slots=True)
@@ -79,6 +80,8 @@ class DownloadResult:
     images: list[ProcessedImage] = field(default_factory=list)
     failed: int = 0  # HTTP error, timeout, size/type rejection, decode error, thumbnail error
     timed_out: int = 0  # still running when the stage budget ran out (cancelled)
+    reasons: collections.Counter[str] = field(default_factory=collections.Counter)  # per failure
+    failed_hosts: collections.Counter[str] = field(default_factory=collections.Counter)
 
 
 @dataclass(slots=True)
@@ -96,18 +99,32 @@ class DownloadRejected(Exception):
     """A download or decode that violated a Section 8 rule (never propagates out of the stage)."""
 
 
-def wikimedia_semaphore() -> asyncio.Semaphore:
-    """The 8-slot semaphore shared by the Wikimedia media hosts, one per event loop.
+def wikimedia_host_key(host: str) -> str:
+    """The Wikimedia media host a URL host belongs to (subdomains fold into it)."""
+    lowered = host.lower()
+    for known in WIKIMEDIA_MEDIA_HOSTS:
+        if lowered == known or lowered.endswith(f".{known}"):
+            return known
+    return lowered
 
-    asyncio primitives bind to the loop that first waits on them, so a module-level instance
-    would break under a second loop (tests); one instance per running loop is equivalent in
-    production (``--workers 1``, one loop).
+
+def wikimedia_semaphore(host: str = WIKIMEDIA_MEDIA_HOSTS[0]) -> asyncio.Semaphore:
+    """The 8-slot semaphore for one Wikimedia media host, one per event loop.
+
+    upload.wikimedia.org (originals) and thumb.wikimedia.org (the thumbnailer) are separate
+    services, so each gets its own 8 slots (Section 8 caps the upload host at 8). asyncio
+    primitives bind to the loop that first waits on them, so the instances live per loop.
     """
     loop = asyncio.get_running_loop()
-    semaphore = _wikimedia_semaphores.get(loop)
+    per_host = _wikimedia_semaphores.get(loop)
+    if per_host is None:
+        per_host = {}
+        _wikimedia_semaphores[loop] = per_host
+    key = wikimedia_host_key(host)
+    semaphore = per_host.get(key)
     if semaphore is None:
         semaphore = asyncio.Semaphore(WIKIMEDIA_CONCURRENCY)
-        _wikimedia_semaphores[loop] = semaphore
+        per_host[key] = semaphore
     return semaphore
 
 
@@ -306,10 +323,14 @@ async def _download_one(
     *,
     thumbs_dir: Path,
     limiter: asyncio.Semaphore,
+    reasons: collections.Counter[str] | None = None,
+    failed_hosts: collections.Counter[str] | None = None,
 ) -> ProcessedImage | None:
-    """One candidate end to end; ``None`` (already logged) on any failure."""
+    """One candidate end to end; ``None`` (logged and counted) on any failure."""
     url = candidate.image_url
-    host_limiter = wikimedia_semaphore() if is_wikimedia_upload(url) else contextlib.nullcontext()
+    host_limiter = (
+        wikimedia_semaphore(url_host(url)) if is_wikimedia_upload(url) else contextlib.nullcontext()
+    )
     try:
         async with limiter, host_limiter:
             try:
@@ -323,7 +344,23 @@ async def _download_one(
         return await asyncio.to_thread(_process_bytes, candidate, data, thumbs_dir)
     except DownloadRejected as exc:
         log.debug("%s skipped %s (%s): %s", SERVICE, url, candidate.source_type.value, exc)
+        if reasons is not None:
+            reasons[failure_key(str(exc))] += 1
+        if failed_hosts is not None:
+            failed_hosts[url_host(url)] += 1
         return None
+
+
+def failure_key(reason: str) -> str:
+    """Aggregation key for a failure reason: numbers replaced so sizes/timeouts group together."""
+    return re.sub(r"\d+(\.\d+)?", "N", reason)[:60]
+
+
+def url_host(url: str) -> str:
+    try:
+        return httpx.URL(url).host or "?"
+    except (httpx.InvalidURL, TypeError, ValueError):
+        return "?"
 
 
 def _stage_budget(stage_timeout_s: float, deadline: float | None) -> float:
@@ -363,7 +400,14 @@ async def download_candidates(
     started = time.monotonic()
     tasks = [
         asyncio.create_task(
-            _download_one(client, candidate, thumbs_dir=thumbs_dir, limiter=limiter),
+            _download_one(
+                client,
+                candidate,
+                thumbs_dir=thumbs_dir,
+                limiter=limiter,
+                reasons=result.reasons,
+                failed_hosts=result.failed_hosts,
+            ),
             name=f"download:{candidate.photo_id}",
         )
         for candidate in candidates
@@ -397,6 +441,21 @@ async def download_candidates(
         int((time.monotonic() - started) * 1000),
         budget,
     )
+    if candidates and len(result.images) <= result.failed + result.timed_out:
+        # a stage that mostly fails must be loud, never a silent empty list
+        top = "; ".join(f"{k} x{v}" for k, v in result.reasons.most_common(3)) or "-"
+        hosts = ", ".join(h for h, _ in result.failed_hosts.most_common(2)) or "-"
+        log.warning(
+            "download stage degraded: only %d of %d images fetched (%d failed: %s | hosts: %s; "
+            "%d timed out within the %.1fs budget)",
+            len(result.images),
+            len(candidates),
+            result.failed,
+            top,
+            hosts,
+            result.timed_out,
+            budget,
+        )
     return result
 
 
@@ -407,7 +466,9 @@ async def fetch_logo_hashes(client: httpx.AsyncClient, image_url: str) -> tuple[
     ``None`` on any failure (logged).
     """
     host_limiter = (
-        wikimedia_semaphore() if is_wikimedia_upload(image_url) else contextlib.nullcontext()
+        wikimedia_semaphore(url_host(image_url))
+        if is_wikimedia_upload(image_url)
+        else contextlib.nullcontext()
     )
     try:
         async with host_limiter:

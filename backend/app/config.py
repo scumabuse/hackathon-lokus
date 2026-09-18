@@ -13,6 +13,7 @@ DEFAULT_VISION_MODEL = "gemini-3.5-flash-lite"
 _OPTIONAL_STR_FIELDS = (
     "gemini_api_key",
     "text_model",
+    "vision_fallback_model",
     "flickr_api_key",
     "google_cse_key",
     "google_cse_cx",
@@ -33,6 +34,8 @@ class Settings(BaseSettings):
     gemini_api_key: str | None = None
     vision_model: str = DEFAULT_VISION_MODEL
     text_model: str | None = None  # None -> same as vision_model
+    # second model with its own free-tier quota bucket, used the moment the primary answers 429
+    vision_fallback_model: str | None = "gemini-3.1-flash-lite"
     flickr_api_key: str | None = None
     google_cse_key: str | None = None
     google_cse_cx: str | None = None
@@ -40,8 +43,8 @@ class Settings(BaseSettings):
     cache_dir: Path = Path("./data")
     profile_ttl_hours: int = 24
     hard_deadline_s: float = 27.0
-    vision_batch_size: int = 8
-    vision_concurrency: int = 4
+    vision_batch_size: int = 12
+    vision_concurrency: int = 6
     download_concurrency: int = 16
     max_candidates: int = 120
     disable_sources: str = ""

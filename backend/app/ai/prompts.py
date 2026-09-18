@@ -36,7 +36,7 @@ VISION_HEADER = (
     "Classify each of the N={n} images below. For each image return an object: "
     '{{"index": <1..N>, '
     '"is_photo": <true|false>, '
-    '// false for logos, emblems, maps, floor plans, diagrams, 3D renders/visualizations, '
+    "// false for logos, emblems, maps, floor plans, diagrams, 3D renders/visualizations, "
     "screenshots, documents, slides, text-only graphics, coats of arms\n"
     '"category": "campus"|"dormitory"|"classroom"|"library"|"lab"|"sport"|"student_life"'
     '|"city"|"other", '
@@ -55,11 +55,12 @@ VISION_HEADER = (
     '"reason": <string, max 12 words>}}'
 )
 
+# Prepended to VISION_HEADER for city batches (the full schema below still applies).
 VISION_HEADER_CITY = (
-    "University: {name}. City: {city}, {country}. "
-    "The following N={n} images are from a Wikimedia Commons category for the city, NOT the "
-    "university. Classify each image. For each image return an object with the same schema as "
-    "above; category should be 'city' unless the image clearly shows a university building/event."
+    "Note: the following N={n} images come from the Wikimedia Commons category of the city "
+    '{city}, NOT from the university. Use the category "city" for cityscapes, streets, '
+    "landmarks and parks; use another category only if the image clearly shows a university "
+    "building, facility or event.\n"
 )
 
 VISION_FOOTER = (
@@ -68,8 +69,7 @@ VISION_FOOTER = (
 )
 
 VISION_RETRY_SUFFIX = (
-    "\nYour previous output was not a valid JSON array of N objects. "
-    "Output only the JSON array."
+    "\nYour previous output was not a valid JSON array of N objects. Output only the JSON array."
 )
 
 # ---------------------------------------------------------------------------

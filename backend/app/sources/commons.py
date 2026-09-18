@@ -690,4 +690,3 @@ class CityCommonsSource(BaseSource):
         )
         result.candidates.extend(candidates)
         apply_budget(result, budget)
-

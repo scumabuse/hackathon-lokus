@@ -660,22 +660,28 @@ def test_build_sources_default_without_flickr_key() -> None:
     sources = build_sources(Settings(flickr_api_key=None, disable_sources=""))
     assert [s.name for s in sources] == [
         "wikidata_p18",
+        "official_site",
         "commons_category",
         "commons_geo",
         "commons_search",
+        "city_commons",
     ]
     assert [s.source_type for s in sources] == [
         SourceType.wikidata_p18,
+        SourceType.official_site,
         SourceType.commons_category,
         SourceType.commons_geo,
         SourceType.commons_search,
+        SourceType.city_commons,
     ]
     assert SOURCE_NAMES == (
         "wikidata_p18",
+        "official_site",
         "commons_category",
         "commons_geo",
         "flickr",
         "commons_search",
+        "city_commons",
     )
 
 
@@ -686,17 +692,29 @@ def test_build_sources_with_flickr_key() -> None:
 
 def test_build_sources_honours_disable_sources() -> None:
     settings = Settings(flickr_api_key="fake-key", disable_sources="commons_category,commons_geo")
-    assert [s.name for s in build_sources(settings)] == ["wikidata_p18", "flickr", "commons_search"]
+    assert [s.name for s in build_sources(settings)] == [
+        "wikidata_p18",
+        "official_site",
+        "flickr",
+        "commons_search",
+        "city_commons",
+    ]
     settings = Settings(
         flickr_api_key=None, disable_sources=" Commons_Category , commons_geo ,nope"
     )
-    assert [s.name for s in build_sources(settings)] == ["wikidata_p18", "commons_search"]
+    assert [s.name for s in build_sources(settings)] == [
+        "wikidata_p18",
+        "official_site",
+        "commons_search",
+        "city_commons",
+    ]
     settings = Settings(flickr_api_key="fake-key", disable_sources="flickr")
     assert "flickr" not in [s.name for s in build_sources(settings)]
 
 
 async def test_all_registry_sources_run_on_fixtures(http: httpx.AsyncClient) -> None:
-    settings = Settings(flickr_api_key=None, disable_sources="")
+    # official_site and city_commons need hosts the Commons fixtures do not cover
+    settings = Settings(flickr_api_key=None, disable_sources="official_site,city_commons")
     fake = CommonsFake()
     with respx.mock(assert_all_called=False) as router:
         router.get(COMMONS_API).mock(side_effect=fake)

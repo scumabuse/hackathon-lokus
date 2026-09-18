@@ -18,7 +18,9 @@ import asyncio
 import logging
 import re
 import time
+from email.utils import parsedate_to_datetime
 from urllib.parse import urljoin, urlparse
+from urllib.robotparser import RobotFileParser
 
 import httpx
 from bs4 import BeautifulSoup
@@ -163,13 +165,14 @@ def _page_date(soup: BeautifulSoup, response: httpx.Response) -> tuple[str | Non
             date, kind = _parse_date(tag.get("content"))
             if date:
                 return date, kind
-    lm = response.headers.get("Last-Modified")
-    if lm:
-        # crude: extract YYYY-MM-DD from RFC 7231 date
-        m = re.search(r"(\d{4})", lm)
-        if m:
-            # just use the year — not a full date; fall through
-            pass
+    last_modified = response.headers.get("Last-Modified")
+    if last_modified:
+        try:
+            parsed = parsedate_to_datetime(last_modified)
+        except (TypeError, ValueError):
+            parsed = None
+        if parsed is not None:
+            return parsed.date().isoformat(), "published"
     return None, "unknown"
 
 
@@ -189,7 +192,7 @@ class OfficialSiteSource(BaseSource):
     name = OFFICIAL_SITE_NAME
     source_type = SourceType.official_site
 
-    async def collect(self, ctx: SourceContext, result: SourceResult) -> None:  # noqa: C901
+    async def collect(self, ctx: SourceContext, result: SourceResult) -> None:
         header = ctx.resolved.header
         if not header.official_website:
             result.warnings.append(Warning(code=WarningCode.no_official_site))
@@ -201,31 +204,33 @@ class OfficialSiteSource(BaseSource):
         source_label = base_host
         stage_deadline = time.monotonic() + SOURCE_BUDGET_S
 
-        bot_ua = f"Mozilla/5.0 (compatible; VisualCampusBot/1.0; +mailto:{ctx.settings.contact_email})"
+        bot_ua = (
+            f"Mozilla/5.0 (compatible; VisualCampusBot/1.0; +mailto:{ctx.settings.contact_email})"
+        )
         headers = {"User-Agent": bot_ua, "Accept": "text/html,*/*"}
 
-        # robots.txt check
-        allowed_paths: set[str] = set()
+        # robots.txt check (Section 7.5): a missing or unreadable file means "allowed"
+        self._robots = None
+        robots_url = f"{parsed_base.scheme}://{base_host}/robots.txt"
         try:
-            robots_url = f"{parsed_base.scheme}://{base_host}/robots.txt"
             robots_resp = await asyncio.wait_for(
                 ctx.http.get(robots_url, headers=headers),
                 timeout=ROBOTS_TIMEOUT_S,
             )
-            from urllib.robotparser import RobotFileParser
-            rp = RobotFileParser()
-            rp.set_url(robots_url)
-            rp.parse(robots_resp.text.splitlines())
-            self._robots = rp
-        except Exception:
-            self._robots = None
+            if robots_resp.status_code == 200:
+                rp = RobotFileParser()
+                rp.set_url(robots_url)
+                rp.parse(robots_resp.text.splitlines())
+                self._robots = rp
+        except (httpx.HTTPError, TimeoutError, ValueError) as exc:
+            log.debug("official_site: robots.txt unavailable for %s (%s)", base_host, exc)
 
         def is_allowed(url: str) -> bool:
             if self._robots is None:
                 return True
             try:
                 return self._robots.can_fetch("*", url)
-            except Exception:
+            except (ValueError, KeyError, AttributeError):
                 return True
 
         candidates: list[RawCandidate] = []
@@ -242,7 +247,7 @@ class OfficialSiteSource(BaseSource):
                     timeout=PAGE_TIMEOUT_S,
                 )
                 resp.raise_for_status()
-            except Exception as exc:
+            except (httpx.HTTPError, TimeoutError, ValueError) as exc:
                 if is_homepage:
                     result.warnings.append(
                         Warning(code=WarningCode.source_unavailable, detail=self.name)
@@ -255,10 +260,7 @@ class OfficialSiteSource(BaseSource):
             if "html" not in ct and "xml" not in ct:
                 return
 
-            try:
-                soup = BeautifulSoup(resp.text, "lxml")
-            except Exception:
-                soup = BeautifulSoup(resp.text, "html.parser")
+            soup = BeautifulSoup(resp.text, "lxml")
 
             date, date_kind = _page_date(soup, resp)
             pg_title = _page_title(soup)
@@ -272,7 +274,10 @@ class OfficialSiteSource(BaseSource):
                 alt_text: str | None = None
                 for img_tag in soup.find_all("img"):
                     for attr in ("src", "data-src", "data-lazy-src", "data-original"):
-                        if img_tag.get(attr) and urljoin(page_url, str(img_tag.get(attr))) == img_url:
+                        if (
+                            img_tag.get(attr)
+                            and urljoin(page_url, str(img_tag.get(attr))) == img_url
+                        ):
                             alt_text = clip_text(img_tag.get("alt"), 300)
                             break
 

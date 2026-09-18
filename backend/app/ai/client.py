@@ -27,6 +27,7 @@ from app.config import Settings
 log = logging.getLogger("app.ai")
 
 MAX_ATTEMPTS = 3  # 1 call + 2 retries (SPEC Section 9)
+GEMINI_MIN_HTTP_TIMEOUT_S = 10.0  # the API rejects shorter deadlines with 400 INVALID_ARGUMENT
 RETRY_WAIT = wait_exponential(multiplier=1.0, min=1.0, max=4.0)  # 1 s, then 2 s (capped at 4 s)
 DEFAULT_TIMEOUT_S = 30.0  # no call may outlive the 30 s budget
 STARTUP_CHECK_TIMEOUT_S = 10.0
@@ -49,7 +50,8 @@ def is_retryable(exc: BaseException) -> bool:
     if isinstance(exc, errors.APIError):
         code = exc.code or 0
         return code in RETRYABLE_STATUS or code >= 500
-    return isinstance(exc, (httpx.TransportError, TimeoutError))
+    # asyncio.TimeoutError from our own budget is final: the caller's deadline is authoritative
+    return isinstance(exc, httpx.TransportError)
 
 
 def _retrying() -> AsyncRetrying:
@@ -116,6 +118,21 @@ def parse_json_text(text: str) -> Any:
     raise ValueError("model output contains no valid JSON")
 
 
+_RETRY_DELAY_RE = re.compile(r"retry in ([0-9.]+)s")
+DEFAULT_QUOTA_COOLDOWN_S = 20.0
+
+
+def retry_delay_seconds(exc: BaseException) -> float:
+    """The cooldown a 429 asks for ("Please retry in 11.6s"), capped at 60 s; 20 s by default."""
+    match = _RETRY_DELAY_RE.search(str(exc))
+    if match is None:
+        return DEFAULT_QUOTA_COOLDOWN_S
+    try:
+        return min(60.0, max(1.0, float(match.group(1))))
+    except ValueError:
+        return DEFAULT_QUOTA_COOLDOWN_S
+
+
 def thinking_config(model: str) -> types.ThinkingConfig:
     """Minimal reasoning: classification and short descriptions need speed, not deliberation.
 
@@ -146,6 +163,7 @@ class AIClient:
         self._settings = settings
         self._client: genai.Client | None = None
         self._no_thinking_models: set[str] = set()
+        self._cooldown_until: dict[str, float] = {}  # model -> monotonic time
         self.available: bool = False
         self.unavailable_reason: str | None = "GEMINI_API_KEY is not set"
         if settings.gemini_api_key:
@@ -228,8 +246,17 @@ class AIClient:
             max_output_tokens=max_output_tokens,
             response_mime_type=JSON_MIME if json_mode else None,
             thinking_config=thinking,
-            http_options=types.HttpOptions(timeout=int(timeout * 1000)),
+            # Gemini refuses deadlines under 10 s; a shorter budget is enforced client-side
+            # by asyncio.wait_for in generate()
+            http_options=types.HttpOptions(
+                timeout=int(max(timeout, GEMINI_MIN_HTTP_TIMEOUT_S) * 1000)
+            ),
         )
+
+    def _model_chain(self, model: str) -> list[str]:
+        """The primary model, then the fallback model when one is configured and different."""
+        fallback = self._settings.vision_fallback_model
+        return [model, fallback] if fallback and fallback != model else [model]
 
     async def generate(
         self,
@@ -243,17 +270,89 @@ class AIClient:
         timeout: float | None = None,
         minimal_thinking: bool = True,
     ) -> types.GenerateContentResponse:
-        """``generate_content`` with the retry policy (vision batches and text tasks use this).
+        """``generate_content`` with the retry policy and the per-model quota fallback.
 
-        Raises AIUnavailableError when the client is off, otherwise the SDK / transport
-        exception once the retries are exhausted.
+        The free tier counts requests per minute PER MODEL, so a 429 on the primary model
+        switches to the fallback model at once and remembers the cooldown the API asks for;
+        retries with backoff happen only on the last model of the chain. Raises
+        AIUnavailableError when the client is off, otherwise the SDK / transport exception once
+        every option is exhausted.
         """
         if self._client is None or not self.available:
             raise AIUnavailableError(f"Gemini API unavailable: {self.unavailable_reason}")
-        model_name = model or self.text_model
+        chain = self._model_chain(model or self.text_model)
         request_timeout = DEFAULT_TIMEOUT_S if timeout is None else timeout
+        last_error: BaseException | None = None
+        for position, model_name in enumerate(chain):
+            has_fallback = position < len(chain) - 1
+            cooldown = self._cooldown_until.get(model_name, 0.0) - time.monotonic()
+            if has_fallback and cooldown > 0:
+                log.info(
+                    "gemini %s in quota cooldown for %.0fs; using %s",
+                    model_name,
+                    cooldown,
+                    chain[position + 1],
+                )
+                continue
+            try:
+                return await self._generate_with(
+                    model_name,
+                    contents=contents,
+                    system=system,
+                    temperature=temperature,
+                    max_output_tokens=max_output_tokens,
+                    json_mode=json_mode,
+                    timeout=request_timeout,
+                    minimal_thinking=minimal_thinking,
+                    retry_429=not has_fallback,
+                )
+            except errors.APIError as exc:
+                if exc.code == 429 and has_fallback:
+                    delay = retry_delay_seconds(exc)
+                    self._cooldown_until[model_name] = time.monotonic() + delay
+                    log.warning(
+                        "gemini %s quota exhausted (API asks to retry in %.0fs); falling back "
+                        "to %s",
+                        model_name,
+                        delay,
+                        chain[position + 1],
+                    )
+                    last_error = exc
+                    continue
+                raise
+        if last_error is None:  # pragma: no cover - every model was in cooldown
+            raise AIUnavailableError("Gemini API unavailable: every model is in quota cooldown")
+        raise last_error
+
+    async def _generate_with(
+        self,
+        model_name: str,
+        *,
+        contents: ContentsType,
+        system: str | None,
+        temperature: float,
+        max_output_tokens: int,
+        json_mode: bool,
+        timeout: float,
+        minimal_thinking: bool,
+        retry_429: bool,
+    ) -> types.GenerateContentResponse:
+        """One model through the tenacity policy (429 retried only when no fallback is left)."""
         client = self._client
-        async for attempt in _retrying():
+        if client is None:  # pragma: no cover - guarded by generate()
+            raise AIUnavailableError("Gemini API unavailable")
+
+        def should_retry(exc: BaseException) -> bool:
+            if isinstance(exc, errors.APIError) and exc.code == 429 and not retry_429:
+                return False
+            return is_retryable(exc)
+
+        async for attempt in AsyncRetrying(
+            stop=stop_after_attempt(MAX_ATTEMPTS),
+            wait=RETRY_WAIT,
+            retry=retry_if_exception(should_retry),
+            reraise=True,
+        ):
             with attempt:
                 config = self._config(
                     model=model_name,
@@ -261,7 +360,7 @@ class AIClient:
                     temperature=temperature,
                     max_output_tokens=max_output_tokens,
                     json_mode=json_mode,
-                    timeout=request_timeout,
+                    timeout=timeout,
                     minimal_thinking=minimal_thinking,
                 )
                 started = time.monotonic()
@@ -270,7 +369,7 @@ class AIClient:
                         client.aio.models.generate_content(
                             model=model_name, contents=contents, config=config
                         ),
-                        timeout=request_timeout + 1.0,
+                        timeout=timeout + 1.0,
                     )
                 except errors.ClientError as exc:
                     if self._thinking_rejected(exc, model_name, config):

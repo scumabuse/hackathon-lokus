@@ -14,6 +14,7 @@ F. The cached path and the concurrency guard are Phase 6.
 from __future__ import annotations
 
 import asyncio
+import collections
 import logging
 import time
 from collections.abc import AsyncIterator, Iterable
@@ -40,8 +41,8 @@ from app.models import (
     UniversityHeader,
     Warning,
 )
-from app.processing.dedup import dedupe
-from app.processing.download import download_candidates, fetch_logo_hashes
+from app.processing.dedup import dedupe, drop_duplicates_of
+from app.processing.download import DownloadResult, download_candidates, fetch_logo_hashes
 from app.processing.textmatch import name_terms
 from app.resolver.wikidata import ResolvedEntity, ResolverUnavailableError, resolve_university
 from app.resolver.wikipedia import WikiSummary, rest_summary
@@ -61,7 +62,10 @@ log = logging.getLogger("app.pipeline")
 
 STAGE_A_TIMEOUT_S = 5.0  # Section 6: resolve hard limit
 SOURCE_TIMEOUT_S = 8.0  # Section 6: per source
-DOWNLOAD_STAGE_TIMEOUT_S = 8.0  # Section 6: download stage
+DOWNLOAD_STAGE_TIMEOUT_S = 8.0  # Section 6: download stage (hard limit, wave 2)
+FIRST_WAVE_SIZE = 24  # best candidates downloaded first so classification can start early
+FIRST_WAVE_TIMEOUT_S = 4.0  # Section 6: download stage target, used for wave 1
+FIRST_BATCH_SIZE = 4  # a small first vision batch returns the first photos sooner
 VISION_BATCH_TIMEOUT_S = 20.0  # Section 6/9: per batch
 VISION_MIN_REMAINING_S = 4.0  # Section 6 deadline monitor: do not start a batch below this
 DESCRIBE_TIMEOUT_S = 12.0  # Section 6: describe hard limit
@@ -251,12 +255,30 @@ class _BatchResult:
     error: str | None = None
 
 
-def _batches(images: list[ProcessedImage], size: int, *, start: int, target: str) -> list[_Batch]:
-    ordered = sorted(images, key=lambda im: source_rank(im.candidate.source_type))
+def _plan_batches(
+    images: list[ProcessedImage], size: int, *, start: int, first_small: bool
+) -> list[_Batch]:
+    """Batches ordered by SOURCE_PRIORITY; city images go to their own ``city`` batches.
+
+    With ``first_small`` the first FIRST_BATCH_SIZE university images form a batch of their own so
+    the first photos chunk is emitted as early as possible.
+    """
     size = max(1, size)
+    ordered = sorted(images, key=lambda im: source_rank(im.candidate.source_type))
+    university = [im for im in ordered if im.candidate.source_type is not SourceType.city_commons]
+    city = [im for im in ordered if im.candidate.source_type is SourceType.city_commons]
+    groups: list[tuple[str, list[ProcessedImage]]] = []
+    if first_small and len(university) > FIRST_BATCH_SIZE:
+        groups.append(("university", university[:FIRST_BATCH_SIZE]))
+        university = university[FIRST_BATCH_SIZE:]
+    groups += [
+        ("university", university[pos : pos + size]) for pos in range(0, len(university), size)
+    ]
+    groups += [("city", city[pos : pos + size]) for pos in range(0, len(city), size)]
     return [
-        _Batch(index=start + i, target=target, images=ordered[pos : pos + size])
-        for i, pos in enumerate(range(0, len(ordered), size))
+        _Batch(index=start + i, target=target, images=chunk)
+        for i, (target, chunk) in enumerate(groups)
+        if chunk
     ]
 
 
@@ -277,9 +299,21 @@ async def _run_batch(
                 skipped=True,
             )
         timeout = min(VISION_BATCH_TIMEOUT_S, max(1.0, remaining - 1.0))
-        outcome = await vision.classify_batch(
-            deps.ai, batch.images, header, target=batch.target, timeout=timeout
-        )
+        try:
+            # absolute guard: retries and backoff inside the batch can never outlive the deadline
+            outcome = await asyncio.wait_for(
+                vision.classify_batch(
+                    deps.ai, batch.images, header, target=batch.target, timeout=timeout
+                ),
+                timeout=max(1.0, remaining - 0.5),
+            )
+        except TimeoutError:
+            log.warning("F batch %d cut by the hard deadline", batch.index)
+            return _BatchResult(
+                batch=batch,
+                infos=[VisionInfo(available=True, timed_out=True) for _ in batch.images],
+                skipped=True,
+            )
         return _BatchResult(
             batch=batch,
             infos=outcome.infos,
@@ -291,7 +325,9 @@ async def _run_batch(
 # ----------------------------------------------------------------------------- helpers
 
 
-async def _fetch_summaries(client: httpx.AsyncClient, resolved: ResolvedEntity) -> list[WikiSummary]:
+async def _fetch_summaries(
+    client: httpx.AsyncClient, resolved: ResolvedEntity
+) -> list[WikiSummary]:
     """Section 7.2: en + ru REST summaries in parallel (4 s each); failures are just absent."""
     titles = [(lang, resolved.wiki_titles.get(lang)) for lang in ("en", "ru")]
     tasks = [rest_summary(client, lang, title) for lang, title in titles if title]
@@ -309,8 +345,10 @@ async def _logo_hashes(
         return None
     try:
         info = await commons.fetch_file_info(client, logo_filename)
-    except Exception:  # a logo problem must never affect the profile
-        log.debug("logo info failed", exc_info=True)
+    except Exception:  # a logo problem must never affect the profile, but it must be visible
+        log.warning(
+            "logo lookup failed for %r; logo exclusion skipped", logo_filename, exc_info=True
+        )
         return None
     if not info:
         return None
@@ -372,7 +410,6 @@ async def run_pipeline(
     deps: PipelineDeps, qid: str, *, refresh: bool = False
 ) -> AsyncIterator[PipelineEvent]:
     """Stages A-I with Section 6.2 concurrency guard and Section 6.3 cache fast path."""
-    settings = deps.settings
 
     # ---- Section 6.2: concurrency guard
     if _PIPELINE_SEMAPHORE.locked() and _PIPELINE_SEMAPHORE._value == 0:  # type: ignore[attr-defined]
@@ -419,7 +456,15 @@ async def _run_pipeline_inner(
                     cached_data["header"]["cached"] = True
                     cached_data["header"]["cached_at"] = created_at.isoformat()
                 yield PipelineEvent("header", cached_data.get("header", {}))
-                yield PipelineEvent("warning", _dump(Warning(code=WarningCode.served_from_cache, detail=f"built {minutes_ago} minutes ago")))
+                yield PipelineEvent(
+                    "warning",
+                    _dump(
+                        Warning(
+                            code=WarningCode.served_from_cache,
+                            detail=f"built {minutes_ago} minutes ago",
+                        )
+                    ),
+                )
                 if cached_data.get("description"):
                     yield PipelineEvent("description", cached_data["description"])
                 photos_list = cached_data.get("photos", [])
@@ -493,29 +538,46 @@ async def _run_pipeline_inner(
         normalized.dropped_by_caps,
     )
 
-    # ---- D. download (logo hashes fetched alongside for Section 8 logo exclusion)
-    stage = time.monotonic()
-    download_task = asyncio.create_task(
-        download_candidates(
-            deps.http,
-            normalized.candidates,
-            thumbs_dir=settings.thumbs_dir,
-            concurrency=settings.download_concurrency,
-            stage_timeout_s=DOWNLOAD_STAGE_TIMEOUT_S,
-            deadline=run.deadline,
-        )
-    )
+    # ---- D. download in two waves so the first photos are not gated by the slowest image.
+    # Wave 1 = the best FIRST_WAVE_SIZE candidates (priority order) within the 4 s target;
+    # wave 2 = the rest, fetched while wave 1 is already being classified. Per image the
+    # Section 6 order still holds: download -> dedup -> vision -> score.
+    download_started = time.monotonic()
     logo_task = asyncio.create_task(_logo_hashes(deps.http, resolved.logo_filename))
-    downloaded = await download_task
+    wave1 = normalized.candidates[:FIRST_WAVE_SIZE]
+    wave2 = normalized.candidates[FIRST_WAVE_SIZE:]
+    downloaded1 = await download_candidates(
+        deps.http,
+        wave1,
+        thumbs_dir=settings.thumbs_dir,
+        concurrency=settings.download_concurrency,
+        stage_timeout_s=FIRST_WAVE_TIMEOUT_S,
+        deadline=run.deadline,
+    )
     logo = await logo_task
-    run.timings["download"] = _ms(stage)
+    wave2_task: asyncio.Task[DownloadResult] | None = None
+    if wave2:
+        wave2_task = asyncio.create_task(
+            download_candidates(
+                deps.http,
+                wave2,
+                thumbs_dir=settings.thumbs_dir,
+                concurrency=settings.download_concurrency,
+                stage_timeout_s=DOWNLOAD_STAGE_TIMEOUT_S,
+                deadline=run.deadline,
+            )
+        )
+    downloads: list[DownloadResult] = [downloaded1]
+    run.timings["download"] = _ms(download_started)
 
-    # ---- E. dedup
+    # ---- E. dedup (wave 1 now; wave 2 is deduplicated against it when it lands)
     stage = time.monotonic()
     logo_sha1, logo_phash = logo if logo is not None else (None, None)
-    deduped = dedupe(downloaded.images, logo_sha1=logo_sha1, logo_phash=logo_phash)
+    deduped1 = dedupe(downloaded1.images, logo_sha1=logo_sha1, logo_phash=logo_phash)
     run.timings["dedup"] = _ms(stage)
-    irrelevant_removed = deduped.logo_removed
+    duplicates_removed = deduped1.removed
+    irrelevant_removed = deduped1.logo_removed
+    kept: list[ProcessedImage] = list(deduped1.kept)
 
     # ---- H starts now and runs in parallel with F
     stage_describe = time.monotonic()
@@ -526,53 +588,118 @@ async def _run_pipeline_inner(
     names = name_terms(header.name, header.local_name, header.aliases)
     admitted = _RunningSelection()
     emitted: list[Photo] = []
-    university_images = [
-        im for im in deduped.kept if im.candidate.source_type is not SourceType.city_commons
-    ]
-    city_images = [im for im in deduped.kept if im.candidate.source_type is SourceType.city_commons]
-    batches = _batches(university_images, settings.vision_batch_size, start=0, target="university")
-    batches += _batches(
-        city_images, settings.vision_batch_size, start=len(batches), target="city"
-    )
     semaphore = asyncio.Semaphore(max(1, settings.vision_concurrency))
-    tasks = [
-        asyncio.create_task(
-            _run_batch(deps, batch, header, semaphore=semaphore, deadline=run.deadline)
+    batches: list[_Batch] = []
+    pending: dict[asyncio.Task[_BatchResult], _Batch] = {}
+
+    def schedule(images: list[ProcessedImage], *, first_small: bool) -> None:
+        planned = _plan_batches(
+            images, settings.vision_batch_size, start=len(batches), first_small=first_small
         )
-        for batch in batches
-    ]
-    total_images = len(deduped.kept)
+        for batch in planned:
+            batches.append(batch)
+            task = asyncio.create_task(
+                _run_batch(deps, batch, header, semaphore=semaphore, deadline=run.deadline)
+            )
+            pending[task] = batch
+
+    schedule(kept, first_small=True)
     unclassified = 0
-    batches_done = batches_first_ok = batches_failed = 0
+    batches_ok = batches_first_ok = batches_failed = 0
+    first_error: str | None = None
     chunk_index = 0
-    for finished in asyncio.as_completed(tasks):
-        result = await finished
-        batches_done += 1
-        if result.skipped:
-            unclassified += len(result.batch.images)
-        elif result.parsed_first_attempt:
-            batches_first_ok += 1
-        if result.error and not result.skipped:
-            batches_failed += 1
-        chunk: list[Photo] = []
-        for image, raw_info in zip(result.batch.images, result.infos, strict=True):
-            info, keep = vision.apply_post_processing(image, raw_info)
-            if not keep:
-                irrelevant_removed += 1
+    while pending or wave2_task is not None:
+        waiting: set[asyncio.Task[Any]] = set(pending)
+        if wave2_task is not None:
+            waiting.add(wave2_task)
+        done, _ = await asyncio.wait(waiting, return_when=asyncio.FIRST_COMPLETED)
+        for task in done:
+            if task is wave2_task:
+                wave2_task = None
+                try:
+                    downloaded2 = task.result()
+                except Exception as exc:  # download_candidates never raises; belt and braces
+                    log.warning("D wave 2 crashed: %s", exc, exc_info=True)
+                    downloaded2 = DownloadResult(failed=len(wave2))
+                downloads.append(downloaded2)
+                run.timings["download"] = _ms(download_started)
+                dedup_started = time.monotonic()
+                deduped2 = dedupe(downloaded2.images, logo_sha1=logo_sha1, logo_phash=logo_phash)
+                fresh, cross = drop_duplicates_of(deduped2.kept, against=kept)
+                run.timings["dedup"] += _ms(dedup_started)
+                duplicates_removed += deduped2.removed + cross
+                irrelevant_removed += deduped2.logo_removed
+                kept.extend(fresh)
+                schedule(fresh, first_small=False)
                 continue
-            photo = build_photo(image, info, names)
-            if admitted.admit(photo):
-                chunk.append(photo)
-        if chunk:
-            emitted.extend(chunk)
-            yield PipelineEvent("photos", {"batch": chunk_index, "photos": [_dump(p) for p in chunk]})
-            chunk_index += 1
+            batch = pending.pop(task)  # type: ignore[arg-type]
+            try:
+                result = task.result()
+            except Exception as exc:  # a batch must never take the run down
+                log.warning("F batch %d crashed: %s", batch.index, exc, exc_info=True)
+                result = _BatchResult(
+                    batch=batch,
+                    infos=[
+                        VisionInfo(available=False, reason="vision unavailable: internal error")
+                        for _ in batch.images
+                    ],
+                    error=str(exc),
+                )
+            timed_out_images = sum(1 for info in result.infos if info.timed_out)
+            unclassified += timed_out_images
+            if result.skipped or timed_out_images == len(result.infos):
+                pass  # cut by the deadline monitor: scored without vision, reason vision_timeout
+            elif result.error:
+                batches_failed += 1
+                first_error = first_error or result.error
+            else:
+                batches_ok += 1
+                if result.parsed_first_attempt:
+                    batches_first_ok += 1
+            chunk: list[Photo] = []
+            for image, raw_info in zip(result.batch.images, result.infos, strict=True):
+                info, keep = vision.apply_post_processing(image, raw_info)
+                if not keep:
+                    irrelevant_removed += 1
+                    continue
+                photo = build_photo(image, info, names)
+                if admitted.admit(photo):
+                    chunk.append(photo)
+            if chunk:
+                emitted.extend(chunk)
+                yield PipelineEvent(
+                    "photos", {"batch": chunk_index, "photos": [_dump(p) for p in chunk]}
+                )
+                chunk_index += 1
     run.timings["vision"] = _ms(stage)
+
+    total_candidates = len(normalized.candidates)
+    total_downloaded = sum(len(d.images) for d in downloads)
+    failed_downloads = sum(d.failed for d in downloads)
+    timed_out_downloads = sum(d.timed_out for d in downloads)
+    if total_candidates and total_downloaded == 0:
+        # nothing could be fetched: say so instead of showing an empty profile without a reason
+        hosts: collections.Counter[str] = collections.Counter()
+        for d in downloads:
+            hosts.update(d.failed_hosts)
+        host = hosts.most_common(1)[0][0] if hosts else "image hosts"
+        yield run.warn(
+            WarningCode.source_unavailable,
+            f"{host} ({failed_downloads} failed, {timed_out_downloads} timed out)",
+        )
+    if timed_out_downloads:
+        yield run.warn(
+            WarningCode.time_budget_exceeded,
+            f"download: {timed_out_downloads} of {total_candidates} images not fetched within "
+            f"the {DOWNLOAD_STAGE_TIMEOUT_S:.0f} s stage budget",
+        )
+    total_images = len(kept)
     if batches:
         log.info(
-            "F vision: %d batches, %d parsed on the first attempt, %d failed, %d images skipped "
-            "by the deadline monitor, %dms",
+            "F vision: %d batches, %d ok (%d parsed on the first attempt), %d failed, %d images "
+            "skipped by the deadline monitor, %dms",
             len(batches),
+            batches_ok,
             batches_first_ok,
             batches_failed,
             unclassified,
@@ -583,11 +710,13 @@ async def _run_pipeline_inner(
             WarningCode.time_budget_exceeded,
             f"vision: {unclassified} of {total_images} images not classified",
         )
-    if batches and not vision_off and batches_failed == batches_done - (
-        1 if unclassified and batches_failed < batches_done else 0
-    ) and batches_first_ok == 0 and batches_failed:
-        # the model answered nothing usable for the whole run
-        yield run.warn(WarningCode.vision_unavailable, "vision model failed for every batch")
+    vision_failed_everywhere = bool(batches) and not vision_off and batches_ok == 0
+    if vision_failed_everywhere and batches_failed:
+        # the model answered nothing usable for the whole run (quota, outage, bad key)
+        yield run.warn(
+            WarningCode.vision_unavailable,
+            "vision model failed for every batch: " + (first_error or "unknown error")[:100],
+        )
 
     # ---- H. describe (started before F)
     description = await describe_task
@@ -605,7 +734,7 @@ async def _run_pipeline_inner(
         run.timings.setdefault(key, 0)
     stats = Stats(
         found=normalized.found,
-        duplicates_removed=deduped.removed,
+        duplicates_removed=duplicates_removed,
         irrelevant_removed=irrelevant_removed,
         shown=len(selection.shown),
         hidden_unverified=len(selection.hidden),
@@ -622,7 +751,17 @@ async def _run_pipeline_inner(
         warnings=list(run.warnings),
         generated_at=datetime.now(UTC),
     )
-    await deps.cache.set_profile(qid, _dump(profile))
+    if stats.shown == 0 or (vision_failed_everywhere and batches_failed):
+        # a run that produced nothing to show (or whose model failed throughout) is a transient
+        # failure: caching it would replay the failure for PROFILE_TTL_HOURS
+        log.warning(
+            "I not caching %s: shown=%d, vision failed everywhere=%s",
+            qid,
+            stats.shown,
+            vision_failed_everywhere,
+        )
+    else:
+        await deps.cache.set_profile(qid, _dump(profile))
     log.info(
         "I done %s: found=%d dupes=%d irrelevant=%d shown=%d hidden=%d cut=%d total=%dms",
         qid,

@@ -368,3 +368,55 @@ def test_normalize_candidates_caps_and_merge() -> None:
     assert merged.source_type is SourceType.commons_category  # higher priority wins...
     assert merged.geo == geo and merged.distance_m == 120.0  # ...but the geo signal is borrowed
     assert Verification.likely is not None and ReasonCode.category_heuristic is not None
+
+
+@respx.mock
+async def test_zero_downloads_warn_and_are_not_cached(
+    api: AsyncClient, settings: Settings, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    for url in (IMG_A, IMG_A_COPY, IMG_B, IMG_C, IMG_BROKEN):
+        respx.get(url).mock(return_value=httpx.Response(503))
+    fake_sources(monkeypatch)
+    monkeypatch.setattr(pipeline, "resolve_university", fake_resolve)
+
+    response = await api.get(f"/api/profile/{QID}", params={"refresh": 1})
+    assert response.status_code == 200, response.text
+    profile = response.json()
+    assert profile["stats"]["found"] == 5
+    assert profile["stats"]["shown"] == 0 and profile["photos"] == []
+    unavailable = [w["detail"] for w in profile["warnings"] if w["code"] == "source_unavailable"]
+    assert any(d and d.startswith("images.example.org") for d in unavailable), unavailable
+
+    from app.cache import Cache
+
+    cache = Cache(settings.cache_db_path)
+    try:
+        assert await cache.get_profile(QID, settings.profile_ttl_hours) is None
+    finally:
+        await cache.close()
+
+
+@respx.mock
+async def test_download_stage_cut_short_is_reported(
+    api: AsyncClient, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    mock_images()
+
+    async def slow(request: httpx.Request) -> httpx.Response:
+        await asyncio.sleep(1.5)
+        return httpx.Response(
+            200, content=photo_bytes(5, label="slow"), headers={"Content-Type": "image/jpeg"}
+        )
+
+    respx.get(IMG_C).mock(side_effect=slow)
+    monkeypatch.setattr(pipeline, "DOWNLOAD_STAGE_TIMEOUT_S", 0.5)
+    monkeypatch.setattr(pipeline, "FIRST_WAVE_TIMEOUT_S", 0.5)
+    fake_sources(monkeypatch)
+    monkeypatch.setattr(pipeline, "resolve_university", fake_resolve)
+
+    response = await api.get(f"/api/profile/{QID}", params={"refresh": 1})
+    assert response.status_code == 200, response.text
+    details = [
+        w.get("detail") for w in response.json()["warnings"] if w["code"] == "time_budget_exceeded"
+    ]
+    assert any(d and d.startswith("download: 1 of 5") for d in details), details

@@ -1,0 +1,2908 @@
+{
+ "entities": {
+  "Q427677": {
+   "type": "item",
+   "id": "Q427677",
+   "labels": {
+    "kk": {
+     "language": "kk",
+     "value": "Әл-Фараби атындағы Қазақ ұлттық университеті"
+    },
+    "ru": {
+     "language": "ru",
+     "value": "Казахский национальный университет"
+    },
+    "en": {
+     "language": "en",
+     "value": "Al-Farabi Kazakh National University"
+    }
+   },
+   "descriptions": {
+    "en": {
+     "language": "en",
+     "value": "university in Almaty, Kazakhstan"
+    },
+    "ru": {
+     "language": "ru",
+     "value": "высшее учебное заведение в Алматы, Казахстан"
+    },
+    "kk": {
+     "language": "kk",
+     "value": "Қазақстандағы, әлемдегі беделді жоғарғы оқу орындарының бірегейі"
+    }
+   },
+   "aliases": {
+    "kk": [
+     {
+      "language": "kk",
+      "value": "Қазақ Ұлттық Университеті"
+     },
+     {
+      "language": "kk",
+      "value": "ҚазҰУ"
+     },
+     {
+      "language": "kk",
+      "value": "ҚазМУ"
+     },
+     {
+      "language": "kk",
+      "value": "Қазақ Мемлекеттік Университеті"
+     },
+     {
+      "language": "kk",
+      "value": "Қазақ мемлекеттік университеті"
+     },
+     {
+      "language": "kk",
+      "value": "Қазақ ұлттық университеті"
+     },
+     {
+      "language": "kk",
+      "value": "Әл-Фараби университеті"
+     }
+    ],
+    "ru": [
+     {
+      "language": "ru",
+      "value": "КазГУ"
+     },
+     {
+      "language": "ru",
+      "value": "КазНУ"
+     },
+     {
+      "language": "ru",
+      "value": "Казахский Национальный университет имени аль-Фараби"
+     },
+     {
+      "language": "ru",
+      "value": "Казахский государственный университет им. С.М.Кирова"
+     },
+     {
+      "language": "ru",
+      "value": "Казахский государственный университет имени С. М. Кирова"
+     },
+     {
+      "language": "ru",
+      "value": "КазНУ им. Аль-Фараби"
+     },
+     {
+      "language": "ru",
+      "value": "Казахский национальный университет имени аль-Фараби"
+     },
+     {
+      "language": "ru",
+      "value": "Казахский государственный университет им. Аль-Фараби"
+     }
+    ],
+    "en": [
+     {
+      "language": "en",
+      "value": "Äl Farabï atındağı Qazaq Ulttıq Unïversïteti"
+     },
+     {
+      "language": "en",
+      "value": "Al-Farabi University"
+     },
+     {
+      "language": "en",
+      "value": "al-Farabi Kazakh National University"
+     },
+     {
+      "language": "en",
+      "value": "Kazakh National University"
+     },
+     {
+      "language": "en",
+      "value": "Ăl-Farabi atyndaghy Qazaq memlekettīk ūlttyq universitetī"
+     }
+    ]
+   },
+   "claims": {
+    "P31": [
+     {
+      "mainsnak": {
+       "snaktype": "value",
+       "property": "P31",
+       "hash": "e09607bb960ca63db6ce877738cf30040b2d5652",
+       "datavalue": {
+        "value": {
+         "entity-type": "item",
+         "numeric-id": 265662,
+         "id": "Q265662"
+        },
+        "type": "wikibase-entityid"
+       },
+       "datatype": "wikibase-item"
+      },
+      "type": "statement",
+      "id": "q427677$05288573-5A4B-4621-9C15-43F1DF93CEAF",
+      "rank": "normal",
+      "references": [
+       {
+        "hash": "288ab581e7d2d02995a26dfa8b091d96e78457fc",
+        "snaks": {
+         "P143": [
+          {
+           "snaktype": "value",
+           "property": "P143",
+           "hash": "6a164248fc96bfa583bbb495cb63ae6401ec203c",
+           "datavalue": {
+            "value": {
+             "entity-type": "item",
+             "numeric-id": 206855,
+             "id": "Q206855"
+            },
+            "type": "wikibase-entityid"
+           },
+           "datatype": "wikibase-item"
+          }
+         ]
+        },
+        "snaks-order": [
+         "P143"
+        ]
+       }
+      ]
+     },
+     {
+      "mainsnak": {
+       "snaktype": "value",
+       "property": "P31",
+       "hash": "9335f85b89fce82fa8a58155ddb2935c90b33368",
+       "datavalue": {
+        "value": {
+         "entity-type": "item",
+         "numeric-id": 875538,
+         "id": "Q875538"
+        },
+        "type": "wikibase-entityid"
+       },
+       "datatype": "wikibase-item"
+      },
+      "type": "statement",
+      "id": "Q427677$9e0f81ab-49a6-0ea9-a583-40261e941c2f",
+      "rank": "normal"
+     },
+     {
+      "mainsnak": {
+       "snaktype": "value",
+       "property": "P31",
+       "hash": "0d45e90f6b416bcd838f28f45a7bc49425e5bbc9",
+       "datavalue": {
+        "value": {
+         "entity-type": "item",
+         "numeric-id": 45400320,
+         "id": "Q45400320"
+        },
+        "type": "wikibase-entityid"
+       },
+       "datatype": "wikibase-item"
+      },
+      "type": "statement",
+      "id": "Q427677$F6CFB669-8B74-49D4-8E60-00AE6B103B0C",
+      "rank": "normal",
+      "references": [
+       {
+        "hash": "cfd697a99ce1b4308e5c6bc8c44ce885d5ecf865",
+        "snaks": {
+         "P248": [
+          {
+           "snaktype": "value",
+           "property": "P248",
+           "hash": "19f63e859613f911f0b55dcc7e91475f22530105",
+           "datavalue": {
+            "value": {
+             "entity-type": "item",
+             "numeric-id": 1227538,
+             "id": "Q1227538"
+            },
+            "type": "wikibase-entityid"
+           },
+           "datatype": "wikibase-item"
+          }
+         ]
+        },
+        "snaks-order": [
+         "P248"
+        ]
+       }
+      ]
+     }
+    ],
+    "P910": [
+     {
+      "mainsnak": {
+       "snaktype": "value",
+       "property": "P910",
+       "hash": "1a8ec3c6497b3e24a95655828892ecf403c90812",
+       "datavalue": {
+        "value": {
+         "entity-type": "item",
+         "numeric-id": 9573115,
+         "id": "Q9573115"
+        },
+        "type": "wikibase-entityid"
+       },
+       "datatype": "wikibase-item"
+      },
+      "type": "statement",
+      "id": "Q427677$6CB5F883-90E2-4A4F-9346-0876FCDBD81F",
+      "rank": "normal"
+     }
+    ],
+    "P646": [
+     {
+      "mainsnak": {
+       "snaktype": "value",
+       "property": "P646",
+       "hash": "41725dcedaac70f72f8cb3090564c2211b8a82d8",
+       "datavalue": {
+        "value": "/m/085d2w",
+        "type": "string"
+       },
+       "datatype": "external-id"
+      },
+      "type": "statement",
+      "id": "Q427677$76794A3E-7120-4CEA-8B45-429A2B4FDF9E",
+      "rank": "normal",
+      "references": [
+       {
+        "hash": "2b00cb481cddcac7623114367489b5c194901c4a",
+        "snaks": {
+         "P248": [
+          {
+           "snaktype": "value",
+           "property": "P248",
+           "hash": "a94b740202b097dd33355e0e6c00e54b9395e5e0",
+           "datavalue": {
+            "value": {
+             "entity-type": "item",
+             "numeric-id": 15241312,
+             "id": "Q15241312"
+            },
+            "type": "wikibase-entityid"
+           },
+           "datatype": "wikibase-item"
+          }
+         ],
+         "P577": [
+          {
+           "snaktype": "value",
+           "property": "P577",
+           "hash": "fde79ecb015112d2f29229ccc1ec514ed3e71fa2",
+           "datavalue": {
+            "value": {
+             "time": "+2013-10-28T00:00:00Z",
+             "timezone": 0,
+             "before": 0,
+             "after": 0,
+             "precision": 11,
+             "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            },
+            "type": "time"
+           },
+           "datatype": "time"
+          }
+         ]
+        },
+        "snaks-order": [
+         "P248",
+         "P577"
+        ]
+       }
+      ]
+     }
+    ],
+    "P138": [
+     {
+      "mainsnak": {
+       "snaktype": "value",
+       "property": "P138",
+       "hash": "3112c1f80415afe23f5b1e44822374fbf1ac79eb",
+       "datavalue": {
+        "value": {
+         "entity-type": "item",
+         "numeric-id": 207682,
+         "id": "Q207682"
+        },
+        "type": "wikibase-entityid"
+       },
+       "datatype": "wikibase-item"
+      },
+      "type": "statement",
+      "qualifiers": {
+       "P580": [
+        {
+         "snaktype": "value",
+         "property": "P580",
+         "hash": "b9378f8dd2d5e90c053ff9f95175350a365883ca",
+         "datavalue": {
+          "value": {
+           "time": "+1934-00-00T00:00:00Z",
+           "timezone": 0,
+           "before": 0,
+           "after": 0,
+           "precision": 9,
+           "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+          },
+          "type": "time"
+         },
+         "datatype": "time"
+        }
+       ],
+       "P582": [
+        {
+         "snaktype": "value",
+         "property": "P582",
+         "hash": "90238da0bb664ee5483fd2c30b8a9962abd9bf86",
+         "datavalue": {
+          "value": {
+           "time": "+1991-00-00T00:00:00Z",
+           "timezone": 0,
+           "before": 0,
+           "after": 0,
+           "precision": 9,
+           "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+          },
+          "type": "time"
+         },
+         "datatype": "time"
+        }
+       ]
+      },
+      "qualifiers-order": [
+       "P580",
+       "P582"
+      ],
+      "id": "Q427677$79d65b85-41c7-fbf9-046e-cae26822afd6",
+      "rank": "normal"
+     },
+     {
+      "mainsnak": {
+       "snaktype": "value",
+       "property": "P138",
+       "hash": "40e68b8f26e2c7c57f1ff8324fe4288496a30ac5",
+       "datavalue": {
+        "value": {
+         "entity-type": "item",
+         "numeric-id": 160460,
+         "id": "Q160460"
+        },
+        "type": "wikibase-entityid"
+       },
+       "datatype": "wikibase-item"
+      },
+      "type": "statement",
+      "qualifiers": {
+       "P580": [
+        {
+         "snaktype": "value",
+         "property": "P580",
+         "hash": "807228be43ecce85eae04af992ca74ee377fd749",
+         "datavalue": {
+          "value": {
+           "time": "+1991-00-00T00:00:00Z",
+           "timezone": 0,
+           "before": 0,
+           "after": 0,
+           "precision": 9,
+           "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+          },
+          "type": "time"
+         },
+         "datatype": "time"
+        }
+       ]
+      },
+      "qualifiers-order": [
+       "P580"
+      ],
+      "id": "Q427677$19de896a-4675-a8b4-6d7a-471bd633a383",
+      "rank": "preferred"
+     }
+    ],
+    "P214": [
+     {
+      "mainsnak": {
+       "snaktype": "value",
+       "property": "P214",
+       "hash": "34492ad2c52f674c6da175d7bc89e6500123c3b5",
+       "datavalue": {
+        "value": "140879866",
+        "type": "string"
+       },
+       "datatype": "external-id"
+      },
+      "type": "statement",
+      "id": "Q427677$8C6E4B72-BADC-43C9-8DAA-7F60BF77AFC9",
+      "rank": "normal",
+      "references": [
+       {
+        "hash": "ffb7008c3b41d9efd69c450e837f49eebb1b6dce",
+        "snaks": {
+         "P248": [
+          {
+           "snaktype": "value",
+           "property": "P248",
+           "hash": "6b7d4330c4aac4caec4ede9de0311ce273f88ecd",
+           "datavalue": {
+            "value": {
+             "entity-type": "item",
+             "numeric-id": 54919,
+             "id": "Q54919"
+            },
+            "type": "wikibase-entityid"
+           },
+           "datatype": "wikibase-item"
+          }
+         ],
+         "P813": [
+          {
+           "snaktype": "value",
+           "property": "P813",
+           "hash": "76142c1ac740096f18ea230da7fb62353d1c531f",
+           "datavalue": {
+            "value": {
+             "time": "+2015-08-03T00:00:00Z",
+             "timezone": 0,
+             "before": 0,
+             "after": 0,
+             "precision": 11,
+             "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            },
+            "type": "time"
+           },
+           "datatype": "time"
+          }
+         ]
+        },
+        "snaks-order": [
+         "P248",
+         "P813"
+        ]
+       }
+      ]
+     },
+     {
+      "mainsnak": {
+       "snaktype": "value",
+       "property": "P214",
+       "hash": "c77450171ecfbda16a1d3e429a216d7f2d9a8a48",
+       "datavalue": {
+        "value": "129358227",
+        "type": "string"
+       },
+       "datatype": "external-id"
+      },
+      "type": "statement",
+      "id": "Q427677$6CFE38D3-4C00-4FA7-8E0C-4D04B75124AC",
+      "rank": "normal"
+     }
+    ],
+    "P571": [
+     {
+      "mainsnak": {
+       "snaktype": "value",
+       "property": "P571",
+       "hash": "89588a3841a65c5d4db56904bd2f6df2863d57f6",
+       "datavalue": {
+        "value": {
+         "time": "+1934-00-00T00:00:00Z",
+         "timezone": 0,
+         "before": 0,
+         "after": 0,
+         "precision": 9,
+         "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+        },
+        "type": "time"
+       },
+       "datatype": "time"
+      },
+      "type": "statement",
+      "id": "Q427677$1E623C6B-7A9C-4959-85F0-042416A52D01",
+      "rank": "normal",
+      "references": [
+       {
+        "hash": "9a24f7c0208b05d6be97077d855671d1dfdbc0dd",
+        "snaks": {
+         "P143": [
+          {
+           "snaktype": "value",
+           "property": "P143",
+           "hash": "d38375ffe6fe142663ff55cd783aa4df4301d83d",
+           "datavalue": {
+            "value": {
+             "entity-type": "item",
+             "numeric-id": 48183,
+             "id": "Q48183"
+            },
+            "type": "wikibase-entityid"
+           },
+           "datatype": "wikibase-item"
+          }
+         ]
+        },
+        "snaks-order": [
+         "P143"
+        ]
+       }
+      ]
+     }
+    ],
+    "P856": [
+     {
+      "mainsnak": {
+       "snaktype": "value",
+       "property": "P856",
+       "hash": "9db079fcb69c90c52132878c9d6e3672830455fb",
+       "datavalue": {
+        "value": "https://farabi.university",
+        "type": "string"
+       },
+       "datatype": "url"
+      },
+      "type": "statement",
+      "id": "Q427677$7B966102-D158-4249-887F-B77C1B465A9E",
+      "rank": "normal"
+     }
+    ],
+    "P17": [
+     {
+      "mainsnak": {
+       "snaktype": "value",
+       "property": "P17",
+       "hash": "59bae97468490f29a9eb1f0b36f866e75c575243",
+       "datavalue": {
+        "value": {
+         "entity-type": "item",
+         "numeric-id": 232,
+         "id": "Q232"
+        },
+        "type": "wikibase-entityid"
+       },
+       "datatype": "wikibase-item"
+      },
+      "type": "statement",
+      "id": "Q427677$36F0A64E-6558-4F36-8182-8F74741BEA14",
+      "rank": "normal",
+      "references": [
+       {
+        "hash": "08be9f116c5c541d7fa461ad59ad559a42ffd6ed",
+        "snaks": {
+         "P143": [
+          {
+           "snaktype": "value",
+           "property": "P143",
+           "hash": "56f99b6701feb379816767ae88bb77e0e74981b3",
+           "datavalue": {
+            "value": {
+             "entity-type": "item",
+             "numeric-id": 17985,
+             "id": "Q17985"
+            },
+            "type": "wikibase-entityid"
+           },
+           "datatype": "wikibase-item"
+          }
+         ]
+        },
+        "snaks-order": [
+         "P143"
+        ]
+       },
+       {
+        "hash": "cfd697a99ce1b4308e5c6bc8c44ce885d5ecf865",
+        "snaks": {
+         "P248": [
+          {
+           "snaktype": "value",
+           "property": "P248",
+           "hash": "19f63e859613f911f0b55dcc7e91475f22530105",
+           "datavalue": {
+            "value": {
+             "entity-type": "item",
+             "numeric-id": 1227538,
+             "id": "Q1227538"
+            },
+            "type": "wikibase-entityid"
+           },
+           "datatype": "wikibase-item"
+          }
+         ]
+        },
+        "snaks-order": [
+         "P248"
+        ]
+       }
+      ]
+     }
+    ],
+    "P166": [
+     {
+      "mainsnak": {
+       "snaktype": "value",
+       "property": "P166",
+       "hash": "d4d1ad90d0d3172738f728eace04c4dc6d8aecdc",
+       "datavalue": {
+        "value": {
+         "entity-type": "item",
+         "numeric-id": 478850,
+         "id": "Q478850"
+        },
+        "type": "wikibase-entityid"
+       },
+       "datatype": "wikibase-item"
+      },
+      "type": "statement",
+      "id": "Q427677$B4CEBE43-39AD-4B79-95B0-54E861C762F7",
+      "rank": "normal"
+     }
+    ],
+    "P159": [
+     {
+      "mainsnak": {
+       "snaktype": "value",
+       "property": "P159",
+       "hash": "8f60707b4b309e0730dac4f7f1afe4b40e92cc6d",
+       "datavalue": {
+        "value": {
+         "entity-type": "item",
+         "numeric-id": 35493,
+         "id": "Q35493"
+        },
+        "type": "wikibase-entityid"
+       },
+       "datatype": "wikibase-item"
+      },
+      "type": "statement",
+      "qualifiers": {
+       "P281": [
+        {
+         "snaktype": "value",
+         "property": "P281",
+         "hash": "3a8be0871f0bf4add2465d5ec7a7740513eef1e6",
+         "datavalue": {
+          "value": "050040",
+          "type": "string"
+         },
+         "datatype": "string"
+        }
+       ],
+       "P17": [
+        {
+         "snaktype": "value",
+         "property": "P17",
+         "hash": "59bae97468490f29a9eb1f0b36f866e75c575243",
+         "datavalue": {
+          "value": {
+           "entity-type": "item",
+           "numeric-id": 232,
+           "id": "Q232"
+          },
+          "type": "wikibase-entityid"
+         },
+         "datatype": "wikibase-item"
+        }
+       ],
+       "P625": [
+        {
+         "snaktype": "value",
+         "property": "P625",
+         "hash": "e41996f3f14b21007bf0f43181ec0bba16dc1100",
+         "datavalue": {
+          "value": {
+           "latitude": 43.2525,
+           "longitude": 76.926667,
+           "altitude": null,
+           "precision": 1e-05,
+           "globe": "http://www.wikidata.org/entity/Q2"
+          },
+          "type": "globecoordinate"
+         },
+         "datatype": "globe-coordinate"
+        }
+       ],
+       "P6375": [
+        {
+         "snaktype": "value",
+         "property": "P6375",
+         "hash": "650eeea5812ceb317ad4209bfafeb3e648d90b79",
+         "datavalue": {
+          "value": {
+           "text": "71 Al-Farabi Avenue",
+           "language": "und"
+          },
+          "type": "monolingualtext"
+         },
+         "datatype": "monolingualtext"
+        }
+       ]
+      },
+      "qualifiers-order": [
+       "P281",
+       "P17",
+       "P625",
+       "P6375"
+      ],
+      "id": "Q427677$6CCA2E29-52A4-4124-B098-8A08072AF4AE",
+      "rank": "normal"
+     }
+    ],
+    "P1343": [
+     {
+      "mainsnak": {
+       "snaktype": "value",
+       "property": "P1343",
+       "hash": "3c8cfaf03b0ddf576e76bee1872881cdf26f97e4",
+       "datavalue": {
+        "value": {
+         "entity-type": "item",
+         "numeric-id": 123625363,
+         "id": "Q123625363"
+        },
+        "type": "wikibase-entityid"
+       },
+       "datatype": "wikibase-item"
+      },
+      "type": "statement",
+      "qualifiers": {
+       "P304": [
+        {
+         "snaktype": "value",
+         "property": "P304",
+         "hash": "587564898ba1c818316ca0a7af2bb0867f80d4bb",
+         "datavalue": {
+          "value": "18",
+          "type": "string"
+         },
+         "datatype": "string"
+        }
+       ]
+      },
+      "qualifiers-order": [
+       "P304"
+      ],
+      "id": "Q427677$b3232d6e-ed61-46c9-94f8-229d293ca7d1",
+      "rank": "normal"
+     }
+    ],
+    "P213": [
+     {
+      "mainsnak": {
+       "snaktype": "value",
+       "property": "P213",
+       "hash": "6d9d0af6bdf3e28ceafa909f8c9408e37c1eed6e",
+       "datavalue": {
+        "value": "0000000088875266",
+        "type": "string"
+       },
+       "datatype": "external-id"
+      },
+      "type": "statement",
+      "id": "Q427677$10D0DC73-4C48-4CEA-8B71-38FC32A21BF0",
+      "rank": "normal",
+      "references": [
+       {
+        "hash": "5a761c7a986f4a5cf8cefbfc18e5a5ae5133d44b",
+        "snaks": {
+         "P248": [
+          {
+           "snaktype": "value",
+           "property": "P248",
+           "hash": "2e92dfb9200a54eef9b44e474b97c4dd6dd90461",
+           "datavalue": {
+            "value": {
+             "entity-type": "item",
+             "numeric-id": 53705033,
+             "id": "Q53705033"
+            },
+            "type": "wikibase-entityid"
+           },
+           "datatype": "wikibase-item"
+          }
+         ]
+        },
+        "snaks-order": [
+         "P248"
+        ]
+       }
+      ]
+     }
+    ],
+    "P3500": [
+     {
+      "mainsnak": {
+       "snaktype": "value",
+       "property": "P3500",
+       "hash": "7f3bf236b57c6063fbf7839bce3b1e09c998618c",
+       "datavalue": {
+        "value": "98799",
+        "type": "string"
+       },
+       "datatype": "external-id"
+      },
+      "type": "statement",
+      "id": "Q427677$1C64ABE6-D14B-4E09-BBC5-146E017E0651",
+      "rank": "normal",
+      "references": [
+       {
+        "hash": "2834ac5da275724a6354a73d2d2a89ae956042a9",
+        "snaks": {
+         "P248": [
+          {
+           "snaktype": "value",
+           "property": "P248",
+           "hash": "654ac97d41e766b6860b1b7acd87f11a6b00c4f9",
+           "datavalue": {
+            "value": {
+             "entity-type": "item",
+             "numeric-id": 64159407,
+             "id": "Q64159407"
+            },
+            "type": "wikibase-entityid"
+           },
+           "datatype": "wikibase-item"
+          }
+         ]
+        },
+        "snaks-order": [
+         "P248"
+        ]
+       }
+      ]
+     }
+    ],
+    "P3417": [
+     {
+      "mainsnak": {
+       "snaktype": "value",
+       "property": "P3417",
+       "hash": "3f40ab75587c40d9d7e97bf666ee7ce43011387b",
+       "datavalue": {
+        "value": "Al-Farabi-University",
+        "type": "string"
+       },
+       "datatype": "external-id"
+      },
+      "type": "statement",
+      "id": "Q427677$BA034F97-77FA-4421-B3BF-D5F084F0DA90",
+      "rank": "normal",
+      "references": [
+       {
+        "hash": "3b0a5bb3c1f955edce73740124f7d935698092ad",
+        "snaks": {
+         "P248": [
+          {
+           "snaktype": "value",
+           "property": "P248",
+           "hash": "3ac9682e789a3a3791d4fd088b265ea03abef101",
+           "datavalue": {
+            "value": {
+             "entity-type": "item",
+             "numeric-id": 51711,
+             "id": "Q51711"
+            },
+            "type": "wikibase-entityid"
+           },
+           "datatype": "wikibase-item"
+          }
+         ]
+        },
+        "snaks-order": [
+         "P248"
+        ]
+       }
+      ]
+     }
+    ],
+    "P3876": [
+     {
+      "mainsnak": {
+       "snaktype": "value",
+       "property": "P3876",
+       "hash": "d8fb64bb4385ee63eb9576f50f8ae253ba8a9ee9",
+       "datavalue": {
+        "value": {
+         "entity-type": "item",
+         "numeric-id": 10018657,
+         "id": "Q10018657"
+        },
+        "type": "wikibase-entityid"
+       },
+       "datatype": "wikibase-item"
+      },
+      "type": "statement",
+      "id": "Q427677$7F4232AF-5B74-4E76-8FE7-F5DD7728729C",
+      "rank": "normal"
+     }
+    ],
+    "P2196": [
+     {
+      "mainsnak": {
+       "snaktype": "value",
+       "property": "P2196",
+       "hash": "628b126b893de8c3119c02a36982ae969324c9c0",
+       "datavalue": {
+        "value": {
+         "amount": "+20000",
+         "unit": "1"
+        },
+        "type": "quantity"
+       },
+       "datatype": "quantity"
+      },
+      "type": "statement",
+      "qualifiers": {
+       "P1480": [
+        {
+         "snaktype": "value",
+         "property": "P1480",
+         "hash": "cb40f2027a88b8d23735681aaccba1069a574f54",
+         "datavalue": {
+          "value": {
+           "entity-type": "item",
+           "numeric-id": 5727902,
+           "id": "Q5727902"
+          },
+          "type": "wikibase-entityid"
+         },
+         "datatype": "wikibase-item"
+        }
+       ]
+      },
+      "qualifiers-order": [
+       "P1480"
+      ],
+      "id": "Q427677$83a6a0ba-4070-1028-2d11-2d9b350ba57b",
+      "rank": "normal",
+      "references": [
+       {
+        "hash": "288ab581e7d2d02995a26dfa8b091d96e78457fc",
+        "snaks": {
+         "P143": [
+          {
+           "snaktype": "value",
+           "property": "P143",
+           "hash": "6a164248fc96bfa583bbb495cb63ae6401ec203c",
+           "datavalue": {
+            "value": {
+             "entity-type": "item",
+             "numeric-id": 206855,
+             "id": "Q206855"
+            },
+            "type": "wikibase-entityid"
+           },
+           "datatype": "wikibase-item"
+          }
+         ]
+        },
+        "snaks-order": [
+         "P143"
+        ]
+       }
+      ]
+     }
+    ],
+    "P1662": [
+     {
+      "mainsnak": {
+       "snaktype": "value",
+       "property": "P1662",
+       "hash": "67f047e316fe79ebcfd4cd5af2fd3dc87e4f4bc5",
+       "datavalue": {
+        "value": "10.26577",
+        "type": "string"
+       },
+       "datatype": "external-id"
+      },
+      "type": "statement",
+      "id": "Q427677$7CFE83C3-D9E5-4E5A-99C1-0A2428712FDF",
+      "rank": "normal",
+      "references": [
+       {
+        "hash": "300aeb64c4c4979a7fe16779f5fb7e8053a36ca3",
+        "snaks": {
+         "P854": [
+          {
+           "snaktype": "value",
+           "property": "P854",
+           "hash": "8e214a1e468a888ed4c91c3fc721c82f99a3009b",
+           "datavalue": {
+            "value": "http://api.crossref.org/members/11115",
+            "type": "string"
+           },
+           "datatype": "url"
+          }
+         ],
+         "P813": [
+          {
+           "snaktype": "value",
+           "property": "P813",
+           "hash": "ef14ade1f37c3491d16d60a37e449d2f577a6ace",
+           "datavalue": {
+            "value": {
+             "time": "+2017-12-08T00:00:00Z",
+             "timezone": 0,
+             "before": 0,
+             "after": 0,
+             "precision": 11,
+             "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            },
+            "type": "time"
+           },
+           "datatype": "time"
+          }
+         ]
+        },
+        "snaks-order": [
+         "P854",
+         "P813"
+        ]
+       }
+      ]
+     }
+    ],
+    "P4195": [
+     {
+      "mainsnak": {
+       "snaktype": "value",
+       "property": "P4195",
+       "hash": "269f75e84556adef70551e23263107a11c867940",
+       "datavalue": {
+        "value": {
+         "entity-type": "item",
+         "numeric-id": 13243925,
+         "id": "Q13243925"
+        },
+        "type": "wikibase-entityid"
+       },
+       "datatype": "wikibase-item"
+      },
+      "type": "statement",
+      "id": "Q427677$38785b63-40e0-df4b-fc90-1428c0b5d978",
+      "rank": "normal"
+     }
+    ],
+    "P2427": [
+     {
+      "mainsnak": {
+       "snaktype": "value",
+       "property": "P2427",
+       "hash": "0a55b1c0a78e8d2c30c31816113cdf707532a0cb",
+       "datavalue": {
+        "value": "grid.77184.3d",
+        "type": "string"
+       },
+       "datatype": "external-id"
+      },
+      "type": "statement",
+      "id": "Q427677$12B49709-C751-4F4D-9ED1-C815069A080D",
+      "rank": "normal",
+      "references": [
+       {
+        "hash": "40fdc7f3ce7f6771a8f285a1267bfc3f3de154d9",
+        "snaks": {
+         "P248": [
+          {
+           "snaktype": "value",
+           "property": "P248",
+           "hash": "858e5db66e8139829fa8f88e7e16ea6af5213e4b",
+           "datavalue": {
+            "value": {
+             "entity-type": "item",
+             "numeric-id": 53869345,
+             "id": "Q53869345"
+            },
+            "type": "wikibase-entityid"
+           },
+           "datatype": "wikibase-item"
+          }
+         ]
+        },
+        "snaks-order": [
+         "P248"
+        ]
+       },
+       {
+        "hash": "a1914c8952a5bc482eafeb26be4fda504fe701f9",
+        "snaks": {
+         "P248": [
+          {
+           "snaktype": "value",
+           "property": "P248",
+           "hash": "31f77799b27e462a188007d80e9cae011a037bca",
+           "datavalue": {
+            "value": {
+             "entity-type": "item",
+             "numeric-id": 53705036,
+             "id": "Q53705036"
+            },
+            "type": "wikibase-entityid"
+           },
+           "datatype": "wikibase-item"
+          }
+         ]
+        },
+        "snaks-order": [
+         "P248"
+        ]
+       }
+      ]
+     }
+    ],
+    "P373": [
+     {
+      "mainsnak": {
+       "snaktype": "value",
+       "property": "P373",
+       "hash": "a4463af8bf13c10f13d21a5e22a65ca8a762e42a",
+       "datavalue": {
+        "value": "Al-Farabi Kazakh National University",
+        "type": "string"
+       },
+       "datatype": "string"
+      },
+      "type": "statement",
+      "id": "Q427677$d473de4e-45ae-f91d-bd38-14c2b6f54e8e",
+      "rank": "normal"
+     }
+    ],
+    "P1448": [
+     {
+      "mainsnak": {
+       "snaktype": "value",
+       "property": "P1448",
+       "hash": "87bdb770a1707ca2359e740b69d4ea7db6af077d",
+       "datavalue": {
+        "value": {
+         "text": "Казахский государственный университет им. С.М.Кирова",
+         "language": "ru"
+        },
+        "type": "monolingualtext"
+       },
+       "datatype": "monolingualtext"
+      },
+      "type": "statement",
+      "qualifiers": {
+       "P582": [
+        {
+         "snaktype": "value",
+         "property": "P582",
+         "hash": "de4ee595aee362d3453c8af49afd387037976bf4",
+         "datavalue": {
+          "value": {
+           "time": "+1991-10-23T00:00:00Z",
+           "timezone": 0,
+           "before": 0,
+           "after": 0,
+           "precision": 11,
+           "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+          },
+          "type": "time"
+         },
+         "datatype": "time"
+        }
+       ],
+       "P580": [
+        {
+         "snaktype": "value",
+         "property": "P580",
+         "hash": "b9378f8dd2d5e90c053ff9f95175350a365883ca",
+         "datavalue": {
+          "value": {
+           "time": "+1934-00-00T00:00:00Z",
+           "timezone": 0,
+           "before": 0,
+           "after": 0,
+           "precision": 9,
+           "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+          },
+          "type": "time"
+         },
+         "datatype": "time"
+        }
+       ]
+      },
+      "qualifiers-order": [
+       "P582",
+       "P580"
+      ],
+      "id": "Q427677$fd4147c6-4156-f495-c253-50c8ab6fb004",
+      "rank": "normal"
+     },
+     {
+      "mainsnak": {
+       "snaktype": "value",
+       "property": "P1448",
+       "hash": "9bff8f48fe2543fda8a099d57278114e28e6ecb2",
+       "datavalue": {
+        "value": {
+         "text": "Казахский государственный университет им. аль-Фараби",
+         "language": "ru"
+        },
+        "type": "monolingualtext"
+       },
+       "datatype": "monolingualtext"
+      },
+      "type": "statement",
+      "qualifiers": {
+       "P580": [
+        {
+         "snaktype": "value",
+         "property": "P580",
+         "hash": "28cf101e70efa6215d022b5a9c1eec58962efa1f",
+         "datavalue": {
+          "value": {
+           "time": "+1991-10-23T00:00:00Z",
+           "timezone": 0,
+           "before": 0,
+           "after": 0,
+           "precision": 11,
+           "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+          },
+          "type": "time"
+         },
+         "datatype": "time"
+        }
+       ],
+       "P582": [
+        {
+         "snaktype": "value",
+         "property": "P582",
+         "hash": "301cd58a79dc78bf6b82ae5f4446dbf2a1abdac7",
+         "datavalue": {
+          "value": {
+           "time": "+1993-01-09T00:00:00Z",
+           "timezone": 0,
+           "before": 0,
+           "after": 0,
+           "precision": 11,
+           "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+          },
+          "type": "time"
+         },
+         "datatype": "time"
+        }
+       ]
+      },
+      "qualifiers-order": [
+       "P580",
+       "P582"
+      ],
+      "id": "Q427677$49313e22-4aef-12fb-d209-2ccf3d228534",
+      "rank": "normal"
+     },
+     {
+      "mainsnak": {
+       "snaktype": "value",
+       "property": "P1448",
+       "hash": "2f9cd896e8d40745b54f4f4f2cc82a0774e71991",
+       "datavalue": {
+        "value": {
+         "text": "Казахский национальный университет им. аль-Фараби",
+         "language": "ru"
+        },
+        "type": "monolingualtext"
+       },
+       "datatype": "monolingualtext"
+      },
+      "type": "statement",
+      "qualifiers": {
+       "P580": [
+        {
+         "snaktype": "value",
+         "property": "P580",
+         "hash": "15175cc34a3d9403376d3fd4bef589be2db0915c",
+         "datavalue": {
+          "value": {
+           "time": "+1993-01-09T00:00:00Z",
+           "timezone": 0,
+           "before": 0,
+           "after": 0,
+           "precision": 11,
+           "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+          },
+          "type": "time"
+         },
+         "datatype": "time"
+        }
+       ]
+      },
+      "qualifiers-order": [
+       "P580"
+      ],
+      "id": "Q427677$c7f15472-4621-d47c-5c8b-d1228cd3f39e",
+      "rank": "normal"
+     },
+     {
+      "mainsnak": {
+       "snaktype": "value",
+       "property": "P1448",
+       "hash": "bf998644e53a097f298f1a9f53919cbdda5abf05",
+       "datavalue": {
+        "value": {
+         "text": "Казахскі дзяржаўны ўніверсітэт імя С. М. Кірава",
+         "language": "be"
+        },
+        "type": "monolingualtext"
+       },
+       "datatype": "monolingualtext"
+      },
+      "type": "statement",
+      "qualifiers": {
+       "P582": [
+        {
+         "snaktype": "value",
+         "property": "P582",
+         "hash": "de4ee595aee362d3453c8af49afd387037976bf4",
+         "datavalue": {
+          "value": {
+           "time": "+1991-10-23T00:00:00Z",
+           "timezone": 0,
+           "before": 0,
+           "after": 0,
+           "precision": 11,
+           "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+          },
+          "type": "time"
+         },
+         "datatype": "time"
+        }
+       ],
+       "P580": [
+        {
+         "snaktype": "value",
+         "property": "P580",
+         "hash": "b9378f8dd2d5e90c053ff9f95175350a365883ca",
+         "datavalue": {
+          "value": {
+           "time": "+1934-00-00T00:00:00Z",
+           "timezone": 0,
+           "before": 0,
+           "after": 0,
+           "precision": 9,
+           "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+          },
+          "type": "time"
+         },
+         "datatype": "time"
+        }
+       ]
+      },
+      "qualifiers-order": [
+       "P582",
+       "P580"
+      ],
+      "id": "Q427677$2fe48754-4140-ba2b-9d72-92434c0fa0a2",
+      "rank": "normal"
+     }
+    ],
+    "P5584": [
+     {
+      "mainsnak": {
+       "snaktype": "value",
+       "property": "P5584",
+       "hash": "0456dbfbf64ff0bddffa9917a89da40d9fb14350",
+       "datavalue": {
+        "value": "al-farabi-kazakh-national-university",
+        "type": "string"
+       },
+       "datatype": "external-id"
+      },
+      "type": "statement",
+      "id": "Q427677$6EBE8A2D-B09E-4A34-9736-274857437BC8",
+      "rank": "normal"
+     }
+    ],
+    "P5600": [
+     {
+      "mainsnak": {
+       "snaktype": "value",
+       "property": "P5600",
+       "hash": "ed00ad349fa880ca15689884cc2bedd48bf913c2",
+       "datavalue": {
+        "value": "alfarabi-kazakh-national-university",
+        "type": "string"
+       },
+       "datatype": "external-id"
+      },
+      "type": "statement",
+      "id": "Q427677$8BF5EA35-DE57-40CF-9C34-82F1BDE7EDED",
+      "rank": "normal"
+     }
+    ],
+    "P131": [
+     {
+      "mainsnak": {
+       "snaktype": "value",
+       "property": "P131",
+       "hash": "14205ea96be20f5467980e3a0621cb21536853c7",
+       "datavalue": {
+        "value": {
+         "entity-type": "item",
+         "numeric-id": 35493,
+         "id": "Q35493"
+        },
+        "type": "wikibase-entityid"
+       },
+       "datatype": "wikibase-item"
+      },
+      "type": "statement",
+      "id": "Q427677$1CC769D2-C3EB-44C1-951B-65D1F445308C",
+      "rank": "normal",
+      "references": [
+       {
+        "hash": "85d262de54b9850e1aea8e63b834b2b85282f7c8",
+        "snaks": {
+         "P143": [
+          {
+           "snaktype": "value",
+           "property": "P143",
+           "hash": "d38375ffe6fe142663ff55cd783aa4df4301d83d",
+           "datavalue": {
+            "value": {
+             "entity-type": "item",
+             "numeric-id": 48183,
+             "id": "Q48183"
+            },
+            "type": "wikibase-entityid"
+           },
+           "datatype": "wikibase-item"
+          }
+         ],
+         "P4656": [
+          {
+           "snaktype": "value",
+           "property": "P4656",
+           "hash": "39ab6e7486926dcba869274df3972edfa86b0af4",
+           "datavalue": {
+            "value": "https://de.wikipedia.org/w/index.php?title=Al-Farabi-Universität&oldid=182630648",
+            "type": "string"
+           },
+           "datatype": "url"
+          }
+         ]
+        },
+        "snaks-order": [
+         "P143",
+         "P4656"
+        ]
+       }
+      ]
+     }
+    ],
+    "P6366": [
+     {
+      "mainsnak": {
+       "snaktype": "value",
+       "property": "P6366",
+       "hash": "cffa44e17137d7ea20da9380f13832f732e9b101",
+       "datavalue": {
+        "value": "185571130",
+        "type": "string"
+       },
+       "datatype": "external-id"
+      },
+      "type": "statement",
+      "id": "Q427677$C0CD26E3-C769-4E64-9AD3-15462DDE731D",
+      "rank": "normal",
+      "references": [
+       {
+        "hash": "644e3ed9a841df831d2c2d9303e1600d47525307",
+        "snaks": {
+         "P248": [
+          {
+           "snaktype": "value",
+           "property": "P248",
+           "hash": "2995ad06d424d751f036cb92149fada89fe252d9",
+           "datavalue": {
+            "value": {
+             "entity-type": "item",
+             "numeric-id": 60683589,
+             "id": "Q60683589"
+            },
+            "type": "wikibase-entityid"
+           },
+           "datatype": "wikibase-item"
+          }
+         ],
+         "P2427": [
+          {
+           "snaktype": "value",
+           "property": "P2427",
+           "hash": "0a55b1c0a78e8d2c30c31816113cdf707532a0cb",
+           "datavalue": {
+            "value": "grid.77184.3d",
+            "type": "string"
+           },
+           "datatype": "external-id"
+          }
+         ],
+         "P813": [
+          {
+           "snaktype": "value",
+           "property": "P813",
+           "hash": "74c664545729bbe3e2b6db4bfa3d58ebdeb8e9f0",
+           "datavalue": {
+            "value": {
+             "time": "+2019-01-19T00:00:00Z",
+             "timezone": 0,
+             "before": 0,
+             "after": 0,
+             "precision": 11,
+             "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            },
+            "type": "time"
+           },
+           "datatype": "time"
+          }
+         ]
+        },
+        "snaks-order": [
+         "P248",
+         "P2427",
+         "P813"
+        ]
+       }
+      ]
+     }
+    ],
+    "P1128": [
+     {
+      "mainsnak": {
+       "snaktype": "value",
+       "property": "P1128",
+       "hash": "e33098960c6618ae84f30295733f9e084c548648",
+       "datavalue": {
+        "value": {
+         "amount": "+2000",
+         "unit": "1"
+        },
+        "type": "quantity"
+       },
+       "datatype": "quantity"
+      },
+      "type": "statement",
+      "id": "Q427677$1D4DD9B2-B10A-454B-978F-B1B84CE1E791",
+      "rank": "normal",
+      "references": [
+       {
+        "hash": "84db2373a48d7a998a89396725b4efa29d5ddee8",
+        "snaks": {
+         "P143": [
+          {
+           "snaktype": "value",
+           "property": "P143",
+           "hash": "d38375ffe6fe142663ff55cd783aa4df4301d83d",
+           "datavalue": {
+            "value": {
+             "entity-type": "item",
+             "numeric-id": 48183,
+             "id": "Q48183"
+            },
+            "type": "wikibase-entityid"
+           },
+           "datatype": "wikibase-item"
+          }
+         ],
+         "P4656": [
+          {
+           "snaktype": "value",
+           "property": "P4656",
+           "hash": "572622363c4954f5fcb87ba2c0c6a2401c5fc710",
+           "datavalue": {
+            "value": "https://de.wikipedia.org/w/index.php?title=Al-Farabi-Universität&oldid=184437559",
+            "type": "string"
+           },
+           "datatype": "url"
+          }
+         ]
+        },
+        "snaks-order": [
+         "P143",
+         "P4656"
+        ]
+       }
+      ]
+     }
+    ],
+    "P244": [
+     {
+      "mainsnak": {
+       "snaktype": "value",
+       "property": "P244",
+       "hash": "e893ed62efd3d9a443abc70b438d2b185ea9de8c",
+       "datavalue": {
+        "value": "no2004081375",
+        "type": "string"
+       },
+       "datatype": "external-id"
+      },
+      "type": "statement",
+      "id": "Q427677$B8F0CAE1-D37D-408A-B34A-89AFBA5F250A",
+      "rank": "normal",
+      "references": [
+       {
+        "hash": "14fa5898ac764e0660517aa07ea0bbba505f262b",
+        "snaks": {
+         "P248": [
+          {
+           "snaktype": "value",
+           "property": "P248",
+           "hash": "6b7d4330c4aac4caec4ede9de0311ce273f88ecd",
+           "datavalue": {
+            "value": {
+             "entity-type": "item",
+             "numeric-id": 54919,
+             "id": "Q54919"
+            },
+            "type": "wikibase-entityid"
+           },
+           "datatype": "wikibase-item"
+          }
+         ],
+         "P813": [
+          {
+           "snaktype": "value",
+           "property": "P813",
+           "hash": "e0d08f96012770600b942d5e8563b2a3499cba8e",
+           "datavalue": {
+            "value": {
+             "time": "+2019-03-06T00:00:00Z",
+             "timezone": 0,
+             "before": 0,
+             "after": 0,
+             "precision": 11,
+             "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            },
+            "type": "time"
+           },
+           "datatype": "time"
+          }
+         ]
+        },
+        "snaks-order": [
+         "P248",
+         "P813"
+        ]
+       }
+      ]
+     },
+     {
+      "mainsnak": {
+       "snaktype": "value",
+       "property": "P244",
+       "hash": "4ba2e7c2b1963f9c1e342ad6182e3bd6831bec03",
+       "datavalue": {
+        "value": "n95048124",
+        "type": "string"
+       },
+       "datatype": "external-id"
+      },
+      "type": "statement",
+      "id": "Q427677$8D5553E0-3702-4EA3-B2CA-8E947A0895BE",
+      "rank": "normal",
+      "references": [
+       {
+        "hash": "2ea7d9cf6569a6790a1abd706c97a06fdef003c3",
+        "snaks": {
+         "P11797": [
+          {
+           "snaktype": "value",
+           "property": "P11797",
+           "hash": "395c2c5dc64a74fb596f0b959e9ac6c9307e2068",
+           "datavalue": {
+            "value": {
+             "entity-type": "item",
+             "numeric-id": 76630151,
+             "id": "Q76630151"
+            },
+            "type": "wikibase-entityid"
+           },
+           "datatype": "wikibase-item"
+          }
+         ]
+        },
+        "snaks-order": [
+         "P11797"
+        ]
+       }
+      ]
+     }
+    ],
+    "P5586": [
+     {
+      "mainsnak": {
+       "snaktype": "value",
+       "property": "P5586",
+       "hash": "1148ac8743c4a710e9392c6e8fc86e7390d30fdc",
+       "datavalue": {
+        "value": "al-farabi-kazakh-national-university",
+        "type": "string"
+       },
+       "datatype": "external-id"
+      },
+      "type": "statement",
+      "id": "Q427677$B018FC1F-29A8-440B-AA46-3A15C87C268F",
+      "rank": "normal",
+      "references": [
+       {
+        "hash": "6056c0b681403738e74736b4057c1475cf2b58f3",
+        "snaks": {
+         "P854": [
+          {
+           "snaktype": "value",
+           "property": "P854",
+           "hash": "6196f8ffa90f7cebb46bf9632bff2faeee6c7468",
+           "datavalue": {
+            "value": "https://www.timeshighereducation.com/world-university-rankings/al-farabi-kazakh-national-university",
+            "type": "string"
+           },
+           "datatype": "url"
+          }
+         ]
+        },
+        "snaks-order": [
+         "P854"
+        ]
+       }
+      ]
+     }
+    ],
+    "P6782": [
+     {
+      "mainsnak": {
+       "snaktype": "value",
+       "property": "P6782",
+       "hash": "4c872bc69e1eee1223003cbfabd9144e83aa099f",
+       "datavalue": {
+        "value": "03q0vrn42",
+        "type": "string"
+       },
+       "datatype": "external-id"
+      },
+      "type": "statement",
+      "id": "Q427677$A2E8D5F1-9594-466B-BB5B-AC401A7156E9",
+      "rank": "normal"
+     }
+    ],
+    "P463": [
+     {
+      "mainsnak": {
+       "snaktype": "value",
+       "property": "P463",
+       "hash": "4db668bd1ace8552d3765271dc515b4c36207735",
+       "datavalue": {
+        "value": {
+         "entity-type": "item",
+         "numeric-id": 868940,
+         "id": "Q868940"
+        },
+        "type": "wikibase-entityid"
+       },
+       "datatype": "wikibase-item"
+      },
+      "type": "statement",
+      "id": "Q427677$88EFCE4F-9D3F-4B94-B4BE-FCA6B0D0CEE8",
+      "rank": "normal",
+      "references": [
+       {
+        "hash": "84e3890a1e5da9eb8a6b2828508534c3620957fb",
+        "snaks": {
+         "P854": [
+          {
+           "snaktype": "value",
+           "property": "P854",
+           "hash": "1d2ee6c99a23f6001b12fcc60ae5c3d0b8c151e9",
+           "datavalue": {
+            "value": "https://eua.eu/about/member-directory.html",
+            "type": "string"
+           },
+           "datatype": "url"
+          }
+         ],
+         "P813": [
+          {
+           "snaktype": "value",
+           "property": "P813",
+           "hash": "9576d4dcd2c710e39f45780de1967b26f8605437",
+           "datavalue": {
+            "value": {
+             "time": "+2019-07-16T00:00:00Z",
+             "timezone": 0,
+             "before": 0,
+             "after": 0,
+             "precision": 11,
+             "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            },
+            "type": "time"
+           },
+           "datatype": "time"
+          }
+         ]
+        },
+        "snaks-order": [
+         "P854",
+         "P813"
+        ]
+       }
+      ]
+     },
+     {
+      "mainsnak": {
+       "snaktype": "value",
+       "property": "P463",
+       "hash": "1cebb4dd271bc30c0395bfb47d00d64f489c32dd",
+       "datavalue": {
+        "value": {
+         "entity-type": "item",
+         "numeric-id": 2826718,
+         "id": "Q2826718"
+        },
+        "type": "wikibase-entityid"
+       },
+       "datatype": "wikibase-item"
+      },
+      "type": "statement",
+      "id": "Q427677$9EBE27F4-484C-4ADB-B274-F845D28FFAD5",
+      "rank": "normal",
+      "references": [
+       {
+        "hash": "4304cad7939a19701e3c7bd998c0a7098146a89c",
+        "snaks": {
+         "P854": [
+          {
+           "snaktype": "value",
+           "property": "P854",
+           "hash": "30b2eda5ae3b32df082229add385e2f3d630f38d",
+           "datavalue": {
+            "value": "https://web.archive.org/web/20221123144401/https://www.auf.org/les_membres/nos-membres/",
+            "type": "string"
+           },
+           "datatype": "url"
+          }
+         ],
+         "P813": [
+          {
+           "snaktype": "value",
+           "property": "P813",
+           "hash": "e1d31298009744b96fcf625ca899f90d0e2b94cb",
+           "datavalue": {
+            "value": {
+             "time": "+2022-11-23T00:00:00Z",
+             "timezone": 0,
+             "before": 0,
+             "after": 0,
+             "precision": 11,
+             "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            },
+            "type": "time"
+           },
+           "datatype": "time"
+          }
+         ]
+        },
+        "snaks-order": [
+         "P854",
+         "P813"
+        ]
+       }
+      ]
+     },
+     {
+      "mainsnak": {
+       "snaktype": "value",
+       "property": "P463",
+       "hash": "a0f7788fb33225eea7878839c70d72db3530741e",
+       "datavalue": {
+        "value": {
+         "entity-type": "item",
+         "numeric-id": 284199,
+         "id": "Q284199"
+        },
+        "type": "wikibase-entityid"
+       },
+       "datatype": "wikibase-item"
+      },
+      "type": "statement",
+      "id": "Q427677$1DA71C51-BB24-46BF-B18B-7CBC0FCFC763",
+      "rank": "normal"
+     }
+    ],
+    "P18": [
+     {
+      "mainsnak": {
+       "snaktype": "value",
+       "property": "P18",
+       "hash": "7738efce3e63cfa0232831d33596bc65b646c22c",
+       "datavalue": {
+        "value": "Kaznu1934.jpg",
+        "type": "string"
+       },
+       "datatype": "commonsMedia"
+      },
+      "type": "statement",
+      "qualifiers": {
+       "P2096": [
+        {
+         "snaktype": "value",
+         "property": "P2096",
+         "hash": "c2c38eb5823e8bafe03a3e861b4a454fb616ac0d",
+         "datavalue": {
+          "value": {
+           "text": "Universitet 1934-cü ildə",
+           "language": "az"
+          },
+          "type": "monolingualtext"
+         },
+         "datatype": "monolingualtext"
+        }
+       ]
+      },
+      "qualifiers-order": [
+       "P2096"
+      ],
+      "id": "Q427677$4396212a-4ee0-cf06-fba4-eeabe4b4e640",
+      "rank": "normal",
+      "references": [
+       {
+        "hash": "fd0a390ec29bf19583b04a0761806be7a3c796b8",
+        "snaks": {
+         "P143": [
+          {
+           "snaktype": "value",
+           "property": "P143",
+           "hash": "4a713f1b9c73c024784e593b0da93f2244c86d3f",
+           "datavalue": {
+            "value": {
+             "entity-type": "item",
+             "numeric-id": 58251,
+             "id": "Q58251"
+            },
+            "type": "wikibase-entityid"
+           },
+           "datatype": "wikibase-item"
+          }
+         ],
+         "P4656": [
+          {
+           "snaktype": "value",
+           "property": "P4656",
+           "hash": "0098c626c684daf3a66c896b7f5d14017a8e0b19",
+           "datavalue": {
+            "value": "https://az.wikipedia.org/?oldid=5112360",
+            "type": "string"
+           },
+           "datatype": "url"
+          }
+         ]
+        },
+        "snaks-order": [
+         "P143",
+         "P4656"
+        ]
+       }
+      ]
+     }
+    ],
+    "P1705": [
+     {
+      "mainsnak": {
+       "snaktype": "value",
+       "property": "P1705",
+       "hash": "a1c59833cf776f44c61e3ccef2754bc8f3e704c1",
+       "datavalue": {
+        "value": {
+         "text": "Ál-Farabı atyndaǵy Qazaq Ulttyq Ýnıversıteti",
+         "language": "kk"
+        },
+        "type": "monolingualtext"
+       },
+       "datatype": "monolingualtext"
+      },
+      "type": "statement",
+      "id": "Q427677$c8b70f2c-400b-83f0-64b0-312b4372464c",
+      "rank": "normal",
+      "references": [
+       {
+        "hash": "fd0a390ec29bf19583b04a0761806be7a3c796b8",
+        "snaks": {
+         "P143": [
+          {
+           "snaktype": "value",
+           "property": "P143",
+           "hash": "4a713f1b9c73c024784e593b0da93f2244c86d3f",
+           "datavalue": {
+            "value": {
+             "entity-type": "item",
+             "numeric-id": 58251,
+             "id": "Q58251"
+            },
+            "type": "wikibase-entityid"
+           },
+           "datatype": "wikibase-item"
+          }
+         ],
+         "P4656": [
+          {
+           "snaktype": "value",
+           "property": "P4656",
+           "hash": "0098c626c684daf3a66c896b7f5d14017a8e0b19",
+           "datavalue": {
+            "value": "https://az.wikipedia.org/?oldid=5112360",
+            "type": "string"
+           },
+           "datatype": "url"
+          }
+         ]
+        },
+        "snaks-order": [
+         "P143",
+         "P4656"
+        ]
+       }
+      ]
+     }
+    ],
+    "P1813": [
+     {
+      "mainsnak": {
+       "snaktype": "value",
+       "property": "P1813",
+       "hash": "5cc83e99f28af0bcb1d903a6dc8f2954cf48a973",
+       "datavalue": {
+        "value": {
+         "text": "КазГУ",
+         "language": "ru"
+        },
+        "type": "monolingualtext"
+       },
+       "datatype": "monolingualtext"
+      },
+      "type": "statement",
+      "qualifiers": {
+       "P582": [
+        {
+         "snaktype": "value",
+         "property": "P582",
+         "hash": "301cd58a79dc78bf6b82ae5f4446dbf2a1abdac7",
+         "datavalue": {
+          "value": {
+           "time": "+1993-01-09T00:00:00Z",
+           "timezone": 0,
+           "before": 0,
+           "after": 0,
+           "precision": 11,
+           "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+          },
+          "type": "time"
+         },
+         "datatype": "time"
+        }
+       ]
+      },
+      "qualifiers-order": [
+       "P582"
+      ],
+      "id": "Q427677$c8736223-4d5b-2924-31c1-1091b38de649",
+      "rank": "normal"
+     },
+     {
+      "mainsnak": {
+       "snaktype": "value",
+       "property": "P1813",
+       "hash": "531c7c11e6e24e2e3ab354603cebd5204e25af1e",
+       "datavalue": {
+        "value": {
+         "text": "КазНУ",
+         "language": "ru"
+        },
+        "type": "monolingualtext"
+       },
+       "datatype": "monolingualtext"
+      },
+      "type": "statement",
+      "qualifiers": {
+       "P580": [
+        {
+         "snaktype": "value",
+         "property": "P580",
+         "hash": "15175cc34a3d9403376d3fd4bef589be2db0915c",
+         "datavalue": {
+          "value": {
+           "time": "+1993-01-09T00:00:00Z",
+           "timezone": 0,
+           "before": 0,
+           "after": 0,
+           "precision": 11,
+           "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+          },
+          "type": "time"
+         },
+         "datatype": "time"
+        }
+       ]
+      },
+      "qualifiers-order": [
+       "P580"
+      ],
+      "id": "Q427677$2bbd6894-40b8-f74d-0f1b-36dcd59f726c",
+      "rank": "normal"
+     }
+    ],
+    "P2088": [
+     {
+      "mainsnak": {
+       "snaktype": "value",
+       "property": "P2088",
+       "hash": "150a0d141bedf398891a366a0f7390b254fc35c9",
+       "datavalue": {
+        "value": "al-farabi-university",
+        "type": "string"
+       },
+       "datatype": "external-id"
+      },
+      "type": "statement",
+      "id": "Q427677$70516AB9-AAD0-407C-90E2-E321DFA31EFC",
+      "rank": "normal",
+      "references": [
+       {
+        "hash": "f32196d27bb2ce8f8522c8b72bd1c491a519cd17",
+        "snaks": {
+         "P854": [
+          {
+           "snaktype": "value",
+           "property": "P854",
+           "hash": "68d41b23616d5154639b03a23aff612f0b1e09df",
+           "datavalue": {
+            "value": "http://km.aifb.kit.edu/services/crunchbase/",
+            "type": "string"
+           },
+           "datatype": "url"
+          }
+         ],
+         "P1065": [
+          {
+           "snaktype": "value",
+           "property": "P1065",
+           "hash": "30b53300fd5fb9bf55e05f9fb71f703ef06fe5f5",
+           "datavalue": {
+            "value": "https://web.archive.org/web/20210820174330/http://km.aifb.kit.edu/services/crunchbase/",
+            "type": "string"
+           },
+           "datatype": "url"
+          }
+         ],
+         "P2960": [
+          {
+           "snaktype": "value",
+           "property": "P2960",
+           "hash": "d14933aa4f3427d423d637324196a9f3fbf9898b",
+           "datavalue": {
+            "value": {
+             "time": "+2021-08-20T00:00:00Z",
+             "timezone": 0,
+             "before": 0,
+             "after": 0,
+             "precision": 11,
+             "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            },
+            "type": "time"
+           },
+           "datatype": "time"
+          }
+         ]
+        },
+        "snaks-order": [
+         "P854",
+         "P1065",
+         "P2960"
+        ]
+       }
+      ]
+     }
+    ],
+    "P3153": [
+     {
+      "mainsnak": {
+       "snaktype": "value",
+       "property": "P3153",
+       "hash": "7152fcb546503bc9d52e0b5af20b435c42267094",
+       "datavalue": {
+        "value": "501100016254",
+        "type": "string"
+       },
+       "datatype": "external-id"
+      },
+      "type": "statement",
+      "id": "Q427677$A20A4207-C21E-44E5-A131-9C3ACF70203A",
+      "rank": "normal"
+     }
+    ],
+    "P227": [
+     {
+      "mainsnak": {
+       "snaktype": "value",
+       "property": "P227",
+       "hash": "0a6a506e163c642e9a611c7255cccaf93df74199",
+       "datavalue": {
+        "value": "10100142-3",
+        "type": "string"
+       },
+       "datatype": "external-id"
+      },
+      "type": "statement",
+      "id": "Q427677$7754e1fc-45bd-9952-ed6f-2de0ef764353",
+      "rank": "normal"
+     }
+    ],
+    "P10283": [
+     {
+      "mainsnak": {
+       "snaktype": "value",
+       "property": "P10283",
+       "hash": "dac9b1a84cca79020bfa8501b8d536de84dda24c",
+       "datavalue": {
+        "value": "I185571130",
+        "type": "string"
+       },
+       "datatype": "external-id"
+      },
+      "type": "statement",
+      "id": "Q427677$3696FB61-07E0-4705-9CAE-DCE8A6155E31",
+      "rank": "normal",
+      "references": [
+       {
+        "hash": "30c7a6367b9a2e7a19c76fa60ecd6c4a5ace5ec9",
+        "snaks": {
+         "P248": [
+          {
+           "snaktype": "value",
+           "property": "P248",
+           "hash": "4a4f26a5361b5707266e48e425bf2be2f99fd2ab",
+           "datavalue": {
+            "value": {
+             "entity-type": "item",
+             "numeric-id": 107507571,
+             "id": "Q107507571"
+            },
+            "type": "wikibase-entityid"
+           },
+           "datatype": "wikibase-item"
+          }
+         ],
+         "P854": [
+          {
+           "snaktype": "value",
+           "property": "P854",
+           "hash": "a4a4bf53f22268815c51ec10fed608da703c9c7f",
+           "datavalue": {
+            "value": "https://docs.openalex.org/download-snapshot/snapshot-data-format",
+            "type": "string"
+           },
+           "datatype": "url"
+          }
+         ],
+         "P813": [
+          {
+           "snaktype": "value",
+           "property": "P813",
+           "hash": "08529d064baad71a9df22dc3308e931aca9bd537",
+           "datavalue": {
+            "value": {
+             "time": "+2022-01-25T00:00:00Z",
+             "timezone": 0,
+             "before": 0,
+             "after": 0,
+             "precision": 11,
+             "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            },
+            "type": "time"
+           },
+           "datatype": "time"
+          }
+         ]
+        },
+        "snaks-order": [
+         "P248",
+         "P854",
+         "P813"
+        ]
+       }
+      ]
+     },
+     {
+      "mainsnak": {
+       "snaktype": "value",
+       "property": "P10283",
+       "hash": "cf216d315a57dde18fa1a159a858a9f16679732a",
+       "datavalue": {
+        "value": "P4310314845",
+        "type": "string"
+       },
+       "datatype": "external-id"
+      },
+      "type": "statement",
+      "qualifiers": {
+       "P1810": [
+        {
+         "snaktype": "value",
+         "property": "P1810",
+         "hash": "9a8d2230e05b627a107ec11c6097aee3c886b026",
+         "datavalue": {
+          "value": "Al-Farabi Kazakh National University",
+          "type": "string"
+         },
+         "datatype": "string"
+        }
+       ]
+      },
+      "qualifiers-order": [
+       "P1810"
+      ],
+      "id": "Q427677$0FFBF145-5358-4E7E-B1EF-80AFA8ECC9C2",
+      "rank": "normal"
+     }
+    ],
+    "P5008": [
+     {
+      "mainsnak": {
+       "snaktype": "value",
+       "property": "P5008",
+       "hash": "6a6c47653b55a0b9b6c2923c9ec2ba438b432352",
+       "datavalue": {
+        "value": {
+         "entity-type": "item",
+         "numeric-id": 117222928,
+         "id": "Q117222928"
+        },
+        "type": "wikibase-entityid"
+       },
+       "datatype": "wikibase-item"
+      },
+      "type": "statement",
+      "id": "Q427677$4C9FA1F6-DE62-41B2-8D37-CA9DDD5B4299",
+      "rank": "normal"
+     }
+    ],
+    "P8189": [
+     {
+      "mainsnak": {
+       "snaktype": "value",
+       "property": "P8189",
+       "hash": "605c73cd15cb36cf95861d2a5332994fa2a3528a",
+       "datavalue": {
+        "value": "987007308667805171",
+        "type": "string"
+       },
+       "datatype": "external-id"
+      },
+      "type": "statement",
+      "id": "Q427677$0D0A0856-8C5F-47DF-ABB2-894F2AF3C0F0",
+      "rank": "normal",
+      "references": [
+       {
+        "hash": "ecb7a39cf436eb1fba419853af168ef9f2ba1dab",
+        "snaks": {
+         "P248": [
+          {
+           "snaktype": "value",
+           "property": "P248",
+           "hash": "a03bb6ffe37be9554492f4eea5bd18afcb57df19",
+           "datavalue": {
+            "value": {
+             "entity-type": "item",
+             "numeric-id": 106509962,
+             "id": "Q106509962"
+            },
+            "type": "wikibase-entityid"
+           },
+           "datatype": "wikibase-item"
+          }
+         ]
+        },
+        "snaks-order": [
+         "P248"
+        ]
+       }
+      ]
+     }
+    ],
+    "P13092": [
+     {
+      "mainsnak": {
+       "snaktype": "value",
+       "property": "P13092",
+       "hash": "d5cb77df0905b3bf7395a4abe3ba09530cd24512",
+       "datavalue": {
+        "value": "K000202108",
+        "type": "string"
+       },
+       "datatype": "external-id"
+      },
+      "type": "statement",
+      "id": "Q427677$05AD9710-2371-4BE5-AACA-E8541EAF31A6",
+      "rank": "normal"
+     }
+    ],
+    "P1352": [
+     {
+      "mainsnak": {
+       "snaktype": "value",
+       "property": "P1352",
+       "hash": "8408b173bf8a90cb26c0a5fcb9064c485f01aef8",
+       "datavalue": {
+        "value": {
+         "amount": "+175",
+         "unit": "1"
+        },
+        "type": "quantity"
+       },
+       "datatype": "quantity"
+      },
+      "type": "statement",
+      "qualifiers": {
+       "P585": [
+        {
+         "snaktype": "value",
+         "property": "P585",
+         "hash": "2158d4b68f82b8f36f47c98bd3609a99913faa59",
+         "datavalue": {
+          "value": {
+           "time": "+2022-00-00T00:00:00Z",
+           "timezone": 0,
+           "before": 0,
+           "after": 0,
+           "precision": 9,
+           "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+          },
+          "type": "time"
+         },
+         "datatype": "time"
+        }
+       ],
+       "P459": [
+        {
+         "snaktype": "value",
+         "property": "P459",
+         "hash": "4a948bfa146debcdbadc4f8ad849ccb638ceb4b7",
+         "datavalue": {
+          "value": {
+           "entity-type": "item",
+           "numeric-id": 1790510,
+           "id": "Q1790510"
+          },
+          "type": "wikibase-entityid"
+         },
+         "datatype": "wikibase-item"
+        }
+       ]
+      },
+      "qualifiers-order": [
+       "P585",
+       "P459"
+      ],
+      "id": "Q427677$E3141CF1-F75E-45D4-B8C5-5D4206069485",
+      "rank": "normal",
+      "references": [
+       {
+        "hash": "ec2c477da528e8a37b2d478f0dee263034a1d18a",
+        "snaks": {
+         "P813": [
+          {
+           "snaktype": "value",
+           "property": "P813",
+           "hash": "bd55c69ec2cc3872d0412422667bb9bf226f3f50",
+           "datavalue": {
+            "value": {
+             "time": "+2024-12-28T00:00:00Z",
+             "timezone": 0,
+             "before": 0,
+             "after": 0,
+             "precision": 11,
+             "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            },
+            "type": "time"
+           },
+           "datatype": "time"
+          }
+         ],
+         "P854": [
+          {
+           "snaktype": "value",
+           "property": "P854",
+           "hash": "043c4a49b1bf9b30ec2c93262c5eb4fff6335198",
+           "datavalue": {
+            "value": "https://www.qschina.cn/en/university-rankings/world-university-rankings/2022",
+            "type": "string"
+           },
+           "datatype": "url"
+          }
+         ]
+        },
+        "snaks-order": [
+         "P813",
+         "P854"
+        ]
+       }
+      ]
+     },
+     {
+      "mainsnak": {
+       "snaktype": "value",
+       "property": "P1352",
+       "hash": "f835ea8bb70fd4e85ccea3f11809d1016cf34596",
+       "datavalue": {
+        "value": {
+         "amount": "+230",
+         "unit": "1"
+        },
+        "type": "quantity"
+       },
+       "datatype": "quantity"
+      },
+      "type": "statement",
+      "qualifiers": {
+       "P585": [
+        {
+         "snaktype": "value",
+         "property": "P585",
+         "hash": "daee777a902fd7cd73351aa33ba07e0a22d4fb9b",
+         "datavalue": {
+          "value": {
+           "time": "+2024-00-00T00:00:00Z",
+           "timezone": 0,
+           "before": 0,
+           "after": 0,
+           "precision": 9,
+           "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+          },
+          "type": "time"
+         },
+         "datatype": "time"
+        }
+       ],
+       "P459": [
+        {
+         "snaktype": "value",
+         "property": "P459",
+         "hash": "4a948bfa146debcdbadc4f8ad849ccb638ceb4b7",
+         "datavalue": {
+          "value": {
+           "entity-type": "item",
+           "numeric-id": 1790510,
+           "id": "Q1790510"
+          },
+          "type": "wikibase-entityid"
+         },
+         "datatype": "wikibase-item"
+        }
+       ]
+      },
+      "qualifiers-order": [
+       "P585",
+       "P459"
+      ],
+      "id": "Q427677$3CEDFF3F-C5F4-495A-BA6A-5448DD76B238",
+      "rank": "normal",
+      "references": [
+       {
+        "hash": "f1ad37faab7e66fd50bf05ad936f3ee9614dd968",
+        "snaks": {
+         "P813": [
+          {
+           "snaktype": "value",
+           "property": "P813",
+           "hash": "bd55c69ec2cc3872d0412422667bb9bf226f3f50",
+           "datavalue": {
+            "value": {
+             "time": "+2024-12-28T00:00:00Z",
+             "timezone": 0,
+             "before": 0,
+             "after": 0,
+             "precision": 11,
+             "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            },
+            "type": "time"
+           },
+           "datatype": "time"
+          }
+         ],
+         "P854": [
+          {
+           "snaktype": "value",
+           "property": "P854",
+           "hash": "7e89effaa312d0ae9577bc7a671f3d6adc4dfbc4",
+           "datavalue": {
+            "value": "https://www.qschina.cn/en/university-rankings/world-university-rankings/2024",
+            "type": "string"
+           },
+           "datatype": "url"
+          }
+         ]
+        },
+        "snaks-order": [
+         "P813",
+         "P854"
+        ]
+       }
+      ]
+     },
+     {
+      "mainsnak": {
+       "snaktype": "value",
+       "property": "P1352",
+       "hash": "6225338022cb876f50bf1ddf677732d2a461ce39",
+       "datavalue": {
+        "value": {
+         "amount": "+150",
+         "unit": "1"
+        },
+        "type": "quantity"
+       },
+       "datatype": "quantity"
+      },
+      "type": "statement",
+      "qualifiers": {
+       "P585": [
+        {
+         "snaktype": "value",
+         "property": "P585",
+         "hash": "1a3e5e8f69f70a8a6b056a6cb8cf5fce7fffa373",
+         "datavalue": {
+          "value": {
+           "time": "+2023-00-00T00:00:00Z",
+           "timezone": 0,
+           "before": 0,
+           "after": 0,
+           "precision": 9,
+           "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+          },
+          "type": "time"
+         },
+         "datatype": "time"
+        }
+       ],
+       "P459": [
+        {
+         "snaktype": "value",
+         "property": "P459",
+         "hash": "4a948bfa146debcdbadc4f8ad849ccb638ceb4b7",
+         "datavalue": {
+          "value": {
+           "entity-type": "item",
+           "numeric-id": 1790510,
+           "id": "Q1790510"
+          },
+          "type": "wikibase-entityid"
+         },
+         "datatype": "wikibase-item"
+        }
+       ]
+      },
+      "qualifiers-order": [
+       "P585",
+       "P459"
+      ],
+      "id": "Q427677$58DF7DF1-69EE-4F8E-938A-CAF65823D85C",
+      "rank": "normal",
+      "references": [
+       {
+        "hash": "60f04c256aa3d95d3abd44d31910d8f071791967",
+        "snaks": {
+         "P813": [
+          {
+           "snaktype": "value",
+           "property": "P813",
+           "hash": "bd55c69ec2cc3872d0412422667bb9bf226f3f50",
+           "datavalue": {
+            "value": {
+             "time": "+2024-12-28T00:00:00Z",
+             "timezone": 0,
+             "before": 0,
+             "after": 0,
+             "precision": 11,
+             "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            },
+            "type": "time"
+           },
+           "datatype": "time"
+          }
+         ],
+         "P854": [
+          {
+           "snaktype": "value",
+           "property": "P854",
+           "hash": "1b9f352db34be46b7b8e097cdaf00cb51a1c1e89",
+           "datavalue": {
+            "value": "https://www.qschina.cn/en/university-rankings/world-university-rankings/2023",
+            "type": "string"
+           },
+           "datatype": "url"
+          }
+         ]
+        },
+        "snaks-order": [
+         "P813",
+         "P854"
+        ]
+       }
+      ]
+     },
+     {
+      "mainsnak": {
+       "snaktype": "value",
+       "property": "P1352",
+       "hash": "78697c9d5f3871e970526101c63fb4aa9f341bc2",
+       "datavalue": {
+        "value": {
+         "amount": "+166",
+         "unit": "1"
+        },
+        "type": "quantity"
+       },
+       "datatype": "quantity"
+      },
+      "type": "statement",
+      "qualifiers": {
+       "P459": [
+        {
+         "snaktype": "value",
+         "property": "P459",
+         "hash": "4a948bfa146debcdbadc4f8ad849ccb638ceb4b7",
+         "datavalue": {
+          "value": {
+           "entity-type": "item",
+           "numeric-id": 1790510,
+           "id": "Q1790510"
+          },
+          "type": "wikibase-entityid"
+         },
+         "datatype": "wikibase-item"
+        }
+       ],
+       "P585": [
+        {
+         "snaktype": "value",
+         "property": "P585",
+         "hash": "bd4e608fca97bfd620514f81e735833b9d96e34d",
+         "datavalue": {
+          "value": {
+           "time": "+2026-00-00T00:00:00Z",
+           "timezone": 0,
+           "before": 0,
+           "after": 0,
+           "precision": 9,
+           "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+          },
+          "type": "time"
+         },
+         "datatype": "time"
+        }
+       ]
+      },
+      "qualifiers-order": [
+       "P459",
+       "P585"
+      ],
+      "id": "Q427677$C7AE3764-C05A-4C52-A82B-C09E6CECDD6D",
+      "rank": "normal",
+      "references": [
+       {
+        "hash": "fc52d62f95a4f69b592e146d293031f61ac98e24",
+        "snaks": {
+         "P854": [
+          {
+           "snaktype": "value",
+           "property": "P854",
+           "hash": "78bf11c35a5cf91eae4c3c4ae34f114aa13e84ad",
+           "datavalue": {
+            "value": "https://www.topuniversities.com/world-university-rankings/2026",
+            "type": "string"
+           },
+           "datatype": "url"
+          }
+         ]
+        },
+        "snaks-order": [
+         "P854"
+        ]
+       }
+      ]
+     }
+    ],
+    "P13591": [
+     {
+      "mainsnak": {
+       "snaktype": "value",
+       "property": "P13591",
+       "hash": "6ab928c37bcd5f97f643810186234c4c8c8069ec",
+       "datavalue": {
+        "value": "group/ba3795d5-a227-4593-8766-68e0513c2ae5",
+        "type": "string"
+       },
+       "datatype": "external-id"
+      },
+      "type": "statement",
+      "id": "Q427677$3F334377-8E2D-44E6-BC85-0EE8BCF2644C",
+      "rank": "normal"
+     }
+    ],
+    "P13470": [
+     {
+      "mainsnak": {
+       "snaktype": "value",
+       "property": "P13470",
+       "hash": "c9b4362e4762cbb5891efae684a125db6206b6fe",
+       "datavalue": {
+        "value": "IAU-010222",
+        "type": "string"
+       },
+       "datatype": "external-id"
+      },
+      "type": "statement",
+      "id": "Q427677$9F269C3E-9146-4406-9996-6CDA387821CC",
+      "rank": "normal"
+     }
+    ],
+    "P14075": [
+     {
+      "mainsnak": {
+       "snaktype": "value",
+       "property": "P14075",
+       "hash": "18e3d757709c8acd8a5437db6a355f97f34440c3",
+       "datavalue": {
+        "value": "1820",
+        "type": "string"
+       },
+       "datatype": "external-id"
+      },
+      "type": "statement",
+      "id": "Q427677$06952505-96FF-4CA8-882E-683E3CAC3D77",
+      "rank": "normal"
+     }
+    ]
+   },
+   "sitelinks": {
+    "enwiki": {
+     "site": "enwiki",
+     "title": "Al-Farabi Kazakh National University",
+     "badges": []
+    },
+    "kkwiki": {
+     "site": "kkwiki",
+     "title": "Қазақ ұлттық университеті",
+     "badges": []
+    },
+    "ruwiki": {
+     "site": "ruwiki",
+     "title": "Казахский национальный университет",
+     "badges": []
+    }
+   }
+  }
+ },
+ "success": 1
+}

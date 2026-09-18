@@ -47,7 +47,25 @@ def api_error(code: int, message: str = "boom") -> errors.APIError:
 @pytest.fixture
 def keyed_ai(monkeypatch: pytest.MonkeyPatch) -> AIClient:
     monkeypatch.setattr(client_module, "RETRY_WAIT", wait_none())
-    return AIClient(Settings(gemini_api_key="test-not-a-real-key", vision_model="gemini-x"))
+    return AIClient(
+        Settings(
+            gemini_api_key="test-not-a-real-key",
+            vision_model="gemini-x",
+            vision_fallback_model=None,
+        )
+    )
+
+
+@pytest.fixture
+def fallback_ai(monkeypatch: pytest.MonkeyPatch) -> AIClient:
+    monkeypatch.setattr(client_module, "RETRY_WAIT", wait_none())
+    return AIClient(
+        Settings(
+            gemini_api_key="test-not-a-real-key",
+            vision_model="gemini-x",
+            vision_fallback_model="gemini-fb",
+        )
+    )
 
 
 def install(monkeypatch: pytest.MonkeyPatch, ai: AIClient, fake: FakeGenerate) -> None:
@@ -169,7 +187,7 @@ def test_is_retryable_matrix() -> None:
     request = httpx.Request("POST", "https://example.invalid")
     assert is_retryable(httpx.ConnectError("down", request=request)) is True
     assert is_retryable(httpx.ReadTimeout("slow", request=request)) is True
-    assert is_retryable(TimeoutError()) is True
+    assert is_retryable(TimeoutError()) is False  # our own budget is final
     assert is_retryable(ValueError("x")) is False
 
 
@@ -279,7 +297,8 @@ async def test_complete_text_passes_system_json_mode_and_timeout(
     assert config.max_output_tokens == 77
     assert config.temperature == 0.0
     assert config.response_mime_type == "application/json"
-    assert config.http_options is not None and config.http_options.timeout == 6000
+    # a 6 s budget is enforced by asyncio.wait_for; the HTTP deadline is clamped to Gemini's 10 s
+    assert config.http_options is not None and config.http_options.timeout == 10000
     assert config.thinking_config is not None
 
 
@@ -296,3 +315,75 @@ async def test_generate_default_timeout(
     await keyed_ai.generate(contents="p", max_output_tokens=5, json_mode=False)
     assert seen[0]["config"].http_options.timeout == int(client_module.DEFAULT_TIMEOUT_S * 1000)
     assert seen[0]["config"].response_mime_type is None
+
+
+# ----------------------------------------------------------------------------- quota fallback
+
+
+def test_retry_delay_seconds_parses_the_api_hint() -> None:
+    exc = api_error(429, "Quota exceeded ... Please retry in 11.639420936s.")
+    assert abs(client_module.retry_delay_seconds(exc) - 11.64) < 0.01
+    assert client_module.retry_delay_seconds(api_error(429, "no hint")) == 20.0
+    assert client_module.retry_delay_seconds(api_error(429, "retry in 500s")) == 60.0
+
+
+async def test_429_switches_to_the_fallback_model_immediately(
+    fallback_ai: AIClient, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    calls: list[str] = []
+
+    async def fake(**kwargs: Any) -> Any:
+        calls.append(kwargs["model"])
+        if kwargs["model"] == "gemini-x":
+            raise api_error(429, "Quota exceeded. Please retry in 30s.")
+        return fake_response("from fallback")
+
+    install(monkeypatch, fallback_ai, fake)
+    assert await fallback_ai.complete_text("hi", max_tokens=10, model="gemini-x") == "from fallback"
+    assert calls == ["gemini-x", "gemini-fb"]  # no retries burned on the exhausted model
+    # the primary is remembered as cooling down: the next call goes straight to the fallback
+    calls.clear()
+    assert await fallback_ai.complete_text("hi", max_tokens=10, model="gemini-x") == "from fallback"
+    assert calls == ["gemini-fb"]
+
+
+async def test_429_on_both_models_is_retried_on_the_last_one_then_raised(
+    fallback_ai: AIClient, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    calls: list[str] = []
+
+    async def fake(**kwargs: Any) -> Any:
+        calls.append(kwargs["model"])
+        raise api_error(429, "quota")
+
+    install(monkeypatch, fallback_ai, fake)
+    with pytest.raises(errors.ClientError):
+        await fallback_ai.complete_text("hi", max_tokens=10, model="gemini-x")
+    assert calls == ["gemini-x", "gemini-fb", "gemini-fb", "gemini-fb"]
+
+
+async def test_fallback_is_not_used_for_other_errors(
+    fallback_ai: AIClient, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    calls: list[str] = []
+
+    async def fake(**kwargs: Any) -> Any:
+        calls.append(kwargs["model"])
+        raise api_error(400, "bad request")
+
+    install(monkeypatch, fallback_ai, fake)
+    with pytest.raises(errors.ClientError):
+        await fallback_ai.complete_text("hi", max_tokens=10, model="gemini-x")
+    assert calls == ["gemini-x"]
+
+
+def test_fallback_model_settings() -> None:
+    assert AIClient(Settings(gemini_api_key=None))._model_chain("gemini-3.5-flash-lite") == [
+        "gemini-3.5-flash-lite",
+        "gemini-3.1-flash-lite",
+    ]
+    same = AIClient(Settings(gemini_api_key=None, vision_fallback_model="gemini-x"))
+    assert same._model_chain("gemini-x") == ["gemini-x"]
+    assert AIClient(Settings(gemini_api_key=None, vision_fallback_model=""))._model_chain("a") == [
+        "a"
+    ]

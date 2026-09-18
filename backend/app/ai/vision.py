@@ -12,9 +12,10 @@ from __future__ import annotations
 
 import base64
 import logging
+import time
 from dataclasses import dataclass
 
-from pydantic import BaseModel, Field, ValidationError
+from pydantic import BaseModel, Field, ValidationError, field_validator
 
 from app.ai.client import (
     AIClient,
@@ -38,6 +39,8 @@ from app.scoring import VisionInfo
 
 log = logging.getLogger("app.vision")
 
+MIN_RETRY_TIMEOUT_S = 2.0  # a retry with less budget than this cannot finish; skip it
+
 
 # ---------------------------------------------------------------------------
 # Pydantic model for one item in the model's JSON array (Section 9 parsing)
@@ -48,6 +51,16 @@ class VisionItem(BaseModel):
     index: int
     is_photo: bool
     category: Category
+
+    @field_validator("category", mode="before")
+    @classmethod
+    def _tolerant_category(cls, value: object) -> object:
+        """An unknown label must not invalidate the whole batch: it becomes ``other``."""
+        if isinstance(value, str):
+            cleaned = value.strip().lower().replace(" ", "_")
+            return cleaned if cleaned in {c.value for c in Category} else Category.other.value
+        return value
+
     category_confidence: float = Field(ge=0.0, le=1.0)
     plausibly_university_related: bool
     name_on_sign: bool
@@ -90,8 +103,13 @@ def _vision_info_from_item(item: VisionItem) -> VisionInfo:
     )
 
 
-def _unavailable_infos(n: int) -> list[VisionInfo]:
-    return [VisionInfo(available=False) for _ in range(n)]
+def _unavailable_infos(n: int, reason: str | None = None) -> list[VisionInfo]:
+    return [VisionInfo(available=False, reason=reason) for _ in range(n)]
+
+
+def _timed_out_infos(n: int) -> list[VisionInfo]:
+    """The deadline monitor cut this batch: scored without vision, reason vision_timeout."""
+    return [VisionInfo(available=True, timed_out=True) for _ in range(n)]
 
 
 def _build_content_parts(
@@ -106,14 +124,12 @@ def _build_content_parts(
     city = header.city.name if header.city else "unknown"
     country = header.country or "unknown"
 
+    header_text = VISION_HEADER.format(
+        name=header.name, aliases=aliases, city=city, country=country, n=n
+    )
     if target == "city":
-        header_text = VISION_HEADER_CITY.format(
-            name=header.name, city=city, country=country, n=n
-        )
-    else:
-        header_text = VISION_HEADER.format(
-            name=header.name, aliases=aliases, city=city, country=country, n=n
-        )
+        # same schema and category definitions; only the framing sentence differs
+        header_text = VISION_HEADER_CITY.format(city=city, n=n) + header_text
 
     parts = [text_part(header_text)]
     for i, image in enumerate(images, start=1):
@@ -173,12 +189,11 @@ async def classify_batch(
         parts = _build_content_parts(images, header, target=target)
         contents = user_content(parts)
     except Exception as exc:
-        log.warning("vision batch content build failed: %s", exc)
-        return BatchOutcome(
-            infos=_unavailable_infos(n), parsed_first_attempt=False, error=str(exc)
-        )
+        log.warning("vision batch content build failed: %s", exc, exc_info=True)
+        return BatchOutcome(infos=_unavailable_infos(n), parsed_first_attempt=False, error=str(exc))
 
     max_tokens = 900 + 130 * n
+    deadline_at = time.monotonic() + timeout  # both attempts must fit into the batch budget
 
     # First attempt
     try:
@@ -192,10 +207,15 @@ async def classify_batch(
         )
     except AIUnavailableError as exc:
         return BatchOutcome(infos=_unavailable_infos(n), parsed_first_attempt=None, error=str(exc))
+    except TimeoutError:
+        log.warning("vision batch cancelled by the time budget (n=%d, %.1fs)", n, timeout)
+        return BatchOutcome(infos=_timed_out_infos(n), parsed_first_attempt=None, error="timeout")
     except Exception as exc:
-        log.warning("vision batch API error: %s", exc)
+        log.warning("vision batch API error: %s", exc, exc_info=True)
         return BatchOutcome(
-            infos=_unavailable_infos(n), parsed_first_attempt=False, error=str(exc)
+            infos=_unavailable_infos(n, "vision unavailable: " + str(exc)[:120]),
+            parsed_first_attempt=False,
+            error=str(exc),
         )
 
     text = message_text(response)
@@ -207,9 +227,23 @@ async def classify_batch(
         )
 
     # Parse failed on first attempt → retry with correction suffix (Section 9)
-    log.info("vision batch parse failed on first attempt (n=%d); retrying", n)
+    log.info(
+        "vision batch parse failed on first attempt (n=%d); retrying. Output head: %r",
+        n,
+        text[:300],
+    )
     retry_parts = list(parts) + [text_part(f"{VISION_RETRY_SUFFIX} N={n}")]
     retry_contents = user_content(retry_parts)
+    retry_timeout = deadline_at - time.monotonic()
+    if retry_timeout < MIN_RETRY_TIMEOUT_S:
+        log.warning(
+            "vision batch retry skipped: %.1fs left of the batch budget (n=%d)", retry_timeout, n
+        )
+        return BatchOutcome(
+            infos=_unavailable_infos(n, "vision unavailable: invalid model output"),
+            parsed_first_attempt=False,
+            error="parse failed, no time for a retry",
+        )
     try:
         response2 = await ai.generate(
             contents=retry_contents,
@@ -217,7 +251,7 @@ async def classify_batch(
             system=VISION_SYSTEM,
             max_output_tokens=max_tokens,
             json_mode=True,
-            timeout=timeout,
+            timeout=retry_timeout,
         )
         text2 = message_text(response2)
         items2 = _parse_response(text2, n)
@@ -226,15 +260,18 @@ async def classify_batch(
                 infos=[_vision_info_from_item(it) for it in items2],
                 parsed_first_attempt=False,
             )
+    except TimeoutError:
+        log.warning("vision batch retry cancelled by the time budget (n=%d)", n)
+        return BatchOutcome(infos=_timed_out_infos(n), parsed_first_attempt=False, error="timeout")
     except Exception as exc2:
-        log.warning("vision batch retry failed: %s", exc2)
+        log.warning("vision batch retry failed: %s", exc2, exc_info=True)
         return BatchOutcome(
-            infos=_unavailable_infos(n),
+            infos=_unavailable_infos(n, "vision unavailable: " + str(exc2)[:120]),
             parsed_first_attempt=False,
             error=f"retry error: {exc2}",
         )
 
-    log.warning("vision batch parse failed after retry (n=%d)", n)
+    log.warning("vision batch parse failed after retry (n=%d). Output head: %r", n, text2[:300])
     return BatchOutcome(
         infos=_unavailable_infos(n),
         parsed_first_attempt=False,
