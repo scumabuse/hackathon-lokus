@@ -2,7 +2,7 @@ import { useState, useCallback } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { searchUniversities } from '../api'
 import type { Candidate, SearchResponse } from '../types'
-import { UI, CATEGORY_LABELS } from '../i18n'
+import { UI } from '../i18n'
 import type { Lang } from '../i18n'
 
 const EXAMPLE_CHIPS = [

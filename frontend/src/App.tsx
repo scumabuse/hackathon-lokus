@@ -1,28 +1,34 @@
-import { useEffect, useState } from 'react'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { useState, useEffect } from 'react'
+import SearchPage from './pages/SearchPage'
+import ProfilePage from './pages/ProfilePage'
+import type { Lang } from './i18n'
 
-type Health = { status: string; version: string; time: string }
-
-// Phase 0 placeholder page: proves the SPA builds and can reach /api/health.
 export default function App() {
-  const [health, setHealth] = useState<Health | null>(null)
-  const [error, setError] = useState<string | null>(null)
+  const [lang, setLang] = useState<Lang>(() => {
+    return (localStorage.getItem('lang') as Lang) || 'ru'
+  })
 
   useEffect(() => {
-    fetch('/api/health')
-      .then((r) => (r.ok ? r.json() : Promise.reject(new Error(String(r.status)))))
-      .then((h: Health) => setHealth(h))
-      .catch((e: Error) => setError(e.message))
-  }, [])
+    localStorage.setItem('lang', lang)
+  }, [lang])
+
+  const toggleLang = () => setLang(l => l === 'ru' ? 'en' : 'ru')
 
   return (
-    <main className="mx-auto max-w-3xl px-4 py-16">
-      <h1 className="text-3xl font-semibold tracking-tight">Visual Campus</h1>
-      <p className="mt-2 text-slate-600">
-        Проверенный визуальный профиль университета за 30 секунд.
-      </p>
-      <p className="mt-6 text-sm text-slate-500">
-        API: {health ? `ok · ${health.version}` : error ? `недоступен (${error})` : '…'}
-      </p>
-    </main>
+    <BrowserRouter>
+      {/* Global Lang Toggle in a fixed subtle position, or part of navigation if needed */}
+      <button 
+        onClick={toggleLang}
+        className="fixed bottom-4 right-4 z-50 bg-white shadow-md border border-slate-200 px-3 py-1.5 rounded-full text-xs font-semibold text-slate-600 hover:bg-slate-50 transition"
+      >
+        {lang === 'ru' ? 'EN' : 'RU'}
+      </button>
+
+      <Routes>
+        <Route path="/" element={<SearchPage lang={lang} />} />
+        <Route path="/u/:qid" element={<ProfilePage lang={lang} />} />
+      </Routes>
+    </BrowserRouter>
   )
 }

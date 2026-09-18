@@ -34,7 +34,7 @@ VISION_SYSTEM = (
 VISION_HEADER = (
     "University: {name} (aliases: {aliases}). City: {city}, {country}. "
     "Classify each of the N={n} images below. For each image return an object: "
-    '{"index": <1..N>, '
+    '{{"index": <1..N>, '
     '"is_photo": <true|false>, '
     '// false for logos, emblems, maps, floor plans, diagrams, 3D renders/visualizations, '
     "screenshots, documents, slides, text-only graphics, coats of arms\n"
@@ -52,7 +52,7 @@ VISION_HEADER = (
     "// a person or face is the main subject\n"
     '"quality_ok": <true|false>, '
     "// false if blurry, tiny, heavily watermarked, or dominated by overlaid text/advertising\n"
-    '"reason": <string, max 12 words>}'
+    '"reason": <string, max 12 words>}}'
 )
 
 VISION_HEADER_CITY = (
@@ -82,9 +82,9 @@ DESCRIPTION_PROMPT = (
     "You write a short, factual campus description for prospective students, based ONLY on the "
     "provided source texts. Do not add facts that are not in the sources. "
     "Return ONLY a JSON object: "
-    '{"text_ru": "<3-5 sentences in Russian>", '
+    '{{"text_ru": "<3-5 sentences in Russian>", '
     '"text_en": "<3-5 sentences in English>", '
-    '"basis": "wikipedia_and_site" | "wikipedia_only" | "site_only" | "insufficient"}. '
+    '"basis": "wikipedia_and_site" | "wikipedia_only" | "site_only" | "insufficient"}}. '
     "Cover, when available: where the campus is (city, district), what the campus is like "
     "(buildings, size, notable facilities: libraries, dormitories, labs, sports), "
     "student life highlights.\n\n"
