@@ -68,6 +68,9 @@ DESCRIBE_TIMEOUT_S = 12.0  # Section 6: describe hard limit
 CITY_CANDIDATE_CAP = 20  # Section 6.1
 TIMING_KEYS = ("resolve", "collect", "download", "dedup", "vision", "describe", "total")
 
+# Section 6.2: at most 3 concurrent pipeline runs; a 4th waits and gets warning: queued.
+_PIPELINE_SEMAPHORE = asyncio.Semaphore(3)
+
 
 class ProfileNotFound(Exception):
     """The QID does not exist or is not a university (HTTP 404)."""
@@ -368,7 +371,23 @@ class _Run:
 async def run_pipeline(
     deps: PipelineDeps, qid: str, *, refresh: bool = False
 ) -> AsyncIterator[PipelineEvent]:
-    """Stages A-I. ``refresh`` is accepted now and used by the Phase 6 cached path."""
+    """Stages A-I with Section 6.2 concurrency guard and Section 6.3 cache fast path."""
+    settings = deps.settings
+
+    # ---- Section 6.2: concurrency guard
+    if _PIPELINE_SEMAPHORE.locked() and _PIPELINE_SEMAPHORE._value == 0:  # type: ignore[attr-defined]
+        queued_warning = Warning(code=WarningCode.queued)
+        yield PipelineEvent("warning", _dump(queued_warning))
+
+    async with _PIPELINE_SEMAPHORE:
+        async for event in _run_pipeline_inner(deps, qid, refresh=refresh):
+            yield event
+
+
+async def _run_pipeline_inner(
+    deps: PipelineDeps, qid: str, *, refresh: bool = False
+) -> AsyncIterator[PipelineEvent]:
+    """Stages A-I. ``refresh`` is accepted now and used by the cache fast path."""
     settings = deps.settings
     run = _Run(
         deps=deps,
@@ -376,6 +395,40 @@ async def run_pipeline(
         started=time.monotonic(),
         deadline=time.monotonic() + settings.hard_deadline_s,
     )
+
+    # ---- Section 6.3: cached fast path
+    if not refresh:
+        cached = await deps.cache.get_profile(qid, settings.profile_ttl_hours)
+        if cached is not None:
+            cached_data, created_at = cached
+            # verify at least one thumb exists on disk
+            photos = cached_data.get("photos", [])
+            thumb_ok = True
+            if photos:
+                first_id = photos[0].get("id", "")
+                if first_id:
+                    thumb_path = settings.thumbs_dir / f"{first_id}.jpg"
+                    thumb_ok = thumb_path.is_file()
+            if thumb_ok:
+                from datetime import UTC as _UTC
+                from datetime import datetime as _datetime
+
+                minutes_ago = int(((_datetime.now(_UTC) - created_at).total_seconds()) / 60)
+                # patch header.cached and cached_at
+                if "header" in cached_data:
+                    cached_data["header"]["cached"] = True
+                    cached_data["header"]["cached_at"] = created_at.isoformat()
+                yield PipelineEvent("header", cached_data.get("header", {}))
+                yield PipelineEvent("warning", _dump(Warning(code=WarningCode.served_from_cache, detail=f"built {minutes_ago} minutes ago")))
+                if cached_data.get("description"):
+                    yield PipelineEvent("description", cached_data["description"])
+                photos_list = cached_data.get("photos", [])
+                if photos_list:
+                    yield PipelineEvent("photos", {"batch": 0, "photos": photos_list})
+                if cached_data.get("stats"):
+                    yield PipelineEvent("stats", cached_data["stats"])
+                yield PipelineEvent("done", {"total_ms": 0, "cached": True})
+                return
 
     # ---- A. resolve (may raise: ProfileNotFound / ResolverUnavailableError)
     stage = time.monotonic()

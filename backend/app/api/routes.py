@@ -2,15 +2,18 @@
 
 from __future__ import annotations
 
+import json
 import re
+from collections.abc import AsyncGenerator
 from datetime import UTC, datetime
-from typing import Annotated
+from typing import Annotated, Any
 
 from fastapi import APIRouter, HTTPException, Query, Request, Response
 from fastapi.responses import FileResponse
+from sse_starlette.sse import EventSourceResponse
 
 from app.models import Profile, SearchResponse
-from app.pipeline import PipelineDeps, ProfileNotFound, build_profile
+from app.pipeline import PipelineDeps, ProfileNotFound, build_profile, run_pipeline
 from app.resolver.search import search_universities
 from app.resolver.wikidata import ResolverUnavailableError
 from app.version import app_version
@@ -100,6 +103,54 @@ async def profile(
                 "message": f"could not resolve the university right now: {exc}",
             },
         ) from exc
+
+
+@router.get("/profile/{qid}/stream")
+async def profile_stream(
+    request: Request,
+    qid: str,
+    refresh: Annotated[int, Query(ge=0, le=1)] = 0,
+) -> EventSourceResponse:
+    """Section 12 SSE endpoint: streams header → warnings → photos batches → description → stats → done.
+
+    Headers: Cache-Control: no-cache, X-Accel-Buffering: no (Section 12).
+    A ping comment every 5 s is handled by sse-starlette's ping parameter.
+    """
+    validate_qid(qid)
+    deps = pipeline_deps(request)
+
+    async def _event_generator() -> AsyncGenerator[dict[str, Any], None]:
+        try:
+            async for event in run_pipeline(deps, qid, refresh=bool(refresh)):
+                yield {"event": event.name, "data": json.dumps(event.data, ensure_ascii=False, default=str)}
+        except ProfileNotFound:
+            yield {
+                "event": "error",
+                "data": json.dumps(
+                    {"code": "not_found", "message": "unknown qid or not a university"}
+                ),
+            }
+        except ResolverUnavailableError as exc:
+            yield {
+                "event": "error",
+                "data": json.dumps(
+                    {"code": "resolver_unavailable", "message": str(exc)}
+                ),
+            }
+        except Exception as exc:
+            yield {
+                "event": "error",
+                "data": json.dumps({"code": "internal_error", "message": str(exc)}),
+            }
+
+    return EventSourceResponse(
+        _event_generator(),
+        ping=5,
+        headers={
+            "Cache-Control": "no-cache",
+            "X-Accel-Buffering": "no",
+        },
+    )
 
 
 @router.get("/thumb/{photo_id}.jpg", response_class=FileResponse)

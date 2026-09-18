@@ -8,23 +8,25 @@ from app.config import Settings
 from app.enums import source_rank
 from app.sources.base import Source
 from app.sources.commons import (
+    CityCommonsSource,
     CommonsCategorySource,
     CommonsGeoSource,
     CommonsSearchSource,
     WikidataP18Source,
 )
 from app.sources.flickr import FlickrSource
+from app.sources.official_site import OfficialSiteSource
 
 log = logging.getLogger("app.sources.registry")
 
-# Priority order (Section 5 SOURCE_PRIORITY). official_site, city_commons and web_search are
-# Phase 5 and not registered here yet.
 SOURCE_NAMES: tuple[str, ...] = (
     "wikidata_p18",
+    "official_site",
     "commons_category",
     "commons_geo",
     "flickr",
     "commons_search",
+    "city_commons",
 )
 
 
@@ -32,10 +34,12 @@ def all_sources() -> list[Source]:
     """Fresh instances of every implemented source, in SOURCE_PRIORITY order."""
     sources: list[Source] = [
         WikidataP18Source(),
+        OfficialSiteSource(),
         CommonsCategorySource(),
         CommonsGeoSource(),
         FlickrSource(),
         CommonsSearchSource(),
+        CityCommonsSource(),
     ]
     sources.sort(key=lambda s: source_rank(s.source_type))
     return sources

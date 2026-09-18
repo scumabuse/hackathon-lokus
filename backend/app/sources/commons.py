@@ -666,3 +666,28 @@ class CommonsGeoSource(BaseSource):
             await geosearch_files(ctx.http, coords, source_type=self.source_type, budget=budget)
         )
         apply_budget(result, budget)
+
+
+class CityCommonsSource(BaseSource):
+    """Section 7.3(e): city Commons category images (source_type=city_commons)."""
+
+    name = "city_commons"
+    source_type = SourceType.city_commons
+
+    async def collect(self, ctx: SourceContext, result: SourceResult) -> None:
+        city = ctx.resolved.header.city
+        if city is None or not city.commons_category:
+            return
+        budget = ctx.budget()
+        candidates = await fetch_category_files(
+            ctx.http,
+            city.commons_category,
+            limit=30,
+            follow_continue_once=False,
+            source_type=self.source_type,
+            campus=ctx.resolved.header.coords,
+            budget=budget,
+        )
+        result.candidates.extend(candidates)
+        apply_budget(result, budget)
+
