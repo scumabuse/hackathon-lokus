@@ -1,7 +1,8 @@
 import type { Warning } from '../types'
 import { noticeSentence, type Lang } from '../i18n'
+import Icon from './Icon'
 
-/** ONE surface block with plain sentences, no icons, no borders (B5.4). */
+/** Plain-sentence callouts for the pipeline warnings (one per distinct sentence). */
 export default function Notices({ warnings, lang }: { warnings: Warning[]; lang: Lang }) {
   const sentences: string[] = []
   for (const warning of warnings) {
@@ -10,11 +11,14 @@ export default function Notices({ warnings, lang }: { warnings: Warning[]; lang:
   }
   if (sentences.length === 0) return null
   return (
-    <div className="mt-6 bg-surface p-4 max-w-[80ch]" role="status">
+    <div className="grid gap-2" role="status">
       {sentences.map((s) => (
-        <p key={s} className="text-[15px] leading-[1.5]">
-          {s}
-        </p>
+        <div key={s} className="notice">
+          <span className="text-ink-3 mt-[3px] flex-none">
+            <Icon name="info" size={16} />
+          </span>
+          <p className="text-[14px] leading-[1.55] text-ink-2 m-0">{s}</p>
+        </div>
       ))}
     </div>
   )

@@ -1,6 +1,6 @@
 import type { Photo } from '../types'
 import { t, type Lang } from '../i18n'
-import Frame from './Frame'
+import PhotoCard from './PhotoCard'
 
 export interface Arrival {
   batch: number
@@ -20,8 +20,8 @@ interface Props {
 
 const SKELETONS = 8
 
-/** Full-bleed strict grid of 4:3 frames, gap 12 px, 2/3/4/5 columns at 0/640/1024/1440 (B5.8).
- *  Skeleton frames appear only while the stream is still open. */
+/** Strict responsive grid of photo cards: 1 / 2 / 3 / 4 columns at 0 / 520 / 1024 / 1440 px
+ *  with an even 20–24 px gutter. Skeleton cards appear only while the stream is open. */
 export default function PhotoGrid({
   photos,
   arrivals,
@@ -34,13 +34,13 @@ export default function PhotoGrid({
   const skeletons = streaming ? (photos.length === 0 ? SKELETONS : 4) : 0
   return (
     <div
-      className="-mx-gutter px-3 mt-4 grid gap-3 grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 hd:grid-cols-5"
+      className="grid gap-5 md:gap-6 grid-cols-1 min-[520px]:grid-cols-2 lg:grid-cols-3 hd:grid-cols-4"
       aria-busy={streaming}
     >
       {photos.map((photo, index) => {
         const arrival = arrivals.get(photo.id)
         return (
-          <Frame
+          <PhotoCard
             key={photo.id}
             photo={photo}
             lang={lang}
@@ -53,10 +53,17 @@ export default function PhotoGrid({
         )
       })}
       {Array.from({ length: skeletons }, (_, i) => (
-        <div key={`skeleton-${i}`} className="frame" aria-hidden={i > 0} aria-label={i === 0 ? t(lang, 'skeleton_aria') : undefined}>
-          <div className="skeleton aspect-[4/3]" />
-          <div className="mt-2 h-[13px] w-2/3 bg-surface" />
-          <div className="mt-1 h-[13px] w-1/2 bg-surface" />
+        <div
+          key={`skeleton-${i}`}
+          className="card overflow-hidden"
+          aria-hidden={i > 0}
+          aria-label={i === 0 ? t(lang, 'skeleton_aria') : undefined}
+        >
+          <div className="skeleton aspect-[4/3] rounded-none" />
+          <div className="p-4 pt-3">
+            <div className="skeleton h-[15px] w-3/4" />
+            <div className="skeleton h-[13px] w-1/2 mt-3" />
+          </div>
         </div>
       ))}
     </div>

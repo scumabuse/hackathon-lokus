@@ -4,17 +4,23 @@ import { AnimatePresence, LayoutGroup } from 'motion/react'
 import { getProfile, openStream, type SSECallbacks } from '../api'
 import type { Description, Photo, Stats, UniversityHeader, Warning } from '../types'
 import { CATEGORY_LABELS, t, type Lang } from '../i18n'
+import { formatKm } from '../lib/format'
 import ProgressLine, { type ProfilePhase } from '../components/ProgressLine'
-import Masthead from '../components/Masthead'
+import TopBar from '../components/TopBar'
+import SiteFooter from '../components/SiteFooter'
 import StatusLine from '../components/StatusLine'
 import Notices from '../components/Notices'
 import Lead from '../components/Lead'
+import InfoBox from '../components/InfoBox'
+import CoverPhoto, { pickCover } from '../components/CoverPhoto'
 import StatsSentence from '../components/StatsSentence'
 import CategoryNav, { type NavKey } from '../components/CategoryNav'
 import PhotoGrid, { type Arrival } from '../components/PhotoGrid'
+import EmptyState from '../components/EmptyState'
 import Lightbox from '../components/Lightbox'
 import MapSection from '../components/MapSection'
 import ErrorState from '../components/ErrorState'
+import Icon from '../components/Icon'
 
 declare global {
   interface Window {
@@ -197,11 +203,23 @@ export default function ProfilePage({ lang, onToggleLang }: Props) {
     [visibleByToggle, active],
   )
 
+  const cover = useMemo(() => pickCover(visibleByToggle), [visibleByToggle])
+
   const openLightbox = useCallback((index: number) => {
     lightboxReturn.current = document.activeElement as HTMLElement | null
     setPopoverId(null)
     setLightbox(index)
   }, [])
+
+  const openCover = useCallback(() => {
+    if (!cover) return
+    const index = visible.findIndex((p) => p.id === cover.id)
+    if (index >= 0) {
+      openLightbox(index)
+    } else {
+      window.open(cover.source_page_url, '_blank', 'noopener,noreferrer')
+    }
+  }, [cover, visible, openLightbox])
 
   const closeLightbox = useCallback(() => {
     setLightbox(null)
@@ -218,28 +236,153 @@ export default function ProfilePage({ lang, onToggleLang }: Props) {
 
   return (
     <LayoutGroup>
-      <div className="min-h-screen bg-paper text-ink px-gutter">
+      <div className="min-h-screen bg-paper text-ink flex flex-col">
         <ProgressLine phase={phase} lang={lang} />
-        <Masthead header={header} lang={lang} onToggleLang={onToggleLang} onRefresh={onRefresh} />
-        <hr className="border-0 border-t border-line" />
+        <TopBar lang={lang} onToggleLang={onToggleLang} variant="profile" />
 
         {phase === 'error' && error ? (
-          <ErrorState message={error} lang={lang} onRetry={() => setRun((r) => r + 1)} />
+          <main className="container-x flex-1">
+            <ErrorState message={error} lang={lang} onRetry={() => setRun((r) => r + 1)} />
+          </main>
         ) : (
-          <main>
-            <StatusLine
-              phase={phase}
-              elapsedMs={elapsedMs}
-              totalMs={totalMs}
-              cachedAt={cachedAt}
-              lang={lang}
-            />
-            <Notices warnings={warnings} lang={lang} />
-            {description && <Lead description={description} lang={lang} />}
-            {stats && <StatsSentence stats={stats} lang={lang} />}
+          <main className="flex-1">
+            {/* ---------------------------------------------------------------- hero */}
+            <section className="container-x pt-6 md:pt-10">
+              <div className="grid gap-8 lg:grid-cols-12 lg:gap-10 xl:gap-14 items-center">
+                <div className="lg:col-span-7 min-w-0">
+                  <StatusLine
+                    phase={phase}
+                    elapsedMs={elapsedMs}
+                    totalMs={totalMs}
+                    cachedAt={cachedAt}
+                    lang={lang}
+                    onRefresh={onRefresh}
+                  />
+                  {header ? (
+                    <>
+                      <h1 className="display text-[38px] sm:text-[52px] lg:text-[60px] xl:text-[72px] mt-6 m-0 break-words">
+                        {header.name}
+                      </h1>
+                      {header.local_name && header.local_name !== header.name && (
+                        <p className="font-serif italic text-[20px] md:text-[26px] leading-[1.25] text-ink-2 mt-3 m-0">
+                          {header.local_name}
+                        </p>
+                      )}
+                      <div className="mt-6 flex flex-wrap items-center gap-x-5 gap-y-3 text-[15px]">
+                        {header.city?.name && (
+                          <span className="inline-flex items-center gap-1.5 text-ink-2">
+                            <Icon name="pin" size={15} />
+                            {[header.city.name, header.country].filter(Boolean).join(', ')}
+                            {header.distance_to_city_center_km != null && (
+                              <span className="text-ink-3">
+                                {' · '}
+                                {t(lang, 'masthead_distance', {
+                                  km: formatKm(header.distance_to_city_center_km, lang),
+                                })}
+                              </span>
+                            )}
+                          </span>
+                        )}
+                      </div>
+                      {(header.official_website || header.wikipedia_url) && (
+                        <div className="mt-4 flex flex-wrap gap-2">
+                          {header.official_website && (
+                            <a
+                              href={header.official_website}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="btn btn-secondary btn-sm"
+                            >
+                              <Icon name="globe" size={15} />
+                              {t(lang, 'masthead_site')}
+                              <Icon name="external" size={13} />
+                            </a>
+                          )}
+                          {header.wikipedia_url && (
+                            <a
+                              href={header.wikipedia_url}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="btn btn-secondary btn-sm"
+                            >
+                              {t(lang, 'masthead_wikipedia')}
+                              <Icon name="external" size={13} />
+                            </a>
+                          )}
+                        </div>
+                      )}
+                    </>
+                  ) : (
+                    <div className="mt-6" aria-hidden="true">
+                      <div className="skeleton h-[52px] md:h-[64px] w-4/5" />
+                      <div className="skeleton h-[52px] md:h-[64px] w-3/5 mt-3" />
+                      <div className="skeleton h-[22px] w-2/5 mt-6" />
+                      <div className="skeleton h-[18px] w-1/3 mt-5" />
+                    </div>
+                  )}
+                </div>
+                <div className="lg:col-span-5">
+                  <CoverPhoto
+                    photo={cover}
+                    streaming={streaming}
+                    universityName={header?.name ?? ''}
+                    lang={lang}
+                    onOpen={openCover}
+                  />
+                </div>
+              </div>
+            </section>
 
+            {/* ---------------------------------------------------------------- description + facts */}
+            {header && (
+              <section className="container-x mt-10 md:mt-14">
+                {warnings.length > 0 && (
+                  <div className="mb-8">
+                    <Notices warnings={warnings} lang={lang} />
+                  </div>
+                )}
+                <div className="grid gap-8 lg:grid-cols-12 lg:gap-10 xl:gap-14 items-start">
+                  <div className="lg:col-span-7 min-w-0">
+                    {description ? (
+                      <Lead description={description} lang={lang} />
+                    ) : streaming ? (
+                      <div aria-hidden="true">
+                        <div className="skeleton h-[20px] w-full" />
+                        <div className="skeleton h-[20px] w-11/12 mt-3" />
+                        <div className="skeleton h-[20px] w-4/5 mt-3" />
+                        <div className="skeleton h-[20px] w-2/3 mt-3" />
+                      </div>
+                    ) : null}
+                  </div>
+                  <div className="lg:col-span-5">
+                    <InfoBox
+                      header={header}
+                      stats={stats}
+                      totalMs={totalMs}
+                      cachedAt={cachedAt}
+                      done={phase === 'done'}
+                      lang={lang}
+                    />
+                  </div>
+                </div>
+              </section>
+            )}
+
+            {/* ---------------------------------------------------------------- pictures */}
             {(photos.length > 0 || streaming) && (
-              <section className="mt-8">
+              <section className="mt-12 md:mt-16">
+                <div className="container-x flex flex-wrap items-end justify-between gap-4 mb-2">
+                  <div>
+                    <p className="eyebrow m-0">{t(lang, 'grid_title')}</p>
+                    {stats ? (
+                      <StatsSentence stats={stats} lang={lang} />
+                    ) : (
+                      <h2 className="font-serif text-[26px] md:text-[32px] leading-[1.15] mt-2 m-0">
+                        {t(lang, 'grid_title')}
+                      </h2>
+                    )}
+                  </div>
+                </div>
                 <CategoryNav
                   active={active}
                   counts={counts}
@@ -252,38 +395,45 @@ export default function ProfilePage({ lang, onToggleLang }: Props) {
                   onToggleUnverified={() => setShowUnverified((s) => !s)}
                   lang={lang}
                 />
-                {visible.length === 0 && !streaming ? (
-                  <p className="mt-6 text-[15px] text-ink-2 max-w-[60ch]">
-                    {emptyLabel ? t(lang, 'empty_category', { label: emptyLabel }) : t(lang, 'empty_all')}
-                  </p>
-                ) : (
-                  <PhotoGrid
-                    photos={visible}
-                    arrivals={arrivals.current}
-                    lang={lang}
-                    streaming={streaming}
-                    popoverId={popoverId}
-                    onTogglePopover={setPopoverId}
-                    onOpen={openLightbox}
-                  />
-                )}
+                <div className="container-x mt-6">
+                  {visible.length === 0 && !streaming ? (
+                    <EmptyState
+                      lang={lang}
+                      categoryLabel={emptyLabel}
+                      hiddenCount={hiddenCount}
+                      showUnverified={showUnverified}
+                      onShowAll={() => setActive('all')}
+                      onToggleUnverified={() => setShowUnverified(true)}
+                    />
+                  ) : (
+                    <PhotoGrid
+                      photos={visible}
+                      arrivals={arrivals.current}
+                      lang={lang}
+                      streaming={streaming}
+                      popoverId={popoverId}
+                      onTogglePopover={setPopoverId}
+                      onOpen={openLightbox}
+                    />
+                  )}
+                </div>
               </section>
             )}
 
             {header?.coords && (
-              <>
-                <hr className="border-0 border-t border-line mt-10" />
+              <div className="container-x">
                 <MapSection
                   campus={header.coords}
                   city={header.city ?? null}
                   distanceKm={header.distance_to_city_center_km ?? null}
                   lang={lang}
                 />
-              </>
+              </div>
             )}
-            <footer className="py-10" />
           </main>
         )}
+
+        <SiteFooter lang={lang} onToggleLang={onToggleLang} />
 
         <AnimatePresence>
           {lightbox !== null && visible[lightbox] && (

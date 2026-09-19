@@ -12,7 +12,7 @@ const PERCENT: Record<ProfilePhase, number> = {
   error: 100,
 }
 
-/** 2px red line across the very top (B5.1); width by stage, fades 600 ms after done. */
+/** 3 px accent line across the very top; width by stage, fades 600 ms after done. */
 export default function ProgressLine({ phase, lang }: { phase: ProfilePhase; lang: Lang }) {
   const reduced = useReducedMotion() ?? false
   const percent = PERCENT[phase]
@@ -26,10 +26,14 @@ export default function ProgressLine({ phase, lang }: { phase: ProfilePhase; lan
           aria-valuemin={0}
           aria-valuemax={100}
           aria-valuenow={percent}
-          className="fixed top-0 left-0 z-50 h-[2px] bg-mark"
+          className="fixed top-0 left-0 z-50 h-[3px] bg-accent rounded-r-full"
           initial={{ width: '0%' }}
           animate={{ width: `${percent}%`, opacity: 1 }}
-          exit={{ width: '100%', opacity: 0, transition: { duration: reduced ? 0 : 0.6, delay: reduced ? 0 : 0.6 } }}
+          exit={{
+            width: '100%',
+            opacity: 0,
+            transition: { duration: reduced ? 0 : 0.6, delay: reduced ? 0 : 0.6 },
+          }}
           transition={{ duration: reduced ? 0 : 0.6, ease: [0.22, 1, 0.36, 1] }}
         />
       )}

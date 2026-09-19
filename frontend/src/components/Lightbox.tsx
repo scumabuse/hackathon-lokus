@@ -1,7 +1,7 @@
 import { useEffect, useRef } from 'react'
 import type { KeyboardEvent } from 'react'
 import { motion, useReducedMotion } from 'motion/react'
-import type { Photo } from '../types'
+import type { Photo, ReasonCode } from '../types'
 import {
   CATEGORY_LABELS,
   REASON_SENTENCES,
@@ -11,6 +11,7 @@ import {
   type Lang,
 } from '../i18n'
 import { formatConfidence, formatDistance } from '../lib/format'
+import Icon from './Icon'
 
 interface Props {
   photos: Photo[]
@@ -21,9 +22,18 @@ interface Props {
 }
 
 const FOCUSABLE = 'a[href], button:not([disabled])'
+const NEUTRAL: ReadonlySet<ReasonCode> = new Set<ReasonCode>([
+  'vision_unavailable',
+  'vision_timeout',
+  'web_search_source',
+  'commons_search_source',
+  'category_heuristic',
+  'cached_result',
+])
 
-/** Opaque paper overlay (B5.10): image left ≤ 68 % (shared layout with the frame), metadata
- *  right; Escape closes, arrows move within the current tab; stacks below 1024 px. */
+/** Gallery viewer: dark frosted overlay, the picture centred with round prev/next controls
+ *  (shared layout with its card), a white metadata panel on the right (below on phones).
+ *  Escape closes, arrows move within the current tab, focus is trapped inside. */
 export default function Lightbox({ photos, index, lang, onClose, onNavigate }: Props) {
   const reduced = useReducedMotion() ?? false
   const box = useRef<HTMLDivElement>(null)
@@ -67,7 +77,6 @@ export default function Lightbox({ photos, index, lang, onClose, onNavigate }: P
   const categoryLabel = CATEGORY_LABELS[photo.category][lang]
   const title = photo.title?.trim() || categoryLabel
   const rows: Array<[string, string | null]> = [
-    [t(lang, 'lightbox_category'), categoryLabel],
     [t(lang, 'lightbox_date'), dateSentence(photo, lang)],
     [t(lang, 'lightbox_author'), photo.author ?? null],
     [t(lang, 'lightbox_license'), photo.license ?? null],
@@ -87,85 +96,129 @@ export default function Lightbox({ photos, index, lang, onClose, onNavigate }: P
       aria-label={t(lang, 'lightbox_aria')}
       tabIndex={-1}
       onKeyDown={trap}
-      className="fixed inset-0 z-50 bg-paper overflow-y-auto outline-none"
+      className="lightbox-bg fixed inset-0 z-50 overflow-y-auto outline-none text-paper"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
-      transition={{ duration: reduced ? 0 : 0.18 }}
+      transition={{ duration: reduced ? 0 : 0.2 }}
     >
-      <div className="min-h-full flex flex-col lg:flex-row">
-        <div className="lg:w-[68%] p-gutter flex items-start justify-center lg:items-center">
+      <div className="min-h-full flex flex-col lg:flex-row lg:items-stretch">
+        {/* picture */}
+        <div className="relative flex-1 min-h-[52vh] lg:min-h-screen flex items-center justify-center p-4 pt-16 lg:p-10 lg:pr-6">
+          <span className="absolute top-4 left-4 lg:top-6 lg:left-8 text-[13px] text-paper/70 num">
+            {t(lang, 'lightbox_counter', { i: index + 1, n: photos.length })}
+          </span>
+          <button
+            type="button"
+            className="iconbtn iconbtn-dark absolute top-3 right-3 lg:top-5 lg:right-5"
+            onClick={onClose}
+            aria-label={t(lang, 'lightbox_close')}
+          >
+            <Icon name="close" size={18} />
+          </button>
           <motion.img
             layoutId={`photo-${photo.id}`}
             src={photo.thumb_url}
             alt={title}
-            className="block w-full h-auto max-h-[70vh] lg:max-h-[calc(100vh-96px)] object-contain"
+            className="block max-w-full max-h-[62vh] lg:max-h-[calc(100vh-80px)] w-auto h-auto object-contain rounded-md shadow-modal"
             transition={reduced ? { duration: 0 } : { type: 'spring', stiffness: 300, damping: 34 }}
           />
-        </div>
-        <div className="lg:w-[32%] p-gutter lg:pl-0 flex flex-col text-[15px] leading-[1.5]">
-          <div className="flex items-center justify-between gap-4 min-h-[44px]">
-            <span className="text-ink-2 text-[13px]">
-              {t(lang, 'lightbox_counter', { i: index + 1, n: photos.length })}
-            </span>
-            <button type="button" className="textlink min-h-[44px]" onClick={onClose}>
-              {t(lang, 'lightbox_close')}
-            </button>
-          </div>
-          <h2 className="font-serif text-[26px] leading-[1.2] mt-4">{title}</h2>
-          <p className="mt-3 flex items-center gap-2">
-            <span className={`mark mark-${photo.verification}`} aria-hidden="true" />
-            {VERIFICATION_LABELS[photo.verification][lang]}
-          </p>
-          <dl className="mt-4 grid grid-cols-[max-content_1fr] gap-x-4 gap-y-1 text-[13px]">
-            <dt className="text-ink-2">{t(lang, 'lightbox_source')}</dt>
-            <dd className="m-0 break-all">
-              <a href={photo.source_page_url} target="_blank" rel="noopener noreferrer">
-                {photo.source_label}
-              </a>
-            </dd>
-            {rows.map(([label, value]) =>
-              value ? (
-                <div key={label} className="contents">
-                  <dt className="text-ink-2">{label}</dt>
-                  <dd className="m-0">{value}</dd>
-                </div>
-              ) : null,
-            )}
-          </dl>
-          <p className="mt-4 text-[13px] text-ink-2">{t(lang, 'lightbox_reasons')}</p>
-          <ul className="text-[13px] leading-[1.45]">
-            {photo.reasons.map((code) => (
-              <li key={code}>{REASON_SENTENCES[code][lang]}</li>
-            ))}
-          </ul>
-          <div className="mt-6 flex flex-wrap items-center gap-x-6 gap-y-3">
-            <a className="btn" href={photo.source_page_url} target="_blank" rel="noopener noreferrer">
-              {t(lang, 'lightbox_open_source')}
-            </a>
-            <a href={photo.image_url} target="_blank" rel="noopener noreferrer">
-              {t(lang, 'lightbox_open_original')}
-            </a>
-          </div>
-          <div className="mt-auto pt-8 flex gap-6 text-[13px]">
+          <div className="absolute inset-x-3 lg:inset-x-5 top-1/2 -translate-y-1/2 flex justify-between pointer-events-none">
             <button
               type="button"
-              className="textlink disabled:no-underline disabled:text-ink-2"
+              className="iconbtn iconbtn-dark pointer-events-auto"
               disabled={index === 0}
               onClick={() => onNavigate(index - 1)}
+              aria-label={t(lang, 'lightbox_prev')}
             >
-              {t(lang, 'lightbox_prev')}
+              <Icon name="chevron-left" size={20} />
             </button>
             <button
               type="button"
-              className="textlink disabled:no-underline disabled:text-ink-2"
+              className="iconbtn iconbtn-dark pointer-events-auto"
               disabled={index >= photos.length - 1}
               onClick={() => onNavigate(index + 1)}
+              aria-label={t(lang, 'lightbox_next')}
             >
-              {t(lang, 'lightbox_next')}
+              <Icon name="chevron-right" size={20} />
             </button>
           </div>
         </div>
+
+        {/* metadata panel */}
+        <aside className="lg:w-[400px] xl:w-[440px] flex-none p-4 lg:p-6 lg:pl-0">
+          <div className="card rounded-xl text-ink p-5 md:p-6 lg:h-full flex flex-col text-[14px] leading-[1.5]">
+            <div className="flex flex-wrap items-center gap-2">
+              <span className="badge badge-soft">{categoryLabel}</span>
+              <span className={`badge badge-${photo.verification}`}>
+                {photo.verification === 'verified' ? (
+                  <Icon name="check" size={12} strokeWidth={2.75} />
+                ) : photo.verification === 'likely' ? (
+                  <span className="w-[7px] h-[7px] rounded-full border-[1.5px] border-current" aria-hidden="true" />
+                ) : (
+                  <Icon name="minus" size={12} strokeWidth={2.5} />
+                )}
+                {VERIFICATION_LABELS[photo.verification][lang]}
+              </span>
+            </div>
+            <h2 className="font-serif text-[24px] md:text-[26px] leading-[1.2] mt-4 m-0">{title}</h2>
+
+            <dl className="infobox mt-5 m-0">
+              <div className="row">
+                <dt>{t(lang, 'lightbox_source')}</dt>
+                <dd className="min-w-0">
+                  <a
+                    href={photo.source_page_url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="link inline-flex items-center gap-1 max-w-full"
+                  >
+                    <span className="truncate">{photo.source_label}</span>
+                    <Icon name="external" size={13} />
+                  </a>
+                </dd>
+              </div>
+              {rows.map(([label, value]) =>
+                value ? (
+                  <div key={label} className="row">
+                    <dt>{label}</dt>
+                    <dd className="min-w-0 break-words">{value}</dd>
+                  </div>
+                ) : null,
+              )}
+            </dl>
+
+            <p className="eyebrow mt-6 mb-2">{t(lang, 'lightbox_reasons')}</p>
+            <ul className="m-0 p-0 list-none grid gap-2 text-[13.5px]">
+              {photo.reasons.map((code) => {
+                const neutral = NEUTRAL.has(code)
+                return (
+                  <li key={code} className="flex items-start gap-2">
+                    <span
+                      className={`mt-[3px] flex-none inline-flex items-center justify-center w-4 h-4 rounded-full ${
+                        neutral ? 'bg-paper-2 text-ink-3' : 'bg-accent-soft text-accent'
+                      }`}
+                      aria-hidden="true"
+                    >
+                      <Icon name={neutral ? 'minus' : 'check'} size={10} strokeWidth={3} />
+                    </span>
+                    <span className={neutral ? 'text-ink-2' : ''}>{REASON_SENTENCES[code][lang]}</span>
+                  </li>
+                )
+              })}
+            </ul>
+
+            <div className="mt-auto pt-6 flex flex-wrap items-center gap-3">
+              <a className="btn" href={photo.source_page_url} target="_blank" rel="noopener noreferrer">
+                {t(lang, 'lightbox_open_source')}
+                <Icon name="external" size={15} />
+              </a>
+              <a className="btn btn-secondary" href={photo.image_url} target="_blank" rel="noopener noreferrer">
+                {t(lang, 'lightbox_open_original')}
+              </a>
+            </div>
+          </div>
+        </aside>
       </div>
     </motion.div>
   )

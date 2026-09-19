@@ -1,6 +1,5 @@
 import { useEffect, useRef, useState } from 'react'
 import type { KeyboardEvent } from 'react'
-import { motion } from 'motion/react'
 import type { Category } from '../types'
 import { CATEGORY_LABELS, NAV_CATEGORIES, t, type Lang } from '../i18n'
 
@@ -16,9 +15,9 @@ interface Props {
   lang: Lang
 }
 
-/** ONE sticky row (B5.7): Все N · Кампус N · … · Город N, counts in ink-2, a 2 px black
- *  underline that slides, and the unverified toggle at the row's end. The four items
- *  Общежития / Спорт / Лаборатории / Студенческая жизнь are the case's required filters. */
+/** The sticky category bar: pill tabs with counters (the four case filters Общежития / Спорт /
+ *  Лаборатории / Студенческая жизнь among them), arrow keys move the selection, and the
+ *  «Показать непроверенные» switch sits at the row's end. Frosted background once stuck. */
 export default function CategoryNav({
   active,
   counts,
@@ -59,52 +58,47 @@ export default function CategoryNav({
   return (
     <>
       <div ref={sentinel} aria-hidden="true" className="h-px" />
-      <div
-        className={`sticky top-0 z-40 bg-paper ${stuck ? 'border-b border-line' : ''}`}
-      >
-        <div
-          ref={row}
-          role="tablist"
-          aria-label={t(lang, 'nav_aria')}
-          onKeyDown={onKey}
-          className="flex items-center gap-6 overflow-x-auto no-scrollbar text-[15px] font-medium whitespace-nowrap"
-        >
-          {keys.map((key) => {
-            const label = key === 'all' ? t(lang, 'nav_all') : CATEGORY_LABELS[key][lang]
-            const selected = key === active
-            return (
-              <button
-                key={key}
-                type="button"
-                role="tab"
-                data-key={key}
-                aria-selected={selected}
-                tabIndex={selected ? 0 : -1}
-                onClick={() => onSelect(key)}
-                className="relative py-3 flex-none"
-              >
-                {label} <span className="text-ink-2 font-normal">{counts[key] ?? 0}</span>
-                {selected && (
-                  <motion.span
-                    layoutId="nav-underline"
-                    className="absolute left-0 right-0 bottom-0 h-[2px] bg-ink"
-                    transition={{ type: 'spring', stiffness: 420, damping: 40 }}
-                  />
-                )}
-              </button>
-            )
-          })}
-          <span className="flex-1" aria-hidden="true" />
-          <button
-            type="button"
-            className="textlink py-3 flex-none font-normal text-[15px]"
-            aria-pressed={showUnverified}
-            onClick={onToggleUnverified}
-          >
-            {t(lang, showUnverified ? 'nav_hide_unverified' : 'nav_show_unverified', {
-              n: hiddenCount,
-            })}
-          </button>
+      <div className={`sticky-bar ${stuck ? 'is-stuck' : ''}`}>
+        <div className="container-x">
+          <div className="flex flex-wrap items-center gap-x-4 gap-y-1 py-2 md:py-3">
+            <div
+              ref={row}
+              role="tablist"
+              aria-label={t(lang, 'nav_aria')}
+              onKeyDown={onKey}
+              className="flex flex-wrap items-center gap-1 md:gap-1.5 -ml-2"
+            >
+              {keys.map((key) => {
+                const label = key === 'all' ? t(lang, 'nav_all') : CATEGORY_LABELS[key][lang]
+                const selected = key === active
+                return (
+                  <button
+                    key={key}
+                    type="button"
+                    role="tab"
+                    data-key={key}
+                    aria-selected={selected}
+                    tabIndex={selected ? 0 : -1}
+                    onClick={() => onSelect(key)}
+                    className="tab"
+                  >
+                    {label}
+                    <span className="count">{counts[key] ?? 0}</span>
+                  </button>
+                )
+              })}
+            </div>
+            <button
+              type="button"
+              role="switch"
+              aria-checked={showUnverified}
+              className="switch ml-auto"
+              onClick={onToggleUnverified}
+            >
+              <span className="track" aria-hidden="true" />
+              {t(lang, showUnverified ? 'nav_hide_unverified' : 'nav_show_unverified', { n: hiddenCount })}
+            </button>
+          </div>
         </div>
       </div>
     </>

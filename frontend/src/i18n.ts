@@ -300,6 +300,104 @@ export const UI: Record<string, Str> = {
   },
   map_aria: { ru: 'Карта: кампус и центр города', en: 'Map: campus and city centre' },
 
+  topbar_how: { ru: 'Как это работает', en: 'How it works' },
+  topbar_sources: { ru: 'Источники', en: 'Sources' },
+  topbar_back: { ru: 'Все университеты', en: 'All universities' },
+  topbar_home_aria: { ru: 'На главную', en: 'Home' },
+
+  home_eyebrow: { ru: 'Проверенные фотографии университетов', en: 'Verified university photography' },
+  home_lead: {
+    ru: 'Введите название — за 30 секунд соберём из открытых источников фотографии кампуса, общежитий, аудиторий и студенческой жизни, проверим каждую и покажем только подтверждённые, со ссылкой на источник.',
+    en: 'Type a name and within 30 seconds we gather photos of the campus, dormitories, classrooms and student life from open sources, verify each one and show only confirmed pictures with a link to the source.',
+  },
+  home_preview_label: { ru: 'Так выглядит готовый профиль', en: 'What a finished profile looks like' },
+  home_preview_note: {
+    ru: 'Настоящие снимки из профилей, которые сервис уже собрал. У каждого — метка достоверности, категория, источник и дата.',
+    en: 'Real pictures from profiles the service has already built. Each one carries a verification mark, a category, a source and a date.',
+  },
+  home_preview_open: { ru: 'Открыть профиль', en: 'Open the profile' },
+  home_stat_line: {
+    ru: '{verified} из {shown} показанных снимков подтверждены',
+    en: '{verified} of {shown} shown pictures verified',
+  },
+  home_stat_sub: { ru: '{name} · профиль собран за {seconds}', en: '{name} · profile built in {seconds}' },
+
+  how_title: { ru: 'Как это работает', en: 'How it works' },
+  how_sub: {
+    ru: 'Три шага, тридцать секунд и ни одного придуманного факта.',
+    en: 'Three steps, thirty seconds and not a single invented fact.',
+  },
+  how_1_title: { ru: 'Вводите название', en: 'Type the name' },
+  how_1_text: {
+    ru: 'На любом языке. Опечатки исправим, а если подходят несколько вузов — предложим выбрать.',
+    en: 'In any language. We fix typos, and if several universities match we let you choose.',
+  },
+  how_2_title: { ru: 'Собираем и проверяем', en: 'We gather and verify' },
+  how_2_text: {
+    ru: 'Опрашиваем Wikimedia Commons, Wikipedia и официальный сайт, убираем дубли и проверяем, что на снимке именно этот кампус.',
+    en: 'We query Wikimedia Commons, Wikipedia and the official site, remove duplicates and check that the picture shows this very campus.',
+  },
+  how_3_title: { ru: 'Получаете фото с источником', en: 'You get photos with sources' },
+  how_3_text: {
+    ru: 'Каждый снимок — с меткой достоверности, категорией, датой и ссылкой на страницу, где он опубликован.',
+    en: 'Every picture comes with a verification mark, a category, a date and a link to the page where it is published.',
+  },
+
+  examples_title: { ru: 'Попробуйте на примере', en: 'Try an example' },
+  examples_sub: {
+    ru: 'Университеты, профили которых сервис уже собирал.',
+    en: 'Universities the service has already profiled.',
+  },
+  examples_open: { ru: 'Открыть профиль', en: 'Open the profile' },
+  examples_photos: { ru: '{n} {word}', en: '{n} {word}' },
+
+  sources_title: { ru: 'Только открытые источники', en: 'Open sources only' },
+  sources_text: {
+    ru: 'Ничего не придумываем: каждый снимок ведёт на страницу, где он опубликован, а лицензия и автор указаны в просмотре. Для небольших вузов данных может быть мало — сервис скажет об этом прямо.',
+    en: 'Nothing is invented: every picture links to the page where it is published, with its licence and author shown in the viewer. Small universities may have little data, and the service says so plainly.',
+  },
+  sources_wikidata: { ru: 'Wikidata', en: 'Wikidata' },
+  sources_commons: { ru: 'Wikimedia Commons', en: 'Wikimedia Commons' },
+  sources_wikipedia: { ru: 'Wikipedia', en: 'Wikipedia' },
+  sources_official: { ru: 'Официальные сайты', en: 'Official websites' },
+
+  footer_line: {
+    ru: 'Фотографии принадлежат их авторам; лицензия указана у каждого снимка.',
+    en: 'Photographs belong to their authors; the licence is shown for every picture.',
+  },
+
+  cover_caption: { ru: 'Обложка', en: 'Cover' },
+  cover_loading: { ru: 'Подбираем обложку', en: 'Choosing a cover' },
+  cover_empty: { ru: 'Снимков не нашлось', en: 'No pictures found' },
+
+  infobox_title: { ru: 'Кратко', en: 'At a glance' },
+  infobox_city: { ru: 'Город', en: 'City' },
+  infobox_country: { ru: 'Страна', en: 'Country' },
+  infobox_distance: { ru: 'До центра города', en: 'To the city centre' },
+  infobox_found: { ru: 'Найдено снимков', en: 'Pictures found' },
+  infobox_dupes: { ru: 'Убрано дублей', en: 'Duplicates removed' },
+  infobox_irrelevant: { ru: 'Убрано нерелевантных', en: 'Irrelevant removed' },
+  infobox_shown: { ru: 'Показано', en: 'Shown' },
+  infobox_hidden: { ru: 'Скрыто непроверенных', en: 'Hidden as unverified' },
+  infobox_time: { ru: 'Время сборки', en: 'Build time' },
+  infobox_collected: { ru: 'Собрано', en: 'Built' },
+  infobox_sources: { ru: 'Источники', en: 'Sources' },
+  infobox_just_now: { ru: 'только что', en: 'just now' },
+  infobox_pending: { ru: 'Считаем', en: 'Counting' },
+
+  grid_title: { ru: 'Снимки', en: 'Pictures' },
+  card_source: { ru: 'Источник', en: 'Source' },
+  card_verified_short: { ru: 'Проверено', en: 'Verified' },
+  empty_hint: {
+    ru: 'Посмотрите другие категории или включите непроверенные снимки.',
+    en: 'Try another category or switch on the unverified pictures.',
+  },
+  empty_all_button: { ru: 'Все снимки', en: 'All pictures' },
+
+  map_title: { ru: 'На карте', en: 'On the map' },
+  map_legend_campus: { ru: 'Кампус', en: 'Campus' },
+  map_legend_center: { ru: 'Центр города', en: 'City centre' },
+
   error_title: {
     ru: 'Не удалось загрузить профиль: {message}.',
     en: 'The profile could not be loaded: {message}.',
@@ -315,7 +413,7 @@ export function t(lang: Lang, key: string, values?: Record<string, string | numb
 }
 
 /** Frame caption line 2 / lightbox date: «Wikimedia Commons, снято 4 мая 2019». */
-export function dateSentence(photo: Photo, lang: Lang): string {
+export function dateSentence(photo: Pick<Photo, 'date' | 'date_kind'>, lang: Lang): string {
   if (photo.date) {
     const date = formatDate(photo.date, lang)
     if (photo.date_kind === 'published') return t(lang, 'frame_published', { date })

@@ -1,15 +1,26 @@
-/* Design tokens (FIX_AND_RESTYLE B2/B3). The only colours on the page besides the photos. */
+/* Design tokens: a warm near-monochrome palette with one terracotta accent, two families
+   (Playfair Display for display serif, Inter for the interface), a 4/8 px spacing rhythm,
+   soft radii and two shadow levels. Every colour on the page besides the photos lives here. */
 :root {
-  --paper: #ffffff;
-  --ink: #000000;
-  --ink-2: #6b6b6b;
-  --line: #e4e4e4;
-  --surface: #f5f5f5;
-  --mark: #e3271a;
-  --mark-soft: #fbe9e7;
-  --font-serif: "Instrument Serif", Georgia, "Times New Roman", serif;
-  --font-sans: "Instrument Sans", system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
+  --paper: #f8f6f2;
+  --paper-2: #f1ede6;
+  --surface: #ffffff;
+  --ink: #17140f;
+  --ink-2: #5d574e;
+  --ink-3: #8a837a;
+  --line: #e7e2d9;
+  --line-2: #d8d1c6;
+  --accent: #a4412f;
+  --accent-ink: #7f3021;
+  --accent-soft: #f6e8e3;
+  --overlay: rgba(23, 20, 15, 0.94);
+  --font-serif: "Playfair Display Variable", "Playfair Display", Georgia, "Times New Roman", serif;
+  --font-sans: "Inter Variable", Inter, system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
+  --shadow-1: 0 1px 2px rgba(23, 20, 15, 0.05), 0 1px 3px rgba(23, 20, 15, 0.06);
+  --shadow-2: 0 12px 32px -12px rgba(23, 20, 15, 0.22), 0 2px 8px -2px rgba(23, 20, 15, 0.08);
+  --shadow-3: 0 24px 64px -20px rgba(23, 20, 15, 0.4);
   --gutter: 20px;
+  --container: 1280px;
   color-scheme: light;
 }
 
@@ -25,17 +36,30 @@
   }
 }
 
-/* Wire the tokens into Tailwind so utilities like bg-paper, text-ink-2, border-line exist. */
+/* Wire the tokens into Tailwind so utilities like bg-paper, text-ink-2, border-line,
+   rounded-lg (16 px), shadow-lift exist. */
 @theme inline {
   --color-paper: var(--paper);
+  --color-paper-2: var(--paper-2);
+  --color-surface: var(--surface);
   --color-ink: var(--ink);
   --color-ink-2: var(--ink-2);
+  --color-ink-3: var(--ink-3);
   --color-line: var(--line);
-  --color-surface: var(--surface);
-  --color-mark: var(--mark);
-  --color-mark-soft: var(--mark-soft);
+  --color-line-2: var(--line-2);
+  --color-accent: var(--accent);
+  --color-accent-ink: var(--accent-ink);
+  --color-accent-soft: var(--accent-soft);
   --font-serif: var(--font-serif);
   --font-sans: var(--font-sans);
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+  --radius-2xl: 32px;
+  --shadow-card: var(--shadow-1);
+  --shadow-lift: var(--shadow-2);
+  --shadow-modal: var(--shadow-3);
   --breakpoint-hd: 1440px;
   --spacing-gutter: var(--gutter);
 }
