@@ -4,7 +4,7 @@
 !.env.example
 
 # runtime data (sqlite cache + thumbnails)
-data/
+/data/
 backend/data/
 backend/tests/_data/
 
